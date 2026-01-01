@@ -1,0 +1,493 @@
+[
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "International Finance",
+    "section": "",
+    "text": "Brief description of the course (1–2 paragraphs)."
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "International Finance",
+    "section": "",
+    "text": "Brief description of the course (1–2 paragraphs)."
+  },
+  {
+    "objectID": "index.html#important-dates",
+    "href": "index.html#important-dates",
+    "title": "International Finance",
+    "section": "2 Important dates",
+    "text": "2 Important dates\n\nMon, Aug 28 — First day of class\nWed, Oct 11 — Proposal due\nWed, Dec 6 — Final exam"
+  },
+  {
+    "objectID": "index.html#topics-covered",
+    "href": "index.html#topics-covered",
+    "title": "International Finance",
+    "section": "3 Topics covered",
+    "text": "3 Topics covered\n\nReading and writing data\nVariable selection\nSpecification: dummies, interactions, polynomials\nData cleaning; modifying variables; estimating a model\n…"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html",
+    "href": "lectures/Chapter01_Lecture.html",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "",
+    "text": "Today we begin our journey into the fascinating world of international finance by exploring what makes multinational financial management both uniquely challenging and remarkably rewarding.\nOpening Question to Class: “How many of you have used a product today that was made by a company operating in multiple countries?”\nThis simple exercise demonstrates that we live in a deeply interconnected global economy. The phone in your pocket, the coffee you drank this morning, the streaming service you use - all likely involve multinational enterprises (MNEs) managing complex financial operations across borders.\n\n\n\nToday we’ll cover four major learning objectives:\n\nThe Global Financial Marketplace - Understanding the players, institutions, and linkages\nTheory of Comparative Advantage - Why international trade and investment make economic sense\nWhat Makes International Finance Different - The unique challenges MNEs face\nThe Globalization Process - How companies evolve from domestic to truly global operations",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#welcome-and-context-setting",
+    "href": "lectures/Chapter01_Lecture.html#welcome-and-context-setting",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "",
+    "text": "Today we begin our journey into the fascinating world of international finance by exploring what makes multinational financial management both uniquely challenging and remarkably rewarding.\nOpening Question to Class: “How many of you have used a product today that was made by a company operating in multiple countries?”\nThis simple exercise demonstrates that we live in a deeply interconnected global economy. The phone in your pocket, the coffee you drank this morning, the streaming service you use - all likely involve multinational enterprises (MNEs) managing complex financial operations across borders.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#chapter-roadmap",
+    "href": "lectures/Chapter01_Lecture.html#chapter-roadmap",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "",
+    "text": "Today we’ll cover four major learning objectives:\n\nThe Global Financial Marketplace - Understanding the players, institutions, and linkages\nTheory of Comparative Advantage - Why international trade and investment make economic sense\nWhat Makes International Finance Different - The unique challenges MNEs face\nThe Globalization Process - How companies evolve from domestic to truly global operations",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#the-playing-field",
+    "href": "lectures/Chapter01_Lecture.html#the-playing-field",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "2.1 The Playing Field",
+    "text": "2.1 The Playing Field\nThink of the global financial marketplace as a complex ecosystem with three fundamental components:\n\n2.1.1 Securities (Financial Assets)\n\nAt the foundation are government debt securities - US Treasury Bonds, UK gilts, German bunds\nThese “risk-free” securities form the benchmark for pricing all other assets\nBuilt upon this foundation: corporate bonds, equities (stocks), bank loans\nMore recently: derivatives - financial instruments whose value derives from underlying assets\n\nCritical Point: The health of the global financial system depends on the quality of these securities. When securities fail (remember the 2008 financial crisis with mortgage-backed securities), the entire system suffers.\n\n\n2.1.2 Institutions\n\nCentral Banks: Create and control money supply (Federal Reserve, European Central Bank, Bank of Japan)\nCommercial Banks: Take deposits and extend loans both domestically and internationally\nInvestment Banks & Financial Institutions: Trade securities, facilitate capital flows, create financial products\n\n\n\n2.1.3 Linkages - The Interbank Market\n\nThis is the “plumbing” of the global financial system\nUses CURRENCY as the medium of exchange\nHistorically centered on LIBOR (London Interbank Offered Rate)\nImportant note: LIBOR is being phased out and replaced (we’ll study this in Chapter 8)",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#the-market-for-currencies",
+    "href": "lectures/Chapter01_Lecture.html#the-market-for-currencies",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "2.2 The Market for Currencies",
+    "text": "2.2 The Market for Currencies\nKey Concept: A foreign exchange rate is simply the price of one currency in terms of another.\nExample:\nEUR 1.00 = USD 1.1274\nor\nUSD 1.1274 = EUR 1.00\n\n2.2.1 Important Terminology Discussion\nLet me address something that often confuses students - currency quotation conventions. There are different ways to express the same exchange rate:\n\nTraditional notation: $1.1274/€ (read as “1.1274 dollars per euro”)\nISO code format: USD1.1274 = EUR1.00\nFinancial press variations:\n\nEUR/USD 1.1274\nEUR-USD 1.1274\nEURUSD 1.1274\n\n\nAll mean the same thing! The key is understanding which currency is the “base” (the one that equals 1.00) and which is the “quote” (the price).\nConvention to Remember:\n\nEUR, GBP (British pound), and some Commonwealth currencies are typically quoted as “dollars per foreign currency”\nMost other currencies quote as “foreign currency per dollar”\n\nWhy does this matter? Because when you calculate percentage changes or returns, you need to know which currency is in the numerator and which is in the denominator.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#calculating-percentage-changes-in-exchange-rates",
+    "href": "lectures/Chapter01_Lecture.html#calculating-percentage-changes-in-exchange-rates",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "2.3 Calculating Percentage Changes in Exchange Rates",
+    "text": "2.3 Calculating Percentage Changes in Exchange Rates\nThis is critical - pay close attention.\nLet’s work through the Argentine peso example from your textbook:\nScenario: December 16, 2015 - Argentina lifts currency controls\n\nBeginning rate: ARG 9.7908 = USD 1.00\nEnding rate: ARG 13.6160 = USD 1.00\n\nQuestion: What happened to the peso’s value?\n\n2.3.1 Method 1 - Foreign Currency Terms (Foreign currency per USD)\n\n# Given exchange rates\nbegin_rate &lt;- 9.7908  # ARG per USD\nend_rate &lt;- 13.6160   # ARG per USD\n\n# Calculate percentage change\npct_change_method1 &lt;- ((begin_rate - end_rate) / end_rate) * 100\n\ncat(\"Method 1 Calculation:\\n\")\n\nMethod 1 Calculation:\n\ncat(\"Beginning rate: ARG\", begin_rate, \"= USD 1.00\\n\")\n\nBeginning rate: ARG 9.7908 = USD 1.00\n\ncat(\"Ending rate: ARG\", end_rate, \"= USD 1.00\\n\")\n\nEnding rate: ARG 13.616 = USD 1.00\n\ncat(\"Percentage change:\", round(pct_change_method1, 2), \"%\\n\")\n\nPercentage change: -28.09 %\n\n\nInterpretation: The peso FELL 28% in value. Notice:\n\nIt takes MORE pesos to buy one dollar (went from 9.79 to 13.62)\nThe calculation yielded a NEGATIVE number\nBoth indicate depreciation\n\n\n\n2.3.2 Method 2 - Home Currency Terms (USD per foreign currency)\nFirst, we need to flip the rates:\n\n# Convert to USD per ARG\nbegin_rate_usd &lt;- 1 / begin_rate\nend_rate_usd &lt;- 1 / end_rate\n\n# Calculate percentage change\npct_change_method2 &lt;- ((end_rate_usd - begin_rate_usd) / begin_rate_usd) * 100\n\ncat(\"Method 2 Calculation:\\n\")\n\nMethod 2 Calculation:\n\ncat(\"Beginning rate: USD\", round(begin_rate_usd, 5), \"= ARG 1.00\\n\")\n\nBeginning rate: USD 0.10214 = ARG 1.00\n\ncat(\"Ending rate: USD\", round(end_rate_usd, 5), \"= ARG 1.00\\n\")\n\nEnding rate: USD 0.07344 = ARG 1.00\n\ncat(\"Percentage change:\", round(pct_change_method2, 2), \"%\\n\")\n\nPercentage change: -28.09 %\n\n\nSame answer! The peso fell 28%.\nTeaching Point: Many students find Method 2 more intuitive because it follows the standard “end minus beginning over beginning” formula. However, both methods MUST give the same answer.\n\n\n2.3.3 Practice Problem\nIf the Mexican peso changes from MXN 16.00 = USD 1.00 to MXN 20.00 = USD 1.00, what is the percentage change?\n\n# Mexican peso example\nmxn_begin &lt;- 16.00\nmxn_end &lt;- 20.00\n\n# Calculate percentage change\nmxn_pct_change &lt;- ((mxn_begin - mxn_end) / mxn_end) * 100\n\ncat(\"Mexican Peso Change:\\n\")\n\nMexican Peso Change:\n\ncat(\"Answer:\", round(mxn_pct_change, 2), \"%\\n\")\n\nAnswer: -20 %",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#eurocurrencies-and-the-eurocurrency-market",
+    "href": "lectures/Chapter01_Lecture.html#eurocurrencies-and-the-eurocurrency-market",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "2.4 Eurocurrencies and the Eurocurrency Market",
+    "text": "2.4 Eurocurrencies and the Eurocurrency Market\nCritical Definition: Eurocurrencies are deposits of a currency held in banks OUTSIDE that currency’s home country.\nExamples:\n\nEurodollars: US dollars deposited in a London bank\nEuroyen: Japanese yen deposited in a Singapore bank\nEurosterling: British pounds deposited in a Paris bank\n\nImportant: The “euro” prefix has NOTHING to do with the European currency. This terminology predates the euro.\n\n2.4.1 Historical Origin (Fascinating backstory)\n\nBorn after WWII\nSoviet Union and Eastern European countries held US dollars\nFeared US government might freeze these dollar assets\nDeposited dollars in European banks instead (particularly in London)\nThe market grew from there\n\n\n\n2.4.2 Why Does This Market Exist and Thrive?\n\nRegulatory Arbitrage: Fewer regulations than domestic banking\n\nNo reserve requirements\nNo deposit insurance costs (like FDIC in the US)\nLess bureaucratic overhead\n\nNarrow Spreads: The difference between deposit and loan rates is often less than 1%\n\nWhy? Wholesale market (large transactions, $500,000+)\nCreditworthy borrowers (corporations, governments)\nLower overhead costs\n\nTwo Primary Functions:\n\nMoney market device: Corporations park excess cash, earning higher interest than domestic alternatives\nLending source: Companies borrow for working capital, trade finance\n\n\nLIBOR Connection: The London Interbank Offered Rate (LIBOR) is the benchmark interest rate for the eurocurrency market. It represents the rate at which banks lend to each other in London.\nCurrent Developments: LIBOR is being replaced due to manipulation scandals. We’ll explore this transition in detail in Chapter 8.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#foundational-economic-theory",
+    "href": "lectures/Chapter01_Lecture.html#foundational-economic-theory",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "3.1 Foundational Economic Theory",
+    "text": "3.1 Foundational Economic Theory\nQuestion to class: “Why do countries trade with each other?”\nThe theory of comparative advantage, developed by David Ricardo in 1817 (building on Adam Smith’s work from 1776), provides the intellectual foundation for understanding international trade and investment.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#core-concepts",
+    "href": "lectures/Chapter01_Lecture.html#core-concepts",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "3.2 Core Concepts",
+    "text": "3.2 Core Concepts\n\n3.2.1 Absolute Advantage (Adam Smith)\n\nA country should specialize in producing goods it can make most efficiently\nTrade these for goods other countries make more efficiently\nResult: More total production, lower prices, higher quality of life\n\n\n\n3.2.2 Comparative Advantage (David Ricardo)\n\nEven if one country has absolute advantage in producing EVERYTHING, both countries benefit from specialization\nEach country should specialize in what it does RELATIVELY better\nThe key word is “comparative” - relative, not absolute\n\n\n\n3.2.3 Simple Example\nImagine two countries - the US and China:\n\nUS: Can produce either 100 computers OR 100 bushels of wheat with the same resources\nChina: Can produce either 50 computers OR 150 bushels of wheat with the same resources\n\nEven though the US has absolute advantage in computers, China might still have comparative advantage in wheat production if the opportunity costs differ appropriately.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#modern-reality-vs.-theory",
+    "href": "lectures/Chapter01_Lecture.html#modern-reality-vs.-theory",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "3.3 Modern Reality vs. Theory",
+    "text": "3.3 Modern Reality vs. Theory\nThe textbook presents important limitations to pure comparative advantage theory:\n\n3.3.1 Government Interference\n\nTariffs and quotas\nSubsidies to domestic industries\nPolitical motivations (food security, defense industries, employment goals)\n\nExample: Many countries protect their agricultural sectors even when they’re not the most efficient producers, because food security is considered a national security issue.\n\n\n3.3.2 Factor Mobility\n\nClassical theory assumed factors of production (land, labor, capital) stayed within countries\nModern reality: Capital flows freely across borders\nTechnology transfers rapidly\nEven labor moves (though less freely than capital)\n\n\n\n3.3.3 More Complex Factors of Production\nModern location decisions consider:\n\nManagerial expertise\nLegal and regulatory environment\nR&D capabilities\nEducation levels of workforce\nInfrastructure quality\nAccess to capital markets\nTax differentials\nPolitical stability\n\n\n\n3.3.4 Comparative Advantage Shifts Over Time\nPowerful Example from Textbook:\nCotton textile production comparative advantage has shifted over 150 years:\n\nUnited Kingdom (1800s) → United States (early 1900s) → Japan (mid-1900s) → Hong Kong → Taiwan → China (present)\n\nThis illustrates how comparative advantage is dynamic, not static.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#relevance-today",
+    "href": "lectures/Chapter01_Lecture.html#relevance-today",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "3.4 Relevance Today",
+    "text": "3.4 Relevance Today\nDespite limitations, comparative advantage remains highly relevant:\nModern Application: Service outsourcing and the global supply chain\n\nFinancial back offices in Manila (Philippines)\nIT engineering in Hungary and India\nManufacturing in Vietnam and Bangladesh\nDesign and innovation in Silicon Valley\n\nKey Insight: Modern comparative advantage is based on:\n\nLabor skills and costs\nAccess to capital\nTechnology and innovation capacity\nTelecommunications infrastructure\n\nQuestion for Discussion: “Can you think of services or products where the US maintains comparative advantage?”\n(Expected answers: innovation, higher education, entertainment, certain high-tech manufacturing)",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#framework-for-understanding-differences",
+    "href": "lectures/Chapter01_Lecture.html#framework-for-understanding-differences",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "4.1 Framework for Understanding Differences",
+    "text": "4.1 Framework for Understanding Differences\nInternational financial management differs from domestic finance in six key dimensions:",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#culture-history-and-institutional-differences",
+    "href": "lectures/Chapter01_Lecture.html#culture-history-and-institutional-differences",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "4.2 Culture, History, and Institutional Differences",
+    "text": "4.2 Culture, History, and Institutional Differences\n\n4.2.1 Cultural Challenges\n\nBusiness practices vary enormously\nContract interpretation differences\nRelationship vs. transaction orientation\nTime orientation (short-term vs. long-term)\n\nExample: In many Asian business cultures, building relationships (guanxi in China) is prerequisite to doing business. In the US, contracts often precede relationships.\n\n\n4.2.2 Historical Context\n\nLegal systems differ (common law vs. civil law vs. religious law)\nAccounting standards vary (though IFRS is harmonizing some)\nProperty rights protection differs dramatically\n\n\n\n4.2.3 Institutional Frameworks\n\nBanking system structures\nCapital market development levels\nGovernment roles in economy\nCorruption and governance quality\n\nReal World Impact: A company expanding to a new country must understand these differences. What works in New York may fail in Mumbai or Moscow - not because the financial principles are different, but because the operating environment is different.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#corporate-governance-differences",
+    "href": "lectures/Chapter01_Lecture.html#corporate-governance-differences",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "4.3 Corporate Governance Differences",
+    "text": "4.3 Corporate Governance Differences\nCritical Point: Not all countries have the same ownership structures or governance models.\n\n4.3.1 Three Primary Models\n1. Anglo-American Model:\n\nDispersed shareholders\nActive stock markets\nStrong shareholder rights\nGoal: Maximize shareholder value\nExamples: US, UK, Canada, Australia\n\n2. Continental European Model:\n\nConcentrated ownership (families, banks, other corporations)\nStakeholder orientation (employees, community, shareholders)\nBank-centered finance\nExamples: Germany, France, Italy\n\n3. Asian Model:\n\nOften family-controlled (even in public companies)\nKeiretsu in Japan, Chaebol in Korea\nNetwork relationships important\nState ownership common (especially China)\n\nWhy This Matters:\n\nAffects access to capital\nInfluences financial decisions\nDetermines accountability structures\nShapes strategic objectives",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#foreign-exchange-risk",
+    "href": "lectures/Chapter01_Lecture.html#foreign-exchange-risk",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "4.4 Foreign Exchange Risk",
+    "text": "4.4 Foreign Exchange Risk\nThis is THE defining characteristic of international finance.\n\nDomestic firm: All transactions in one currency\nInternational trading firm: Some transactions in foreign currencies (import/export)\nMultinational firm: Extensive foreign currency exposure through:\n\nForeign sales and revenues\nForeign costs and expenses\n\nForeign assets and liabilities\nForeign subsidiary operations\n\n\n\n4.4.1 Types of Foreign Exchange Exposure\n1. Transaction Exposure:\n\nCommitted but not yet settled foreign currency transactions\nExample: US company sells to German customer, invoice for €1 million due in 90 days\nRisk: Euro value could fall during 90 days\n\n2. Translation (Accounting) Exposure:\n\nConverting foreign subsidiary financial statements to home currency\nEven if foreign operations are stable, exchange rate changes affect reported results\n\n3. Economic (Operating) Exposure:\n\nLong-term competitiveness effects from exchange rate changes\nHardest to measure but potentially most significant\n\n\n\n4.4.2 Classroom Example: Ganado Corporation\nLet’s create a simple consolidation example:\n\n# Create a data frame for Ganado's subsidiaries\nlibrary(knitr)\n\nsubsidiaries &lt;- data.frame(\n  Subsidiary = c(\"US Parent\", \"Europe\", \"China\"),\n  Currency = c(\"USD\", \"EUR\", \"CNY\"),\n  Sales_Local = c(300.0, 120.0, 600.0),\n  Earnings_Local = c(28.6, 10.5, 71.4),\n  Exchange_Rate = c(1.0000, 1.1200, 0.1515),\n  Rate_Description = c(\"USD 1.00 = USD 1.00\", \n                       \"USD 1.12 = EUR 1.00\", \n                       \"CNY 6.60 = USD 1.00\")\n)\n\n# Calculate USD equivalents\nsubsidiaries$Sales_USD &lt;- subsidiaries$Sales_Local * subsidiaries$Exchange_Rate\nsubsidiaries$Earnings_USD &lt;- subsidiaries$Earnings_Local * subsidiaries$Exchange_Rate\n\n# Display the consolidation\nkable(subsidiaries, \n      caption = \"Ganado Corporation - Consolidated Results\",\n      digits = 2)\n\n\nGanado Corporation - Consolidated Results\n\n\n\n\n\n\n\n\n\n\n\n\nSubsidiary\nCurrency\nSales_Local\nEarnings_Local\nExchange_Rate\nRate_Description\nSales_USD\nEarnings_USD\n\n\n\n\nUS Parent\nUSD\n300\n28.6\n1.00\nUSD 1.00 = USD 1.00\n300.0\n28.60\n\n\nEurope\nEUR\n120\n10.5\n1.12\nUSD 1.12 = EUR 1.00\n134.4\n11.76\n\n\nChina\nCNY\n600\n71.4\n0.15\nCNY 6.60 = USD 1.00\n90.9\n10.82\n\n\n\n\n# Calculate totals\ncat(\"\\nConsolidated Totals:\\n\")\n\n\nConsolidated Totals:\n\ncat(\"Total Sales (USD millions):\", round(sum(subsidiaries$Sales_USD), 2), \"\\n\")\n\nTotal Sales (USD millions): 525.3 \n\ncat(\"Total Earnings (USD millions):\", round(sum(subsidiaries$Earnings_USD), 2), \"\\n\")\n\nTotal Earnings (USD millions): 51.18 \n\n\nQuestion: “If the euro falls from $1.12 to $1.00, what happens to consolidated earnings, even if European operations don’t change?”\n\n# Original scenario\neur_earnings_local &lt;- 10.5  # million EUR\nexchange_rate_original &lt;- 1.12\nearnings_usd_original &lt;- eur_earnings_local * exchange_rate_original\n\n# New scenario - euro depreciates\nexchange_rate_new &lt;- 1.00\nearnings_usd_new &lt;- eur_earnings_local * exchange_rate_new\n\n# Calculate impact\nimpact &lt;- earnings_usd_new - earnings_usd_original\n\ncat(\"European Subsidiary Earnings Analysis:\\n\")\n\nEuropean Subsidiary Earnings Analysis:\n\ncat(\"Local currency earnings (EUR): €\", eur_earnings_local, \"million (unchanged)\\n\")\n\nLocal currency earnings (EUR): € 10.5 million (unchanged)\n\ncat(\"\\nOriginal scenario:\\n\")\n\n\nOriginal scenario:\n\ncat(\"  Exchange rate: $\", exchange_rate_original, \"/€\\n\")\n\n  Exchange rate: $ 1.12 /€\n\ncat(\"  USD earnings: $\", round(earnings_usd_original, 2), \"million\\n\")\n\n  USD earnings: $ 11.76 million\n\ncat(\"\\nNew scenario (euro depreciation):\\n\")\n\n\nNew scenario (euro depreciation):\n\ncat(\"  Exchange rate: $\", exchange_rate_new, \"/€\\n\")\n\n  Exchange rate: $ 1 /€\n\ncat(\"  USD earnings: $\", round(earnings_usd_new, 2), \"million\\n\")\n\n  USD earnings: $ 10.5 million\n\ncat(\"\\nImpact on consolidated earnings: $\", round(impact, 2), \"million\\n\")\n\n\nImpact on consolidated earnings: $ -1.26 million\n\ncat(\"Percentage decline: \", round((impact/earnings_usd_original)*100, 1), \"%\\n\")\n\nPercentage decline:  -10.7 %\n\n\nAnswer: Reported earnings fall by over $1 million purely due to translation!",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#political-risk",
+    "href": "lectures/Chapter01_Lecture.html#political-risk",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "4.5 Political Risk",
+    "text": "4.5 Political Risk\nDefinition: Risk that government actions will adversely affect business operations or asset values.\n\n4.5.1 Types of Political Risk\n1. Transfer Risk:\n\nBlocked funds (cannot repatriate earnings)\nExample: Argentina imposing currency controls\n\n2. Expropriation:\n\nGovernment seizure of assets\nMay or may not include compensation\nLess common today but still occurs\n\n3. Operational Restrictions:\n\nLocal content requirements\nTechnology transfer mandates\nForced joint ventures\nPrice controls\n\n4. Regulatory Changes:\n\nTax law changes\nLabor law changes\nEnvironmental regulation\n\nRecent Examples:\n\nRussia’s actions in Ukraine affecting Western companies\nChina’s regulatory crackdowns on tech companies\nIndia’s changing tax treatment of foreign firms\n\nKey Point: Political risk is hard to quantify, difficult to hedge, but absolutely must be considered in international investment decisions.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#modifications-to-financial-theory",
+    "href": "lectures/Chapter01_Lecture.html#modifications-to-financial-theory",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "4.6 Modifications to Financial Theory",
+    "text": "4.6 Modifications to Financial Theory\nCore financial theories remain valid but require adaptation:\n\n4.6.1 Cost of Capital\n\nMust consider multiple country risk premiums\nCurrency risk affects required returns\nAccess to global capital markets can LOWER cost of capital\n\n\n\n4.6.2 Capital Budgeting\n\nProject cash flows may be in foreign currency\nRepatriation restrictions must be considered\nCountry risk must be incorporated\nMultiple tax jurisdictions complicate analysis\n\n\n\n4.6.3 Working Capital Management\n\nMultiple currencies to manage\nInternational cash pooling opportunities\nMore complex credit analysis for foreign customers\n\n\n\n4.6.4 Capital Structure\n\nAccess to foreign debt markets\nCurrency matching strategies (financing in same currency as revenues)\nDifferent optimal leverage ratios in different countries",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#modified-financial-instruments",
+    "href": "lectures/Chapter01_Lecture.html#modified-financial-instruments",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "4.7 Modified Financial Instruments",
+    "text": "4.7 Modified Financial Instruments\nInternational finance has adapted standard instruments:\n\n4.7.1 Currency Derivatives\n\nForward contracts\nFutures\nOptions on currencies\nCurrency swaps\n\n\n\n4.7.2 Interest Rate Instruments\n\nCross-currency interest rate swaps\nInternational bonds (Eurobonds, foreign bonds)\n\n\n\n4.7.3 Trade Finance Instruments\n\nLetters of credit\nBanker’s acceptances\nDocumentary collections\n\nPreview: We’ll study many of these in detail in later chapters.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#introducing-ganado-corporation",
+    "href": "lectures/Chapter01_Lecture.html#introducing-ganado-corporation",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "5.1 Introducing Ganado Corporation",
+    "text": "5.1 Introducing Ganado Corporation\nGanado is our textbook’s case company we’ll follow throughout the semester.\n\n5.1.1 Background\n\nFounded 1948 in Los Angeles\nOriginally family-owned telecommunications equipment manufacturer\nWent public (IPO) in 1988 - became a publicly traded company\nNow faces decisions about global expansion\n\nWhy This Matters: Ganado’s journey mirrors what thousands of real companies experience as they globalize.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#phase-1-domestic-to-international-trade",
+    "href": "lectures/Chapter01_Lecture.html#phase-1-domestic-to-international-trade",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "5.2 Phase 1: Domestic to International Trade",
+    "text": "5.2 Phase 1: Domestic to International Trade\n\n5.2.1 Domestic Phase Characteristics\n\nAll suppliers are domestic (US)\nAll customers are domestic (US)\nAll transactions in US dollars\nSubject only to US laws and regulations\nCredit assessment under familiar US practices\n\nSimple and low-risk, but limited growth potential.\n\n\n5.2.2 Catalyst for Change\nNAFTA (North American Free Trade Agreement) created opportunities for trade with Mexico and Canada.\n\n\n5.2.3 International Trade Phase\n\nBEGIN importing from Mexican suppliers\nBEGIN exporting to Canadian customers\nNOW dealing with multiple currencies (USD, MXN, CAD)\n\n\n\n5.2.4 Two New Major Challenges\n1. Foreign Exchange Risk:\n\nWhich currency to quote prices in?\nWhich currency to accept payment in?\nWhich currency to pay suppliers in?\nWhat if exchange rates change between agreement and payment?\n\nExample:\n\n# Ganado quotes Canadian customer\nquoted_price_cad &lt;- 1000\nexchange_rate_at_quote &lt;- 1.25  # CAD per USD\nexpected_usd &lt;- quoted_price_cad / exchange_rate_at_quote\n\n# By payment time, CAD depreciates\nexchange_rate_at_payment &lt;- 1.30\nactual_usd &lt;- quoted_price_cad / exchange_rate_at_payment\n\nloss &lt;- actual_usd - expected_usd\n\ncat(\"Foreign Exchange Risk Example:\\n\")\n\nForeign Exchange Risk Example:\n\ncat(\"Quoted price: CAD\", quoted_price_cad, \"\\n\")\n\nQuoted price: CAD 1000 \n\ncat(\"Exchange rate at quote: CAD\", exchange_rate_at_quote, \"= USD 1.00\\n\")\n\nExchange rate at quote: CAD 1.25 = USD 1.00\n\ncat(\"Expected USD receipt: $\", round(expected_usd, 2), \"\\n\\n\")\n\nExpected USD receipt: $ 800 \n\ncat(\"Exchange rate at payment: CAD\", exchange_rate_at_payment, \"= USD 1.00\\n\")\n\nExchange rate at payment: CAD 1.3 = USD 1.00\n\ncat(\"Actual USD receipt: $\", round(actual_usd, 2), \"\\n\\n\")\n\nActual USD receipt: $ 769.23 \n\ncat(\"Loss due to currency movement: $\", round(loss, 2), \"\\n\")\n\nLoss due to currency movement: $ -30.77 \n\n\n2. Credit Risk Assessment:\n\nHow creditworthy is Mexican supplier?\nWill Canadian customer actually pay?\nDifferent business practices\nDifferent legal systems\nDifferent bankruptcy laws\nLess available information\n\nKey Point: Even in this relatively simple international trade phase, financial management complexity increases dramatically compared to purely domestic operations.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#phase-2-international-trade-to-multinational-enterprise",
+    "href": "lectures/Chapter01_Lecture.html#phase-2-international-trade-to-multinational-enterprise",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "5.3 Phase 2: International Trade to Multinational Enterprise",
+    "text": "5.3 Phase 2: International Trade to Multinational Enterprise\nCritical Decision Point: At some point, successful international trading leads companies to consider foreign direct investment (FDI).\n\n5.3.1 Why Make This Leap?\nStrategic Motivations (Five Categories):\n1. Market Seekers:\n\nProduce in foreign markets to serve local demand\nOvercome trade barriers\nGet closer to customers\nExample: US auto manufacturers in Europe\n\n2. Raw Material Seekers:\n\nAccess natural resources where they’re located\nMining, oil, forestry, agricultural products\nExample: Oil companies drilling in Middle East\n\n3. Production Efficiency Seekers:\n\nTake advantage of lower-cost factors of production\nEspecially labor\nExample: Electronics assembly in Malaysia, Vietnam\n\n4. Knowledge Seekers:\n\nAccess technology, expertise, innovation\nExample: Japanese and German companies buying US tech firms\n\n5. Political Safety Seekers:\n\nDiversify political risk\nExample: Hong Kong firms investing in Canada, Australia before 1997 Chinese takeover\n\nImportant Note: These are not mutually exclusive. One investment may serve multiple purposes.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#the-foreign-direct-investment-spectrum",
+    "href": "lectures/Chapter01_Lecture.html#the-foreign-direct-investment-spectrum",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "5.4 The Foreign Direct Investment Spectrum",
+    "text": "5.4 The Foreign Direct Investment Spectrum\n\n5.4.1 Increasing Foreign Presence (Low to High)\n1. Exporting from Home Production\n\nLowest commitment\nMaintain control\nLimited foreign presence\n\n2. Licensing to Foreign Firms\n\nForeign company produces under your brand/technology\nReceive royalties\nLow capital investment\nRisk: Creating future competitors, loss of quality control\n\n3. Joint Venture\n\nPartner with local firm (often 50-50 ownership)\nShare investment, share risks, share rewards\nCommon in countries requiring local partners\nChallenge: Potential conflicts with partner\n\n4. Wholly-Owned Subsidiary - Greenfield\n\nBuild new facilities from scratch (“greenfield”)\nFull control\nHigh investment\nSlow to establish\n\n5. Wholly-Owned Subsidiary - Acquisition\n\nBuy existing foreign company\nFastest market entry\nImmediate operations\nIntegration challenges\nPotentially very expensive\n\nKey Insight: As you move down this list:\n\nForeign presence increases (more physical assets, more employees abroad)\nManagerial intensity increases (more complex to manage)\nCapital at risk increases (more investment)\nPotential returns increase (greater opportunities)",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#consolidation-challenges",
+    "href": "lectures/Chapter01_Lecture.html#consolidation-challenges",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "5.5 Consolidation Challenges",
+    "text": "5.5 Consolidation Challenges\nThis is a critical practical issue. Once Ganado has foreign subsidiaries:\n\nEuropean subsidiary keeping books in euros\nChinese subsidiary keeping books in yuan\nUS parent keeping books in dollars\n\n\n5.5.1 The Problem\nGanado must periodically (quarterly, annually) produce consolidated financial statements in US dollars for:\n\nShareholders\nSEC (Securities and Exchange Commission) regulations\nTax purposes\nPerformance evaluation\n\n\n\n5.5.2 The Process\n\nEach subsidiary reports in local currency\nConvert to common currency (USD) using appropriate exchange rates\nSum to create consolidated totals\n\nCritical Issue: Exchange rates change constantly. From one quarter to the next:\n\nForeign subsidiary performance may be stable\nBUT exchange rate changes make it look better or worse\nThis creates “translation exposure” or “accounting exposure”",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#not-all-globalization-is-inevitable-or-beneficial",
+    "href": "lectures/Chapter01_Lecture.html#not-all-globalization-is-inevitable-or-beneficial",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "6.1 Not All Globalization is Inevitable or Beneficial",
+    "text": "6.1 Not All Globalization is Inevitable or Beneficial\nClassical economic theory suggests capital should flow freely to its most productive uses globally. Reality is more complex.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#the-twin-agency-problems",
+    "href": "lectures/Chapter01_Lecture.html#the-twin-agency-problems",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "6.2 The “Twin Agency Problems”",
+    "text": "6.2 The “Twin Agency Problems”\nAgency Problem Definition: When someone managing assets (agent) has different interests than the asset owners (principals)\n\n6.2.1 First Agency Problem - Corporate Insiders\n\nDo managers/executives pursue firm value maximization?\nOR do they pursue personal wealth/power?\n\nExamples of Value-Destroying Insider Actions:\n\nExcessive compensation\nEmpire building (growth for prestige, not returns)\nResistance to beneficial takeovers\nRelated-party transactions that benefit insiders\n\n\n\n6.2.2 Second Agency Problem - Government/Sovereign Insiders\n\nDo political leaders pursue national economic welfare?\nOR do they pursue personal power/wealth?\n\nExamples:\n\nCorruption\nExpropriation\nCapital controls that harm economy but protect political power\nRegulatory capture",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#consequences-for-global-capital-flows",
+    "href": "lectures/Chapter01_Lecture.html#consequences-for-global-capital-flows",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "6.3 Consequences for Global Capital Flows",
+    "text": "6.3 Consequences for Global Capital Flows\nIF corporate and government insiders pursue value maximization:\n→ Capital flows to these opportunities\n→ Financial globalization INCREASES\n→ Benefits widely shared\nIF insiders pursue personal agendas:\n→ Capital avoids these situations\n→ Financial globalization LIMITED\n→ Creates “winners” and “losers”\n→ Segmented markets\n\n6.3.1 Real-World Examples\nPositive Examples (Attracting Capital):\n\nSingapore: Strong rule of law, low corruption, excellent governance\nResult: Major financial center despite small size\n\nNegative Examples (Capital Flight):\n\nVenezuela: Expropriation, corruption, poor governance\nResult: Economic collapse, capital flees",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#contemporary-challenges",
+    "href": "lectures/Chapter01_Lecture.html#contemporary-challenges",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "6.4 Contemporary Challenges",
+    "text": "6.4 Contemporary Challenges\n\n6.4.1 Three Current Issues\n1. Inequality:\n\nGlobalization benefits not evenly distributed\nWithin-country inequality increasing\n“Left behind” populations creating political backlash\n\n2. Regulatory Arbitrage:\n\nCompanies structure operations to minimize taxes\n“Tax havens” and profit shifting\nCreates political tensions\n\n3. National Security vs. Economic Efficiency:\n\nGrowing restrictions on foreign investment in “strategic” sectors\nTechnology transfer concerns\nSupply chain security concerns\n\nExample: US restrictions on Chinese investment in American technology companies, even when economically beneficial.",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#the-path-forward",
+    "href": "lectures/Chapter01_Lecture.html#the-path-forward",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "6.5 The Path Forward",
+    "text": "6.5 The Path Forward\n\n“Welcome to the future. This will be a constant struggle. We need leadership, citizenship, and dialogue.”\n- Donald Lessard\n\nKey Takeaway: Financial globalization is neither inevitable nor uniformly beneficial. Success requires:\n\nStrong institutions\nGood governance\n\nEthical leadership\nInformed citizenry\nOngoing dialogue and adaptation",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#connecting-the-dots",
+    "href": "lectures/Chapter01_Lecture.html#connecting-the-dots",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "7.1 Connecting the Dots",
+    "text": "7.1 Connecting the Dots\nLet me bring together today’s major themes:\n\n7.1.1 The Global Financial Marketplace\n\nComplex ecosystem of securities, institutions, and currency linkages\nLarger and more interconnected than ever\nCreates both opportunities and risks\n\n\n\n7.1.2 Comparative Advantage\n\nStill explains why international trade benefits countries\nModern version focuses on services, skills, technology\nDynamic, not static - shifts over time\n\n\n\n7.1.3 What Makes International Finance Unique\n\nForeign exchange risk\nPolitical risk\nCultural and institutional differences\nCorporate governance variations\nRequired modifications to financial theories and instruments\n\n\n\n7.1.4 The Globalization Journey\n\nProgression from domestic → international trade → multinational\nEach phase brings new opportunities and new complexities\nNot all firms should fully globalize\nNot all globalization creates value\n\n\n\n7.1.5 Limits and Challenges\n\nAgency problems at corporate and sovereign levels\nPotential for value destruction\nOngoing tension between efficiency and other goals (security, equity, stability)",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#looking-ahead",
+    "href": "lectures/Chapter01_Lecture.html#looking-ahead",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "7.2 Looking Ahead",
+    "text": "7.2 Looking Ahead\nNext chapters will build on this foundation:\n\nChapter 2: International Monetary System - How currencies interact, exchange rate regimes\nChapter 3: Balance of Payments - How we track international flows\nChapter 4: Corporate Governance in depth - Different models worldwide\nLater: Foreign exchange markets, currency derivatives, international investment, multinational capital budgeting",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#why-this-matters-to-you",
+    "href": "lectures/Chapter01_Lecture.html#why-this-matters-to-you",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "7.3 Why This Matters to You",
+    "text": "7.3 Why This Matters to You\n\n7.3.1 Career Relevance\n\nAlmost every major company operates internationally\nUnderstanding these concepts makes you more valuable\nFinance, marketing, operations, strategy all require international awareness\n\n\n\n7.3.2 Citizenship\n\nTrade policy\nTax policy\nImmigration\nNational security\n\nAll involve international finance concepts.\n\n\n7.3.3 Personal Finance\n\nInternational diversification\nCurrency considerations\nUnderstanding global markets",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#practical-advice-for-success-in-this-course",
+    "href": "lectures/Chapter01_Lecture.html#practical-advice-for-success-in-this-course",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "7.4 Practical Advice for Success in This Course",
+    "text": "7.4 Practical Advice for Success in This Course\n\n7.4.1 Stay Current\n\nRead Financial Times, Wall Street Journal, The Economist\nFollow exchange rates\nTrack international business news\n\n\n\n7.4.2 Think Critically\n\nDon’t just memorize formulas\nUnderstand the “why” behind concepts\nQuestion assumptions\n\n\n\n7.4.3 Connect Concepts\n\nInternational finance is integrative\nLinks to economics, politics, strategy, culture\nMake connections across chapters\n\n\n\n7.4.4 Use Real Examples\n\nApply concepts to companies you know\nFollow a multinational company throughout semester\nAnalyze current events through international finance lens",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#check-for-understanding",
+    "href": "lectures/Chapter01_Lecture.html#check-for-understanding",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "8.1 Check for Understanding",
+    "text": "8.1 Check for Understanding\nKey Questions to Pose:\n\n“Can someone explain in their own words what makes the eurocurrency market different from domestic banking?”\n“Why might a country with absolute advantage in producing everything still benefit from trade?”\n“What’s the single biggest risk factor that distinguishes international from domestic finance?”\n“If the dollar strengthens against all foreign currencies, what generally happens to US multinationals’ consolidated earnings, all else equal?”",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  },
+  {
+    "objectID": "lectures/Chapter01_Lecture.html#preview-next-class",
+    "href": "lectures/Chapter01_Lecture.html#preview-next-class",
+    "title": "Chapter 1 - Multinational Financial Management: Opportunities and Challenges",
+    "section": "8.2 Preview Next Class",
+    "text": "8.2 Preview Next Class\nNext session we’ll dive into:\n\nThe International Monetary System (Chapter 2)\nFixed vs. floating exchange rates\nThe role of the IMF and World Bank\nMajor currency crises in history\nThe future of the dollar as reserve currency\n\nAssignment for Next Class:\n\nRead Chapter 2\nFind a current article about exchange rate movements\nBe prepared to discuss why that currency moved",
+    "crumbs": [
+      "Home",
+      "Lecture Notes",
+      "Lectures",
+      "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
+    ]
+  }
+]

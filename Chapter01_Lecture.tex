@@ -1,0 +1,2299 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={International Finance - Chapter 1},
+  pdfauthor={Prof.~Barker},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{International Finance - Chapter 1}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Multinational Financial Management: Opportunities and
+Challenges}
+\author{Prof.~Barker}
+\date{2025-12-24}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+
+\section{Introduction and Opening}\label{introduction-and-opening}
+
+\subsection{Welcome and Context
+Setting}\label{welcome-and-context-setting}
+
+Today we begin our journey into the fascinating world of international
+finance by exploring what makes multinational financial management both
+uniquely challenging and remarkably rewarding.
+
+\textbf{Opening Question to Class:} ``How many of you have used a
+product today that was made by a company operating in multiple
+countries?''
+
+This simple exercise demonstrates that we live in a deeply
+interconnected global economy. The phone in your pocket, the coffee you
+drank this morning, the streaming service you use - all likely involve
+multinational enterprises (MNEs) managing complex financial operations
+across borders.
+
+\subsection{Chapter Roadmap}\label{chapter-roadmap}
+
+Today we'll cover four major learning objectives:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{The Global Financial Marketplace} - Understanding the players,
+  institutions, and linkages
+\item
+  \textbf{Theory of Comparative Advantage} - Why international trade and
+  investment make economic sense
+\item
+  \textbf{What Makes International Finance Different} - The unique
+  challenges MNEs face
+\item
+  \textbf{The Globalization Process} - How companies evolve from
+  domestic to truly global operations
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{The Global Financial
+Marketplace}\label{the-global-financial-marketplace}
+
+\subsection{The Playing Field}\label{the-playing-field}
+
+Think of the global financial marketplace as a complex ecosystem with
+three fundamental components:
+
+\subsubsection{Securities (Financial
+Assets)}\label{securities-financial-assets}
+
+\begin{itemize}
+\tightlist
+\item
+  At the foundation are government debt securities - US Treasury Bonds,
+  UK gilts, German bunds
+\item
+  These ``risk-free'' securities form the benchmark for pricing all
+  other assets
+\item
+  Built upon this foundation: corporate bonds, equities (stocks), bank
+  loans
+\item
+  More recently: derivatives - financial instruments whose value derives
+  from underlying assets
+\end{itemize}
+
+\textbf{Critical Point:} The health of the global financial system
+depends on the quality of these securities. When securities fail
+(remember the 2008 financial crisis with mortgage-backed securities),
+the entire system suffers.
+
+\subsubsection{Institutions}\label{institutions}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Central Banks}: Create and control money supply (Federal
+  Reserve, European Central Bank, Bank of Japan)
+\item
+  \textbf{Commercial Banks}: Take deposits and extend loans both
+  domestically and internationally
+\item
+  \textbf{Investment Banks \& Financial Institutions}: Trade securities,
+  facilitate capital flows, create financial products
+\end{itemize}
+
+\subsubsection{Linkages - The Interbank
+Market}\label{linkages---the-interbank-market}
+
+\begin{itemize}
+\tightlist
+\item
+  This is the ``plumbing'' of the global financial system
+\item
+  Uses CURRENCY as the medium of exchange
+\item
+  Historically centered on LIBOR (London Interbank Offered Rate)
+\item
+  \textbf{Important note:} LIBOR is being phased out and replaced (we'll
+  study this in Chapter 8)
+\end{itemize}
+
+\subsection{The Market for Currencies}\label{the-market-for-currencies}
+
+\textbf{Key Concept:} A foreign exchange rate is simply the price of one
+currency in terms of another.
+
+\textbf{Example:}
+
+\begin{verbatim}
+EUR 1.00 = USD 1.1274
+or
+USD 1.1274 = EUR 1.00
+\end{verbatim}
+
+\subsubsection{Important Terminology
+Discussion}\label{important-terminology-discussion}
+
+Let me address something that often confuses students - currency
+quotation conventions. There are different ways to express the same
+exchange rate:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Traditional notation}: \$1.1274/€ (read as ``1.1274 dollars
+  per euro'')
+\item
+  \textbf{ISO code format}: USD1.1274 = EUR1.00
+\item
+  \textbf{Financial press variations}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    EUR/USD 1.1274
+  \item
+    EUR-USD 1.1274
+  \item
+    EURUSD 1.1274
+  \end{itemize}
+\end{itemize}
+
+All mean the same thing! The key is understanding which currency is the
+``base'' (the one that equals 1.00) and which is the ``quote'' (the
+price).
+
+\textbf{Convention to Remember:}
+
+\begin{itemize}
+\tightlist
+\item
+  EUR, GBP (British pound), and some Commonwealth currencies are
+  typically quoted as ``dollars per foreign currency''
+\item
+  Most other currencies quote as ``foreign currency per dollar''
+\end{itemize}
+
+\textbf{Why does this matter?} Because when you calculate percentage
+changes or returns, you need to know which currency is in the numerator
+and which is in the denominator.
+
+\subsection{Calculating Percentage Changes in Exchange
+Rates}\label{calculating-percentage-changes-in-exchange-rates}
+
+\textbf{This is critical - pay close attention.}
+
+Let's work through the Argentine peso example from your textbook:
+
+\textbf{Scenario:} December 16, 2015 - Argentina lifts currency controls
+
+\begin{itemize}
+\tightlist
+\item
+  Beginning rate: ARG 9.7908 = USD 1.00
+\item
+  Ending rate: ARG 13.6160 = USD 1.00
+\end{itemize}
+
+\textbf{Question:} What happened to the peso's value?
+
+\subsubsection{Method 1 - Foreign Currency Terms (Foreign currency per
+USD)}\label{method-1---foreign-currency-terms-foreign-currency-per-usd}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Given exchange rates}
+\NormalTok{begin\_rate }\OtherTok{\textless{}{-}} \FloatTok{9.7908}  \CommentTok{\# ARG per USD}
+\NormalTok{end\_rate }\OtherTok{\textless{}{-}} \FloatTok{13.6160}   \CommentTok{\# ARG per USD}
+
+\CommentTok{\# Calculate percentage change}
+\NormalTok{pct\_change\_method1 }\OtherTok{\textless{}{-}}\NormalTok{ ((begin\_rate }\SpecialCharTok{{-}}\NormalTok{ end\_rate) }\SpecialCharTok{/}\NormalTok{ end\_rate) }\SpecialCharTok{*} \DecValTok{100}
+
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Method 1 Calculation:}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Method 1 Calculation:
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Beginning rate: ARG"}\NormalTok{, begin\_rate, }\StringTok{"= USD 1.00}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Beginning rate: ARG 9.7908 = USD 1.00
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Ending rate: ARG"}\NormalTok{, end\_rate, }\StringTok{"= USD 1.00}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Ending rate: ARG 13.616 = USD 1.00
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Percentage change:"}\NormalTok{, }\FunctionTok{round}\NormalTok{(pct\_change\_method1, }\DecValTok{2}\NormalTok{), }\StringTok{"\%}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Percentage change: -28.09 %
+\end{verbatim}
+
+\textbf{Interpretation:} The peso FELL 28\% in value. Notice:
+
+\begin{itemize}
+\tightlist
+\item
+  It takes MORE pesos to buy one dollar (went from 9.79 to 13.62)
+\item
+  The calculation yielded a NEGATIVE number
+\item
+  Both indicate depreciation
+\end{itemize}
+
+\subsubsection{Method 2 - Home Currency Terms (USD per foreign
+currency)}\label{method-2---home-currency-terms-usd-per-foreign-currency}
+
+First, we need to flip the rates:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Convert to USD per ARG}
+\NormalTok{begin\_rate\_usd }\OtherTok{\textless{}{-}} \DecValTok{1} \SpecialCharTok{/}\NormalTok{ begin\_rate}
+\NormalTok{end\_rate\_usd }\OtherTok{\textless{}{-}} \DecValTok{1} \SpecialCharTok{/}\NormalTok{ end\_rate}
+
+\CommentTok{\# Calculate percentage change}
+\NormalTok{pct\_change\_method2 }\OtherTok{\textless{}{-}}\NormalTok{ ((end\_rate\_usd }\SpecialCharTok{{-}}\NormalTok{ begin\_rate\_usd) }\SpecialCharTok{/}\NormalTok{ begin\_rate\_usd) }\SpecialCharTok{*} \DecValTok{100}
+
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Method 2 Calculation:}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Method 2 Calculation:
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Beginning rate: USD"}\NormalTok{, }\FunctionTok{round}\NormalTok{(begin\_rate\_usd, }\DecValTok{5}\NormalTok{), }\StringTok{"= ARG 1.00}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Beginning rate: USD 0.10214 = ARG 1.00
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Ending rate: USD"}\NormalTok{, }\FunctionTok{round}\NormalTok{(end\_rate\_usd, }\DecValTok{5}\NormalTok{), }\StringTok{"= ARG 1.00}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Ending rate: USD 0.07344 = ARG 1.00
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Percentage change:"}\NormalTok{, }\FunctionTok{round}\NormalTok{(pct\_change\_method2, }\DecValTok{2}\NormalTok{), }\StringTok{"\%}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Percentage change: -28.09 %
+\end{verbatim}
+
+\textbf{Same answer!} The peso fell 28\%.
+
+\textbf{Teaching Point:} Many students find Method 2 more intuitive
+because it follows the standard ``end minus beginning over beginning''
+formula. However, both methods MUST give the same answer.
+
+\subsubsection{Practice Problem}\label{practice-problem}
+
+If the Mexican peso changes from MXN 16.00 = USD 1.00 to MXN 20.00 = USD
+1.00, what is the percentage change?
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Mexican peso example}
+\NormalTok{mxn\_begin }\OtherTok{\textless{}{-}} \FloatTok{16.00}
+\NormalTok{mxn\_end }\OtherTok{\textless{}{-}} \FloatTok{20.00}
+
+\CommentTok{\# Calculate percentage change}
+\NormalTok{mxn\_pct\_change }\OtherTok{\textless{}{-}}\NormalTok{ ((mxn\_begin }\SpecialCharTok{{-}}\NormalTok{ mxn\_end) }\SpecialCharTok{/}\NormalTok{ mxn\_end) }\SpecialCharTok{*} \DecValTok{100}
+
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Mexican Peso Change:}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Mexican Peso Change:
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Answer:"}\NormalTok{, }\FunctionTok{round}\NormalTok{(mxn\_pct\_change, }\DecValTok{2}\NormalTok{), }\StringTok{"\%}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Answer: -20 %
+\end{verbatim}
+
+\subsection{Eurocurrencies and the Eurocurrency
+Market}\label{eurocurrencies-and-the-eurocurrency-market}
+
+\textbf{Critical Definition:} Eurocurrencies are deposits of a currency
+held in banks OUTSIDE that currency's home country.
+
+\textbf{Examples:}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Eurodollars}: US dollars deposited in a London bank
+\item
+  \textbf{Euroyen}: Japanese yen deposited in a Singapore bank
+\item
+  \textbf{Eurosterling}: British pounds deposited in a Paris bank
+\end{itemize}
+
+\textbf{Important:} The ``euro'' prefix has NOTHING to do with the
+European currency. This terminology predates the euro.
+
+\subsubsection{Historical Origin (Fascinating
+backstory)}\label{historical-origin-fascinating-backstory}
+
+\begin{itemize}
+\tightlist
+\item
+  Born after WWII
+\item
+  Soviet Union and Eastern European countries held US dollars
+\item
+  Feared US government might freeze these dollar assets
+\item
+  Deposited dollars in European banks instead (particularly in London)
+\item
+  The market grew from there
+\end{itemize}
+
+\subsubsection{Why Does This Market Exist and
+Thrive?}\label{why-does-this-market-exist-and-thrive}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Regulatory Arbitrage}: Fewer regulations than domestic banking
+
+  \begin{itemize}
+  \tightlist
+  \item
+    No reserve requirements
+  \item
+    No deposit insurance costs (like FDIC in the US)
+  \item
+    Less bureaucratic overhead
+  \end{itemize}
+\item
+  \textbf{Narrow Spreads}: The difference between deposit and loan rates
+  is often less than 1\%
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Why? Wholesale market (large transactions, \$500,000+)
+  \item
+    Creditworthy borrowers (corporations, governments)
+  \item
+    Lower overhead costs
+  \end{itemize}
+\item
+  \textbf{Two Primary Functions}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Money market device}: Corporations park excess cash, earning
+    higher interest than domestic alternatives
+  \item
+    \textbf{Lending source}: Companies borrow for working capital, trade
+    finance
+  \end{itemize}
+\end{enumerate}
+
+\textbf{LIBOR Connection:} The London Interbank Offered Rate (LIBOR) is
+the benchmark interest rate for the eurocurrency market. It represents
+the rate at which banks lend to each other in London.
+
+\textbf{Current Developments:} LIBOR is being replaced due to
+manipulation scandals. We'll explore this transition in detail in
+Chapter 8.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Theory of Comparative
+Advantage}\label{theory-of-comparative-advantage}
+
+\subsection{Foundational Economic
+Theory}\label{foundational-economic-theory}
+
+\textbf{Question to class:} ``Why do countries trade with each other?''
+
+The theory of comparative advantage, developed by David Ricardo in 1817
+(building on Adam Smith's work from 1776), provides the intellectual
+foundation for understanding international trade and investment.
+
+\subsection{Core Concepts}\label{core-concepts}
+
+\subsubsection{Absolute Advantage (Adam
+Smith)}\label{absolute-advantage-adam-smith}
+
+\begin{itemize}
+\tightlist
+\item
+  A country should specialize in producing goods it can make most
+  efficiently
+\item
+  Trade these for goods other countries make more efficiently
+\item
+  Result: More total production, lower prices, higher quality of life
+\end{itemize}
+
+\subsubsection{Comparative Advantage (David
+Ricardo)}\label{comparative-advantage-david-ricardo}
+
+\begin{itemize}
+\tightlist
+\item
+  Even if one country has absolute advantage in producing EVERYTHING,
+  both countries benefit from specialization
+\item
+  Each country should specialize in what it does RELATIVELY better
+\item
+  The key word is ``comparative'' - relative, not absolute
+\end{itemize}
+
+\subsubsection{Simple Example}\label{simple-example}
+
+Imagine two countries - the US and China:
+
+\begin{itemize}
+\tightlist
+\item
+  US: Can produce either 100 computers OR 100 bushels of wheat with the
+  same resources
+\item
+  China: Can produce either 50 computers OR 150 bushels of wheat with
+  the same resources
+\end{itemize}
+
+Even though the US has absolute advantage in computers, China might
+still have comparative advantage in wheat production if the opportunity
+costs differ appropriately.
+
+\subsection{Modern Reality vs.~Theory}\label{modern-reality-vs.-theory}
+
+The textbook presents important limitations to pure comparative
+advantage theory:
+
+\subsubsection{Government Interference}\label{government-interference}
+
+\begin{itemize}
+\tightlist
+\item
+  Tariffs and quotas
+\item
+  Subsidies to domestic industries
+\item
+  Political motivations (food security, defense industries, employment
+  goals)
+\end{itemize}
+
+\textbf{Example:} Many countries protect their agricultural sectors even
+when they're not the most efficient producers, because food security is
+considered a national security issue.
+
+\subsubsection{Factor Mobility}\label{factor-mobility}
+
+\begin{itemize}
+\tightlist
+\item
+  Classical theory assumed factors of production (land, labor, capital)
+  stayed within countries
+\item
+  Modern reality: Capital flows freely across borders
+\item
+  Technology transfers rapidly
+\item
+  Even labor moves (though less freely than capital)
+\end{itemize}
+
+\subsubsection{More Complex Factors of
+Production}\label{more-complex-factors-of-production}
+
+Modern location decisions consider:
+
+\begin{itemize}
+\tightlist
+\item
+  Managerial expertise
+\item
+  Legal and regulatory environment
+\item
+  R\&D capabilities
+\item
+  Education levels of workforce
+\item
+  Infrastructure quality
+\item
+  Access to capital markets
+\item
+  Tax differentials
+\item
+  Political stability
+\end{itemize}
+
+\subsubsection{Comparative Advantage Shifts Over
+Time}\label{comparative-advantage-shifts-over-time}
+
+\textbf{Powerful Example from Textbook:}
+
+Cotton textile production comparative advantage has shifted over 150
+years:
+
+\begin{itemize}
+\tightlist
+\item
+  United Kingdom (1800s) → United States (early 1900s) → Japan
+  (mid-1900s) → Hong Kong → Taiwan → China (present)
+\end{itemize}
+
+This illustrates how comparative advantage is dynamic, not static.
+
+\subsection{Relevance Today}\label{relevance-today}
+
+Despite limitations, comparative advantage remains highly relevant:
+
+\textbf{Modern Application:} Service outsourcing and the global supply
+chain
+
+\begin{itemize}
+\tightlist
+\item
+  Financial back offices in Manila (Philippines)
+\item
+  IT engineering in Hungary and India
+\item
+  Manufacturing in Vietnam and Bangladesh
+\item
+  Design and innovation in Silicon Valley
+\end{itemize}
+
+\textbf{Key Insight:} Modern comparative advantage is based on:
+
+\begin{itemize}
+\tightlist
+\item
+  Labor skills and costs
+\item
+  Access to capital
+\item
+  Technology and innovation capacity
+\item
+  Telecommunications infrastructure
+\end{itemize}
+
+\textbf{Question for Discussion:} ``Can you think of services or
+products where the US maintains comparative advantage?''
+
+(Expected answers: innovation, higher education, entertainment, certain
+high-tech manufacturing)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{What Makes International Finance Different? (15
+minutes)}\label{what-makes-international-finance-different-15-minutes}
+
+\subsection{Framework for Understanding
+Differences}\label{framework-for-understanding-differences}
+
+International financial management differs from domestic finance in six
+key dimensions:
+
+\subsection{Culture, History, and Institutional
+Differences}\label{culture-history-and-institutional-differences}
+
+\subsubsection{Cultural Challenges}\label{cultural-challenges}
+
+\begin{itemize}
+\tightlist
+\item
+  Business practices vary enormously
+\item
+  Contract interpretation differences
+\item
+  Relationship vs.~transaction orientation
+\item
+  Time orientation (short-term vs.~long-term)
+\end{itemize}
+
+\textbf{Example:} In many Asian business cultures, building
+relationships (guanxi in China) is prerequisite to doing business. In
+the US, contracts often precede relationships.
+
+\subsubsection{Historical Context}\label{historical-context}
+
+\begin{itemize}
+\tightlist
+\item
+  Legal systems differ (common law vs.~civil law vs.~religious law)
+\item
+  Accounting standards vary (though IFRS is harmonizing some)
+\item
+  Property rights protection differs dramatically
+\end{itemize}
+
+\subsubsection{Institutional Frameworks}\label{institutional-frameworks}
+
+\begin{itemize}
+\tightlist
+\item
+  Banking system structures
+\item
+  Capital market development levels
+\item
+  Government roles in economy
+\item
+  Corruption and governance quality
+\end{itemize}
+
+\textbf{Real World Impact:} A company expanding to a new country must
+understand these differences. What works in New York may fail in Mumbai
+or Moscow - not because the financial principles are different, but
+because the operating environment is different.
+
+\subsection{Corporate Governance
+Differences}\label{corporate-governance-differences}
+
+\textbf{Critical Point:} Not all countries have the same ownership
+structures or governance models.
+
+\subsubsection{Three Primary Models}\label{three-primary-models}
+
+\textbf{1. Anglo-American Model:}
+
+\begin{itemize}
+\tightlist
+\item
+  Dispersed shareholders
+\item
+  Active stock markets
+\item
+  Strong shareholder rights
+\item
+  Goal: Maximize shareholder value
+\item
+  Examples: US, UK, Canada, Australia
+\end{itemize}
+
+\textbf{2. Continental European Model:}
+
+\begin{itemize}
+\tightlist
+\item
+  Concentrated ownership (families, banks, other corporations)
+\item
+  Stakeholder orientation (employees, community, shareholders)
+\item
+  Bank-centered finance
+\item
+  Examples: Germany, France, Italy
+\end{itemize}
+
+\textbf{3. Asian Model:}
+
+\begin{itemize}
+\tightlist
+\item
+  Often family-controlled (even in public companies)
+\item
+  Keiretsu in Japan, Chaebol in Korea
+\item
+  Network relationships important
+\item
+  State ownership common (especially China)
+\end{itemize}
+
+\textbf{Why This Matters:}
+
+\begin{itemize}
+\tightlist
+\item
+  Affects access to capital
+\item
+  Influences financial decisions
+\item
+  Determines accountability structures
+\item
+  Shapes strategic objectives
+\end{itemize}
+
+\subsection{Foreign Exchange Risk}\label{foreign-exchange-risk}
+
+\textbf{This is THE defining characteristic of international finance.}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Domestic firm:} All transactions in one currency
+\item
+  \textbf{International trading firm:} Some transactions in foreign
+  currencies (import/export)
+\item
+  \textbf{Multinational firm:} Extensive foreign currency exposure
+  through:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Foreign sales and revenues
+  \item
+    Foreign costs and expenses\\
+  \item
+    Foreign assets and liabilities
+  \item
+    Foreign subsidiary operations
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{Types of Foreign Exchange
+Exposure}\label{types-of-foreign-exchange-exposure}
+
+\textbf{1. Transaction Exposure:}
+
+\begin{itemize}
+\tightlist
+\item
+  Committed but not yet settled foreign currency transactions
+\item
+  Example: US company sells to German customer, invoice for €1 million
+  due in 90 days
+\item
+  Risk: Euro value could fall during 90 days
+\end{itemize}
+
+\textbf{2. Translation (Accounting) Exposure:}
+
+\begin{itemize}
+\tightlist
+\item
+  Converting foreign subsidiary financial statements to home currency
+\item
+  Even if foreign operations are stable, exchange rate changes affect
+  reported results
+\end{itemize}
+
+\textbf{3. Economic (Operating) Exposure:}
+
+\begin{itemize}
+\tightlist
+\item
+  Long-term competitiveness effects from exchange rate changes
+\item
+  Hardest to measure but potentially most significant
+\end{itemize}
+
+\subsubsection{Classroom Example: Ganado
+Corporation}\label{classroom-example-ganado-corporation}
+
+Let's create a simple consolidation example:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Create a data frame for Ganado\textquotesingle{}s subsidiaries}
+\FunctionTok{library}\NormalTok{(knitr)}
+
+\NormalTok{subsidiaries }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}
+  \AttributeTok{Subsidiary =} \FunctionTok{c}\NormalTok{(}\StringTok{"US Parent"}\NormalTok{, }\StringTok{"Europe"}\NormalTok{, }\StringTok{"China"}\NormalTok{),}
+  \AttributeTok{Currency =} \FunctionTok{c}\NormalTok{(}\StringTok{"USD"}\NormalTok{, }\StringTok{"EUR"}\NormalTok{, }\StringTok{"CNY"}\NormalTok{),}
+  \AttributeTok{Sales\_Local =} \FunctionTok{c}\NormalTok{(}\FloatTok{300.0}\NormalTok{, }\FloatTok{120.0}\NormalTok{, }\FloatTok{600.0}\NormalTok{),}
+  \AttributeTok{Earnings\_Local =} \FunctionTok{c}\NormalTok{(}\FloatTok{28.6}\NormalTok{, }\FloatTok{10.5}\NormalTok{, }\FloatTok{71.4}\NormalTok{),}
+  \AttributeTok{Exchange\_Rate =} \FunctionTok{c}\NormalTok{(}\FloatTok{1.0000}\NormalTok{, }\FloatTok{1.1200}\NormalTok{, }\FloatTok{0.1515}\NormalTok{),}
+  \AttributeTok{Rate\_Description =} \FunctionTok{c}\NormalTok{(}\StringTok{"USD 1.00 = USD 1.00"}\NormalTok{, }
+                       \StringTok{"USD 1.12 = EUR 1.00"}\NormalTok{, }
+                       \StringTok{"CNY 6.60 = USD 1.00"}\NormalTok{)}
+\NormalTok{)}
+
+\CommentTok{\# Calculate USD equivalents}
+\NormalTok{subsidiaries}\SpecialCharTok{$}\NormalTok{Sales\_USD }\OtherTok{\textless{}{-}}\NormalTok{ subsidiaries}\SpecialCharTok{$}\NormalTok{Sales\_Local }\SpecialCharTok{*}\NormalTok{ subsidiaries}\SpecialCharTok{$}\NormalTok{Exchange\_Rate}
+\NormalTok{subsidiaries}\SpecialCharTok{$}\NormalTok{Earnings\_USD }\OtherTok{\textless{}{-}}\NormalTok{ subsidiaries}\SpecialCharTok{$}\NormalTok{Earnings\_Local }\SpecialCharTok{*}\NormalTok{ subsidiaries}\SpecialCharTok{$}\NormalTok{Exchange\_Rate}
+
+\CommentTok{\# Display the consolidation}
+\FunctionTok{kable}\NormalTok{(subsidiaries, }
+      \AttributeTok{caption =} \StringTok{"Ganado Corporation {-} Consolidated Results"}\NormalTok{,}
+      \AttributeTok{digits =} \DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1058}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0865}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1154}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1442}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1346}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1923}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0962}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}@{}}
+\caption{Ganado Corporation - Consolidated Results}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Subsidiary
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Currency
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Sales\_Local
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Earnings\_Local
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Exchange\_Rate
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Rate\_Description
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Sales\_USD
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Earnings\_USD
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Subsidiary
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Currency
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Sales\_Local
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Earnings\_Local
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Exchange\_Rate
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Rate\_Description
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Sales\_USD
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Earnings\_USD
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+US Parent & USD & 300 & 28.6 & 1.00 & USD 1.00 = USD 1.00 & 300.0 &
+28.60 \\
+Europe & EUR & 120 & 10.5 & 1.12 & USD 1.12 = EUR 1.00 & 134.4 &
+11.76 \\
+China & CNY & 600 & 71.4 & 0.15 & CNY 6.60 = USD 1.00 & 90.9 & 10.82 \\
+\end{longtable}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Calculate totals}
+\FunctionTok{cat}\NormalTok{(}\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{Consolidated Totals:}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+
+Consolidated Totals:
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Total Sales (USD millions):"}\NormalTok{, }\FunctionTok{round}\NormalTok{(}\FunctionTok{sum}\NormalTok{(subsidiaries}\SpecialCharTok{$}\NormalTok{Sales\_USD), }\DecValTok{2}\NormalTok{), }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Total Sales (USD millions): 525.3 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Total Earnings (USD millions):"}\NormalTok{, }\FunctionTok{round}\NormalTok{(}\FunctionTok{sum}\NormalTok{(subsidiaries}\SpecialCharTok{$}\NormalTok{Earnings\_USD), }\DecValTok{2}\NormalTok{), }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Total Earnings (USD millions): 51.18 
+\end{verbatim}
+
+\textbf{Question:} ``If the euro falls from \$1.12 to \$1.00, what
+happens to consolidated earnings, even if European operations don't
+change?''
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Original scenario}
+\NormalTok{eur\_earnings\_local }\OtherTok{\textless{}{-}} \FloatTok{10.5}  \CommentTok{\# million EUR}
+\NormalTok{exchange\_rate\_original }\OtherTok{\textless{}{-}} \FloatTok{1.12}
+\NormalTok{earnings\_usd\_original }\OtherTok{\textless{}{-}}\NormalTok{ eur\_earnings\_local }\SpecialCharTok{*}\NormalTok{ exchange\_rate\_original}
+
+\CommentTok{\# New scenario {-} euro depreciates}
+\NormalTok{exchange\_rate\_new }\OtherTok{\textless{}{-}} \FloatTok{1.00}
+\NormalTok{earnings\_usd\_new }\OtherTok{\textless{}{-}}\NormalTok{ eur\_earnings\_local }\SpecialCharTok{*}\NormalTok{ exchange\_rate\_new}
+
+\CommentTok{\# Calculate impact}
+\NormalTok{impact }\OtherTok{\textless{}{-}}\NormalTok{ earnings\_usd\_new }\SpecialCharTok{{-}}\NormalTok{ earnings\_usd\_original}
+
+\FunctionTok{cat}\NormalTok{(}\StringTok{"European Subsidiary Earnings Analysis:}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+European Subsidiary Earnings Analysis:
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Local currency earnings (EUR): €"}\NormalTok{, eur\_earnings\_local, }\StringTok{"million (unchanged)}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Local currency earnings (EUR): € 10.5 million (unchanged)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{Original scenario:}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+
+Original scenario:
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"  Exchange rate: $"}\NormalTok{, exchange\_rate\_original, }\StringTok{"/€}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  Exchange rate: $ 1.12 /€
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"  USD earnings: $"}\NormalTok{, }\FunctionTok{round}\NormalTok{(earnings\_usd\_original, }\DecValTok{2}\NormalTok{), }\StringTok{"million}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  USD earnings: $ 11.76 million
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{New scenario (euro depreciation):}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+
+New scenario (euro depreciation):
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"  Exchange rate: $"}\NormalTok{, exchange\_rate\_new, }\StringTok{"/€}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  Exchange rate: $ 1 /€
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"  USD earnings: $"}\NormalTok{, }\FunctionTok{round}\NormalTok{(earnings\_usd\_new, }\DecValTok{2}\NormalTok{), }\StringTok{"million}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  USD earnings: $ 10.5 million
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{Impact on consolidated earnings: $"}\NormalTok{, }\FunctionTok{round}\NormalTok{(impact, }\DecValTok{2}\NormalTok{), }\StringTok{"million}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+
+Impact on consolidated earnings: $ -1.26 million
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Percentage decline: "}\NormalTok{, }\FunctionTok{round}\NormalTok{((impact}\SpecialCharTok{/}\NormalTok{earnings\_usd\_original)}\SpecialCharTok{*}\DecValTok{100}\NormalTok{, }\DecValTok{1}\NormalTok{), }\StringTok{"\%}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Percentage decline:  -10.7 %
+\end{verbatim}
+
+\textbf{Answer:} Reported earnings fall by over \$1 million purely due
+to translation!
+
+\subsection{Political Risk}\label{political-risk}
+
+\textbf{Definition:} Risk that government actions will adversely affect
+business operations or asset values.
+
+\subsubsection{Types of Political Risk}\label{types-of-political-risk}
+
+\textbf{1. Transfer Risk:}
+
+\begin{itemize}
+\tightlist
+\item
+  Blocked funds (cannot repatriate earnings)
+\item
+  Example: Argentina imposing currency controls
+\end{itemize}
+
+\textbf{2. Expropriation:}
+
+\begin{itemize}
+\tightlist
+\item
+  Government seizure of assets
+\item
+  May or may not include compensation
+\item
+  Less common today but still occurs
+\end{itemize}
+
+\textbf{3. Operational Restrictions:}
+
+\begin{itemize}
+\tightlist
+\item
+  Local content requirements
+\item
+  Technology transfer mandates
+\item
+  Forced joint ventures
+\item
+  Price controls
+\end{itemize}
+
+\textbf{4. Regulatory Changes:}
+
+\begin{itemize}
+\tightlist
+\item
+  Tax law changes
+\item
+  Labor law changes
+\item
+  Environmental regulation
+\end{itemize}
+
+\textbf{Recent Examples:}
+
+\begin{itemize}
+\tightlist
+\item
+  Russia's actions in Ukraine affecting Western companies
+\item
+  China's regulatory crackdowns on tech companies
+\item
+  India's changing tax treatment of foreign firms
+\end{itemize}
+
+\textbf{Key Point:} Political risk is hard to quantify, difficult to
+hedge, but absolutely must be considered in international investment
+decisions.
+
+\subsection{Modifications to Financial
+Theory}\label{modifications-to-financial-theory}
+
+Core financial theories remain valid but require adaptation:
+
+\subsubsection{Cost of Capital}\label{cost-of-capital}
+
+\begin{itemize}
+\tightlist
+\item
+  Must consider multiple country risk premiums
+\item
+  Currency risk affects required returns
+\item
+  Access to global capital markets can LOWER cost of capital
+\end{itemize}
+
+\subsubsection{Capital Budgeting}\label{capital-budgeting}
+
+\begin{itemize}
+\tightlist
+\item
+  Project cash flows may be in foreign currency
+\item
+  Repatriation restrictions must be considered
+\item
+  Country risk must be incorporated
+\item
+  Multiple tax jurisdictions complicate analysis
+\end{itemize}
+
+\subsubsection{Working Capital
+Management}\label{working-capital-management}
+
+\begin{itemize}
+\tightlist
+\item
+  Multiple currencies to manage
+\item
+  International cash pooling opportunities
+\item
+  More complex credit analysis for foreign customers
+\end{itemize}
+
+\subsubsection{Capital Structure}\label{capital-structure}
+
+\begin{itemize}
+\tightlist
+\item
+  Access to foreign debt markets
+\item
+  Currency matching strategies (financing in same currency as revenues)
+\item
+  Different optimal leverage ratios in different countries
+\end{itemize}
+
+\subsection{Modified Financial
+Instruments}\label{modified-financial-instruments}
+
+International finance has adapted standard instruments:
+
+\subsubsection{Currency Derivatives}\label{currency-derivatives}
+
+\begin{itemize}
+\tightlist
+\item
+  Forward contracts
+\item
+  Futures
+\item
+  Options on currencies
+\item
+  Currency swaps
+\end{itemize}
+
+\subsubsection{Interest Rate
+Instruments}\label{interest-rate-instruments}
+
+\begin{itemize}
+\tightlist
+\item
+  Cross-currency interest rate swaps
+\item
+  International bonds (Eurobonds, foreign bonds)
+\end{itemize}
+
+\subsubsection{Trade Finance
+Instruments}\label{trade-finance-instruments}
+
+\begin{itemize}
+\tightlist
+\item
+  Letters of credit
+\item
+  Banker's acceptances
+\item
+  Documentary collections
+\end{itemize}
+
+\textbf{Preview:} We'll study many of these in detail in later chapters.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{The Globalization Process}\label{the-globalization-process}
+
+\subsection{Introducing Ganado
+Corporation}\label{introducing-ganado-corporation}
+
+\textbf{Ganado is our textbook's case company we'll follow throughout
+the semester.}
+
+\subsubsection{Background}\label{background}
+
+\begin{itemize}
+\tightlist
+\item
+  Founded 1948 in Los Angeles
+\item
+  Originally family-owned telecommunications equipment manufacturer
+\item
+  Went public (IPO) in 1988 - became a publicly traded company
+\item
+  Now faces decisions about global expansion
+\end{itemize}
+
+\textbf{Why This Matters:} Ganado's journey mirrors what thousands of
+real companies experience as they globalize.
+
+\subsection{Phase 1: Domestic to International
+Trade}\label{phase-1-domestic-to-international-trade}
+
+\subsubsection{Domestic Phase
+Characteristics}\label{domestic-phase-characteristics}
+
+\begin{itemize}
+\tightlist
+\item
+  All suppliers are domestic (US)
+\item
+  All customers are domestic (US)
+\item
+  All transactions in US dollars
+\item
+  Subject only to US laws and regulations
+\item
+  Credit assessment under familiar US practices
+\end{itemize}
+
+\textbf{Simple and low-risk,} but \textbf{limited growth potential.}
+
+\subsubsection{Catalyst for Change}\label{catalyst-for-change}
+
+NAFTA (North American Free Trade Agreement) created opportunities for
+trade with Mexico and Canada.
+
+\subsubsection{International Trade
+Phase}\label{international-trade-phase}
+
+\begin{itemize}
+\tightlist
+\item
+  BEGIN importing from Mexican suppliers
+\item
+  BEGIN exporting to Canadian customers
+\item
+  NOW dealing with multiple currencies (USD, MXN, CAD)
+\end{itemize}
+
+\subsubsection{Two New Major Challenges}\label{two-new-major-challenges}
+
+\textbf{1. Foreign Exchange Risk:}
+
+\begin{itemize}
+\tightlist
+\item
+  Which currency to quote prices in?
+\item
+  Which currency to accept payment in?
+\item
+  Which currency to pay suppliers in?
+\item
+  What if exchange rates change between agreement and payment?
+\end{itemize}
+
+\textbf{Example:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Ganado quotes Canadian customer}
+\NormalTok{quoted\_price\_cad }\OtherTok{\textless{}{-}} \DecValTok{1000}
+\NormalTok{exchange\_rate\_at\_quote }\OtherTok{\textless{}{-}} \FloatTok{1.25}  \CommentTok{\# CAD per USD}
+\NormalTok{expected\_usd }\OtherTok{\textless{}{-}}\NormalTok{ quoted\_price\_cad }\SpecialCharTok{/}\NormalTok{ exchange\_rate\_at\_quote}
+
+\CommentTok{\# By payment time, CAD depreciates}
+\NormalTok{exchange\_rate\_at\_payment }\OtherTok{\textless{}{-}} \FloatTok{1.30}
+\NormalTok{actual\_usd }\OtherTok{\textless{}{-}}\NormalTok{ quoted\_price\_cad }\SpecialCharTok{/}\NormalTok{ exchange\_rate\_at\_payment}
+
+\NormalTok{loss }\OtherTok{\textless{}{-}}\NormalTok{ actual\_usd }\SpecialCharTok{{-}}\NormalTok{ expected\_usd}
+
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Foreign Exchange Risk Example:}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Foreign Exchange Risk Example:
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Quoted price: CAD"}\NormalTok{, quoted\_price\_cad, }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Quoted price: CAD 1000 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Exchange rate at quote: CAD"}\NormalTok{, exchange\_rate\_at\_quote, }\StringTok{"= USD 1.00}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Exchange rate at quote: CAD 1.25 = USD 1.00
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Expected USD receipt: $"}\NormalTok{, }\FunctionTok{round}\NormalTok{(expected\_usd, }\DecValTok{2}\NormalTok{), }\StringTok{"}\SpecialCharTok{\textbackslash{}n\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Expected USD receipt: $ 800 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Exchange rate at payment: CAD"}\NormalTok{, exchange\_rate\_at\_payment, }\StringTok{"= USD 1.00}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Exchange rate at payment: CAD 1.3 = USD 1.00
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Actual USD receipt: $"}\NormalTok{, }\FunctionTok{round}\NormalTok{(actual\_usd, }\DecValTok{2}\NormalTok{), }\StringTok{"}\SpecialCharTok{\textbackslash{}n\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Actual USD receipt: $ 769.23 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cat}\NormalTok{(}\StringTok{"Loss due to currency movement: $"}\NormalTok{, }\FunctionTok{round}\NormalTok{(loss, }\DecValTok{2}\NormalTok{), }\StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Loss due to currency movement: $ -30.77 
+\end{verbatim}
+
+\textbf{2. Credit Risk Assessment:}
+
+\begin{itemize}
+\tightlist
+\item
+  How creditworthy is Mexican supplier?
+\item
+  Will Canadian customer actually pay?
+\item
+  Different business practices
+\item
+  Different legal systems
+\item
+  Different bankruptcy laws
+\item
+  Less available information
+\end{itemize}
+
+\textbf{Key Point:} Even in this relatively simple international trade
+phase, financial management complexity increases dramatically compared
+to purely domestic operations.
+
+\subsection{Phase 2: International Trade to Multinational
+Enterprise}\label{phase-2-international-trade-to-multinational-enterprise}
+
+\textbf{Critical Decision Point:} At some point, successful
+international trading leads companies to consider foreign direct
+investment (FDI).
+
+\subsubsection{Why Make This Leap?}\label{why-make-this-leap}
+
+\textbf{Strategic Motivations (Five Categories):}
+
+\textbf{1. Market Seekers:}
+
+\begin{itemize}
+\tightlist
+\item
+  Produce in foreign markets to serve local demand
+\item
+  Overcome trade barriers
+\item
+  Get closer to customers
+\item
+  Example: US auto manufacturers in Europe
+\end{itemize}
+
+\textbf{2. Raw Material Seekers:}
+
+\begin{itemize}
+\tightlist
+\item
+  Access natural resources where they're located
+\item
+  Mining, oil, forestry, agricultural products
+\item
+  Example: Oil companies drilling in Middle East
+\end{itemize}
+
+\textbf{3. Production Efficiency Seekers:}
+
+\begin{itemize}
+\tightlist
+\item
+  Take advantage of lower-cost factors of production
+\item
+  Especially labor
+\item
+  Example: Electronics assembly in Malaysia, Vietnam
+\end{itemize}
+
+\textbf{4. Knowledge Seekers:}
+
+\begin{itemize}
+\tightlist
+\item
+  Access technology, expertise, innovation
+\item
+  Example: Japanese and German companies buying US tech firms
+\end{itemize}
+
+\textbf{5. Political Safety Seekers:}
+
+\begin{itemize}
+\tightlist
+\item
+  Diversify political risk
+\item
+  Example: Hong Kong firms investing in Canada, Australia before 1997
+  Chinese takeover
+\end{itemize}
+
+\textbf{Important Note:} These are not mutually exclusive. One
+investment may serve multiple purposes.
+
+\subsection{The Foreign Direct Investment
+Spectrum}\label{the-foreign-direct-investment-spectrum}
+
+\subsubsection{Increasing Foreign Presence (Low to
+High)}\label{increasing-foreign-presence-low-to-high}
+
+\textbf{1. Exporting from Home Production}
+
+\begin{itemize}
+\tightlist
+\item
+  Lowest commitment
+\item
+  Maintain control
+\item
+  Limited foreign presence
+\end{itemize}
+
+\textbf{2. Licensing to Foreign Firms}
+
+\begin{itemize}
+\tightlist
+\item
+  Foreign company produces under your brand/technology
+\item
+  Receive royalties
+\item
+  Low capital investment
+\item
+  Risk: Creating future competitors, loss of quality control
+\end{itemize}
+
+\textbf{3. Joint Venture}
+
+\begin{itemize}
+\tightlist
+\item
+  Partner with local firm (often 50-50 ownership)
+\item
+  Share investment, share risks, share rewards
+\item
+  Common in countries requiring local partners
+\item
+  Challenge: Potential conflicts with partner
+\end{itemize}
+
+\textbf{4. Wholly-Owned Subsidiary - Greenfield}
+
+\begin{itemize}
+\tightlist
+\item
+  Build new facilities from scratch (``greenfield'')
+\item
+  Full control
+\item
+  High investment
+\item
+  Slow to establish
+\end{itemize}
+
+\textbf{5. Wholly-Owned Subsidiary - Acquisition}
+
+\begin{itemize}
+\tightlist
+\item
+  Buy existing foreign company
+\item
+  Fastest market entry
+\item
+  Immediate operations
+\item
+  Integration challenges
+\item
+  Potentially very expensive
+\end{itemize}
+
+\textbf{Key Insight:} As you move down this list:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Foreign presence increases} (more physical assets, more
+  employees abroad)
+\item
+  \textbf{Managerial intensity increases} (more complex to manage)
+\item
+  \textbf{Capital at risk increases} (more investment)
+\item
+  \textbf{Potential returns increase} (greater opportunities)
+\end{itemize}
+
+\subsection{Consolidation Challenges}\label{consolidation-challenges}
+
+This is a critical practical issue. Once Ganado has foreign
+subsidiaries:
+
+\begin{itemize}
+\tightlist
+\item
+  European subsidiary keeping books in euros
+\item
+  Chinese subsidiary keeping books in yuan
+\item
+  US parent keeping books in dollars
+\end{itemize}
+
+\subsubsection{The Problem}\label{the-problem}
+
+Ganado must periodically (quarterly, annually) produce consolidated
+financial statements in US dollars for:
+
+\begin{itemize}
+\tightlist
+\item
+  Shareholders
+\item
+  SEC (Securities and Exchange Commission) regulations
+\item
+  Tax purposes
+\item
+  Performance evaluation
+\end{itemize}
+
+\subsubsection{The Process}\label{the-process}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Each subsidiary reports in local currency
+\item
+  Convert to common currency (USD) using appropriate exchange rates
+\item
+  Sum to create consolidated totals
+\end{enumerate}
+
+\textbf{Critical Issue:} Exchange rates change constantly. From one
+quarter to the next:
+
+\begin{itemize}
+\tightlist
+\item
+  Foreign subsidiary performance may be stable
+\item
+  BUT exchange rate changes make it look better or worse
+\item
+  This creates ``translation exposure'' or ``accounting exposure''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Limits to Financial Globalization (8
+minutes)}\label{limits-to-financial-globalization-8-minutes}
+
+\subsection{Not All Globalization is Inevitable or
+Beneficial}\label{not-all-globalization-is-inevitable-or-beneficial}
+
+Classical economic theory suggests capital should flow freely to its
+most productive uses globally. \textbf{Reality is more complex.}
+
+\subsection{The ``Twin Agency
+Problems''}\label{the-twin-agency-problems}
+
+\textbf{Agency Problem Definition:} When someone managing assets (agent)
+has different interests than the asset owners (principals)
+
+\subsubsection{First Agency Problem - Corporate
+Insiders}\label{first-agency-problem---corporate-insiders}
+
+\begin{itemize}
+\tightlist
+\item
+  Do managers/executives pursue firm value maximization?
+\item
+  OR do they pursue personal wealth/power?
+\end{itemize}
+
+\textbf{Examples of Value-Destroying Insider Actions:}
+
+\begin{itemize}
+\tightlist
+\item
+  Excessive compensation
+\item
+  Empire building (growth for prestige, not returns)
+\item
+  Resistance to beneficial takeovers
+\item
+  Related-party transactions that benefit insiders
+\end{itemize}
+
+\subsubsection{Second Agency Problem - Government/Sovereign
+Insiders}\label{second-agency-problem---governmentsovereign-insiders}
+
+\begin{itemize}
+\tightlist
+\item
+  Do political leaders pursue national economic welfare?
+\item
+  OR do they pursue personal power/wealth?
+\end{itemize}
+
+\textbf{Examples:}
+
+\begin{itemize}
+\tightlist
+\item
+  Corruption
+\item
+  Expropriation
+\item
+  Capital controls that harm economy but protect political power
+\item
+  Regulatory capture
+\end{itemize}
+
+\subsection{Consequences for Global Capital
+Flows}\label{consequences-for-global-capital-flows}
+
+\textbf{IF corporate and government insiders pursue value maximization:}
+
+→ Capital flows to these opportunities\\
+→ Financial globalization INCREASES\\
+→ Benefits widely shared
+
+\textbf{IF insiders pursue personal agendas:}
+
+→ Capital avoids these situations\\
+→ Financial globalization LIMITED\\
+→ Creates ``winners'' and ``losers''\\
+→ Segmented markets
+
+\subsubsection{Real-World Examples}\label{real-world-examples}
+
+\textbf{Positive Examples (Attracting Capital):}
+
+\begin{itemize}
+\tightlist
+\item
+  Singapore: Strong rule of law, low corruption, excellent governance
+\item
+  Result: Major financial center despite small size
+\end{itemize}
+
+\textbf{Negative Examples (Capital Flight):}
+
+\begin{itemize}
+\tightlist
+\item
+  Venezuela: Expropriation, corruption, poor governance
+\item
+  Result: Economic collapse, capital flees
+\end{itemize}
+
+\subsection{Contemporary Challenges}\label{contemporary-challenges}
+
+\subsubsection{Three Current Issues}\label{three-current-issues}
+
+\textbf{1. Inequality:}
+
+\begin{itemize}
+\tightlist
+\item
+  Globalization benefits not evenly distributed
+\item
+  Within-country inequality increasing
+\item
+  ``Left behind'' populations creating political backlash
+\end{itemize}
+
+\textbf{2. Regulatory Arbitrage:}
+
+\begin{itemize}
+\tightlist
+\item
+  Companies structure operations to minimize taxes
+\item
+  ``Tax havens'' and profit shifting
+\item
+  Creates political tensions
+\end{itemize}
+
+\textbf{3. National Security vs.~Economic Efficiency:}
+
+\begin{itemize}
+\tightlist
+\item
+  Growing restrictions on foreign investment in ``strategic'' sectors
+\item
+  Technology transfer concerns
+\item
+  Supply chain security concerns
+\end{itemize}
+
+\textbf{Example:} US restrictions on Chinese investment in American
+technology companies, even when economically beneficial.
+
+\subsection{The Path Forward}\label{the-path-forward}
+
+\begin{quote}
+``Welcome to the future. This will be a constant struggle. We need
+leadership, citizenship, and dialogue.''\\
+- Donald Lessard
+\end{quote}
+
+\textbf{Key Takeaway:} Financial globalization is neither inevitable nor
+uniformly beneficial. Success requires:
+
+\begin{itemize}
+\tightlist
+\item
+  Strong institutions
+\item
+  Good governance\\
+\item
+  Ethical leadership
+\item
+  Informed citizenry
+\item
+  Ongoing dialogue and adaptation
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Conclusion and Synthesis (5
+minutes)}\label{conclusion-and-synthesis-5-minutes}
+
+\subsection{Connecting the Dots}\label{connecting-the-dots}
+
+Let me bring together today's major themes:
+
+\subsubsection{The Global Financial
+Marketplace}\label{the-global-financial-marketplace-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Complex ecosystem of securities, institutions, and currency linkages
+\item
+  Larger and more interconnected than ever
+\item
+  Creates both opportunities and risks
+\end{itemize}
+
+\subsubsection{Comparative Advantage}\label{comparative-advantage}
+
+\begin{itemize}
+\tightlist
+\item
+  Still explains why international trade benefits countries
+\item
+  Modern version focuses on services, skills, technology
+\item
+  Dynamic, not static - shifts over time
+\end{itemize}
+
+\subsubsection{What Makes International Finance
+Unique}\label{what-makes-international-finance-unique}
+
+\begin{itemize}
+\tightlist
+\item
+  Foreign exchange risk
+\item
+  Political risk
+\item
+  Cultural and institutional differences
+\item
+  Corporate governance variations
+\item
+  Required modifications to financial theories and instruments
+\end{itemize}
+
+\subsubsection{The Globalization
+Journey}\label{the-globalization-journey}
+
+\begin{itemize}
+\tightlist
+\item
+  Progression from domestic → international trade → multinational
+\item
+  Each phase brings new opportunities and new complexities
+\item
+  Not all firms should fully globalize
+\item
+  Not all globalization creates value
+\end{itemize}
+
+\subsubsection{Limits and Challenges}\label{limits-and-challenges}
+
+\begin{itemize}
+\tightlist
+\item
+  Agency problems at corporate and sovereign levels
+\item
+  Potential for value destruction
+\item
+  Ongoing tension between efficiency and other goals (security, equity,
+  stability)
+\end{itemize}
+
+\subsection{Looking Ahead}\label{looking-ahead}
+
+\textbf{Next chapters will build on this foundation:}
+
+\begin{itemize}
+\tightlist
+\item
+  Chapter 2: International Monetary System - How currencies interact,
+  exchange rate regimes
+\item
+  Chapter 3: Balance of Payments - How we track international flows
+\item
+  Chapter 4: Corporate Governance in depth - Different models worldwide
+\item
+  Later: Foreign exchange markets, currency derivatives, international
+  investment, multinational capital budgeting
+\end{itemize}
+
+\subsection{Why This Matters to You}\label{why-this-matters-to-you}
+
+\subsubsection{Career Relevance}\label{career-relevance}
+
+\begin{itemize}
+\tightlist
+\item
+  Almost every major company operates internationally
+\item
+  Understanding these concepts makes you more valuable
+\item
+  Finance, marketing, operations, strategy all require international
+  awareness
+\end{itemize}
+
+\subsubsection{Citizenship}\label{citizenship}
+
+\begin{itemize}
+\tightlist
+\item
+  Trade policy
+\item
+  Tax policy
+\item
+  Immigration
+\item
+  National security
+\end{itemize}
+
+All involve international finance concepts.
+
+\subsubsection{Personal Finance}\label{personal-finance}
+
+\begin{itemize}
+\tightlist
+\item
+  International diversification
+\item
+  Currency considerations
+\item
+  Understanding global markets
+\end{itemize}
+
+\subsection{Practical Advice for Success in This
+Course}\label{practical-advice-for-success-in-this-course}
+
+\subsubsection{Stay Current}\label{stay-current}
+
+\begin{itemize}
+\tightlist
+\item
+  Read \emph{Financial Times}, \emph{Wall Street Journal}, \emph{The
+  Economist}
+\item
+  Follow exchange rates
+\item
+  Track international business news
+\end{itemize}
+
+\subsubsection{Think Critically}\label{think-critically}
+
+\begin{itemize}
+\tightlist
+\item
+  Don't just memorize formulas
+\item
+  Understand the ``why'' behind concepts
+\item
+  Question assumptions
+\end{itemize}
+
+\subsubsection{Connect Concepts}\label{connect-concepts}
+
+\begin{itemize}
+\tightlist
+\item
+  International finance is integrative
+\item
+  Links to economics, politics, strategy, culture
+\item
+  Make connections across chapters
+\end{itemize}
+
+\subsubsection{Use Real Examples}\label{use-real-examples}
+
+\begin{itemize}
+\tightlist
+\item
+  Apply concepts to companies you know
+\item
+  Follow a multinational company throughout semester
+\item
+  Analyze current events through international finance lens
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Questions and Discussion (5-10
+minutes)}\label{questions-and-discussion-5-10-minutes}
+
+\subsection{Check for Understanding}\label{check-for-understanding}
+
+\textbf{Key Questions to Pose:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  ``Can someone explain in their own words what makes the eurocurrency
+  market different from domestic banking?''
+\item
+  ``Why might a country with absolute advantage in producing everything
+  still benefit from trade?''
+\item
+  ``What's the single biggest risk factor that distinguishes
+  international from domestic finance?''
+\item
+  ``If the dollar strengthens against all foreign currencies, what
+  generally happens to US multinationals' consolidated earnings, all
+  else equal?''
+\end{enumerate}
+
+\subsection{Preview Next Class}\label{preview-next-class}
+
+\textbf{Next session we'll dive into:}
+
+\begin{itemize}
+\tightlist
+\item
+  The International Monetary System (Chapter 2)
+\item
+  Fixed vs.~floating exchange rates
+\item
+  The role of the IMF and World Bank
+\item
+  Major currency crises in history
+\item
+  The future of the dollar as reserve currency
+\end{itemize}
+
+\textbf{Assignment for Next Class:}
+
+\begin{itemize}
+\tightlist
+\item
+  Read Chapter 2
+\item
+  Find a current article about exchange rate movements
+\item
+  Be prepared to discuss why that currency moved
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Final Thoughts (2 minutes)}\label{final-thoughts-2-minutes}
+
+International finance is one of the most dynamic, challenging, and
+relevant fields in business today. Every concept we study has real-world
+application. Every formula we learn represents actual business
+decisions.
+
+The world is more connected than ever, which creates unprecedented
+opportunities for those who understand how to navigate the global
+financial marketplace. It also creates risks for those who don't.
+
+My goal is to help you develop not just technical competence, but also
+strategic insight and critical thinking about international finance.
+This first chapter laid the foundation - now we build.
+
+See you next class. Please review Chapter 1, attempt the practice
+problems, and don't hesitate to email me with questions.
+
+
+
+
+\end{document}

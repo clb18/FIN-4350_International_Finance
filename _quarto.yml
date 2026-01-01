@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "International Finance"
+  site-url: "https://clb18.github.io/FIN-4350_International_Finance"
+  repo-url: "https://github.com/clb18/FIN-4350_International_Finance"
+  
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Syllabus
+        href: syllabus.qmd
+      - text: Schedule
+        href: schedule.qmd
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - section: "Lecture Notes"
+        contents: lectures
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    number-sections: true
+    # css: styles.css

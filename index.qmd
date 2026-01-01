@@ -1,0 +1,21 @@
+---
+title: "International Finance"
+---
+
+## Course overview
+
+Brief description of the course (1–2 paragraphs).
+
+## Important dates
+
+-   **Mon, Aug 28** — First day of class
+-   **Wed, Oct 11** — Proposal due
+-   **Wed, Dec 6** — Final exam
+
+## Topics covered
+
+1.  [Reading and writing data](lectures/ch01.qmd)
+2.  [Variable selection](lectures/ch02.qmd)
+3.  [Specification: dummies, interactions, polynomials](lectures/ch03.qmd)
+4.  [Data cleaning; modifying variables; estimating a model](lectures/ch04.qmd)
+5.  ...
