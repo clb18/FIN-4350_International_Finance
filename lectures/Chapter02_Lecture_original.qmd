@@ -1,0 +1,337 @@
+---
+title: "Chapter 2 - International Monetary System"
+author: "Prof. Barker"
+date: today
+
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    toc-expand: 1
+    number-sections: true
+    title-block-style: default
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+---
+
+# Chapter 2: International Monetary System
+
+\ "The price of every thing rises and falls from time to time and place to place; and with every such change the purchasing power of money changes so far as that thing goes."\
+\ — Alfred Marshall
+
+## Chapter Roadmap {.unnumbered}
+
+Major section:
+
+1.  **The History of the International Monetary System** - How did we get here?
+2.  **Fixed versus Flexible Exchange Rates** - What are they and how do we choose?
+3.  **The Impossible Trinity** - The trilemma of international finance.
+4.  **A Single Currency for Europe: The Euro** - How companies evolve from domestic to truly global operations
+5.  **Internationalization of the Chinese RMB** - The Chinese approach
+6.  **Emerging Markets and Regime Choices** - The Final Frontier?
+
+
+------------------------------------------------------------------------
+
+## Part 1: History of the International Monetary System
+
+### The Classical Gold Standard (1879-1913)
+
+**How It Worked:** - Each currency pegged to fixed amount of gold - Example: \$20.67 = 1 oz gold (US), £4.2474 = 1 oz gold (UK) - Therefore: \$20.67/£4.2474 = \$4.87/£1 - Exchange rates FIXED through gold link
+
+**Czar Nicholas II's 1894 Bond Example:** - 100-year Russian bearer bond - Payable in SIX currencies: roubles, francs, marks, pounds, florins, dollars - Possible because fixed exchange rates made all currencies predictable - Investors received interest in currency of choice
+
+**Rules of the Game:** 1. Governments buy/sell gold on demand at fixed parity 2. Requires maintaining gold reserves 3. Money supply limited to rate of gold acquisition 4. Inherently anti-inflationary
+
+**Why It Failed:** - WWI disrupted trade and gold flows - Countries suspended convertibility to finance war - System couldn't handle modern economic pressures
+
+### The Interwar Years and World War II (1914-1944)
+
+**The Chaos:** - Post-WWI: Floating rates led to speculation - Weak currencies sold short, driving them lower - Britain left gold standard 1931 (couldn't maintain reserves) - US modified system 1934 (\$35/oz, central banks only) - Great Depression: Trade collapsed, protectionism rose
+
+**Lesson:** Flexible rates without institutions = instability and reduced trade
+
+### Bretton Woods and the International Monetary Fund (1944-1973)
+
+**The Debate:** - John Maynard Keynes (UK): Wanted flexibility - Harry Dexter White (US): Wanted stability - Compromise: Fixed but adjustable rates
+
+**Three Pillars:**
+
+1.  **Fixed Exchange Rates**
+    -   All currencies pegged to USD
+    -   USD pegged to gold at \$35/oz
+    -   ±1% bands (later ±2.25%)
+    -   Devaluations \<10% without IMF approval
+2.  **International Monetary Fund**
+    -   Temporary assistance for currency defense
+    -   Pool of currencies/gold to lend
+    -   Monitor balance of payments
+3.  **World Bank**
+    -   Postwar reconstruction
+    -   Economic development
+
+**Special Drawing Rights (1969):** Current basket (2016): - US dollar: 41.73% - Euro: 30.93% - Chinese yuan: 10.92% (added 2016!) - Japanese yen: 8.33% - British pound: 8.09%
+
+**Why It Failed:** 1. US dollar overhang (persistent deficits) 2. 1971: Lost 1/3 of gold reserves in 7 months 3. August 15, 1971: Nixon closes gold window 4. March 1973: Currencies float
+
+------------------------------------------------------------------------
+
+## Part 2: Contemporary Regimes (10 minutes)
+
+### IMF Classification (De Facto - Observed Behavior)
+
+**Four Categories:**
+
+1.  **Hard Pegs (13%)**
+    -   Dollarization: Ecuador, Panama, Zimbabwe
+    -   Currency boards: Hong Kong, Bulgaria
+    -   Given up monetary sovereignty
+2.  **Soft Pegs (46%)**
+    -   Conventional pegged
+    -   Stabilized arrangements
+    -   Crawling pegs
+    -   Pegged within bands
+3.  **Floating (34%)**
+    -   With intervention
+    -   Free floating
+4.  **Residual (7%)**
+    -   Frequent policy shifts
+
+**Key Insight:** Distribution stable over past decade - no "best" system emerged
+
+------------------------------------------------------------------------
+
+## Part 3: The Impossible Trinity
+
+### The Core Framework
+
+**Cannot simultaneously have:** 1. Fixed exchange rate 2. Free capital flows 3. Independent monetary policy
+
+**Why Impossible?** - Lower rates to stimulate (independent policy) - Capital flows out to higher rates (free capital) - Currency depreciates - Must raise rates to defend peg (lose independence) - **Contradiction!**
+
+**Three Choices:**
+
+**Point A - China (traditional):** - Want: Monetary independence + Fixed rate - Give up: Free capital flows - Result: Capital controls
+
+**Point B - EU Members:** - Want: Free capital flows + Fixed rates (euro) - Give up: Independent monetary policy\
+- Result: ECB controls all policy
+
+**Point C - US, Japan:** - Want: Monetary independence + Free capital - Give up: Fixed exchange rate - Result: Floating currency
+
+**1997-98 Asian Crisis:** - Countries tried to have all three - When confidence collapsed: massive capital outflows - Couldn't defend fixed rates - Forced to float
+
+**Key Point:** This isn't a suggestion - it's mathematical impossibility. No cheats or workarounds.
+
+------------------------------------------------------------------------
+
+## Part 4: A Single Currency for Europe: The Euro
+
+### Creation Timeline
+
+-   1979: EMS (fixed rate bands)
+-   1991: Maastricht Treaty
+-   1999: Euro launched (11 countries, electronic)
+-   2002: Physical currency
+-   Today: 19 of 28 EU countries
+
+### The Maastricht Treaty and Monetary Union
+
+Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates ≤ 2% above 3 lowest 3. Budget deficit ≤ 3% GDP 4. Debt ≤ 60% GDP 5. Two years exchange rate stability
+
+### European Central Bank (ECB)
+
+-   Frankfurt-based
+-   Independent
+-   Primary mandate: Price stability
+-   Modeled on German Bundesbank
+
+### The Launch of the Euro
+
+### Benefits
+
+1.  Eliminated transaction costs
+2.  Reduced currency risk
+3.  Price transparency
+4.  Increased trade (5-15% boost)
+5.  International presence
+
+### Challenges
+
+1.  **Loss of Monetary Independence** (THE key sacrifice)
+    -   Can't use rates/money supply for local problems
+    -   Spain boom + Germany recession = one ECB rate for both
+2.  **Asymmetric Shocks**
+    -   Different countries, different problems
+    -   One policy doesn't fit all
+3.  **No Fiscal Union**
+    -   Can't print money for debts
+    -   Each country responsible for own debt
+    -   No central budget for transfers
+4.  **Labor Immobility**
+    -   Language/cultural barriers
+    -   Can't adjust like US labor market
+5.  **No Initial Lender of Last Resort**
+
+### Greek Crisis Case Study
+
+**What Happened:** - Joined 2001 - Hid true deficits (12.7% vs 3% limit) - Debt \>120% (vs 60% limit) - 2009: Truth revealed - Interest rates skyrocketed - Couldn't borrow
+
+**The Trap:** - Normally could: devalue currency, print money - With euro: COULDN'T do either - ECB controls currency
+
+**"Solution":** - €300+ billion in bailouts - Harsh austerity: - Cut spending - Raise taxes - Reduce pensions - Fire workers
+
+**Results:** - 25% unemployment (50% youth) - GDP fell 25% - Social unrest - But stayed in eurozone
+
+**Lesson:** Impossible trinity perfectly illustrated - gave up monetary independence, had no tools when crisis hit.
+
+------------------------------------------------------------------------
+
+## Part 5: Emerging Markets (10 minutes)
+
+### Currency Boards: Argentina (1991-2001)
+
+**Structure:** - Every peso backed 100% by US dollars - Government can't print money without reserves - Peso pegged 1:1 to dollar
+
+**Success:** - Inflation: 3,000% → single digits - Economy grew - Confidence restored
+
+**Failure:** - Lost flexibility - Brazil devalued 1999 → Argentine exports uncompetitive - Couldn't devalue - 3-year recession - No lender of last resort - Political pressure
+
+**Collapse (2001-2002):** - Bank deposits frozen - Riots - President resigned - Peso: 1:1 → 4:1
+
+### Dollarization
+
+**Ecuador (2000):** - 1999 crisis: Sucre 25,000 per dollar - Adopted dollar January 2000 - Stability achieved but limited shock response
+
+**El Salvador (2001):** - Lowest inflation in Central America (2%) - Extended growth period - **2021: Added Bitcoin as legal tender!** - First country ever - Highly controversial - Bitcoin volatility vs money functions
+
+**Zimbabwe:** - Hyperinflation: 79.6 billion % per month (2008) - 2009-2019: Multi-currency (USD primary) - 2019: Return to zimdollar → inflation returned - 2020: Back to multi-currency - Jan 2021: Inflation \>350%
+
+**Lesson:** Currency regime won't fix bad fiscal/governance policies
+
+### Calvo & Mishkin (2003)
+
+> "Choice of exchange rate regime is of second order importance to development of good institutions."
+
+**What Matters More:** - Independent central banks - Fiscal discipline - Financial regulation - Rule of law - Open trade
+
+------------------------------------------------------------------------
+
+## Part 6: Chinese RMB (8 minutes)
+
+### Two-Market Structure
+
+**Onshore (CNY):** - Heavily regulated - Capital controls - PBC sets daily parity - Trading within ±1-2%
+
+**Offshore (CNH - Hong Kong):** - More flexible - Less regulated - Panda Bonds issued here - Expanding to Singapore, London
+
+### Three Internationalization Levels
+
+**Level 1: Trade Currency** - Despite being largest trader: - 93% imports in USD - 95% exports in USD - RMB use growing but LOW
+
+**Level 2: Investment Currency** - Gradual opening via: - RQFII program - Bond Connect - Stock Connect - Fear of capital flight
+
+**Level 3: Reserve Currency** - Added to SDR 2016 at 10.92% - 2-3% of global reserves - Forecasts: 15-50% by 2024 (huge range = uncertainty)
+
+### Triffin Dilemma
+
+**The Paradox:** 1. World needs your currency → run deficits to supply it 2. But persistent deficits → growing debt → undermines confidence
+
+**China's Problem:** - To be reserve currency needs: - Current account deficits - Free capital outflows - Policy independence loss - But China has: - Current account surpluses - Tight capital controls - Values independence
+
+### Currency Trading Hubs
+
+**Strategy:** - Clearing centers in: Hong Kong, London, Singapore, Frankfurt, NYC, Sydney - Make RMB accessible globally - But maintain control through approved institutions
+
+------------------------------------------------------------------------
+
+## Part 7: Reserve Currencies & Digital Currency (5 minutes)
+
+### Current Landscape
+
+1.  US Dollar: \~59%
+2.  Euro: \~20%
+3.  Japanese Yen: \~6%
+4.  British Pound: \~5%
+5.  Chinese RMB: \~2-3%
+
+### Why Dollar Dominance
+
+1.  Network effects
+2.  Deep financial markets
+3.  Rule of law
+4.  Military power
+5.  Petrodollar system
+6.  Inertia (switching costs)
+
+### Challenges
+
+1.  US fiscal deficits
+2.  "Weaponization" (sanctions via SWIFT)
+3.  Multipolarity
+4.  Digital currencies
+
+### Digital Yuan (e-CNY)
+
+**Features:** - Government-backed digital RMB - Works offline (near-field communication) - Peer-to-peer transactions - No fees - No bank account required
+
+**Benefits:** - Convenience + government backing - Government gains transaction data - Real-time economic monitoring
+
+**Concerns:** - Privacy (government tracks all) - Control (could have expiration dates) - Surveillance - Bank disintermediation
+
+### Impact on International System
+
+1.  Faster cross-border payments
+2.  Challenge to dollar/SWIFT
+3.  New currency competition dimensions
+4.  Financial inclusion
+
+------------------------------------------------------------------------
+
+## Conclusion (5 minutes)
+
+### Five Key Lessons
+
+1.  **No Perfect Regime**
+    -   All involve tradeoffs
+    -   System always evolving
+2.  **Impossible Trinity Is Real**
+    -   Must choose priorities
+    -   No cheats around it
+3.  **Institutions \> Regimes**
+    -   Strong central banks matter more
+    -   Fiscal discipline crucial
+    -   Rule of law essential
+4.  **Integration Requires Coordination**
+    -   Can't have monetary union without political cooperation
+    -   Greece illustrated limits
+5.  **Change Is Constant**
+    -   Gold → Bretton Woods → Floating → Digital
+    -   Must understand principles, not just current system
+
+------------------------------------------------------------------------
+
+### Discussion Questions
+
+1.  If advising emerging market on regime choice, what factors would you prioritize?
+
+2.  Will the euro survive another major crisis? What would make it more resilient?
+
+3.  Should central banks issue digital currencies? Risks vs benefits?
+
+4.  Will Chinese RMB rival US dollar? What must change?
+
+5.  Is the "impossible trinity" really impossible? Could new tech provide workarounds?
+
+------------------------------------------------------------------------
+
+**Next Class:** Chapter 3 - Balance of Payments
+
+------------------------------------------------------------------------
+
+⸻

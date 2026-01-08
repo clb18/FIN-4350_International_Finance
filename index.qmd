@@ -8,9 +8,10 @@ Brief description of the course (1–2 paragraphs).
 
 ## Important dates
 
--   **Mon, Aug 28** — First day of class
--   **Wed, Oct 11** — Proposal due
--   **Wed, Dec 6** — Final exam
+-   **Mon, Jan 12** — First day of class
+-   **Mon, Jan 19** — No class
+-   **Mon-Fri, Mar 23-27** - Spring Break
+-   **Mon, May 4** — Final exam
 
 ## Topics covered
 

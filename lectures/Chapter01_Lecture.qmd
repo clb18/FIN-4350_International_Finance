@@ -8,23 +8,34 @@ format:
     toc: true
     toc-location: left
     toc-depth: 3
+    toc-expand: 1
     number-sections: true
     title-block-style: default
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+
+
+
 ---
 
-# Introduction and Opening
+# Introduction and Opening {.unnumbered}
 
-## Welcome and Context Setting
+## Welcome and Context Setting {.unnumbered}
 
-Today we begin our journey into the fascinating world of international finance by exploring what makes multinational financial management both uniquely challenging and remarkably rewarding.
+This course is about exploring what makes multinational financial management both uniquely challenging and remarkably rewarding.
 
-**Opening Question to Class:** "How many of you have used a product today that was made by a company operating in multiple countries?"
+**Think about this"** "How often have you have used a product that was made by a company operating in multiple countries?"
 
 This simple exercise demonstrates that we live in a deeply interconnected global economy. The phone in your pocket, the coffee you drank this morning, the streaming service you use - all likely involve multinational enterprises (MNEs) managing complex financial operations across borders.
 
-## Chapter Roadmap
+## Chapter Roadmap {.unnumbered}
 
-Today we'll cover four major learning objectives:
+Four major section:
 
 1.  **The Global Financial Marketplace** - Understanding the players, institutions, and linkages
 2.  **Theory of Comparative Advantage** - Why international trade and investment make economic sense
@@ -35,11 +46,17 @@ Today we'll cover four major learning objectives:
 
 # The Global Financial Marketplace
 
+## The Players
+
+Multinational Enterprises (MNE) are companies or businesses that have operations in more than one country and conduct their business through branches, foreign subsidiaries, or joint ventures with host country firms.
+
 ## The Playing Field
 
 Think of the global financial marketplace as a complex ecosystem with three fundamental components:
 
-### Securities (Financial Assets)
+### Assets (Financial Assets)
+
+These are the debt securities issued by governments. These form the baseline for other forms of financing.
 
 -   At the foundation are government debt securities - US Treasury Bonds, UK gilts, German bunds
 -   These "risk-free" securities form the benchmark for pricing all other assets
@@ -50,16 +67,22 @@ Think of the global financial marketplace as a complex ecosystem with three fund
 
 ### Institutions
 
+These are the governmental, commercial, and private banks. Their health keeps the global financial system stable.
+
 -   **Central Banks**: Create and control money supply (Federal Reserve, European Central Bank, Bank of Japan)
 -   **Commercial Banks**: Take deposits and extend loans both domestically and internationally
 -   **Investment Banks & Financial Institutions**: Trade securities, facilitate capital flows, create financial products
 
-### Linkages - The Interbank Market
+### Linkages
+
+These are the interbank networks using currency. Without ready exchange of currencies, the market is hard-pressed to operate efficiently.
 
 -   This is the "plumbing" of the global financial system
 -   Uses CURRENCY as the medium of exchange
 -   Historically centered on LIBOR (London Interbank Offered Rate)
 -   **Important note:** LIBOR is being phased out and replaced (we'll study this in Chapter 8)
+
+![The Global Capital Markets](../assets/images/GlobalCapitalMarkets.jpg)
 
 ## The Market for Currencies
 
@@ -75,16 +98,16 @@ USD 1.1274 = EUR 1.00
 
 ### Important Terminology Discussion
 
-Let me address something that often confuses students - currency quotation conventions. There are different ways to express the same exchange rate:
+There are different ways to express the same exchange rate:
 
 -   **Traditional notation**: \$1.1274/€ (read as "1.1274 dollars per euro")
--   **ISO code format**: USD1.1274 = EUR1.00
+-   **ISO (International Organization for Standardization) code format**: USD1.1274 = EUR1.00
 -   **Financial press variations**:
     -   EUR/USD 1.1274
     -   EUR-USD 1.1274
     -   EURUSD 1.1274
 
-All mean the same thing! The key is understanding which currency is the "base" (the one that equals 1.00) and which is the "quote" (the price).
+All mean the same thing. The key is understanding which currency is the "base" (the one that equals 1.00) and which is the "quote" (the price).
 
 **Convention to Remember:**
 
@@ -95,26 +118,28 @@ All mean the same thing! The key is understanding which currency is the "base" (
 
 ## Calculating Percentage Changes in Exchange Rates
 
-**This is critical - pay close attention.**
+**Please pay attention to this.**
 
-Let's work through the Argentine peso example from your textbook:
-
-**Scenario:** December 16, 2015 - Argentina lifts currency controls
-
--   Beginning rate: ARG 9.7908 = USD 1.00
--   Ending rate: ARG 13.6160 = USD 1.00
+Let's work through the Argentinian peso example from your textbook:
 
 **Question:** What happened to the peso's value?
 
+**Scenario:** December 16, 2015 - Argentina lifts currency controls allowing its citizens to move money outside of the country.
+
+-   Beginning rate (12/16/15): ARG 9.7908 = USD 1.00
+-   Ending rate: (12/17/15) ARG 13.6160 = USD 1.00
+
 ### Method 1 - Foreign Currency Terms (Foreign currency per USD)
 
+![Foreign Currency Terms](../assets/images/Foreign_Currency_Terms.png){width="75%"}
+
 ```{r}
-#| echo: true
+#| echo: false
 #| label: peso-depreciation-method1
 
 # Given exchange rates
-begin_rate <- 9.7908  # ARG per USD
-end_rate <- 13.6160   # ARG per USD
+begin_rate <- 9.7908  # MXN per USD
+end_rate <- 13.6160   # MXN per USD
 
 # Calculate percentage change
 pct_change_method1 <- ((begin_rate - end_rate) / end_rate) * 100
@@ -125,18 +150,24 @@ cat("Ending rate: ARG", end_rate, "= USD 1.00\n")
 cat("Percentage change:", round(pct_change_method1, 2), "%\n")
 ```
 
-**Interpretation:** The peso FELL 28% in value. Notice:
+**Interpretation:** The peso FELL 28.09% in value. Notice:
 
--   It takes MORE pesos to buy one dollar (went from 9.79 to 13.62)
+-   It takes MORE pesos to buy one dollar (went from 16.00 to 20.00)
 -   The calculation yielded a NEGATIVE number
 -   Both indicate depreciation
 
 ### Method 2 - Home Currency Terms (USD per foreign currency)
 
-First, we need to flip the rates:
+![Home Currency Terms](../assets/images/Home_Currency_Terms.png){width="75%"}
+
+First, we need to flip (take the inverse) of the rates (1/9.7908 = 0.10214 and 1/13.6160 = 0.07344).
+
+This tells us how much US \$ that 1 ARG peso could buy. 1 ARG peso could buy \$0.10 on 12/16/15, and only \$0.07 on 12/17/15.
+
+**We do this because we are looking at the effect on the "Home" currency, the US Dollar.**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: peso-depreciation-method2
 
 # Convert to USD per ARG
@@ -152,16 +183,16 @@ cat("Ending rate: USD", round(end_rate_usd, 5), "= ARG 1.00\n")
 cat("Percentage change:", round(pct_change_method2, 2), "%\n")
 ```
 
-**Same answer!** The peso fell 28%.
+**Both calculations give us the same answer** The peso fell 28.09%.
 
-**Teaching Point:** Many students find Method 2 more intuitive because it follows the standard "end minus beginning over beginning" formula. However, both methods MUST give the same answer.
+**Teaching Point:** Many find Method 2 more intuitive because it follows the standard "end minus beginning over beginning" formula. However, both methods MUST give the same answer.
 
 ### Practice Problem
 
-If the Mexican peso changes from MXN 16.00 = USD 1.00 to MXN 20.00 = USD 1.00, what is the percentage change?
+If the Mexican peso changes from MXN 16.00 = USD 1.00 to MXN 20.00 = USD 1.00, what is the percentage change? Do the calculations using the equations above and see if you get the correct answer.
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: practice-problem
 
 # Mexican peso example
@@ -175,7 +206,7 @@ cat("Mexican Peso Change:\n")
 cat("Answer:", round(mxn_pct_change, 2), "%\n")
 ```
 
-## Eurocurrencies and the Eurocurrency Market
+## Eurocurrencies and the Eurocurrency Interest Rates
 
 **Critical Definition:** Eurocurrencies are deposits of a currency held in banks OUTSIDE that currency's home country.
 
@@ -190,12 +221,18 @@ cat("Answer:", round(mxn_pct_change, 2), "%\n")
 ### Historical Origin (Fascinating backstory)
 
 -   Born after WWII
+
 -   Soviet Union and Eastern European countries held US dollars
+
 -   Feared US government might freeze these dollar assets
+
 -   Deposited dollars in European banks instead (particularly in London)
+
 -   The market grew from there
 
-### Why Does This Market Exist and Thrive?
+-   A country generally cannot freeze their own currency if it is held in an foreign bank, unless the foreign entity agrees to freeze those assets as well.
+
+### Eurocurrency Interest Rates - Why Does This Market Exist and Thrive?
 
 1.  **Regulatory Arbitrage**: Fewer regulations than domestic banking
     -   No reserve requirements
@@ -211,17 +248,54 @@ cat("Answer:", round(mxn_pct_change, 2), "%\n")
 
 **LIBOR Connection:** The London Interbank Offered Rate (LIBOR) is the benchmark interest rate for the eurocurrency market. It represents the rate at which banks lend to each other in London.
 
+**Others currently exist:** Paris (PIBOR), Madrid (MIBOR), Singapore (SIBOR), and Frankfurt (FIBOR)
+
 **Current Developments:** LIBOR is being replaced due to manipulation scandals. We'll explore this transition in detail in Chapter 8.
 
-------------------------------------------------------------------------
+## Wayback Machine {.unnumbered}
+
+### Why or how do nations exist? {.unnumbered}
+
+One theory (by Mancur Olson) supposes that originally people were nomadic clans that finally settled in a certain location. Periodically, roving bandits would ransack and pillage the community leaving them destitute, and riding off into the sunset (or wherever bandits roam). Then the community would rebuild, replant their crops, raise their livestock, and recover.
+
+Just in time for the bandits to return and raid and pillage again.
+
+This happened over and over. Until...
+
+The bandit (and the people) recognized that they could form a mutually beneficial agreement.
+
+The bandit would protect the village from outsiders (other roving bandits), and in return the people would pay the bandit.
+
+During the period while the roving bandit raided the village, there was no incentive for the people to work hard or to invest in building farms or ranches, knowing that, any day, the bandit would return and steal everything they had worked for so hard.
+
+After the bandit became stationary, even though a portion of their produce went to the bandit, there was incentive to invest, growth, and thrive.
+
+And the nation-state was born.
+
+### Logical Structure
+
+**Roving Bandit**: Anarchy → Low Investment → Low Output
+
+**Stationary Bandit**: Protection + Order → Investment + Planning → Higher output + Tax base
+
+**Implications for International Finance**
+
+-   Property rights reduce discount rates (future matters more).
+-   Capital formation becomes possible.
+-   Financial intermediation develops because lenders expect repayment.
+-   States create courts, contract enforcement, currencies.
 
 # Theory of Comparative Advantage
 
 ## Foundational Economic Theory
 
-**Question to class:** "Why do countries trade with each other?"
+**Driving question:** "Why do countries trade with each other?"
 
 The theory of comparative advantage, developed by David Ricardo in 1817 (building on Adam Smith's work from 1776), provides the intellectual foundation for understanding international trade and investment.
+
+-   Trade makes people better off when preferences differ.
+-   Trade increases productivity through specialization and the division of knowledge.
+-   Trade increases productivity through comparative advantage.
 
 ## Core Concepts
 
@@ -231,11 +305,51 @@ The theory of comparative advantage, developed by David Ricardo in 1817 (buildin
 -   Trade these for goods other countries make more efficiently
 -   Result: More total production, lower prices, higher quality of life
 
+**Core definition** - Absolute Advantage - A nation has absolute advantage when it produces a good with fewer resources (or lower cost) than others.
+
+**Idea:** If Country A produces a good with lower unit cost than Country B, specialization and trade reduce prices and raise consumption possibilities.
+
+**Mechanisms relevant to finance:**
+
+-   economies of scale → lower average costs
+-   capital deepening
+-   technology diffusion through trade relationships
+
+**Why gains emerge:**
+
+-   Specialize where productivity is highest relative to the alternative uses of resources.
+-   Smith’s pin factory:
+    -   Specialization increases productivity because of:
+        -   Learning by doing
+        -   Reduced switching costs
+        -   Innovation in task-specific tools
+
+**Broad example:**
+
+-   One worker doing everything → 10 pins/day.
+
+-   Ten specialized workers → 48,000 pins/day.
+
+**Key takeaway:** Productivity is organizational, not merely technological.
+
+**Connection to trade:**
+
+-   Specialization requires exchange:
+    -   No reason to specialize unless you can trade for what you lack.
+    -   Markets expand as specialization deepens.
+    -   Institutions must support contracts, credit, price systems.
+
+Absolute advantage explains *some* trade, but not enough. Ricardo's insight goes deeper.
+
 ### Comparative Advantage (David Ricardo)
 
 -   Even if one country has absolute advantage in producing EVERYTHING, both countries benefit from specialization
 -   Each country should specialize in what it does RELATIVELY better
 -   The key word is "comparative" - relative, not absolute
+
+**OPPORTUNITY COST - what do we have to give up to get something?**
+
+-   This is the relative, or comparative difference between the productive abilities of countries.
 
 ### Simple Example
 
@@ -245,6 +359,8 @@ Imagine two countries - the US and China:
 -   China: Can produce either 50 computers OR 150 bushels of wheat with the same resources
 
 Even though the US has absolute advantage in computers, China might still have comparative advantage in wheat production if the opportunity costs differ appropriately.
+
+Who should produce computers or wheat?
 
 ## Modern Reality vs. Theory
 
@@ -280,7 +396,7 @@ Modern location decisions consider:
 
 ### Comparative Advantage Shifts Over Time
 
-**Powerful Example from Textbook:**
+**Example from Textbook:**
 
 Cotton textile production comparative advantage has shifted over 150 years:
 
@@ -308,15 +424,15 @@ Despite limitations, comparative advantage remains highly relevant:
 
 **Question for Discussion:** "Can you think of services or products where the US maintains comparative advantage?"
 
-(Expected answers: innovation, higher education, entertainment, certain high-tech manufacturing)
-
 ------------------------------------------------------------------------
 
-# What Makes International Finance Different? (15 minutes)
+# What Makes International Finance Management Different?
 
-## Framework for Understanding Differences
+## Framework for Understanding Differences {.unnumbered}
 
 International financial management differs from domestic finance in six key dimensions:
+
+![Key Differences](../assets/images/Exhibit%201.3.png){width="100%"}
 
 ## Culture, History, and Institutional Differences
 
@@ -414,7 +530,7 @@ International financial management differs from domestic finance in six key dime
 Let's create a simple consolidation example:
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: ganado-consolidation
 
 # Create a data frame for Ganado's subsidiaries
@@ -449,7 +565,7 @@ cat("Total Earnings (USD millions):", round(sum(subsidiaries$Earnings_USD), 2), 
 **Question:** "If the euro falls from \$1.12 to \$1.00, what happens to consolidated earnings, even if European operations don't change?"
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: euro-depreciation-impact
 
 # Original scenario
@@ -620,7 +736,7 @@ NAFTA (North American Free Trade Agreement) created opportunities for trade with
 **Example:**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: fx-risk-example
 
 # Ganado quotes Canadian customer
@@ -874,7 +990,7 @@ Classical economic theory suggests capital should flow freely to its most produc
 
 ## Connecting the Dots
 
-Let me bring together today's major themes:
+Let's bring together these major themes:
 
 ### The Global Financial Marketplace
 
@@ -969,35 +1085,15 @@ All involve international finance concepts.
 
 ------------------------------------------------------------------------
 
-# Questions and Discussion
+# Preview Next Section
 
-## Check for Understanding
-
-**Key Questions to Pose:**
-
-1.  "Can someone explain in their own words what makes the eurocurrency market different from domestic banking?"
-
-2.  "Why might a country with absolute advantage in producing everything still benefit from trade?"
-
-3.  "What's the single biggest risk factor that distinguishes international from domestic finance?"
-
-4.  "If the dollar strengthens against all foreign currencies, what generally happens to US multinationals' consolidated earnings, all else equal?"
-
-## Preview Next Class
-
-**Next session we'll dive into:**
+**What's next:**
 
 -   The International Monetary System (Chapter 2)
 -   Fixed vs. floating exchange rates
 -   The role of the IMF and World Bank
 -   Major currency crises in history
 -   The future of the dollar as reserve currency
-
-**Assignment for Next Class:**
-
--   Read Chapter 2
--   Find a current article about exchange rate movements
--   Be prepared to discuss why that currency moved
 
 ------------------------------------------------------------------------
 
@@ -1007,6 +1103,6 @@ International finance is one of the most dynamic, challenging, and relevant fiel
 
 The world is more connected than ever, which creates unprecedented opportunities for those who understand how to navigate the global financial marketplace. It also creates risks for those who don't.
 
-My goal is to help you develop not just technical competence, but also strategic insight and critical thinking about international finance. This first chapter laid the foundation - now we build.
+The goal is to help you develop not just technical competence, but also strategic insight and critical thinking about international finance. This first chapter laid the foundation - now we build.
 
-See you next class. Please review Chapter 1, attempt the practice problems, and don't hesitate to email me with questions.
+Please review Chapter 1, work on any assignments, and don't hesitate to email me with questions.

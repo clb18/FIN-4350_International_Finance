@@ -1,0 +1,2597 @@
+---
+title: "Chapter 2 The International Monetary System"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+---
+
+# History of the International Monetary System
+
+The international monetary system has evolved dramatically over the past 150 years. As Ronald McKinnon noted: "No world central bank issues a separate currency for commerce across national boundaries. Instead, a 'system' of national monies works more or less well in providing a medium of exchange and unit of account for current international transactions, as well as a store of value and standard of deferred payment for longer-term borrowing and lending."
+
+This means there's no "world currency" or global monetary authority. Instead, we have a **loose agreement between nations** to exchange their currencies. How this agreement works has changed dramatically over time.
+
+```{r}
+#| echo: false
+#| label: monetary-system-timeline
+#| fig-cap: "Evolution of the International Monetary System"
+
+library(ggplot2)
+library(dplyr)
+
+# Create timeline data
+timeline_data <- data.frame(
+  Period = c("Classical Gold\nStandard", "Inter-War\nYears", "Bretton Woods\nFixed Rates", 
+             "Floating\nRates", "Emerging\nEra"),
+  Start = c(1879, 1914, 1944, 1973, 1997),
+  End = c(1913, 1944, 1973, 1997, 2024),
+  Trade_Impact = c("Increased world trade", "Protectionism", "Expanded economies", 
+                   "Capital flows dominate", "Digital currencies"),
+  Capital = c("Trade dominated", "Increased barriers", "Capital flows begin", 
+              "Capital dominates", "Selected markets open")
+)
+
+# Calculate midpoints for labels
+timeline_data$Midpoint <- (timeline_data$Start + timeline_data$End) / 2
+
+# Create plot
+ggplot(timeline_data) +
+  geom_rect(aes(xmin = Start, xmax = End, ymin = 0, ymax = 1, fill = Period),
+            alpha = 0.7) +
+  geom_text(aes(x = Midpoint, y = 0.5, label = Period), 
+            size = 3, fontface = "bold", color = "black") +
+  scale_fill_brewer(palette = "Set3") +
+  labs(title = "Evolution of the International Monetary System (1879-Present)",
+       x = "Year", y = "") +
+  theme_minimal() +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.grid = element_blank(),
+        legend.position = "none") +
+  coord_cartesian(xlim = c(1870, 2030))
+```
+
+## The Classical Gold Standard (1879-1913)
+
+The gold standard was the first truly global monetary system. Under this system:
+
+-   **Exchange rates were fixed** to gold
+-   Each country defined its currency in terms of gold
+-   Paper money could be converted into gold on demand
+-   Gold flowed freely between countries
+
+### How It Worked
+
+Each country set a fixed price for gold in their currency. Exchange rates between currencies were then determined by their relative gold values.
+
+**Example: Pre-WWI Exchange Rate Calculation**
+
+Before World War I:
+
+-   United States: \$20.67 per ounce of gold
+-   United Kingdom: £4.2474 per ounce of gold
+
+```{r}
+#| label: gold-standard-calculation
+#| code-fold: show
+
+# Gold standard exchange rate calculation
+us_gold_price <- 20.67  # USD per ounce
+uk_gold_price <- 4.2474  # GBP per ounce
+
+# Calculate exchange rate
+exchange_rate <- us_gold_price / uk_gold_price
+
+cat("USD per GBP exchange rate:", round(exchange_rate, 4), "\n")
+cat("This means £1 = $", round(exchange_rate, 2), "\n", sep = "")
+```
+
+This "par value" of **\$4.8665 per pound** remained fixed as long as both countries maintained their gold prices. Exchange rates could only fluctuate within the narrow "gold points" - the cost of shipping physical gold between countries (approximately ±1%).
+
+### The Gold Standard Mechanism
+
+**Automatic Adjustment:** The gold standard had a built-in mechanism to correct trade imbalances:
+
+1.  Country runs trade deficit → Gold flows out → Money supply contracts → Prices fall → Exports become cheaper → Trade deficit corrects
+
+2.  Country runs trade surplus → Gold flows in → Money supply expands → Prices rise → Exports become more expensive → Trade surplus moderates
+
+### Historical Context: The Imperial Russian Government Bond
+
+An interesting artifact from this era: In 1894, Czar Nicholas IV issued bonds for Imperial Russia that could be paid in **six different gold currencies**: French francs, Dutch guilders, Berlin marks, St. Petersburg rubles, British pounds, or U.S. dollars.
+
+Why? Because under the gold standard, all these currencies had **fixed relationships to each other through gold**. The bondholder could choose to be paid in whichever currency was most convenient - they were all equivalent in gold value.
+
+### Why It Ended
+
+The classical gold standard collapsed with the outbreak of World War I in 1914:
+
+-   **War financing:** Countries suspended gold convertibility to print money for war
+-   **Trade disruptions:** International commerce broke down
+-   **Gold hoarding:** Countries stockpiled gold for reserves
+-   **Political instability:** Made international cooperation impossible
+
+**Key Insight:** The gold standard worked during peacetime with minimal government intervention, but couldn't survive the strains of modern warfare and activist government policies.
+
+## The Interwar Years and World War I (1914-1944)
+
+This 30-year period saw **chaos and instability** in the international monetary system.
+
+### World War I Impact (1914-1918)
+
+-   Gold standard suspended across Europe
+-   Currencies floated or were pegged to neutral currencies (like the U.S. dollar)
+-   Massive inflation from war spending
+-   Post-war attempts to restore gold standard failed
+
+### The 1920s: Failed Restoration
+
+Many countries tried to return to gold in the 1920s:
+
+-   **Britain returned at pre-war parity** (1925) - Massive mistake! Overvalued pound crushed exports
+-   **France returned at devalued rate** - More successful
+-   **Germany experienced hyperinflation** (1923) - Money became worthless
+
+### The Great Depression (1929-1939)
+
+-   Global economic collapse
+-   Countries abandoned gold to fight deflation
+-   **Competitive devaluations** - "beggar-thy-neighbor" policies
+-   International trade collapsed
+-   Protective tariffs (like U.S. Smoot-Hawley Act)
+
+**Example: Britain Leaves Gold (1931)**
+
+Britain's pound was overvalued on gold, crushing exports during the Depression. In September 1931, Britain abandoned gold, letting the pound fall by 30%. This helped British exports but hurt other countries still on gold.
+
+**Key Lesson:** Fixed exchange rates require countries to coordinate monetary policies. When countries face different economic conditions, fixed rates create tensions.
+
+### World War II (1939-1945)
+
+-   International monetary system essentially ceased functioning
+-   Most currencies were not convertible
+-   Trade was managed through bilateral agreements
+-   Inflation and controls dominated
+
+**But:** Planning for post-war system began during the war (1944 Bretton Woods Conference).
+
+## Bretton Woods and the International Monetary Fund (1944)
+
+In July 1944, representatives from 44 countries met at Bretton Woods, New Hampshire to design the post-war monetary system. Two brilliant economists dominated the conference:
+
+-   **John Maynard Keynes** (British delegation) - Proposed "bancor" as world currency
+-   **Harry Dexter White** (U.S. delegation) - Proposed dollar-based system
+
+The U.S. proposal won (because the U.S. held most of the world's gold).
+
+### The Bretton Woods System Design
+
+**Key Features:**
+
+1.  **Gold-Dollar Standard:**
+    -   U.S. dollar pegged to gold at \$35/ounce
+    -   Other currencies pegged to dollar
+    -   Only central banks could convert dollars to gold (not private citizens)
+2.  **Fixed but Adjustable Rates:**
+    -   Exchange rates fixed in short run
+    -   Could adjust if "fundamental disequilibrium" existed
+    -   ±1% fluctuation bands allowed
+3.  **Two New Institutions:**
+    -   **International Monetary Fund (IMF)** - Monitor system, provide short-term loans
+    -   **World Bank (IBRD)** - Finance post-war reconstruction and development
+
+### The Special Drawing Right (SDR)
+
+As the system evolved, the IMF created the **Special Drawing Right (SDR)** in 1969 as an international reserve asset - essentially "IMF money" that countries could hold as reserves.
+
+The SDR is a **basket of currencies**. The current composition (as of 2016):
+
+```{r}
+#| label: sdr-basket
+#| code-fold: show
+
+# Current SDR basket (2016 weights)
+sdr_basket <- data.frame(
+  Currency = c("US Dollar", "Euro", "Chinese Yuan", "Japanese Yen", "British Pound"),
+  Weight = c(41.73, 30.93, 10.92, 8.33, 8.09),
+  Symbol = c("USD", "EUR", "CNY", "JPY", "GBP")
+)
+
+# Calculate total
+cat("Total weight:", sum(sdr_basket$Weight), "%\n\n")
+
+# Display table
+print(sdr_basket)
+
+# Create visualization
+library(ggplot2)
+ggplot(sdr_basket, aes(x = "", y = Weight, fill = Currency)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  theme(legend.position = "right") +
+  labs(title = "SDR Basket Composition (2016 Revision)",
+       fill = "Currency") +
+  geom_text(aes(label = paste0(Weight, "%")), 
+            position = position_stack(vjust = 0.5))
+```
+
+**Important:** Notice that the Chinese yuan (renminbi) was added to the SDR basket in 2016 - a major step in the internationalization of the RMB.
+
+## Fixed Exchange Rates (1945-1973)
+
+The Bretton Woods system operated for nearly 30 years. During this "golden age":
+
+-   **Rapid economic growth** in Western countries
+-   **Expanding international trade**
+-   **Currency stability** - businesses could plan with confidence
+-   **Limited capital flows** - capital controls kept money from moving too freely
+
+### How the System Worked in Practice
+
+**Example: French Franc under Bretton Woods**
+
+Suppose France pegs the franc at 5 francs per dollar, with a ±1% band:
+
+```{r}
+#| label: bretton-woods-example
+#| code-fold: show
+
+# Bretton Woods fixed rate system
+par_value <- 5.00  # FF/USD
+band <- 0.01  # ±1%
+
+# Calculate implied gold value of franc
+gold_price_usd <- 35  # USD per ounce
+franc_per_ounce <- par_value * gold_price_usd
+
+# Allowable fluctuation band (±1%)
+upper_limit <- par_value * (1 + band)
+lower_limit <- par_value * (1 - band)
+
+cat("Par value: FF", par_value, "per USD\n")
+cat("Allowable range: FF", lower_limit, "to FF", upper_limit, "per USD\n")
+cat("Implied gold value: FF", franc_per_ounce, "per ounce of gold\n")
+```
+
+**French Central Bank's Obligations:**
+
+-   If franc approaches FF 5.05/\$, **sell francs, buy dollars** (support franc)
+-   If franc approaches FF 4.95/\$, **buy francs, sell dollars** (weaken franc)
+-   Must hold enough dollar/gold reserves to defend the peg
+
+### The Triffin Dilemma (1960)
+
+Belgian economist Robert Triffin identified a fundamental flaw in the system:
+
+**The Problem:**
+
+-   World needs dollars for reserves and trade
+-   To supply dollars, U.S. must run trade **deficits**
+-   But persistent deficits undermine confidence in the dollar
+-   Eventually, foreign central banks will want to convert dollars to gold
+-   U.S. doesn't have enough gold to convert all outstanding dollars
+
+**The Dilemma:** Either:
+
+1.  U.S. restricts dollar supply → Global liquidity crisis, trade stagnates, OR
+2.  U.S. supplies dollars → Dollar loses value, system collapses
+
+This is exactly what happened in the late 1960s and early 1970s.
+
+### Why It Ended
+
+By the late 1960s, the system faced severe strains:
+
+1.  **U.S. inflation from Vietnam War and Great Society programs**
+2.  **Persistent U.S. trade deficits**
+3.  **Growing dollar overhang** - more dollars abroad than U.S. gold reserves
+4.  **Speculative attacks** on dollar
+5.  **Rising gold price** - market price diverged from official \$35/ounce
+
+**The Collapse:**
+
+-   **August 15, 1971:** President Nixon "closes the gold window" - suspends dollar-gold convertibility
+-   **December 1971:** Smithsonian Agreement - attempted realignment of rates
+-   **March 1973:** Major currencies begin floating
+-   **Bretton Woods system ends**
+
+**Key Insight:** Fixed exchange rate systems require either:
+
+-   Countries to coordinate monetary policies, OR\
+-   Capital controls to prevent speculative flows
+
+When the U.S. pursued inflationary policies and capital flowed freely, the system collapsed.
+
+## Floating Exchange Rates (1973-1997)
+
+After 1973, major currencies floated against each other. This didn't mean pure free floating, but rather:
+
+-   **Managed float (dirty float):** Central banks intervened occasionally
+-   **No formal commitment** to specific rates
+-   Market forces primarily determined exchange rates
+
+### The Early Years: Volatility and Adjustment
+
+**Initial Concerns:**
+
+-   Would floating rates be too volatile?
+-   Would trade collapse without stable rates?
+-   Would speculation destabilize currencies?
+
+**Reality:**
+
+-   Volatility was higher than under Bretton Woods
+-   But trade continued to grow rapidly
+-   Market forces did help adjust imbalances
+-   Occasional crises occurred (Latin American debt crisis 1982-1989)
+
+### The Evolution of Capital Flows
+
+A major change during this era: **capital flows began to dominate trade flows**
+
+**1950s-1960s:**
+
+-   Trade transactions dominated foreign exchange markets
+-   Capital flows limited by controls
+-   Central banks could manage exchange rates
+
+**1980s-1990s:**
+
+-   Capital flows exploded
+-   Daily foreign exchange trading: **\$1 trillion+**
+-   Capital flows dwarfed trade flows
+-   Central bank interventions became less effective
+
+**Example: Daily FX Market Volume**
+
+```{r}
+#| label: fx-market-growth
+#| code-fold: show
+
+# Approximate daily FX trading volume (billions USD)
+fx_volume <- data.frame(
+  Year = c(1977, 1986, 1992, 1995, 1998, 2001, 2004, 2007, 2010, 2013, 2016, 2019, 2022),
+  Volume = c(18, 188, 880, 1190, 1490, 1210, 1900, 3210, 3970, 5350, 5070, 6590, 7500)
+)
+
+library(ggplot2)
+ggplot(fx_volume, aes(x = Year, y = Volume)) +
+  geom_line(color = "steelblue", size = 1.2) +
+  geom_point(color = "steelblue", size = 3) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Daily Foreign Exchange Trading Volume",
+       subtitle = "The explosive growth of currency markets",
+       x = "Year", 
+       y = "Daily Volume (Billions USD)") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+By the 1990s, foreign exchange markets were trading over **\$1 trillion per day**, while global trade was only about **\$40 billion per day**. Capital flows now dominated.
+
+### Major Events of This Era
+
+**Plaza Accord (1985):**
+
+-   G5 countries agreed to depreciate the dollar
+-   Coordinated intervention
+-   Dollar fell by \~50% against yen and deutsche mark
+-   Showed central banks could still influence rates through cooperation
+
+**ERM Crisis (1992):**
+
+-   Britain forced out of European Exchange Rate Mechanism
+-   George Soros bet against pound, made \$1 billion
+-   Showed limits of defending fixed rates against market pressure
+-   Led to Britain staying out of euro
+
+**Mexican Peso Crisis (1994-1995):**
+
+-   Mexico abandoned peso peg to dollar
+-   Peso collapsed 50%
+-   U.S. and IMF bailout
+-   First major emerging market crisis of the floating era
+
+**Asian Financial Crisis (1997):**
+
+-   Thailand, Indonesia, South Korea, Malaysia hit hard
+-   Fixed exchange rates collapsed
+-   Massive capital flight
+-   IMF bailouts with conditions
+-   This crisis marked transition to "Emerging Era"
+
+## The Emerging Era (1997-Present)
+
+The Asian Financial Crisis of 1997 marked a turning point. Since then, the system has been characterized by:
+
+### Key Features
+
+1.  **No Single System:**
+    -   Major currencies float (dollar, euro, yen, pound)
+    -   Many emerging markets use various pegs or managed floats
+    -   Some use currency boards or dollarization
+    -   "Eclectic" system with many approaches
+2.  **Dominance of Capital Flows:**
+    -   Financial transactions overwhelm trade transactions
+    -   Carry trades and derivatives dominate markets
+    -   Central banks struggle to control exchange rates
+3.  **Rise of New Players:**
+    -   China becomes economic superpower
+    -   Internationalization of Chinese renminbi (RMB)
+    -   Digital currencies emerging
+    -   Questions about dollar's future dominance
+4.  **Recurring Crises:**
+    -   Russian Crisis (1998)
+    -   Argentine Crisis (2001-2002)
+    -   Global Financial Crisis (2008-2009)
+    -   Eurozone Crisis (2010-2015)
+    -   COVID-19 disruptions (2020-2021)
+    -   Current inflation and rate hikes (2022-2024)
+
+### The Post-2008 World
+
+The Global Financial Crisis changed thinking about monetary systems:
+
+**Lessons Learned:**
+
+-   Capital flows can be destabilizing
+-   Fixed exchange rates can become traps (Greece, Spain, Italy in euro)
+-   Reserve accumulation by emerging markets (especially China)
+-   Questions about sustainability of U.S. current account deficits
+-   Need for better crisis prevention and management
+
+**Current Debates:**
+
+-   Should China allow RMB to float freely?
+-   Can the euro survive without fiscal union?
+-   Will digital currencies replace physical cash?
+-   Can dollar maintain reserve currency status with persistent deficits?
+-   Should emerging markets use capital controls?
+
+## IMF Classification of Currency Regimes
+
+How do we categorize the bewildering variety of exchange rate regimes in use today? The IMF has developed a classification system.
+
+### Brief Classification History
+
+**Pre-1998:** The IMF classified countries based on what they **said** they were doing (*de jure* classification):
+
+-   If country announced a peg, IMF classified it as pegged
+-   Problem: Many countries didn't do what they said
+
+**Post-1998:** The IMF switched to classifying based on what countries **actually do** (*de facto* classification):
+
+-   Analyze actual exchange rate behavior
+-   Look at reserves, interventions, policies
+-   More accurate but more complex
+
+**Why the Change?**
+
+The Asian Financial Crisis revealed that many countries claiming to float were actually maintaining de facto pegs, making them vulnerable to sudden crises. The new system aimed to capture reality.
+
+### The IMF's De Facto System
+
+The IMF currently groups exchange rate regimes into four main categories:
+
+#### Category 1: Hard Pegs
+
+**Definition:** No separate legal tender, or a currency board arrangement.
+
+**Characteristics:**
+
+-   Strongest commitment to fixed rate
+-   Essentially gives up independent monetary policy
+-   Requires large reserves or complete adoption of foreign currency
+
+**Types:**
+
+1.  **No Separate Legal Tender (Dollarization)**
+    -   Country adopts another country's currency completely
+    -   Examples: Ecuador (USD), El Salvador (USD), Zimbabwe (multiple currencies)
+    -   **Advantage:** Complete credibility, eliminates currency risk
+    -   **Disadvantage:** No monetary policy, no lender of last resort
+2.  **Currency Board**
+    -   Domestic currency but legally required to be fully backed by foreign reserves
+    -   Fixed exchange rate by law
+    -   Example: Hong Kong (HKD pegged to USD at 7.8)
+    -   **Advantage:** Credible commitment, maintains own currency
+    -   **Disadvantage:** Still no independent monetary policy
+
+#### Category 2: Soft Pegs
+
+**Definition:** Countries maintain some form of peg but with more flexibility than hard pegs.
+
+**Characteristics:**
+
+-   Commitment to target rate but can adjust
+-   More policy flexibility than hard pegs
+-   More vulnerable to speculative attacks
+
+**Types:**
+
+1.  **Conventional Peg**
+    -   Fixed rate with narrow bands (±1%)
+    -   Can occasionally adjust (realign or devalue)
+    -   Example: Saudi Arabia (riyal pegged to dollar)
+2.  **Stabilized Arrangement**
+    -   Rate fluctuates within narrow 2% margin for six months
+    -   No announced commitment
+    -   De facto stability
+3.  **Crawling Peg**
+    -   Periodic small adjustments announced in advance
+    -   Helps manage inflation differentials
+    -   Example: China (historically, though now more flexible)
+4.  **Crawl-like Arrangement**
+    -   Small changes, but no announced path
+    -   Implicit rather than explicit
+5.  **Pegged Within Horizontal Band**
+    -   Wider bands than conventional peg (\>±1%)
+    -   Example: Denmark (krone pegged to euro with ±2.25% band)
+
+#### Floating Arrangements
+
+**Definition:** Exchange rate primarily determined by market with varying degrees of intervention.
+
+**Types:**
+
+1.  **Floating**
+    -   Market determines rate
+    -   Intervention aims to moderate volatility, not target specific level
+    -   Examples: United States (dollar), Eurozone (euro), Japan (yen)
+2.  **Free Floating**
+    -   Pure market determination
+    -   Intervention rare and limited
+    -   Very few countries actually free float
+
+**Reality:** Most "floating" countries are actually "managed floats" or "dirty floats" - they intervene frequently but don't target specific rates.
+
+#### Residual
+
+**Definition:** Other managed arrangements that don't fit cleanly into above categories.
+
+**Characteristics:**
+
+-   Usually countries with capital controls
+-   Multiple exchange rates
+-   Frequent policy changes
+
+**Examples:**
+
+-   Countries in transition
+-   Countries with capital controls (like China prior to recent reforms)
+-   Countries with black markets for foreign currency
+
+### A Global Eclectic
+
+Here's the current distribution of regimes worldwide (based on IMF data):
+
+```{r}
+#| label: regime-distribution
+#| code-fold: show
+
+# Data from Exhibit 2.5 in textbook
+# Number of countries in each regime category over time
+
+regime_data <- data.frame(
+  Year = rep(c(2008, 2009, 2013, 2019), each = 4),
+  Category = rep(c("Hard Pegs", "Soft Pegs", "Floating", "Residual"), 4),
+  Count = c(
+    # 2008
+    25, 83, 63, 13,
+    # 2009  
+    24, 85, 63, 14,
+    # 2013
+    24, 91, 69, 10,
+    # 2019
+    25, 89, 66, 13
+  )
+)
+
+# Calculate percentages
+regime_data <- regime_data %>%
+  group_by(Year) %>%
+  mutate(Total = sum(Count),
+         Percentage = Count / Total * 100)
+
+# Create stacked area chart
+ggplot(regime_data, aes(x = Year, y = Percentage, fill = Category)) +
+  geom_area(alpha = 0.7) +
+  scale_fill_brewer(palette = "Set2") +
+  labs(title = "Distribution of Exchange Rate Regimes (2008-2019)",
+       subtitle = "Based on IMF de facto classification",
+       x = "Year",
+       y = "Percentage of Countries",
+       fill = "Regime Type") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold"),
+        legend.position = "right")
+
+# Print summary for most recent year
+cat("\nDistribution in 2019:\n")
+regime_2019 <- regime_data %>% 
+  filter(Year == 2019) %>%
+  select(Category, Count, Percentage)
+print(regime_2019, n = 4)
+```
+
+**Key Observations:**
+
+-   **Soft pegs most common** (\~46% of countries)
+-   **Floating arrangements** are significant (\~34%)
+-   **Hard pegs relatively rare** (\~13%)
+-   **Residual category declining** as countries formalize their regimes
+-   No single approach dominates
+
+**Important:** The "right" exchange rate regime depends on a country's specific circumstances:
+
+-   Economic structure (trade-dependent vs. diversified)
+-   Political institutions
+-   Financial development
+-   Size and openness
+-   Historical experience
+-   Current account position
+-   Capital flows
+
+There is no one-size-fits-all solution.
+
+# Fixed vs. Flexible Exchange Rates
+
+One of the longest-running debates in international finance: Which is better, fixed or flexible exchange rates?
+
+**Spoiler Alert:** There's no clear winner. Each system has advantages and disadvantages, and the "best" choice depends on a country's specific circumstances.
+
+## The Theoretical Debate
+
+### Advantages of Fixed Exchange Rates
+
+1.  **Certainty and Stability**
+    -   Businesses can plan without currency risk
+    -   Encourages international trade and investment
+    -   Reduces need for hedging (saves transaction costs)
+2.  **Discipline on Monetary Policy**
+    -   Governments can't print money recklessly
+    -   Helps control inflation
+    -   Anchors inflation expectations
+3.  **Eliminates Speculation**
+    -   No one-way bets against currency
+    -   Reduces destabilizing capital flows
+
+**Example:** German exporter sells machinery to U.S. customer
+
+```{r}
+#| label: fixed-rate-example
+#| code-fold: show
+
+# Compare fixed vs floating scenarios
+# German exporter sells machine tool to US customer
+# Sale price: $1.2 million
+# Cost to produce: €800,000
+
+# Scenario 1: Fixed rate at 1.20 USD/EUR
+fixed_rate <- 1.20
+sale_price_usd <- 1200000
+
+# Scenario 2: Floating rate - could be anywhere
+# Let's look at range of possibilities
+floating_rates <- seq(1.00, 1.40, by = 0.05)
+
+# Calculate euro receipts under each scenario
+cost_eur <- 800000
+fixed_eur_received <- sale_price_usd / fixed_rate
+fixed_profit <- fixed_eur_received - cost_eur
+
+cat("FIXED RATE SCENARIO\n")
+cat("==================\n")
+cat("Sale price: $", format(sale_price_usd, big.mark = ","), "\n", sep = "")
+cat("Exchange rate: ", fixed_rate, " USD/EUR\n", sep = "")
+cat("Euro receipts: €", format(round(fixed_eur_received), big.mark = ","), "\n", sep = "")
+cat("Production cost: €", format(cost_eur, big.mark = ","), "\n", sep = "")
+cat("Profit: €", format(round(fixed_profit), big.mark = ","), "\n\n", sep = "")
+
+cat("FLOATING RATE SCENARIOS\n")
+cat("=======================\n")
+floating_results <- data.frame(
+  Rate = floating_rates,
+  EUR_Received = sale_price_usd / floating_rates,
+  Profit = (sale_price_usd / floating_rates) - cost_eur
+)
+
+print(floating_results, row.names = FALSE)
+
+cat("\nProfit range: €", format(round(min(floating_results$Profit)), big.mark = ","),
+    " to €", format(round(max(floating_results$Profit)), big.mark = ","), "\n", sep = "")
+```
+
+Under fixed rates, the German exporter knows exactly what profit to expect. Under floating rates, profit could vary by hundreds of thousands of euros!
+
+### Disadvantages of Fixed Exchange Rates
+
+1.  **Loss of Monetary Policy Independence**
+    -   Can't adjust interest rates for domestic needs
+    -   Must maintain rates to defend peg
+    -   "Imported" inflation or deflation from anchor country
+2.  **Requires Large Reserves**
+    -   Must hold foreign currency to defend peg
+    -   Reserves could be used productively elsewhere
+    -   Vulnerable to speculative attacks
+3.  **Can't Adjust to Shocks**
+    -   Terms of trade shock requires real wage adjustment
+    -   With fixed rate, adjustment comes through unemployment
+    -   With floating rate, currency adjusts instead
+4.  **Target for Speculation**
+    -   If peg looks unsustainable, speculators attack
+    -   Can force costly devaluations
+    -   Example: 1992 ERM crisis
+
+### Advantages of Flexible Exchange Rates
+
+1.  **Monetary Policy Independence**
+    -   Can set interest rates for domestic objectives
+    -   Can fight recessions with loose policy
+    -   Can target inflation independently
+2.  **Automatic Adjustment Mechanism**
+    -   Trade deficit → currency falls → exports cheaper → deficit narrows
+    -   Trade surplus → currency rises → imports cheaper → surplus narrows
+    -   No need for painful deflation
+3.  **No Reserves Needed**
+    -   Market determines rate
+    -   Reserves can be used productively
+    -   Can't "run out" of reserves
+4.  **Less Vulnerable to Attacks**
+    -   No fixed rate to defend
+    -   Speculators can't force government to "break" peg
+
+### Disadvantages of Flexible Exchange Rates
+
+1.  **Uncertainty and Volatility**
+    -   Exchange rate risk complicates trade
+    -   Need hedging (costly)
+    -   Can overshoot fundamental values
+2.  **Less Discipline**
+    -   Governments may use inflation to solve problems
+    -   Floating rate can enable bad policies
+    -   Inflation expectations less anchored
+3.  **Speculation Can Be Destabilizing**
+    -   Bubbles and crashes possible
+    -   Contagion effects
+    -   May diverge from fundamentals
+
+**Example:** Euro-dollar exchange rate volatility
+
+```{r}
+#| label: exchange-rate-volatility
+#| code-fold: show
+
+# Simulate euro-dollar exchange rate volatility
+# Based on actual patterns from 2010-2020
+
+set.seed(42)
+n_days <- 252 * 5  # 5 years of trading days
+
+# Starting rate
+start_rate <- 1.35
+
+# Generate realistic exchange rate path
+# Mean reversion + random shocks
+returns <- rnorm(n_days, mean = 0, sd = 0.006)  # ~0.6% daily volatility
+levels <- start_rate * cumprod(1 + returns)
+
+# Create time series
+dates <- seq(from = as.Date("2015-01-01"), by = "day", length.out = n_days)
+fx_data <- data.frame(Date = dates, Rate = levels)
+
+# Plot
+library(ggplot2)
+ggplot(fx_data, aes(x = Date, y = Rate)) +
+  geom_line(color = "darkblue", alpha = 0.7) +
+  geom_hline(yintercept = start_rate, linetype = "dashed", color = "red") +
+  labs(title = "Simulated EUR/USD Exchange Rate Volatility",
+       subtitle = "Illustrating daily fluctuations under floating rates",
+       x = "Date",
+       y = "USD per EUR") +
+  theme_minimal()
+
+# Calculate statistics
+cat("Exchange rate statistics:\n")
+cat("Starting rate: ", round(start_rate, 4), "\n", sep = "")
+cat("Minimum rate: ", round(min(levels), 4), "\n", sep = "")
+cat("Maximum rate: ", round(max(levels), 4), "\n", sep = "")
+cat("Range: ", round((max(levels) - min(levels)) / start_rate * 100, 1), "%\n", sep = "")
+cat("Standard deviation: ", round(sd(returns) * 100, 2), "% (daily)\n", sep = "")
+cat("Annualized volatility: ", round(sd(returns) * sqrt(252) * 100, 1), "%\n", sep = "")
+```
+
+This volatility creates risk for businesses engaged in international trade, but also provides automatic adjustment to changing economic conditions.
+
+## The Empirical Evidence
+
+What does the evidence show? After decades of research:
+
+**On Growth:**
+
+-   No clear winner
+-   Fixed rates may help developing countries with weak institutions
+-   Floating rates work well for developed countries
+-   Quality of institutions matters more than regime choice
+
+**On Volatility:**
+
+-   Fixed rates reduce nominal exchange rate volatility (by definition)
+-   But don't necessarily reduce real exchange rate volatility
+-   Inflation can vary to offset nominal stability
+
+**On Crises:**
+
+-   Fixed rates vulnerable to sudden crises (speculative attacks)
+-   Floating rates have more frequent small adjustments
+-   Soft pegs ("fear of floating") may be worst of both worlds
+
+**On Trade:**
+
+-   Fixed rates may increase trade slightly
+-   But effect is small and uncertain
+-   Other factors (trade agreements, geography) matter more
+
+## The Modern Consensus
+
+**"Corner Solutions" Hypothesis (1990s-2000s):**
+
+-   Countries should either hard peg (currency board/dollarization) OR freely float
+-   Intermediate regimes (soft pegs) are crisis-prone
+-   "Vanishing middle" predicted
+
+**Reality Check (2010s-Present):**
+
+-   Most countries still use soft pegs!
+-   Intermediate regimes persist
+-   "Fear of floating" - countries reluctant to let rates move freely
+-   "Fear of pegging" - countries reluctant to commit fully
+
+**Current View:**
+
+-   No one-size-fits-all answer
+-   Depends on country characteristics:
+    -   Size and openness
+    -   Trade patterns
+    -   Financial development
+    -   Institutional quality
+    -   Political constraints
+-   Flexibility to change regimes may be valuable
+-   **Institutions matter more than the regime itself**
+
+**Key Insight:** A well-managed soft peg with strong institutions may outperform a poorly-managed hard peg or free float. The regime choice matters less than the quality of macroeconomic management.
+
+# The Impossible Trinity
+
+Perhaps the most important concept in international finance for understanding exchange rate regimes. The Impossible Trinity (also called the "Trilemma") states:
+
+**A country cannot simultaneously achieve:**
+
+1.  **Exchange rate stability** (fixed exchange rate)
+2.  **Full financial integration** (free capital mobility)
+3.  **Monetary independence** (independent monetary policy)
+
+**You can pick any TWO, but not all three.**
+
+## The Theory
+
+Why is this impossible? Let's think through it:
+
+**Scenario:** Country tries to maintain fixed rate with capital mobility and independent monetary policy.
+
+1.  Country lowers interest rates to stimulate economy
+2.  Investors move money out (seeking higher returns elsewhere)
+3.  Capital outflow puts pressure on currency to depreciate
+4.  To defend fixed rate, central bank must raise interest rates
+5.  Result: Can't maintain independent monetary policy!
+
+**The Three Choices:**
+
+```{r}
+#| label: impossible-trinity-diagram
+#| code-fold: show
+
+library(ggplot2)
+
+# Create triangle vertices
+triangle <- data.frame(
+  x = c(0, 1, 0.5, 0),
+  y = c(0, 0, sqrt(3)/2, 0),
+  label = c("Exchange Rate\nStability", "Full Financial\nIntegration", 
+            "Monetary\nIndependence", "")
+)
+
+# Country examples positioned on triangle edges
+countries <- data.frame(
+  Country = c("Eurozone", "United States", "China (pre-2005)", 
+              "Hong Kong", "Most emerging\nmarkets", "Floating rate\ncountries"),
+  x = c(0.5, 0.75, 0.25, 0, 0.5, 1),
+  y = c(0, sqrt(3)/4, sqrt(3)/4, 0, sqrt(3)/2, 0),
+  Choice = c("Rate stability +\nIntegration", "Independence +\nIntegration",
+             "Independence +\nRate stability", "Rate stability +\nIntegration",
+             "All three?\n(Impossible!)", "Independence +\nIntegration")
+)
+
+# Create plot
+ggplot() +
+  # Draw triangle
+  geom_path(data = triangle, aes(x = x, y = y), size = 1.5, color = "darkblue") +
+  # Label vertices
+  geom_text(data = triangle[1:3,], aes(x = x, y = y, label = label),
+            size = 4.5, fontface = "bold", vjust = c(1.5, 1.5, -0.5)) +
+  # Add country positions
+  geom_point(data = countries, aes(x = x, y = y), 
+             size = 4, color = "red", alpha = 0.6) +
+  geom_text(data = countries, aes(x = x, y = y, label = Country),
+            size = 3, vjust = -1.2) +
+  # Add center point showing impossibility
+  geom_point(aes(x = 0.5, y = sqrt(3)/6), size = 6, 
+             color = "red", shape = 4, stroke = 2) +
+  annotate("text", x = 0.5, y = sqrt(3)/6 + 0.1, 
+           label = "IMPOSSIBLE\nto be here!", 
+           size = 4, fontface = "bold", color = "red") +
+  coord_fixed() +
+  theme_void() +
+  labs(title = "The Impossible Trinity (Trilemma)",
+       subtitle = "Countries must choose TWO of three goals") +
+  theme(plot.title = element_text(size = 16, face = "bold", hjust = 0.5),
+        plot.subtitle = element_text(size = 12, hjust = 0.5))
+```
+
+## Real-World Examples
+
+### United States: Monetary Independence + Financial Integration
+
+**Choices:**
+
+-   [x] Independent monetary policy (Fed sets rates freely)
+-   [x] Full capital mobility (no capital controls)
+-   ✗ Floating exchange rate (gives up stability)
+
+**Implications:**
+
+-   Dollar floats against other currencies
+-   Fed can fight recessions with low rates
+-   Exchange rate acts as "shock absorber"
+-   Currency volatility affects trade
+
+### Eurozone: Exchange Rate Stability + Financial Integration
+
+**Choices:**
+
+-   [x] Fixed exchange rates (euro members locked together)
+-   [x] Full capital mobility (single market)
+-   ✗ No independent monetary policy (ECB decides for all)
+
+**Implications:**
+
+-   Greece can't devalue vs. Germany
+-   Italy can't lower rates independently
+-   "One size fits all" policy problems
+-   Adjustment comes through deflation/unemployment
+
+### China (Historically): Monetary Independence + Exchange Rate Stability
+
+**Choices:**
+
+-   [x] Managed exchange rate (RMB pegged/managed vs. dollar)
+-   [x] Independent monetary policy (PBOC controls domestic rates)
+-   ✗ Capital controls (strict limits on moving money in/out)
+
+**Implications:**
+
+-   Can't freely invest abroad
+-   Foreign investment restricted
+-   Black markets for currency
+-   Limits financial development
+
+**Note:** China has been gradually moving toward more flexibility on all three dimensions - a challenging transition!
+
+### Hong Kong: Exchange Rate Stability + Financial Integration
+
+**Choices:**
+
+-   [x] Fixed exchange rate (currency board: 7.8 HKD = 1 USD)
+-   [x] Full capital mobility (international financial center)
+-   ✗ No monetary policy (interest rates follow U.S. rates)
+
+**Implications:**
+
+-   Complete credibility on peg
+-   Hong Kong interest rates track Fed rates
+-   Real estate bubbles when U.S. rates are low
+-   Can't fight local recession with monetary policy
+
+## Policy Implications
+
+The Impossible Trinity explains many policy dilemmas:
+
+**Why do currency crises happen?**
+
+-   Countries try to maintain all three (impossible)
+-   Usually try: fixed rate + capital mobility + some policy independence
+-   Eventually, market tests commitment → Speculative attack → Crisis
+
+**Example: Asian Financial Crisis (1997)**
+
+-   Thailand tried to maintain: Baht peg to dollar + Open capital account + Some policy flexibility
+-   Capital inflows → Asset bubbles → Reversal → Speculative attack
+-   Not enough reserves to defend peg → Forced to float → Baht collapsed 50%
+-   Indonesia, Korea, Malaysia followed
+
+**Why do countries use capital controls?**
+
+-   To maintain both fixed rate AND monetary independence
+-   Controls prevent capital flight
+-   Example: Malaysia (1998) imposed controls during Asian Crisis
+
+**Why do some countries adopt currency boards?**
+
+-   Choose exchange rate stability + capital mobility
+-   Explicitly give up monetary independence
+-   Gain credibility but lose flexibility
+
+**Why float?**
+
+-   To maintain monetary independence + capital mobility
+-   Accept exchange rate volatility
+-   Most developed countries chose this path
+
+## The Evolution of Policy Choices
+
+How have countries' positions on the trinity evolved over time?
+
+**Bretton Woods Era (1945-1973):**
+
+-   Most countries: Fixed rates + Monetary independence
+-   Required: Capital controls
+-   System broke down when controls became ineffective
+
+**1980s-1990s:**
+
+-   Capital mobility increased globally
+-   Countries had to choose: Fixed rate OR Monetary independence
+-   Many crises as countries tried to maintain both
+
+**2000s-Present:**
+
+-   Most developed countries: Monetary independence + Capital mobility (floating)
+-   Eurozone: Fixed rates + Capital mobility (no independence)
+-   Some emerging markets: Fixed/managed rates + Capital controls
+-   Hong Kong, Gulf states: Fixed rates + Capital mobility (no independence)
+
+**The Key Question:** As financial integration deepens globally, can any country maintain both exchange rate stability and monetary independence? History suggests no.
+
+## Extensions and Complications
+
+### Fear of Floating
+
+Many countries that officially float actually intervene heavily to stabilize their rates. Why?
+
+-   Concern about inflation passthrough
+-   Large foreign currency debt
+-   Thin foreign exchange markets
+-   Political pressure
+
+Result: Try to get benefits of all three (impossible!) → Vulnerable to crises
+
+### The "Impossible Quartet"?
+
+Some economists argue there's a fourth objective: **Financial stability**
+
+With free capital flows, countries may experience:
+
+-   Asset bubbles
+-   Banking crises
+-   Sudden stops
+
+Do we need capital controls even with floating rates? Controversial debate.
+
+### Digital Currencies and the Trinity
+
+Could Central Bank Digital Currencies (CBDCs) change the trinity?
+
+-   Might allow better control of cross-border flows
+-   Could enable negative interest rates
+-   Might reduce effectiveness of capital controls
+
+Too early to know, but the trinity's logic likely still applies.
+
+## Practical Exercises
+
+**Exercise 1:** Classify these countries based on the Impossible Trinity:
+
+1.  United Kingdom (floating pound, independent Bank of England, open capital markets)
+2.  Denmark (pegged to euro, open capital markets)
+3.  Saudi Arabia (riyal pegged to dollar, open capital markets)
+4.  India (managed float, some capital controls, independent RBI)
+
+**Exercise 2:** During the COVID-19 pandemic, the Fed lowered interest rates to near zero. What happened to:
+
+-   The dollar? (It initially strengthened, then weakened)
+-   Capital flows? (Money flowed toward riskier assets globally)
+-   Other countries' policy choices? (Many followed Fed down, some didn't)
+
+Why did outcomes differ from what the trinity might predict?
+
+# A Single Currency for Europe: The Euro
+
+The euro represents one of the most ambitious monetary experiments in history. In 1999, eleven European countries abandoned their national currencies to adopt a single currency: the euro (€).
+
+**Today:** 20 countries use the euro, with a combined GDP rivaling the United States. But the path has been rocky.
+
+## The Maastricht Treaty and Monetary Union
+
+### Historical Background
+
+**The Vision:** European integration to ensure peace and prosperity after two devastating world wars.
+
+**Steps Toward Monetary Union:**
+
+1.  **1957:** Treaty of Rome establishes European Economic Community
+2.  **1979:** European Monetary System (EMS) created
+    -   Exchange Rate Mechanism (ERM): currencies pegged with bands
+    -   Precursor to full monetary union
+3.  **1992:** Maastricht Treaty signed
+    -   Set path to single currency
+    -   Established convergence criteria
+4.  **1999:** Euro launched for electronic transactions
+5.  **2002:** Euro cash introduced, replacing national currencies
+
+### The Maastricht Convergence Criteria
+
+To join the euro, countries had to meet five criteria:
+
+1.  **Inflation:** Must be within 1.5% of three best-performing EU states
+2.  **Government Finances:**
+    -   Budget deficit \< 3% of GDP
+    -   Government debt \< 60% of GDP
+3.  **Exchange Rates:** Currency stable within ERM bands for 2 years
+4.  **Long-term Interest Rates:** Within 2% of three best-performing states
+
+**Purpose:** Ensure only countries with similar economic conditions and sound finances joined.
+
+**Reality:** Several countries (including Greece) later found to have manipulated statistics to meet criteria. This would cause problems later.
+
+## The European Central Bank (ECB)
+
+### Structure and Mandate
+
+**Location:** Frankfurt, Germany
+
+**Mandate:** Maintain price stability (inflation target \~2%)
+
+**Unlike Fed:** ECB has single mandate (price stability), not dual mandate (also employment)
+
+**Governance:**
+
+-   Executive Board (6 members)
+-   Governing Council (19 national central bank governors + 6 executive board members)
+-   Decisions by majority vote
+
+**Key Issue:** "One size fits all" monetary policy for diverse economies:
+
+-   Germany (export powerhouse, conservative finances)
+-   Greece (tourism-dependent, loose finances)\
+-   Ireland (small, open economy)
+-   Spain (real estate boom-bust cycle)
+
+**The Problem:** ECB sets one interest rate for everyone, but countries face different economic conditions.
+
+### Monetary Policy Tools
+
+**Main Tools:**
+
+1.  **Interest Rates:** ECB sets refinancing rate for eurozone banks
+2.  **Reserve Requirements:** Banks must hold reserves at ECB
+3.  **Open Market Operations:** Buy/sell bonds to influence money supply
+4.  **Emergency Measures:** Quantitative easing, LTRO, OMT
+
+**Example:** During eurozone crisis (2010-2015):
+
+-   ECB kept rates low to help struggling countries (Greece, Spain, Portugal)
+-   But this fueled inflation in stronger economies (Germany, Netherlands)
+-   ECB couldn't raise rates (would crush weak countries) or lower rates (would overheat strong countries)
+
+## The Launch of the Euro
+
+### Initial Success (1999-2007)
+
+**Benefits Realized:**
+
+1.  **Transaction Costs Eliminated**
+    -   No more currency exchange within eurozone
+    -   Businesses save billions on hedging
+    -   Price transparency across borders
+2.  **Trade Increased**
+    -   Estimated 5-15% increase in trade among members
+    -   Easier cross-border business
+3.  **Interest Rates Converged**
+    -   Weak countries (Greece, Portugal) could borrow at near-German rates
+    -   Massive capital flows to periphery
+4.  **Euro Became Major Reserve Currency**
+    -   Second only to dollar globally
+    -   Challenge to dollar dominance
+
+**Example: Interest Rate Convergence**
+
+```{r}
+#| label: euro-interest-convergence
+#| code-fold: show
+
+# Hypothetical country comparison
+# Before euro (1995) vs. After euro (2005)
+
+interest_rates <- data.frame(
+  Country = c("Germany", "France", "Italy", "Spain", "Greece",
+              "Germany", "France", "Italy", "Spain", "Greece"),
+  Period = c(rep("Before Euro (1995)", 5), rep("After Euro (2005)", 5)),
+  Rate = c(6.5, 7.5, 12.0, 11.5, 17.5,  # Before
+           3.5, 3.5, 3.6, 3.5, 3.6)      # After
+)
+
+library(ggplot2)
+ggplot(interest_rates, aes(x = Country, y = Rate, fill = Period)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "10-Year Government Bond Yields: Before and After Euro",
+       subtitle = "Convergence to German rates",
+       x = "Country",
+       y = "Interest Rate (%)",
+       fill = "Period") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Set1")
+
+cat("\nAverage spread to Germany:\n")
+cat("Before euro: ", 
+    round(mean(c(7.5, 12.0, 11.5, 17.5) - 6.5), 1), 
+    " percentage points\n", sep = "")
+cat("After euro:  ", 
+    round(mean(c(3.5, 3.6, 3.5, 3.6) - 3.5), 1), 
+    " percentage points\n", sep = "")
+```
+
+This convergence seemed like a miracle - suddenly weak countries could borrow cheaply! But it created moral hazard and encouraged excessive borrowing.
+
+### The Euro in Action (2008-Present)
+
+**The Global Financial Crisis (2008-2009):**
+
+-   European banks heavily exposed to U.S. subprime mortgages
+-   Banking crisis spread to Europe
+-   Governments had to bail out banks
+-   Government debts exploded
+
+**The Eurozone Sovereign Debt Crisis (2010-2015):**
+
+In late 2009, Greece revealed it had massively understated its budget deficit. Markets panicked.
+
+**The PIIGS Crisis:**
+
+-   **P**ortugal
+-   **I**reland (though Ireland's problem was different - banking crisis)
+-   **I**taly
+-   **G**reece
+-   **S**pain
+
+**Key Problem:** Countries couldn't devalue to restore competitiveness (locked into euro). Adjustment required:
+
+-   Wage cuts
+-   Deflation
+-   Unemployment
+-   Austerity
+
+**Example: Greece**
+
+```{r}
+#| label: greece-crisis-data
+#| code-fold: show
+
+# Greek crisis by the numbers
+greece_data <- data.frame(
+  Metric = c("GDP decline", "Unemployment rate", "Government debt", 
+             "Youth unemployment", "Pension cuts", "Public sector wage cuts"),
+  Peak_Value = c("-25%", "27.5%", "180% of GDP", 
+                 "60%", "-40%", "-30%"),
+  Period = c("2008-2016", "2013", "2016", 
+             "2013", "2010-2015", "2010-2015")
+)
+
+print(greece_data)
+
+cat("\n")
+cat("Total bailout packages: €289 billion\n")
+cat("Conditions: Harsh austerity, tax increases, spending cuts\n")
+cat("Social cost: Emigration, poverty, political instability\n")
+```
+
+The human cost was devastating. Greece suffered a depression worse than the U.S. in the 1930s.
+
+**ECB Response:**
+
+1.  **LTRO (Long-Term Refinancing Operations):** Cheap loans to banks
+2.  **OMT (Outright Monetary Transactions):** Promise to buy government bonds "whatever it takes"
+3.  **Quantitative Easing:** Buy bonds to lower interest rates
+4.  **Negative Interest Rates:** Charge banks for holding reserves
+
+**Mario Draghi's Famous Quote (July 2012):**
+
+> "Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And believe me, it will be enough."
+
+This speech alone calmed markets and is credited with saving the euro.
+
+### Current Status
+
+**The Euro Today:**
+
+-   20 member countries (Croatia joined 2023)
+-   \~350 million people
+-   Second most-held reserve currency (\~20% of global reserves)
+-   Survived existential crisis but scars remain
+
+**Unresolved Issues:**
+
+1.  **No Fiscal Union**
+    -   Banking union incomplete
+    -   No mechanism for fiscal transfers
+    -   "No bailout" clause often violated
+2.  **North-South Divide**
+    -   Northern countries (Germany, Netherlands) want austerity
+    -   Southern countries (Italy, Spain, Greece) want stimulus
+    -   Persistent tensions
+3.  **Democratic Deficit**
+    -   ECB not directly accountable to voters
+    -   Austerity imposed by unelected technocrats
+    -   Rise of populist parties
+4.  **Competitiveness Gaps**
+    -   Germany runs massive surpluses
+    -   Southern countries can't compete
+    -   No easy adjustment mechanism
+
+**The Future:**
+
+Will the euro survive? Most economists now say yes, but:
+
+-   Needs deeper integration (fiscal union, banking union)
+-   Political will may not exist
+-   Next crisis will test system again
+
+## Brexit and the Pound
+
+**Important Contrast:** The United Kingdom never adopted the euro, keeping the pound sterling.
+
+**Why?**
+
+-   Historical attachment to pound
+-   Desire for monetary independence
+-   Skepticism about European integration
+
+**Brexit (2016-2020):**
+
+-   UK voted to leave European Union
+-   Pound fell sharply (from \~\$1.50 to \~\$1.20)
+-   Question: Was staying out of euro wise? Most economists say yes.
+
+**Lesson:** Exchange rate flexibility helped UK adjust to Brexit shock. Euro members couldn't have devalued.
+
+## Lessons from the Euro Experience
+
+**What Worked:**
+
+-   Transaction costs eliminated
+-   Trade increased
+-   Financial integration deepened
+-   Euro established as major reserve currency
+
+**What Didn't:**
+
+-   "One size fits all" policy created imbalances
+-   No fiscal union to complement monetary union
+-   Crisis adjustment extremely painful
+-   Political integration insufficient
+
+**Key Insight from Impossible Trinity:**
+
+The euro represents choice of: **Exchange rate stability + Financial integration**
+
+This requires giving up: **Monetary independence**
+
+But without fiscal union, this creates persistent tensions and risks future crises.
+
+**Robert Mundell's Optimum Currency Area Theory:**
+
+Countries should share currency if:
+
+1.  [x] High degree of trade integration
+2.  [x] Similar business cycles
+3.  ✗ Labor mobility across borders (limited in EU)
+4.  ✗ Fiscal transfers (doesn't exist)
+5.  [x] Flexible wages and prices
+
+Europe gets mixed grades. The euro works for core countries (Germany, France, Netherlands) but is challenging for periphery.
+
+# Internationalization of the Chinese RMB
+
+One of the most significant developments in international finance: China's efforts to make the renminbi (RMB, also called yuan) a major international currency.
+
+**Why It Matters:**
+
+-   China is world's second-largest economy
+-   Largest trading nation
+-   Massive foreign exchange reserves
+-   Yet RMB plays minimal role in international finance
+
+**The Question:** Can the RMB challenge the dollar's dominance?
+
+## Renminbi Valuation
+
+### Historical Background
+
+**1949-1994:** Multiple exchange rate system
+
+-   Official rate
+-   Swap market rate
+-   Black market rate
+-   Complex and inefficient
+
+**1994:** Unification at 8.7 yuan per dollar
+
+**1994-2005:** Fixed peg at \~8.28 yuan per dollar
+
+**2005-2008:** Managed appreciation
+
+-   Allowed yuan to strengthen gradually
+-   Rose to \~6.8 per dollar by 2008
+
+**2008-2010:** Re-pegged during Global Financial Crisis
+
+-   Stability during crisis
+-   Fixed at \~6.83 per dollar
+
+**2010-2015:** Resumed appreciation
+
+-   Reached \~6.0 per dollar by 2014
+-   Then depreciated as growth slowed
+
+**2015:** Surprise devaluation (August)
+
+-   3% devaluation in one day
+-   Markets panicked, fearing competitive devaluation war
+-   Capital outflows accelerated
+
+**2016-Present:** Managed float
+
+-   PBOC manages rate vs. basket of currencies
+-   Allows more flexibility but intervenes heavily
+-   Currently \~7.2 yuan per dollar (early 2024)
+
+### The Currency Debate
+
+**Is the RMB Undervalued?**
+
+**Those who say YES:**
+
+-   China runs persistent trade surpluses
+-   Large current account surplus historically
+-   Massive reserve accumulation
+-   Intervention to prevent appreciation
+
+**Those who say NO:**
+
+-   Labor costs rising rapidly
+-   Productivity catching up
+-   Current account surplus has declined
+-   Some years actually had capital outflows
+
+**Reality:** Valuation debates are notoriously difficult. Most economists think RMB was significantly undervalued in 2000s, less clear today.
+
+```{r}
+#| label: rmb-history
+#| code-fold: show
+
+# CNY/USD historical pattern (simplified)
+# Note: These are approximate values for illustration
+
+rmb_data <- data.frame(
+  Year = seq(1995, 2024, by = 1),
+  Rate = c(
+    8.7, 8.3, 8.3, 8.3, 8.3,  # 1995-1999: Post-unification adjustment
+    8.28, 8.28, 8.28, 8.28, 8.28,  # 2000-2004: Fixed peg
+    8.19, 7.97, 7.60, 6.95, 6.83,  # 2005-2009: Appreciation then re-peg
+    6.77, 6.46, 6.31, 6.20, 6.14,  # 2010-2014: Resumed appreciation
+    6.28, 6.64, 6.76, 6.88, 6.91,  # 2015-2019: Devaluation and stability
+    6.90, 6.45, 6.73, 7.09, 7.25   # 2020-2024: COVID and current
+  ),
+  Regime = c(
+    rep("Unification adjustment", 5),
+    rep("Fixed peg", 5),
+    rep("Managed appreciation", 5),
+    rep("Renewed appreciation", 5),
+    rep("Devaluation & adjustment", 5),
+    rep("Recent period", 5)
+  )
+)
+
+library(ggplot2)
+
+# Create plot
+ggplot(rmb_data, aes(x = Year, y = Rate, color = Regime)) +
+  geom_line(size = 1.2) +
+  geom_point(size = 2) +
+  scale_y_continuous(trans = "reverse") +  # Reverse so up = RMB appreciation
+  labs(title = "Chinese Yuan (CNY) per US Dollar (1995-2024)",
+       subtitle = "Lower values = stronger yuan (RMB appreciation)",
+       x = "Year",
+       y = "CNY per USD",
+       color = "Exchange Rate Regime") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+# Key events annotations
+key_events <- data.frame(
+  Year = c(1994, 2005, 2008, 2015, 2020),
+  Rate = c(8.7, 8.19, 6.83, 6.28, 6.90),
+  Event = c("Unification", "End of peg", "GFC re-peg", "Surprise\ndevaluation", "COVID")
+)
+
+# Would add geom_text for events but keeping it simple
+```
+
+## Two-Market Currency Development
+
+China has developed a unique **two-market system** for the RMB:
+
+### CNY (Onshore Yuan)
+
+**Location:** Mainland China
+
+**Characteristics:**
+
+-   Traded only in mainland China
+-   Tightly controlled by PBOC
+-   Capital controls prevent free movement
+-   Official rate set by PBOC daily
+-   Limited trading band (currently ±2% from fix)
+-   Must use for all domestic transactions
+
+**Access:** Foreign companies operating in China use CNY
+
+### CNH (Offshore Yuan)
+
+**Location:** Hong Kong (primarily), also Singapore, London, others
+
+**Characteristics:**
+
+-   Freely tradable
+-   Market-determined rate
+-   No capital controls
+-   Can differ from onshore rate
+-   Used for international transactions
+-   Growing pool of offshore yuan liquidity
+
+**Access:** International investors and companies use CNH
+
+### Why Two Markets?
+
+**Capital Controls:**
+
+-   China wants to control capital flows
+-   Prevent destabilizing inflows/outflows
+-   Maintain monetary policy independence
+-   But also wants RMB internationalization
+
+**Solution:**
+
+-   Keep domestic market controlled (CNY)
+-   Create offshore market for international use (CNH)
+-   Gradually allow more connections
+
+**The Spread:** CNY and CNH rates usually differ slightly:
+
+```{r}
+#| label: cny-cnh-spread
+#| code-fold: show
+
+# Simulated CNY vs CNH rates
+# Typically CNH is more volatile and can differ from CNY
+
+set.seed(123)
+days <- 1:252  # One year
+cny_rate <- 6.50 + cumsum(rnorm(252, mean = 0, sd = 0.002))
+cnh_rate <- cny_rate + rnorm(252, mean = 0.01, sd = 0.02)  # CNH slightly different
+
+spread_data <- data.frame(
+  Day = days,
+  CNY = cny_rate,
+  CNH = cnh_rate,
+  Spread = (cnh_rate - cny_rate) * 1000  # In basis points
+)
+
+# Plot the spread
+ggplot(spread_data, aes(x = Day, y = Spread)) +
+  geom_line(color = "steelblue") +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "CNY vs. CNH Spread (Simulated)",
+       subtitle = "Difference between onshore and offshore yuan rates",
+       x = "Trading Day",
+       y = "Spread (basis points, CNH - CNY)") +
+  theme_minimal()
+
+cat("Average absolute spread:", round(mean(abs(spread_data$Spread)), 1), "basis points\n")
+cat("Maximum spread:", round(max(abs(spread_data$Spread)), 1), "basis points\n")
+```
+
+**During crises**, the spread can widen significantly as offshore yuan trades freely while onshore yuan is controlled.
+
+## Internationalization: Theoretical Principles and Practical Concerns
+
+### The Three Degrees of Currency Internationalization
+
+A currency becomes international through three stages:
+
+#### First Degree: Trade Settlement
+
+**Basic Use:** Denominating and settling international trade transactions
+
+**Current Status - RMB:**
+
+-   China has signed **bilateral swap agreements** with 40+ countries
+-   Many countries can settle trade in RMB
+-   Growing but still limited use
+
+**Data (2019 IMF Study):**
+
+-   93% of China's imports still denominated in USD
+-   95% of China's exports denominated in USD
+-   RMB trade settlement only 2-5%
+
+**Why So Low?**
+
+-   Network effects - everyone uses dollar
+-   Dollar invoicing reduces transaction costs
+-   Trading partners prefer dollars
+-   Limited RMB liquidity outside China
+
+#### Second Degree: Financial Transactions
+
+**Advanced Use:** International bond issuance, bank deposits, loans
+
+**Current Status - RMB:**
+
+-   "Dim sum bonds" - RMB bonds issued in Hong Kong
+-   Growing RMB bond market
+-   Some international reserves held in RMB
+-   Still very small vs. dollar, euro
+
+**Obstacles:**
+
+-   Capital controls limit RMB flows
+-   Shallow financial markets
+-   Legal uncertainty
+-   Concerns about rule of law
+
+#### Third Degree: Reserve Currency
+
+**Ultimate Status:** Central banks hold currency as official reserves
+
+**Current Status - RMB:**
+
+```{r}
+#| label: reserve-currency-shares
+#| code-fold: show
+
+# Global reserve currency shares (Q1 2023 approximate)
+reserves <- data.frame(
+  Currency = c("US Dollar", "Euro", "Japanese Yen", "British Pound", 
+               "Chinese Yuan", "Canadian Dollar", "Australian Dollar", "Other"),
+  Share = c(58.4, 20.5, 5.5, 4.9, 2.7, 2.1, 1.8, 4.1),
+  Code = c("USD", "EUR", "JPY", "GBP", "CNY", "CAD", "AUD", "Other")
+)
+
+library(ggplot2)
+ggplot(reserves, aes(x = reorder(Currency, -Share), y = Share, fill = Currency)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Global Foreign Exchange Reserves by Currency (2023)",
+       subtitle = "Share of identified official foreign exchange reserves",
+       x = "Currency",
+       y = "Share (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none") +
+  geom_text(aes(label = paste0(Share, "%")), vjust = -0.5)
+
+cat("\nKey observations:\n")
+cat("- Dollar dominates despite decline from 70%+ in 2000\n")
+cat("- Euro second but stable\n")
+cat("- RMB only 2.7% despite China's economic size\n")
+cat("- RMB share was 0% in 2015, so growing rapidly from low base\n")
+```
+
+**The RMB's Challenge:**
+
+China is world's #2 economy, but RMB only 2.7% of reserves. Why?
+
+1.  **Capital controls** - Hard to get RMB in/out of China
+2.  **Shallow financial markets** - Limited RMB assets to invest in
+3.  **Lack of transparency** - Concerns about data quality, policy predictability
+4.  **Legal uncertainty** - Will China enforce contracts? Property rights?
+5.  **Network effects** - Dollar has 75+ years of incumbent advantage
+
+### What Would It Take for RMB to Become Major Reserve Currency?
+
+**Requirements:**
+
+1.  **Fully convertible capital account**
+    -   Free flow of capital in and out
+    -   China is moving slowly in this direction
+    -   But fears destabilizing flows
+2.  **Deep, liquid financial markets**
+    -   Need large, safe RMB bond market
+    -   Chinese government bond market growing
+    -   But still heavily controlled
+3.  **Rule of law and property rights**
+    -   Predictable legal system
+    -   Protection of foreign investors
+    -   Major concern given China's political system
+4.  **Stable macroeconomic policies**
+    -   Low inflation
+    -   Sustainable fiscal policy
+    -   Independent central bank (PBOC not independent)
+5.  **Time and patience**
+    -   Network effects are powerful
+    -   Dollar took decades to displace pound
+    -   Even then, required two world wars!
+
+**China's Dilemma:**
+
+-   Want RMB internationalization for prestige and reduced dollar dependence
+-   But full capital account liberalization threatens domestic control
+-   Fear of capital flight and financial instability
+-   Political system requires capital controls
+
+**Most Likely Path:** Gradual, controlled internationalization over decades, but RMB unlikely to truly rival dollar without fundamental political reforms.
+
+## The Triffin Dilemma
+
+Remember the Triffin Dilemma from Bretton Woods? It applies to any reserve currency country.
+
+**The Dilemma for China:**
+
+If RMB becomes major reserve currency:
+
+**Problem 1:** World needs RMB for reserves and transactions
+
+-   To supply RMB, China must run **current account deficits**
+-   But China's economic model depends on trade surpluses
+-   Conflict between domestic and international roles
+
+**Problem 2:** If China runs persistent deficits
+
+-   Foreign holdings of RMB grow
+-   Eventually, questions about China's ability to maintain value
+-   Potential loss of confidence and currency crisis
+
+**The U.S. Experience:**
+
+-   U.S. has run current account deficits for decades
+-   Supplies dollars to the world
+-   But deficits raise questions about sustainability
+-   "Exorbitant privilege" but also "exorbitant burden"
+
+**China's Choice:**
+
+-   Continue growth model (surpluses) → RMB won't become reserve currency
+-   Run deficits for RMB internationalization → Sacrifice growth model
+-   Try to thread the needle with capital controls → Limits full internationalization
+
+No easy answer. This explains why RMB internationalization has been slower than some predicted.
+
+## The Digital Yuan (e-CNY)
+
+China is a global leader in Central Bank Digital Currency (CBDC):
+
+**e-CNY Project:**
+
+-   Launched pilots in 2020
+-   Millions of users testing digital yuan
+-   Can use without bank account
+-   Programmable money (expiration dates, usage restrictions possible)
+
+**Potential International Implications:**
+
+1.  **Bypass SWIFT System**
+    -   Could enable transactions outside dollar system
+    -   Reduce U.S. sanctions leverage
+    -   Appeal to countries concerned about U.S. power
+2.  **Better Capital Controls**
+    -   Track all transactions
+    -   Prevent capital flight
+    -   Maintain control while internationalizing
+3.  **Financial Inclusion**
+    -   Reach unbanked populations in Belt & Road countries
+    -   Leapfrog traditional banking
+
+**Concerns:**
+
+-   Privacy and surveillance
+-   Authoritarian control
+-   Cybersecurity risks
+-   Whether other countries will adopt
+
+**Reality Check:** Even with e-CNY, the fundamental requirements for reserve currency status don't change. Technology alone won't make RMB dominant without addressing capital controls, rule of law, and financial market development.
+
+# Emerging Markets and Regime Choices
+
+Emerging market countries face particularly difficult choices about exchange rate regimes. Unlike developed countries with deep financial markets and strong institutions, emerging markets must deal with:
+
+-   **Volatile capital flows** (sudden stops and surges)
+-   **Original sin** - inability to borrow abroad in own currency
+-   **Currency mismatches** - debts in dollars, revenues in local currency
+-   **Limited credibility** - history of inflation, default, or devaluation
+-   **Thin financial markets** - vulnerable to manipulation
+-   **Political instability** - frequent policy changes
+
+Given these challenges, what should emerging markets do?
+
+## Currency Boards
+
+A **currency board** is the strongest form of fixed exchange rate short of full dollarization:
+
+**Key Features:**
+
+1.  **Domestic currency fully backed by foreign reserves** (usually 100%+)
+2.  **Fixed exchange rate set by law**
+3.  **Automatic monetary policy** - money supply changes only with reserve flows
+4.  **No discretion** - central bank cannot print money or lend to government
+
+**Advantages:**
+
+-   **Credibility** - Can't print money, so inflation expectations anchored
+-   **Eliminates currency risk** (mostly)
+-   **Imports credibility** of anchor currency
+-   **Forces fiscal discipline** - Government can't monetize debt
+
+**Disadvantages:**
+
+-   **No monetary policy flexibility** - Can't fight recessions with rate cuts
+-   **No lender of last resort** - Banks vulnerable to runs
+-   **Requires massive reserves** - Expensive to maintain
+-   **Vulnerable to asymmetric shocks** - If anchor country doesn't face same conditions
+
+### Argentina (1991-2001)
+
+**Background:** Argentina suffered hyperinflation in the late 1980s
+
+-   Inflation reached **3,000%+ per year**
+-   Multiple currencies in use
+-   Economy collapsed
+-   Political instability
+
+**The Convertibility Plan (1991):**
+
+Economy Minister Domingo Cavallo implemented currency board:
+
+-   **1 peso = 1 USD** fixed by law
+-   Peso fully backed by dollar reserves
+-   Central bank prohibited from printing pesos without matching dollar reserves
+
+**Initial Success (1991-1998):**
+
+```{r}
+#| label: argentina-results
+#| code-fold: show
+
+# Argentina currency board results
+argentina_data <- data.frame(
+  Indicator = c("Inflation", "GDP growth", "FDI inflows", "Unemployment"),
+  Before_1990 = c("3,000%+", "-2%", "$1B", "8%"),
+  After_1995 = c("2-3%", "+4%", "$5B", "12%")
+)
+
+print(argentina_data)
+
+cat("\nImpressive achievements:\n")
+cat("- Hyperinflation crushed\n")
+cat("- Credibility restored\n")
+cat("- Investment returned\n")
+cat("- GDP grew rapidly\n")
+```
+
+**The Problem: Rigid System Couldn't Adjust**
+
+Late 1990s brought challenges:
+
+1.  **Brazilian devaluation (1999)** - Main trading partner's currency fell 50%
+    -   Argentine exports became uncompetitive
+    -   But couldn't devalue due to currency board
+2.  **Strong dollar** - Argentina locked to appreciating dollar
+    -   Made exports expensive
+    -   Imports cheap → Trade deficit
+3.  **Recession begins (1998)**
+    -   Need monetary stimulus
+    -   But currency board prevented rate cuts
+    -   Couldn't devalue
+4.  **Debt problems**
+    -   Government borrowing in dollars
+    -   Recession → Tax revenues fell
+    -   Debt service costs rose
+
+**The Collapse (2001-2002):**
+
+-   Bank runs → Government froze deposits ("Corralito")
+-   Social unrest → President resigned
+-   Multiple presidents in one month
+-   **Default on \$82 billion** (largest in history at time)
+-   **Currency board abandoned** (January 2002)
+-   Peso devalued to 3:1, then floated
+-   Economy contracted 20%
+
+**Lessons:**
+
+-   Currency boards provide credibility but at high cost
+-   **Can't adjust to asymmetric shocks**
+-   Works during good times, fails in crisis
+-   Fiscal discipline also essential (Argentina failed here)
+-   Exit can be catastrophic
+
+**Argentina's Subsequent History:**
+
+-   Continued economic instability
+-   Multiple subsequent crises
+-   Chronic high inflation returned
+-   Never regained pre-crisis prosperity
+-   Shows dangers of wrong regime choice
+
+## Dollarization
+
+**Full dollarization** means abandoning domestic currency entirely and adopting a foreign currency (usually USD) as legal tender.
+
+**Key Features:**
+
+-   No domestic currency at all
+-   All transactions in foreign currency
+-   No central bank needed (for monetary policy)
+-   Complete monetary policy dependence
+
+**Even More Extreme Than Currency Board:**
+
+-   Can't even issue domestic currency in crisis
+-   No "exit" option - very hard to reverse
+
+### Ecuador (2000-Present)
+
+**Background: The Sucre Collapses**
+
+Late 1990s crisis:
+
+-   Oil prices fell
+-   El Niño disasters
+-   Banking crisis
+-   Currency crisis
+
+**The Sucre's Collapse:**
+
+```{r}
+#| label: ecuador-sucre-collapse
+#| code-fold: show
+
+# Ecuador sucre depreciation (approximate)
+sucre_data <- data.frame(
+  Year = c(1998, 1999, 2000),
+  Rate = c(7000, 20000, 25000),
+  Event = c("Crisis begins", "Free fall", "Dollarization")
+)
+
+library(ggplot2)
+ggplot(sucre_data, aes(x = Year, y = Rate)) +
+  geom_line(color = "red", size = 1.5) +
+  geom_point(size = 3, color = "darkred") +
+  geom_text(aes(label = Event), vjust = -1) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Ecuador: Sucre per US Dollar",
+       subtitle = "Currency collapse 1998-2000",
+       x = "Year",
+       y = "Sucres per USD") +
+  theme_minimal()
+
+cat("\nThe collapse:\n")
+cat("- 1998: 7,000 sucres/dollar\n")
+cat("- 1999: 20,000 sucres/dollar (down 65%)\n")
+cat("- 2000: 25,000 sucres/dollar (down 72% from 1998)\n")
+cat("- Annual inflation: 60%+\n")
+```
+
+**Dollarization Decision (January 2000):**
+
+President Jamil Mahuad announced:
+
+-   Sucre would be replaced by USD
+-   Fixed rate: 25,000 sucres = \$1
+-   Conversion over several months
+-   USD became sole legal tender
+
+**Results (2000-Present):**
+
+**Positives:**
+
+-   **Inflation controlled** - Fell from 60% to \~2-3% annually
+-   **Exchange rate stability** - By definition!
+-   **Financial stability improved**
+-   **Credibility restored** somewhat
+
+**Negatives:**
+
+-   **No monetary policy** - Can't respond to local shocks
+-   **No lender of last resort** - Vulnerable to bank runs
+-   **Adjustment through recession** - Economic downturns last longer
+-   **Loss of seigniorage** - Government can't print money for revenue
+-   **Tied to U.S. economy** - Fed policy may not fit Ecuador's needs
+
+**Example: 2008-2009 Global Financial Crisis**
+
+-   U.S. needed low interest rates
+-   Ecuador needed different policy (commodity exporter)
+-   But Ecuador had no choice - used U.S. rates
+-   Recession deeper and longer than might have been with own currency
+
+**Has Dollarization "Worked"?**
+
+**Depends on Criteria:**
+
+-   **Inflation:** ✓ Success - Inflation controlled
+-   **Growth:** ± Mixed - Moderate growth, but volatile
+-   **Financial stability:** ✓ Improved - No currency crises
+-   **Flexibility:** ✗ None - Can't adjust to shocks
+
+**Would Ecuador Reverse It?**
+
+Very difficult politically:
+
+-   Population doesn't trust government with currency
+-   Businesses adapted to dollars
+-   Would need to rebuild entire monetary system
+-   Risk of another crisis in transition
+
+**Dollarization is essentially irreversible** once implemented.
+
+### El Salvador (2001-Present, plus Bitcoin 2021)
+
+**Background:**
+
+El Salvador dollarized in 2001 after civil war and currency instability.
+
+**Similar Story to Ecuador:**
+
+-   Adopt dollar for stability
+-   Lose monetary policy flexibility
+-   Tied to Fed's decisions
+
+**The Bitcoin Experiment (2021):**
+
+In June 2021, El Salvador became first country to adopt **Bitcoin as legal tender** alongside the dollar!
+
+**President Nayib Bukele's Rationale:**
+
+-   Reduce remittance costs (many Salvadorans work in U.S.)
+-   Financial inclusion (40% unbanked)
+-   Attract crypto investment
+-   Technological leadership
+
+**Implementation:**
+
+-   Government app "Chivo Wallet"
+-   Businesses required to accept Bitcoin
+-   Government holds Bitcoin reserves
+-   \$30 in Bitcoin given to citizens who sign up
+
+**Results (2021-2024):**
+
+**Problems:**
+
+-   **Extreme volatility** - Bitcoin fell from \$69,000 to \$16,000
+-   **Government losses** - Bought Bitcoin at high prices
+-   **Low adoption** - Most businesses and citizens avoid using it
+-   **IMF criticism** - Concerns about fiscal risks
+-   **Technical issues** - Wallet malfunctions, poor user experience
+
+**Bitcoin Holdings:**
+
+-   Government bought \~2,700 BTC
+-   Average price \~\$43,000
+-   Currently underwater on investment
+-   Continues to buy more ("buying the dip")
+
+**The Irony:**
+
+El Salvador dollarized to gain monetary stability. Adding Bitcoin reintroduced massive monetary instability!
+
+**Lesson:** Gimmicks don't solve fundamental economic problems. Sound institutions, fiscal discipline, and good governance matter more than currency choice.
+
+### Zimbabwe (2009-2019, 2020)
+
+Zimbabwe's experience is a cautionary tale about **when dollarization is forced by hyperinflation**.
+
+**Background: Hyperinflation**
+
+Robert Mugabe's policies destroyed Zimbabwe's economy:
+
+-   Land seizures destroyed agriculture
+-   Money printing to finance government
+-   Hyperinflation
+
+**How Bad Was It?**
+
+```{r}
+#| label: zimbabwe-hyperinflation
+#| code-fold: show
+
+# Zimbabwe hyperinflation was so extreme it broke normal scales
+# Peak estimate: 89.7 sextillion percent (2008)
+
+cat("Zimbabwe Hyperinflation:\n")
+cat("=======================\n\n")
+cat("July 2008: 231,000,000% annual inflation\n")
+cat("November 2008: 89.7 SEXTILLION percent (unofficial estimate)\n")
+cat("   That's: 89,700,000,000,000,000,000,000%\n\n")
+
+cat("Currency denominations issued:\n")
+cat("- $1 (original)\n")
+cat("- $100,000\n")
+cat("- $1,000,000\n")
+cat("- $100,000,000\n")
+cat("- $100 TRILLION (largest ever issued)\n\n")
+
+cat("Prices doubled every: 24.7 hours (at peak)\n\n")
+
+cat("Example: Loaf of bread\n")
+cat("- 2000: Z$0.55\n")
+cat("- 2008: Z$1.6 TRILLION\n")
+```
+
+**De Facto Dollarization (2008-2009):**
+
+-   Zimbabwean dollar became worthless
+-   Population spontaneously adopted foreign currencies
+-   USD, South African rand, Botswana pula, others used
+-   Multiple currencies circulated
+
+**Official Multi-Currency System (2009-2020):**
+
+Government formally abandoned Zimbabwe dollar (April 2009):
+
+-   USD became primary currency
+-   Also: Euro, Pound, Rand, Pula, Yuan, Yen, Indian Rupee, Australian dollar
+-   **Nine official currencies!**
+
+**Results:**
+
+-   Inflation crushed immediately
+-   Economic stability improved
+-   But growth remained weak
+-   Chronic cash shortages (couldn't print money)
+
+**Attempted Return (2019-2020):**
+
+Government tried to reintroduce Zimbabwe dollar:
+
+-   February 2019: "RTGS dollar" introduced
+-   June 2019: Zimbabwe dollar returns as sole legal tender
+-   Result: **Inflation immediately returned**
+-   By 2020: Triple-digit inflation again
+-   **USD banned but used on black market**
+
+**Lesson:** Currency is not just symbolic. Without fiscal discipline and sound institutions, any currency will fail. Zimbabwe's problem wasn't the currency choice - it was governance.
+
+**Current Status (2024):** Officially Zimbabwe dollar, but USD widely used informally. Government tolerance of dollar use varies.
+
+## Currency Regime Choices for Emerging Markets
+
+Given these experiences, what should emerging market countries choose?
+
+### The "Fear of Floating" Phenomenon
+
+Many emerging markets officially float but actually intervene heavily. Why?
+
+**Reasons for Fear of Floating:**
+
+1.  **Currency mismatches** - Debts in foreign currency, revenues in domestic
+    -   Depreciation increases debt burden
+    -   Can cause bankruptcies
+2.  **Pass-through to inflation** - Currency depreciation → Higher import prices
+    -   Weak institutions can't control inflation
+    -   Floating = Inflation risk
+3.  **Loss of competitiveness** - If currency appreciates too much
+    -   Exports become expensive
+    -   Jobs lost
+4.  **Political pressure** - Exchange rate very visible
+    -   Government blamed for depreciation
+    -   Easier to intervene than explain
+
+**Result:** "Fear of floating" - Countries that claim to float actually manage rates heavily.
+
+### The "Fear of Pegging" Phenomenon
+
+But emerging markets also fear hard pegs. Why?
+
+**Reasons for Fear of Pegging:**
+
+1.  **Speculative attacks** - Fixed rates are targets
+    -   Especially with capital mobility
+    -   Argentina and Asian Crisis examples
+2.  **Loss of flexibility** - Can't respond to shocks
+    -   Asymmetric shocks common for emerging markets
+    -   Commodity price changes
+    -   Capital flow reversals
+3.  **Requires massive reserves** - Expensive and risky
+    -   Reserves could be invested in development
+    -   May not be enough anyway
+
+**Result:** Most emerging markets use soft pegs or managed floats. Try to get benefits of both systems but vulnerable to crises.
+
+### What Works Best?
+
+**Recent Research Suggests:**
+
+1.  **No universal answer** - Depends on country characteristics
+
+2.  **Institutions matter more than regime** - Countries with strong institutions can make any regime work
+
+3.  **Capital controls may help** - Allow more policy space
+
+    -   But can be evaded
+    -   May deter investment
+
+4.  **Flexible inflation targeting** - For countries that can float
+
+    -   Requires credible central bank
+    -   Clear communication
+    -   Transparency
+
+5.  **Hard pegs or float, avoid soft pegs** - "Corner solutions"
+
+    -   But reality: Most countries still use soft pegs!
+
+### Country-Specific Factors
+
+**Small, open economies:** May benefit from hard peg/dollarization
+
+-   Large share of trade in one currency
+-   Limited ability to conduct independent policy anyway
+-   Example: Small Caribbean islands
+
+**Commodity exporters:** Need flexibility
+
+-   Terms of trade shocks common
+-   Floating rate helps adjust
+-   Example: Chile, Australia
+
+**Manufacturing exporters:** May prefer stability
+
+-   Exchange rate certainty helps plan production
+-   But need competitiveness
+-   Example: China's managed regime
+
+**Countries with weak institutions:**
+
+-   Hard peg provides discipline
+-   But also removes flexibility
+-   Tradeoff: Credibility vs. flexibility
+
+## Reserve Currencies and What Lies Ahead
+
+We've discussed the Chinese RMB's internationalization attempts. What about the broader picture?
+
+### Current Distribution of Reserve Holdings
+
+As of 2023:
+
+```{r}
+#| label: reserve-currency-distribution-detail
+#| code-fold: show
+
+# More detailed reserve currency data
+reserve_detail <- data.frame(
+  Currency = c("US Dollar", "Euro", "Japanese Yen", "British Pound", 
+               "Chinese Yuan", "Canadian Dollar", "Australian Dollar", 
+               "Swiss Franc", "Other"),
+  Share_2023 = c(58.4, 20.5, 5.5, 4.9, 2.7, 2.1, 1.8, 0.2, 3.9),
+  Share_2015 = c(65.8, 19.7, 4.0, 4.8, 1.1, 1.9, 1.8, 0.3, 0.6),
+  Change = c(-7.4, 0.8, 1.5, 0.1, 1.6, 0.2, 0, -0.1, 3.3)
+)
+
+library(ggplot2)
+library(dplyr)
+
+# Create comparison plot
+reserve_long <- reserve_detail %>%
+  select(Currency, Share_2015, Share_2023) %>%
+  tidyr::pivot_longer(cols = c(Share_2015, Share_2023), 
+                     names_to = "Year", 
+                     values_to = "Share") %>%
+  mutate(Year = ifelse(Year == "Share_2015", "2015", "2023"))
+
+ggplot(reserve_long, aes(x = reorder(Currency, -Share), y = Share, fill = Year)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Global Reserve Currency Shares: 2015 vs 2023",
+       subtitle = "Dollar declining but still dominant",
+       x = "Currency",
+       y = "Share of Global Reserves (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_brewer(palette = "Set1")
+
+# Print change data
+cat("\nChanges in reserve shares (2015-2023):\n")
+print(reserve_detail[, c("Currency", "Change")], row.names = FALSE)
+```
+
+**Key Observations:**
+
+-   Dollar share declining but still dominant (\~58%)
+-   Euro stable around 20%
+-   RMB growing rapidly from low base (1.1% → 2.7%)
+-   Yen increased share
+-   "Other" growing - diversification trend
+
+### Factors Supporting Dollar Dominance
+
+Why does the dollar remain so dominant despite U.S. challenges?
+
+**1. Network Effects (Most Important)**
+
+-   Everyone uses dollars → Easier to keep using dollars
+-   Deep, liquid markets
+-   Global invoicing in dollars
+-   Most currencies managed vs. dollar
+
+**2. Financial Market Depth**
+
+-   U.S. Treasury market: \$24+ trillion
+-   Most liquid market in the world
+-   Always can buy or sell
+-   Safe haven in crises
+
+**3. Rule of Law and Property Rights**
+
+-   U.S. legal system protects investors
+-   Independent Fed (mostly)
+-   Transparent policymaking
+-   Credible commitment not to expropriate
+
+**4. Military and Political Power**
+
+-   U.S. guarantees global security (for allies)
+-   SWIFT system (dollar-based)
+-   Sanctions power
+-   Global presence
+
+**5. Inertia and Path Dependence**
+
+-   Took decades to displace pound sterling (and required two world wars!)
+-   Changing reserve currency is costly
+-   International monetary systems change slowly
+
+### Challenges to Dollar Dominance
+
+**1. Persistent U.S. Current Account Deficits**
+
+-   Triffin Dilemma strikes again
+-   Sustainable? Unclear
+-   Debtor nation status
+
+**2. Political Dysfunction**
+
+-   Debt ceiling crises
+-   Government shutdowns
+-   Polarization
+-   Questions about governance
+
+**3. Weaponization of Dollar**
+
+-   Sanctions on Russia, Iran, others
+-   Other countries seek alternatives
+-   BRICS currency discussions
+-   Desire to avoid dependence
+
+**4. Rise of China**
+
+-   World's #2 economy
+-   Largest trading nation
+-   Growing RMB usage
+-   Digital yuan
+
+**5. Digital Currencies**
+
+-   Central Bank Digital Currencies (CBDCs)
+-   Private cryptocurrencies
+-   Could reduce need for reserve currencies
+-   Technology-driven change
+
+### Scenarios for the Future
+
+**Scenario 1: Dollar Continues Dominance (Most Likely, Near Term)**
+
+-   Network effects too strong
+-   No credible alternative
+-   Euro limited by eurozone problems
+-   RMB limited by capital controls
+-   Next 5-10 years: Dollar 50-55%, Euro 20-25%, RMB 5-8%
+
+**Scenario 2: Multi-Polar System (Medium Term)**
+
+-   Gradual diversification
+-   Dollar declines to 40-45%
+-   RMB rises to 10-15%
+-   Regional currency blocks
+-   Next 10-20 years: More balanced distribution
+
+**Scenario 3: Digital Revolution (Long Term)**
+
+-   CBDCs change the game
+-   Reduced need for reserves
+-   Multiple digital currencies coexist
+-   Private cryptocurrencies play role
+-   20-30+ years: Unpredictable
+
+**Scenario 4: New Bretton Woods**
+
+-   Major crisis forces reform
+-   Negotiated new system
+-   SDR or new reserve asset
+-   Requires crisis + political will
+-   Low probability but possible
+
+### What Would It Take for Major Change?
+
+**Historical Precedent: Pound to Dollar**
+
+-   Took 50+ years (1900s-1950s)
+-   Required two world wars
+-   UK economic decline
+-   U.S. rise to superpower
+-   Even then, gradual transition
+
+**For RMB to Challenge Dollar:**
+
+1.  **Capital account liberalization** - Allow free flows
+2.  **Deep financial markets** - Alternatives to Treasuries
+3.  **Rule of law** - Independent courts, property rights
+4.  **Time** - Decades, not years
+5.  **U.S. mistake** - Major crisis or policy failure
+
+**Most Likely Reality:** Gradual diversification away from dollar, but no single replacement. Multi-polar system with dollar still first among equals.
+
+### The SDR Alternative
+
+**Could the SDR become the global reserve currency?**
+
+**Arguments For:**
+
+-   Already exists
+-   Basket of major currencies
+-   Managed by IMF (international institution)
+-   No single country dominance
+
+**Arguments Against:**
+
+-   Not actual currency - Just accounting unit
+-   Limited supply
+-   No private market
+-   Political barriers to expansion
+
+**Reality:** SDR unlikely to become true reserve currency without major reform of international monetary system. Would require agreement among major powers (U.S., EU, China). Politically difficult.
+
+### Practical Implications
+
+**For Businesses:**
+
+-   Dollar likely remains dominant for trade and finance
+-   But diversification prudent
+-   Monitor FX risks
+-   Consider multi-currency strategies
+
+**For Countries:**
+
+-   Reserve diversification continuing
+-   But dollar still essential
+-   Bilateral currency agreements growing (China)
+-   Digital currencies worth exploring
+
+**For Students/Future Leaders:**
+
+-   International monetary system will continue evolving
+-   Next 20 years may see significant changes
+-   Digital technology will play role
+-   But fundamental economics still apply
+
+**Key Insight:** Currency dominance reflects economic, political, and institutional strength. The dollar won't be replaced unless U.S. position fundamentally weakens OR a superior alternative emerges with better institutions. Neither seems imminent, but both are possible over longer time horizons.
+
+------------------------------------------------------------------------
+
+# Key Takeaways and Connections
+
+## Main Lessons from Chapter 2
+
+1.  **The International Monetary System Has Always Evolved**
+    -   Gold Standard → Bretton Woods → Floating Rates → Current Eclectic
+    -   No perfect system exists
+    -   Each era reflects its time's economic and political realities
+2.  **The Impossible Trinity Constrains All Countries**
+    -   Can't have: Fixed rate + Capital mobility + Monetary independence
+    -   Countries must choose two of three
+    -   Explains most currency regime choices and crises
+3.  **Fixed vs. Floating: Both Have Tradeoffs**
+    -   Fixed: Stability but inflexibility
+    -   Floating: Flexibility but volatility
+    -   Choice depends on country characteristics and institutions
+4.  **Institutions Matter More Than Regime Choice**
+    -   Good institutions can make any regime work
+    -   Bad institutions doom any regime
+    -   Examples: Zimbabwe (bad), Hong Kong (good)
+5.  **Reserve Currencies Reflect Power and Trust**
+    -   Dollar dominates due to network effects, deep markets, rule of law
+    -   Changes slowly - requires economic power + institutions + time
+    -   RMB faces long road despite China's size
+6.  **Emerging Markets Face Especially Difficult Choices**
+    -   Volatile capital flows
+    -   Currency mismatches
+    -   Limited credibility
+    -   No easy answers
+
+## Looking Ahead to Chapter 3
+
+Next class, we'll study the **Balance of Payments** - how countries track international transactions. This connects directly to exchange rates:
+
+-   Current account surpluses/deficits affect currency values
+-   Capital flows drive exchange rate movements
+-   Understanding BOP helps explain currency crises
+
+## Questions for Reflection
+
+1.  If you were advising a small emerging market country, what exchange rate regime would you recommend? Why?
+
+2.  Will the dollar still be the dominant reserve currency in 2050? Why or why not?
+
+3.  Was the euro a mistake? Should it be preserved?
+
+4.  Should the U.S. be concerned about China's RMB internationalization efforts?
+
+5.  What role should capital controls play in the international monetary system?
+
+## Further Resources
+
+**Books:**
+
+-   "Lords of Finance" by Liaquat Ahamed - History of interwar monetary system
+-   "The Battle of Bretton Woods" by Benn Steil - Creation of post-war system
+-   "Currency Wars" by James Rickards - Modern currency competition
+
+**Websites:**
+
+-   IMF Annual Report on Exchange Arrangements - Current regime classifications
+-   Bank for International Settlements - Data on FX markets
+-   Federal Reserve - Data on dollar's international role
+
+**Current Events to Follow:**
+
+-   China's capital account liberalization
+-   Digital currency developments
+-   Euro area integration
+-   Emerging market currency crises
+
+------------------------------------------------------------------------
+
+*This concludes our coverage of Chapter 2. Come to next class prepared to discuss the Balance of Payments and bring a current news article about a country's trade balance.*
