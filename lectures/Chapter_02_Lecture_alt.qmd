@@ -1,14 +1,18 @@
 ---
-title: "Chapter 2 The International Monetary System"
+title: "Chapter 2 The International Monetary System v.2"
 author: "Prof. Barker"
 date: today
 format:
   html:
     toc: true
-    toc-depth: 4
+    toc-location: left
+    toc-depth: 3
+    toc-expand: 1
     number-sections: true
+    title-block-style: default
     theme: cosmo
     code-fold: true
+    number-offset: 1
   docx:
     toc: true
     number-sections: true

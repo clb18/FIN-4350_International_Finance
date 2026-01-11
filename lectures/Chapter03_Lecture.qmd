@@ -5,10 +5,14 @@ date: today
 format:
   html:
     toc: true
+    toc-location: left
     toc-depth: 3
+    toc-expand: 1
     number-sections: true
+    title-block-style: default
     theme: cosmo
     code-fold: true
+    number-offset: 2
   docx:
     toc: true
     number-sections: true
@@ -18,7 +22,7 @@ format:
     geometry: margin=1in
 ---
 
-# Introduction and Opening {.unnumbered}
+# Introduction 
 
 ## Context Setting {.unnumbered}
 
@@ -124,11 +128,11 @@ The phrase "the balance of payments is in disequilibrium" is **technically incor
 - An **outflow** of foreign exchange  
 - Examples: Imports of goods, domestic investment abroad
 
-## The BOP as a Cash Flow Statement
+## The BOP as a Flow Statement
 
 Think of the BOP as tracking **TWO fundamental types of transactions**:
 
-### Type 1: Exchange of Real Assets
+### 1: Exchange of Real Assets
 
 - Goods (automobiles, computers, food, clothing)
 - Services (banking, consulting, tourism, education)
@@ -136,7 +140,7 @@ Think of the BOP as tracking **TWO fundamental types of transactions**:
   - Other goods and services (barter - rare today)
   - Money (the usual case)
 
-### Type 2: Exchange of Financial Assets
+### 2: Exchange of Financial Assets
 
 - Stocks
 - Bonds
@@ -198,9 +202,9 @@ $$\text{Current Account} + \text{Capital Account} + \text{Financial Account} + \
 
 ---
 
-# The Accounts of the Balance of Payments (18 minutes)
+# The Accounts of the Balance of Payments 
 
-## Overview of the Main Accounts
+## Overview of the Main Accounts (.unnumbered)
 
 The BOP has **three major sub-accounts**:
 
@@ -220,7 +224,7 @@ Let's examine each in detail.
 
 ### The Four Components of the Current Account
 
-#### 1. Goods Trade (Merchandise Trade)
+#### Goods Trade (Merchandise Trade)
 
 **What it includes:**
 - Physical products: cars, electronics, food, clothing, machinery
@@ -235,7 +239,7 @@ Let's examine each in detail.
 **U.S. Example:** Let me show you the U.S. pattern:
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: us-goods-trade
 
 # U.S. Balance on Goods (billions of dollars)
@@ -261,7 +265,7 @@ ggplot(df_goods, aes(x = Year, y = Balance)) +
 - **Exports:** Foreign income levels, foreign economic growth, relative prices
 - **Exchange rates:** Affects relative prices
 
-#### 2. Services Trade
+#### Services Trade
 
 **What it includes:**
 - Financial services (banking fees, insurance)
@@ -279,7 +283,7 @@ ggplot(df_goods, aes(x = Year, y = Balance)) +
 **U.S. Example:**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: us-services-trade
 
 # U.S. Balance on Services (billions of dollars)
@@ -300,7 +304,7 @@ ggplot(df_services, aes(x = Year, y = Balance)) +
 
 **Notable:** U.S. consistently runs services surplus. This partially offsets goods deficit.
 
-#### 3. Primary Income
+#### Primary Income
 
 **What it includes:**
 - **Investment income:** Dividends and interest from previous investments
@@ -314,7 +318,7 @@ ggplot(df_services, aes(x = Year, y = Balance)) +
 
 **Example:** In 2015, Apple invested $500 million building a manufacturing plant in China (financial account outflow in 2015). In 2023, that plant generates $50 million in profits that Apple repatriates to the U.S. (current account inflow in 2023).
 
-#### 4. Secondary Income (Current Transfers)
+#### Secondary Income (Current Transfers)
 
 **What it includes:**
 - Government grants and aid
@@ -342,7 +346,7 @@ $$\text{Current Account} = \text{(Goods)} + \text{(Services)} + \text{(Primary I
 **U.S. Current Account - The Full Picture:**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: us-current-account
 
 # U.S. Current Account Balance (billions of dollars)
@@ -389,7 +393,7 @@ We'll see how this connects to the financial account shortly.
 
 ### The Three Main Components
 
-#### 1. Direct Investment (FDI)
+#### Direct Investment (FDI)
 
 **Definition:** Investment that involves a **long-term commitment** and **significant control** over assets.
 
@@ -423,7 +427,7 @@ We'll see how this connects to the financial account shortly.
 **Net Direct Investment - U.S. Example:**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: us-fdi
 
 # U.S. Net Direct Investment (billions, positive = net inflow)
@@ -448,7 +452,7 @@ ggplot(df_fdi, aes(x = Year, y = NetFDI)) +
 
 **Pattern:** U.S. companies investing abroad (outflows) generally exceeded foreign companies investing in U.S. (inflows) for most years, but this has reversed recently.
 
-#### 2. Portfolio Investment
+#### Portfolio Investment
 
 **Definition:** Investment in financial assets (stocks, bonds) **without significant control**.
 
@@ -487,7 +491,7 @@ Portfolio capital can flee a country **rapidly** during a crisis:
 **U.S. Net Portfolio Investment:**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: us-portfolio
 
 # U.S. Net Portfolio Investment (billions, positive = net inflow)
@@ -509,7 +513,7 @@ ggplot(df_port, aes(x = Year, y = NetPortfolio)) +
 
 **Key Observation:** Much more volatile year-to-year than FDI. This is "hot money."
 
-#### 3. Other Asset Investment
+#### Other Asset Investment
 
 **What it includes:**
 - Trade credits
@@ -540,7 +544,7 @@ Both of these are financial account inflows (surplus).
 **U.S. Example - The Inverse Relationship:**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: current-vs-financial
 
 # Comparing current and financial accounts
@@ -572,7 +576,7 @@ ggplot(df_comp, aes(x = Year, y = Balance, color = Account)) +
 
 ### Breaking the Rules: China's Twin Surpluses
 
-**Normally impossible, but China managed it for years!**
+**Normally impossible, but China managed it for years.**
 
 **The Typical Pattern:**
 - Current account surplus → financial account deficit (capital outflow)
@@ -589,7 +593,7 @@ ggplot(df_comp, aes(x = Year, y = Balance, color = Account)) +
 3. **Strict capital controls** → prevented money from leaving
 4. **Currency intervention** → government soaked up excess dollars
 
-**Result:** China accumulated **$4 trillion** in foreign exchange reserves!
+**Result:** China accumulated **$4 trillion** in foreign exchange reserves.
 
 **The Impossible Trinity in Action:** China demonstrated that with:
 - Fixed exchange rate (to the dollar)
@@ -599,7 +603,7 @@ ggplot(df_comp, aes(x = Year, y = Balance, color = Account)) +
 You CAN temporarily have surpluses in both accounts. But this is **not sustainable** long-term without controls.
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: china-twin-surplus
 
 # China's Twin Surpluses (billions of dollars)
@@ -677,7 +681,7 @@ This allowed China to:
 
 ---
 
-# BOP Impacts on Key Macroeconomic Rates (10 minutes)
+# BOP Impacts on Key Macroeconomic Rates 
 
 The BOP both **influences** and **is influenced by** three key macroeconomic variables:
 1. Exchange rates
@@ -825,7 +829,7 @@ Countries must balance:
 
 ---
 
-# Trade Balances and Exchange Rates (12 minutes)
+# Trade Balances and Exchange Rates 
 
 ## The Theory: Devaluation Improves Trade Balance
 
@@ -837,6 +841,7 @@ Countries must balance:
 
 **Sounds straightforward, right? Not so fast!**
 
+## Need to fix coding or just add image from text
 ## The J-Curve Adjustment Path
 
 **Reality is more complex.** The trade balance adjustment follows three stages:
@@ -865,35 +870,37 @@ Countries must balance:
 **Graphical Representation:**
 
 ```{r}
-#| echo: true
+#| echo: false
 #| label: j-curve
 
-# Simulating J-Curve
+# Simulating J-Curve (correct version matching textbook)
 months <- 0:24
-# Trade balance starts at -100, gets worse, then improves
-trade_balance <- -100 + (-15 * exp(-months/3)) + (50 * (1 - exp(-months/8)))
+
+# J-Curve: starts near 0, drops to deficit, then improves back to surplus
+# Initial drop during currency contract period, then gradual recovery
+trade_balance <- -30 * exp(-months/4) + 1.8 * months
 
 df_jcurve <- data.frame(Months = months, TradeBalance = trade_balance)
 
 ggplot(df_jcurve, aes(x = Months, y = TradeBalance)) +
-  geom_line(color = "darkred", size = 1.5) +
-  geom_hline(yintercept = -100, linetype = "dashed", color = "gray50") +
+  geom_line(color = "darkblue", size = 1.5) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
   geom_vline(xintercept = 0, linetype = "dashed", alpha = 0.5) +
-  annotate("text", x = 2, y = -105, label = "Devaluation", size = 3) +
-  annotate("text", x = 2, y = -120, label = "Currency\nContract\nPeriod", size = 3) +
-  annotate("text", x = 8, y = -110, label = "Pass-Through\nPeriod", size = 3) +
-  annotate("text", x = 18, y = -70, label = "Quantity\nAdjustment\nPeriod", size = 3) +
-  annotate("segment", x = 0, xend = 6, y = -95, yend = -95, 
-           arrow = arrow(length = unit(0.3, "cm")), color = "blue") +
-  annotate("segment", x = 6, xend = 12, y = -95, yend = -95,
-           arrow = arrow(length = unit(0.3, "cm")), color = "blue") +
-  annotate("segment", x = 12, xend = 24, y = -95, yend = -95,
-           arrow = arrow(length = unit(0.3, "cm")), color = "blue") +
-  labs(title = "The J-Curve: Trade Balance Adjustment Path",
-       subtitle = "Initial deterioration, then improvement",
-       x = "Months After Devaluation",
-       y = "Trade Balance (indexed, -100 = initial deficit)") +
-  theme_minimal()
+  annotate("text", x = 1, y = 2, label = "Sudden\nDevaluation", 
+           size = 3, color = "red") +
+  annotate("text", x = 5, y = -15, label = "Currency\nContract\nPeriod", 
+           size = 3, color = "red") +
+  annotate("text", x = 12, y = -5, label = "Exchange Rate\nPass-Through\nPeriod", 
+           size = 3, color = "red") +
+  annotate("text", x = 20, y = 15, label = "Quantity\nAdjustment\nPeriod", 
+           size = 3, color = "red") +
+  labs(title = "Trade Adjustment to Exchange Rates: The J-Curve",
+       subtitle = "Trade Balance (domestic currency)",
+       x = "Time (months)",
+       y = "Trade Balance\n(domestic currency)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5))
 ```
 
 **See the "J" shape?** Gets worse before it gets better.
@@ -998,7 +1005,7 @@ Where:
 
 ## Real-World Complications
 
-### 1. "Expenditure Switching" May Not Occur
+### "Expenditure Switching" May Not Occur
 
 **Problem:** Even if imports become expensive, domestic alternatives may not exist.
 
@@ -1009,7 +1016,7 @@ Where:
 
 Even if Chinese imports become 30% more expensive, Americans may have to keep buying them (no U.S.-made alternative).
 
-### 2. Global Supply Chains
+### Global Supply Chains
 
 **Modern reality:** Most products are made with inputs from multiple countries.
 
@@ -1024,7 +1031,7 @@ When the dollar depreciates:
 - **But** many components are bought in dollars (U.S.-designed chips)
 - Net effect on trade balance is ambiguous
 
-### 3. Commodity Dependence
+### Commodity Dependence
 
 **If country heavily depends on imported commodities (oil, food):**
 - Demand is price inelastic
@@ -1039,7 +1046,7 @@ When the dollar depreciates:
 
 ---
 
-# Capital Mobility (12 minutes)
+# Capital Mobility 
 
 ## Current Account versus Financial Account Capital Flows
 
@@ -1555,26 +1562,6 @@ Capital has **not** always moved freely. The degree of capital mobility has vari
 - Dependent on portfolio inflows
 - Vulnerable to Fed policy changes
 - "Taper tantrum" risk
-
-## Looking Ahead
-
-# correct these chapters (wrong order)
-
-**Chapter 4: Foreign Exchange Determination and Forecasting**
-- What determines exchange rates?
-- How can we forecast currency movements?
-- Uses BOP concepts as foundation
-
-**Chapter 5: Foreign Exchange Derivatives**
-- How to manage currency risk
-- Tools: forwards, futures, options, swaps
-
-**Later chapters:**
-- International capital budgeting
-- Cross-border financing
-- Multinational cash management
-
-**All build on BOP foundation.**
 
 ## Key Takeaways
 

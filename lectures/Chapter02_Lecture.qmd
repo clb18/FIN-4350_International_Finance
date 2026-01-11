@@ -1,5 +1,5 @@
 ---
-title: "Chapter 2 - International Monetary System v.3"
+title: "Chapter 2 - International Monetary System v.1"
 author: "Prof. Barker"
 date: today
 format:
@@ -20,10 +20,10 @@ format:
     geometry: margin=1in
 ---
 
-# Chapter 2: International Monetary System {.unnumbered}
+# Introduction
 
-"The price of every thing rises and falls from time to time and place to place; and with every such change the purchasing power of money changes so far as that thing goes."\
-— Alfred Marshall
+ "The price of every thing rises and falls from time to time and place to place; and with every such change the purchasing power of money changes so far as that thing goes."\
+ — Alfred Marshall
 
 ## Chapter Roadmap {.unnumbered}
 
@@ -38,7 +38,7 @@ Major section:
 
 ------------------------------------------------------------------------
 
-## Part 1: History of the International Monetary System
+## History of the International Monetary System
 
 ### The Classical Gold Standard (1879-1913)
 
@@ -81,7 +81,7 @@ Major section:
 
 ------------------------------------------------------------------------
 
-## Part 2: Contemporary Regimes (10 minutes)
+## Contemporary Regimes 
 
 ### IMF Classification (De Facto - Observed Behavior)
 
@@ -106,7 +106,7 @@ Major section:
 
 ------------------------------------------------------------------------
 
-## Part 3: The Impossible Trinity
+## The Impossible Trinity
 
 ### The Core Framework
 
@@ -129,7 +129,7 @@ Major section:
 
 ------------------------------------------------------------------------
 
-## Part 4: A Single Currency for Europe: The Euro
+## A Single Currency for Europe: The Euro
 
 ### Creation Timeline
 
@@ -191,7 +191,7 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 ------------------------------------------------------------------------
 
-## Part 5: Emerging Markets (10 minutes)
+## Emerging Markets 
 
 ### Currency Boards: Argentina (1991-2001)
 
@@ -221,7 +221,7 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 ------------------------------------------------------------------------
 
-## Part 6: Chinese RMB (8 minutes)
+## Chinese RMB 
 
 ### Two-Market Structure
 
@@ -249,7 +249,7 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 ------------------------------------------------------------------------
 
-## Part 7: Reserve Currencies & Digital Currency (5 minutes)
+## Reserve Currencies & Digital Currency 
 
 ### Current Landscape
 
@@ -292,7 +292,7 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 ------------------------------------------------------------------------
 
-## Conclusion (5 minutes)
+## Conclusion 
 
 ### Five Key Lessons
 

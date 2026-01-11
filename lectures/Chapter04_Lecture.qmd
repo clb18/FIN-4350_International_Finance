@@ -1,0 +1,1984 @@
+---
+title: "Chapter 4 - Financial Goals, Corporate Governance, and the Market for Corporate Control"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    toc-expand: 1
+    number-sections: true
+    title-block-style: default
+    theme: cosmo
+    code-fold: true
+    number-offset: 3
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+---
+
+## Introduction and Opening {.unnumbered}
+
+"A Corporation then, or a body politic, or body incorporate, is a collection of many individuals united into one body, under a special denomination, having perpetual succession under an artificial form, and vested, by policy of the law, with the capacity of acting, in several respects, as an individual."\
+— Stewart Kyd, A Treatise on the Law of Corporations, 1793
+
+
+This is one of the most important and relevant chapters in international finance—one that sits at the intersection of finance, strategy, law, and even ethics. Chapter 4 is about understanding **who owns businesses, what their goals should be, how they're governed, and how control changes hands**.
+
+**Opening Question to Class:** "When you think about a major corporation like Apple or Toyota—who really owns it? Who controls it? And are those the same thing?"
+
+This question is more complex than it appears. In the 1930s, Berle and Means identified the **separation of ownership from control** as one of the defining features of modern capitalism. Today, that separation—and the tensions it creates—remains central to understanding how businesses operate globally.
+
+## Why This Chapter Matters {.unnumbered}
+
+This chapter matters for several reasons:
+
+1. **Career Relevance**: Whether you work in finance, consulting, investment banking, or corporate strategy, you'll encounter these issues daily
+2. **Investment Decisions**: Understanding corporate governance helps you evaluate investment opportunities
+3. **Current Events**: Corporate governance failures make headlines regularly (remember Enron, WorldCom, Parmalat, Volkswagen, Toshiba)
+4. **Global Perspective**: Governance practices vary dramatically across countries, affecting how multinational firms operate
+
+## Chapter Roadmap
+
+Today we'll explore four major areas:
+
+1. **Business Ownership** - Types of ownership and the separation of ownership from management
+2. **Corporate Objectives** - Shareholder capitalism versus stakeholder capitalism  
+3. **Corporate Governance** - How companies are directed and controlled across different countries
+4. **The Market for Corporate Control** - Takeovers, defenses, and sustainability
+
+Let's begin.
+
+---
+
+## Part 1: Business Ownership
+
+### The Foundation: Understanding Ownership
+
+Before we can discuss financial goals or governance, we need to understand a fundamental question: **Who owns the business?**
+
+This question has profound implications for:
+- How the business is managed
+- What objectives it pursues
+- How it raises capital
+- How it's governed
+
+### Critical Opening Distinction
+
+The textbook makes an important distinction right away:
+
+- **Public Enterprise / State-Owned Enterprise (SOE)**: Owned by the government/state
+- **Private Enterprise**: Owned by private individuals or organizations
+  - May be **privately held** (shares not publicly traded)
+  - May be **publicly traded** (shares listed on stock exchange)
+
+**Teaching Point:** The terminology is confusing because "public" can mean:
+1. Owned by the government (public enterprise)
+2. Shares traded publicly (publicly traded company)
+
+These are NOT the same thing!
+
+### Types of Ownership Structures
+
+Let me walk through the major ownership structures globally:
+
+#### 1. Sole Proprietorship
+- Single owner
+- Owner has full rights and full liability
+- Simple but limited growth potential
+- Owner = Manager
+
+#### 2. Partnership
+- Two or more owners
+- Partners share profits and liabilities
+- Still relatively simple
+- Owners typically = Managers
+
+#### 3. Family-Owned Business
+- Controlled by a family
+- May be privately held or publicly traded
+- **Critical point**: Even if publicly traded, family may retain control
+- Examples: Hermes (France), Ford Motor Company historically
+
+**Real-World Example**: Hermes International
+- Founded in 1837 by Thierry Hermes
+- Went public in 1993, sold 27% of shares
+- Family retained 73% and therefore control
+- This is a **family-controlled, publicly traded** company
+
+#### 4. Publicly Traded Company (Widely Held)
+- Shares traded on stock exchange
+- Ownership dispersed among many shareholders
+- No single shareholder has control
+- Management hired by board of directors
+- Example: Apple—no shareholder owns 5%+
+
+#### 5. State-Owned Enterprise (SOE)
+- Owned by government
+- May be 100% state-owned or partially privatized
+- May have shares publicly traded while government retains control
+- Examples: Petrobras (Brazil), China National Petroleum Corporation
+
+**Real-World Example**: Petrobras
+- Founded 1953, 100% Brazilian government-owned
+- Eventually listed on São Paulo stock exchange
+- Today: Government owns 64%, private investors 36%
+- This is a **state-controlled, publicly traded** company
+
+#### 6. Joint Venture
+- Owned by two or more other companies
+- Created for specific purpose
+- Example: Sony Ericsson (was Sony + Ericsson partnership)
+
+### The Evolution of Ownership: The IPO Process
+
+Many businesses evolve from private to public ownership through an **Initial Public Offering (IPO)**.
+
+### What is an IPO?
+
+An IPO is when a privately held company first sells shares to the public.
+
+**Key characteristics**:
+- Typically only 10-20% of shares sold initially
+- Original owners/families often retain majority control
+- Provides capital for growth
+- Creates liquidity for early investors
+- Subjects company to public disclosure requirements
+
+### Why Go Public?
+
+Companies conduct IPOs for several reasons:
+
+1. **Raise Capital**: Access to large pools of equity capital
+2. **Currency for Acquisitions**: Can use stock to acquire other companies  
+3. **Liquidity for Early Investors**: Founders and early investors can sell shares
+4. **Attract Talent**: Stock options more attractive
+5. **Enhanced Reputation**: Public companies often seen as more established
+
+### Costs of Going Public
+
+But there are significant costs:
+
+1. **Disclosure Requirements**: Must reveal financial details to competitors
+2. **Short-Term Pressure**: Quarterly earnings pressure
+3. **Regulatory Costs**: SEC filings, Sarbanes-Oxley compliance (in US)
+4. **Loss of Control**: New shareholders have voting rights
+5. **Market Volatility**: Share price may not reflect true value
+
+### The Corporation: A Legal Person
+
+Let me spend a moment on the corporation as a legal construct, because this is fundamental to everything that follows.
+
+### What is a Corporation?
+
+> "A corporation is an organization, typically a group of people or companies, recognized legally by the state to act as a single entity."
+
+The corporation is a **legal person** (what the textbook calls an "artificial person").
+
+### Rights and Characteristics of Corporations
+
+As a legal person, a corporation can:
+- Enter into contracts
+- Take out loans
+- Sue and be sued
+- Purchase or sell assets
+- Own property
+
+### The Critical Feature: Limited Liability
+
+**This is perhaps the most important innovation in corporate history.**
+
+**Limited Liability** means:
+- Shareholders can only lose what they invested
+- They have no personal liability beyond their investment
+- Personal assets (house, savings, etc.) are protected
+
+**Why does this matter?**
+
+Limited liability encourages investment in risky ventures. If investors could lose everything they owned, far fewer would invest in businesses.
+
+**Historical Context**: The development of limited liability in the 19th century enabled the industrial revolution by allowing large-scale capital formation.
+
+### Separation of Ownership and Management
+
+Now we come to the central tension in modern corporate finance: **the separation of ownership from management.**
+
+### The Traditional Model: Owner-Operator
+
+Historically, business owners managed their own businesses:
+- Sole proprietor runs the shop
+- Family runs the family business  
+- Partners manage the partnership
+
+In this model:
+- Goals are aligned (owner-operator wants business success)
+- No conflict of interest
+- Direct control
+
+### The Modern Reality: Hired Management
+
+In large corporations, especially publicly traded ones:
+- Shareholders are owners (financial investors)
+- Professional managers run the company
+- Shareholders are dispersed and passive
+
+**Question:** Does this create problems?
+
+### The Agency Problem
+
+**Yes—this creates what we call the Agency Problem.**
+
+**Agency Theory Definition**: 
+> An agency relationship exists when one party (the principal) hires another party (the agent) to perform a service, and the principal delegates decision-making authority to the agent.
+
+**In corporate context**:
+- **Principals** = Shareholders (owners)
+- **Agents** = Managers (hired professionals)
+
+**The Problem**: Managers may have different goals than shareholders!
+
+### How Might Management Goals Differ from Shareholder Goals?
+
+**Shareholders typically want:**
+- Maximize firm value
+- Strong returns (dividends + capital gains)
+- Prudent risk-taking
+
+**Managers might want:**
+- Job security (avoid risky projects)
+- High compensation
+- Perks and prestige
+- Empire building (growth for its own sake)
+- Avoidance of hard decisions (layoffs, divestitures)
+
+### The Classic Adam Smith Quote (1776)
+
+The textbook quotes Adam Smith from The Wealth of Nations:
+
+> "The directors of such [joint-stock] companies, however, being the managers rather of other people's money than of their own, it cannot well be expected, that they should watch over it with the same anxious vigilance with which the partners in a private copartnery frequently watch over their own... Negligence and profusion, therefore, must always prevail, more or less, in the management of the affairs of such a company."
+
+**Translation:** Managers spending other people's money won't be as careful as if it were their own.
+
+This was written in 1776, and it's still relevant today!
+
+### Solutions to the Agency Problem
+
+How do we align management interests with shareholder interests?
+
+1. **Stock Options and Equity Compensation**
+   - Give managers ownership stake
+   - If stock rises, managers benefit
+   - Problem: Can encourage excessive risk-taking or manipulation
+
+2. **Board of Directors**
+   - Elected by shareholders
+   - Monitors management
+   - Can fire CEO
+   - Problem: Boards may be too friendly with management
+
+3. **Market for Corporate Control**
+   - Threat of takeover disciplines bad management
+   - Acquiring companies replace poor managers
+   - Problem: May encourage short-term focus
+
+4. **Financial Reporting and Auditing**
+   - External auditors verify financial statements
+   - Regulators enforce disclosure
+   - Problem: Auditors may have conflicts of interest (Enron-Arthur Andersen)
+
+5. **Executive Compensation Design**
+   - Performance-based pay
+   - Long-term incentives
+   - Clawback provisions
+
+### Regional Differences in Ownership Concentration
+
+This agency problem is most severe in countries with **dispersed ownership**—primarily the US and UK (Anglo-American model).
+
+In many other countries:
+- Ownership is more concentrated
+- Controlling shareholders (families, government, banks) actively monitor management
+- Agency problem is less severe BUT...
+- Creates different problem: **conflict between controlling shareholders and minority shareholders**
+
+**Examples**:
+- **Germany**: Banks often hold large stakes and board seats
+- **Japan**: Keiretsu system of cross-shareholdings
+- **France/Italy**: Family control common, even in publicly traded firms
+- **China**: Government control through SOEs
+- **Latin America**: Family business groups dominate
+
+---
+
+## Part 2: The Corporate Objective
+
+### The Central Question
+
+Now that we understand ownership structures, we can ask: **What should be the objective of the firm?**
+
+This might seem like a simple question, but it's actually one of the most debated topics in corporate finance and has significant implications for how companies are managed globally.
+
+### Two Competing Models
+
+The textbook identifies two dominant theories:
+
+1. **Shareholder Capitalism** (Shareholder Wealth Maximization Model—SWM)
+2. **Stakeholder Capitalism** (Stakeholder Capitalism Model—SCM)
+
+Let's explore each in depth.
+
+### Shareholder Capitalism (SWM Model)
+
+### The Philosophy
+
+**Core Principle**: The firm's objective should be to maximize shareholder wealth.
+
+More specifically: *Maximize the sum of dividends and capital gains for shareholders, for a given level of risk.*
+
+### Historical and Legal Foundation
+
+The textbook provides a powerful legal quote from the 1919 Michigan Supreme Court case, Dodge v. Ford Motor Company:
+
+> "A business corporation is organized and carried on primarily for the profit of the stockholders. The powers of the directors are to be employed for that end. The discretion of directors is to be exercised in the choice of means to attain that end, and does not extend to a change in the end itself, to the reduction of profits, or to the non-distribution of profits among stockholders in order to devote them to other purposes."
+
+**Translation**: Directors must prioritize shareholder profits. Period.
+
+This case established legal precedent in the United States.
+
+### Where is SWM Dominant?
+
+- United States
+- United Kingdom  
+- Canada
+- Australia
+- Other Anglo-American markets
+
+These markets are characterized by:
+- Widely dispersed ownership
+- Active stock markets
+- Strong legal protections for minority shareholders
+- One-share, one-vote rule
+
+### Key Assumptions of the SWM Model
+
+Let me outline the theoretical assumptions, because understanding these helps you see both the model's power and its limitations:
+
+#### Assumption 1: Market Efficiency
+
+**The model assumes stock markets are efficient.**
+
+What does this mean?
+- Share prices reflect all available information
+- Share prices adjust quickly to new information
+- Share prices are the "correct" valuation
+
+**Implication**: If markets are efficient, then maximizing share price maximizes true firm value.
+
+**Reality Check**: Are markets always efficient? No! 
+- Bubbles occur (Dot-com bubble, housing bubble)
+- Prices can be driven by sentiment, not fundamentals
+- Short-term volatility may not reflect long-term value
+
+#### Assumption 2: Risk Definition
+
+**The model defines risk in a very specific way.**
+
+**Risk = Systematic Risk (market risk)**
+
+The model says:
+- Unsystematic risk (firm-specific risk) doesn't matter to shareholders
+- Why? Because investors can diversify it away
+- Only systematic risk (cannot be diversified) should concern management
+
+**Example**:
+- Risk that your factory burns down = unsystematic (diversifiable)
+- Risk of recession affecting all companies = systematic (not diversifiable)
+
+**Implication**: Management shouldn't worry about firm-specific risks since shareholders are diversified.
+
+**Reality Check**: Is this always true?
+- Employees aren't diversified—they depend on this one company
+- Communities aren't diversified
+- Suppliers aren't diversified
+- Management's human capital isn't diversified
+
+#### Assumption 3: The Scorecard is Clear
+
+**Shareholder return = Dividends + Capital Gains**
+
+Let me show you this mathematically:
+
+$$\text{Shareholder Return} = \frac{D_2}{P_1} + \frac{P_2 - P_1}{P_1}$$
+
+Where:
+- $P_1$ = Share price at beginning of period
+- $P_2$ = Share price at end of period
+- $D_2$ = Dividend paid during period
+
+**Example Calculation**:
+
+```{r}
+#| echo: true
+#| label: shareholder-return-calculation
+
+# Suppose you buy a share for $50
+P1 <- 50
+
+# One year later, it's worth $55
+P2 <- 55
+
+# During the year, you received a $2 dividend
+D2 <- 2
+
+# Calculate dividend yield
+dividend_yield <- (D2 / P1) * 100
+
+# Calculate capital gain
+capital_gain <- ((P2 - P1) / P1) * 100
+
+# Total return
+total_return <- dividend_yield + capital_gain
+
+cat("Dividend Yield:", round(dividend_yield, 2), "%\n")
+cat("Capital Gain:", round(capital_gain, 2), "%\n")
+cat("Total Return:", round(total_return, 2), "%\n")
+```
+
+**The SWM Model's Advantage**: Clear, measurable objective.
+
+### Agency Theory and Solutions
+
+As we discussed earlier, the agency problem arises when managers don't naturally pursue shareholder wealth maximization.
+
+**Solutions under SWM**:
+
+1. **Stock Options and Restricted Stock**
+   - Align management incentives with shareholders
+   - If stock price rises, managers benefit
+
+2. **Board Oversight**
+   - Independent directors
+   - Active monitoring
+   - Willingness to fire underperforming CEOs
+
+3. **Market for Corporate Control**
+   - Takeover threat disciplines management
+   - If you underperform, someone will buy the company and replace you
+
+4. **Pay for Performance**
+   - Bonuses tied to stock performance
+   - Long-term incentive plans
+
+### Criticisms and Pitfalls of SWM
+
+The model has several potential problems:
+
+#### 1. Short-Termism (Impatient Capitalism)
+
+**The Problem**: Pressure to meet quarterly earnings can lead to:
+- Cutting R&D to boost short-term profits
+- Avoiding necessary long-term investments
+- Accounting manipulation
+- Excessive risk-taking
+
+**Historical Examples**:
+- Enron: Manipulated earnings to maintain stock price
+- WorldCom: Accounting fraud to meet expectations
+- Global Crossing: Similar scandals
+
+These were all SWM companies where pressure to maximize share price led to fraud.
+
+#### 2. Excessive Risk-Taking
+
+**The Problem**: With limited liability and high-powered incentives:
+- Managers may take excessive risks (heads I win big, tails shareholders lose)
+- Example: Financial crisis of 2008—bank executives with huge stock options took on massive risks
+
+#### 3. Ignoring Other Stakeholders
+
+**The Problem**: Single-minded focus on shareholders may harm:
+- Employees (layoffs purely for cost-cutting)
+- Communities (plant closures)
+- Customers (quality reductions)
+- Long-term viability (deferred maintenance)
+
+#### 4. Financialization
+
+**The Critique**: Some argue SWM leads to:
+- Share buybacks instead of investment
+- Financial engineering instead of innovation
+- Value extraction instead of value creation
+
+### Investment Horizon: Patient vs. Impatient Capitalism
+
+The textbook makes an important distinction:
+
+- **Impatient Capitalism**: Short-term focus, quarterly earnings obsession
+- **Patient Capitalism**: Long-term focus, sustained value creation
+
+**Example of Patient Capitalism**: Warren Buffett / Berkshire Hathaway
+- Holds investments for decades
+- Focuses on fundamental value, not quarterly volatility
+- Invests in companies with long-term competitive advantages
+
+### Stakeholder Capitalism (SCM Model)
+
+Now let's turn to the alternative model that dominates much of the world outside the Anglo-American sphere.
+
+### The Philosophy
+
+**Core Principle**: The firm should balance the interests of ALL stakeholders, not just shareholders.
+
+The textbook quotes Frank Abrams, Chairman of Standard Oil of New Jersey in 1951:
+
+> "The job of management is to maintain an equitable and working balance among the claims of the various directly interested groups... stockholders, employees, customers, and the public at large."
+
+### Who Are the Stakeholders?
+
+The textbook provides a helpful diagram (Exhibit 4.2) showing:
+
+**Direct Stakeholders** (financial interest in firm's success):
+
+1. **Financial Stakeholders**:
+   - Shareholders (equity investors)
+   - Creditors (bondholders, banks)
+
+2. **Internal Stakeholders**:
+   - Employees
+   - Management
+
+3. **Business Stakeholders**:
+   - Suppliers
+   - Customers
+
+**Indirect Stakeholders** (impacted by firm's activities):
+- Community
+- Government
+- Civil society
+- Environment
+
+### Where is SCM Dominant?
+
+- Continental Europe (Germany, France, Netherlands, Scandinavia)
+- Japan
+- Much of Asia
+- Latin America
+- Emerging markets
+
+These markets are characterized by:
+- Concentrated ownership (family, banks, government, cross-shareholdings)
+- Stakeholder representation (labor on boards in Germany)
+- Long-term relationships
+- Less liquid stock markets
+
+### Key Characteristics of SCM
+
+#### 1. Market Efficiency is Not Assumed
+
+**SCM doesn't rely on stock prices being "right."**
+
+Why?
+- Controlling shareholders often aren't selling
+- Stock market may be thin or illiquid
+- Long-term value matters more than current price
+
+**Implication**: Management focuses on operational performance, not stock price.
+
+#### 2. Total Risk Matters
+
+**SCM considers ALL risks, not just systematic risk.**
+
+Why?
+- Stakeholders can't diversify
+- Employees depend on this one company
+- Communities depend on local plant
+- Suppliers depend on this customer
+
+**Implication**: Management takes more conservative approach, protects firm stability.
+
+#### 3. Multiple Objectives, No Single Scorecard
+
+**This is both strength and weakness of SCM.**
+
+**Strength**: More balanced decision-making
+
+**Weakness**: How do you know if management is doing a good job?
+
+With SWM, we have stock price. With SCM, we have multiple objectives that may conflict:
+- Growing revenue
+- Maintaining employment
+- Protecting environment
+- Community investment
+- Satisfying customers
+- Rewarding shareholders
+
+**The Fundamental Challenge**: When objectives conflict, who decides the trade-offs?
+
+### Governance Mechanisms Under SCM
+
+How is management disciplined under SCM?
+
+#### 1. Bank Relationships (Germany, Japan)
+- Banks hold equity stakes
+- Banks have board representation
+- Banks monitor as creditors and owners
+- Long-term relationship
+
+#### 2. Cross-Shareholding (Japan—Keiretsu)
+- Companies own each other's shares
+- Mutual monitoring
+- Stable ownership
+- Protection from hostile takeovers
+
+#### 3. Family Control (France, Italy, Latin America, Asia)
+- Controlling family actively monitors management
+- Long-term perspective
+- Family reputation at stake
+
+#### 4. Worker Representation (Germany—Mitbestimmung)
+- Employees elect half of supervisory board
+- Labor has formal voice in major decisions
+- Promotes stakeholder balance
+
+#### 5. Takeover Barriers
+- Legal restrictions on hostile takeovers
+- Multiple share classes (voting vs. non-voting)
+- Cross-shareholdings prevent takeovers
+
+**Key Point**: Market for corporate control is much weaker under SCM than SWM.
+
+### Criticisms of SCM
+
+The SCM model also has problems:
+
+#### 1. Lack of Accountability
+
+**Without clear objective, how is management held accountable?**
+- Can claim to be balancing stakeholders
+- May pursue own agenda
+- Difficult for outsiders to evaluate
+
+#### 2. Resistance to Change
+
+**Stakeholder protections may prevent necessary changes:**
+- Closing unprofitable plants
+- Exiting declining businesses
+- Restructuring workforce
+
+#### 3. Capital Access
+
+**May be harder to raise capital:**
+- Foreign investors wary of lack of shareholder focus
+- Minority shareholders poorly protected
+- Lower valuation multiples
+
+#### 4. Agency Problems
+
+**Different agency problems may arise:**
+- Controlling family may expropriate minority shareholders
+- Cross-shareholding may entrench poor management
+- Bank relationships may prevent optimal financing
+
+### ESG and the Current Debate
+
+### Environmental, Social, and Governance (ESG)
+
+We're living through a major evolution in thinking about corporate purpose. The debate has renewed focus around **ESG**:
+
+- **Environmental**: Climate change, pollution, resource use
+- **Social**: Labor practices, diversity, community impact, human rights
+- **Governance**: Board structure, shareholder rights, executive compensation, corruption
+
+### Recent Developments
+
+**2019—Business Roundtable Statement**:
+- CEOs of major US corporations (Apple, Amazon, JP Morgan, etc.)
+- Signed statement rejecting pure shareholder primacy
+- Committed to:
+  - Delivering value to customers
+  - Investing in employees
+  - Dealing fairly with suppliers
+  - Supporting communities
+  - Generating long-term value for shareholders
+
+This was revolutionary—effectively moving US toward stakeholder capitalism!
+
+**2020—World Economic Forum (Davos)**:
+- Released "Stakeholder Capitalism Metrics"
+- Four pillars (the "Four Ps"):
+  1. **Principles of Governance**: Purpose, board quality, stakeholder engagement, ethics
+  2. **Planet**: Climate, nature, water
+  3. **People**: Dignity, health, skills
+  4. **Prosperity**: Employment, innovation, community
+
+### The Debate Continues
+
+**Supporters of Stakeholder Capitalism argue:**
+- Creates sustainable long-term value
+- Addresses market failures (externalities)
+- Companies have responsibilities as "corporate citizens"
+- Attracts better employees, customers, investors
+
+**Critics (Shareholder Capitalism Defenders) argue:**
+- Milton Friedman (1970): "The social responsibility of business is to increase its profits"
+- Stakeholder capitalism allows management to escape accountability
+- Shareholders are owners; other stakeholders have contractual claims
+- Addressing social issues is government's job, not corporations'
+
+**My Take**: This is an active, unresolved debate. You need to understand both sides.
+
+### Operational Goals for MNEs
+
+Regardless of whether a firm follows SWM or SCM, multinational enterprises must translate philosophy into **operational goals**.
+
+The textbook identifies three common operational objectives:
+
+### 1. Maximize Consolidated After-Tax Income
+
+**What this means**: Combine profits from all subsidiaries worldwide, after local and international taxes, and maximize this total.
+
+**Challenge**: This is not always straightforward because:
+- Different subsidiaries report in different currencies
+- Exchange rate fluctuations affect consolidated earnings
+- Transfer prices between subsidiaries affect where profits are recognized
+
+### 2. Minimize the Firm's Effective Global Tax Burden
+
+**What this means**: Structure operations to legally pay the least total tax globally.
+
+**Methods**:
+- Locate operations in low-tax jurisdictions
+- Use transfer pricing to shift profits to low-tax countries
+- Take advantage of tax treaties
+- Time repatriation of foreign earnings
+
+**Challenge**: Tax minimization may conflict with earnings maximization or other goals.
+
+**Ethical/Political Issues**:
+- Aggressive tax minimization is legal but controversial
+- "Tax haven" strategies face public backlash
+- Governments increasingly coordinating to prevent "base erosion and profit shifting" (BEPS)
+
+### 3. Correct Positioning of Income, Cash Flows, and Available Funds
+
+**What this means**: Have money in the right currency, in the right country, at the right time.
+
+**Why this matters**:
+- Currency controls may prevent moving money
+- Tax consequences of repatriating earnings
+- Political risk in some countries
+- Funding needs differ by location
+
+**Example**: 
+- Apple had $250+ billion in cash, but most was offshore
+- Bringing it back to US would trigger large taxes
+- So Apple borrowed in US (even though it had cash) to fund US operations and dividends
+- 2017 Tax Cuts and Jobs Act changed this dynamic
+
+### The Trade-Offs
+
+**These three objectives often conflict!**
+
+**Example**:
+- Putting subsidiary in tax haven minimizes taxes (objective 2)
+- But may not be best location operationally (conflicts with objective 1)
+- And may make it hard to access funds when needed (conflicts with objective 3)
+
+**Management's job**: Navigate these trade-offs strategically.
+
+### Activist Investors
+
+Let me conclude this section by discussing a recent phenomenon that's reshaping corporate governance: **activist investors**.
+
+### What Are Activist Investors?
+
+**Traditional Model**: Passive investors
+- If unhappy with management, you sell your shares
+- "Wall Street Walk"—vote with your feet
+
+**Activist Model**: 
+- Acquire significant stake (typically 3-10%)
+- Actively push for changes
+- Use various tactics to influence management and board
+
+### Prominent Activists
+
+- Carl Icahn
+- Bill Ackman (Pershing Square)
+- Nelson Peltz (Trian Partners)
+- Daniel Loeb (Third Point)
+- Paul Singer (Elliott Management)
+
+### What Do Activists Want?
+
+The textbook provides helpful diagram (Exhibit 4.4) showing activist goals:
+
+#### Corporate Strategy Changes:
+- Cut costs
+- Divest non-core businesses
+- Focus on core competencies
+- Spin off divisions
+- Stop unprofitable expansion
+
+#### Capital Structure Changes:
+- Increase debt (leverage)
+- Pay larger dividends
+- Repurchase shares
+- Reduce cash holdings
+
+#### Governance Changes:
+- Board representation
+- Replace CEO
+- Eliminate anti-takeover provisions
+- Improve transparency
+
+### Activist Tactics
+
+**Accumulate Position**:
+- Buy 3-10% of shares
+- File 13D disclosure (in US) stating intentions
+
+**Public Campaign**:
+- Write letters to board (often made public)
+- Publish white papers
+- Give media interviews
+- Pressure via social media
+
+**Engage Other Shareholders**:
+- Contact large institutional investors
+- Build coalition
+
+**Proxy Fight**:
+- Nominate own board candidates
+- Solicit shareholder votes
+- Try to win board seats
+
+**Potential Outcomes**:
+- Management capitulates to demands
+- Board seats granted to activist nominees
+- Company sold or merged
+- Management successfully resists
+
+### Evaluating Activists
+
+**Are activists good or bad?**
+
+**Positive View (Activists as "Engagement")**:
+- Hold management accountable
+- Correct undervaluation
+- Force needed changes
+- Represent voice of shareholders
+
+**Negative View (Activists as "Short-Termism")**:
+- Prioritize quick gains over long-term value
+- Force excessive leverage
+- Cut necessary investment (R&D, capital expenditures)
+- Disrupt operations
+
+**The Evidence is Mixed**:
+- Stock prices often rise when activist stake is announced
+- But long-term performance varies
+- Context matters—some companies need activist pressure, others don't
+
+### Recent Examples
+
+**Apple (Carl Icahn, 2013)**:
+- Icahn: Apple should return more cash to shareholders
+- Pushed for massive share buyback
+- Apple eventually did increase buybacks (over $500 billion to date)
+
+**ExxonMobil (Engine No. 1, 2021)**:
+- Small activist investor
+- Focused on climate change and renewable energy
+- Won three board seats
+- Major victory for ESG activism
+
+**Toshiba (2021)**:
+- Case study in your textbook!
+- Foreign activist investors
+- Corporate governance failures
+- We'll discuss in detail
+
+---
+
+## Part 3: Corporate Governance
+
+### What is Corporate Governance?
+
+**Definition from textbook**:
+
+> "Corporate governance is the system of rules, practices, and processes by which an organization is directed and controlled."
+
+Let me unpack this:
+
+- **Rules**: Laws, regulations, stock exchange requirements
+- **Practices**: How boards actually function, management oversight
+- **Processes**: Decision-making, accountability mechanisms
+
+**Another way to think about it**:
+> Corporate governance represents the relationship among stakeholders used to determine the strategic direction and performance of the organization.
+
+### Why Corporate Governance Matters
+
+Good corporate governance should:
+- Protect shareholder rights
+- Ensure fair treatment of all shareholders
+- Recognize stakeholder interests
+- Ensure disclosure and transparency
+- Hold management accountable
+
+Bad corporate governance leads to:
+- Corporate fraud (Enron, WorldCom, Parmalat)
+- Value destruction
+- Loss of investor confidence
+- Systemic crises
+
+### The Structure of Corporate Governance
+
+The textbook provides an excellent diagram (Exhibit 4.5) showing the governance ecosystem for a US corporation. Let me walk through this:
+
+### Internal Forces (The Corporation Itself)
+
+#### 1. Board of Directors
+- Elected by shareholders
+- Ultimate authority and responsibility
+- Hires, monitors, and can fire CEO
+- Approves strategy and major decisions
+- Declares dividends
+
+**Composition**:
+- **Inside Directors**: Current executives (CEO, CFO, etc.)
+- **Outside/Independent Directors**: Not employees, ideally independent
+- **Chairman**: Leads board
+
+**US Debate**: Should CEO also be Chairman?
+- Traditionally yes in US
+- Increasingly separated for independence
+- UK and Europe typically separate
+
+#### 2. Management
+- CEO (Chief Executive Officer): Runs the company
+- CFO (Chief Financial Officer): Financial strategy and reporting
+- COO (Chief Operating Officer): Day-to-day operations
+- Other C-suite executives
+
+**Relationship with Board**:
+- Management reports to board
+- Board has oversight responsibility
+- In practice, information asymmetry (management knows more) gives management significant power
+
+### External Forces (The Business Marketplace)
+
+#### 1. Equity Markets
+- Stock exchanges (NYSE, NASDAQ, LSE, Tokyo, etc.)
+- Analysts covering the company
+- Institutional investors (mutual funds, pension funds)
+- Individual investors
+
+**Function**: Price discovery, liquidity, market discipline
+
+#### 2. Debt Markets
+- Bond markets
+- Credit rating agencies (Moody's, S&P, Fitch)
+- Banks and other lenders
+
+**Function**: Alternative to equity, debt covenants can restrict management actions
+
+#### 3. Auditors and Legal Advisors
+- External auditors (Big Four: Deloitte, EY, KPMG, PwC)
+- Law firms
+
+**Function**: Independent verification of financial statements and legal compliance
+
+**Critical Issue**: Can face conflicts of interest if they also provide consulting services (see Enron-Arthur Andersen)
+
+#### 4. Regulators
+- **US**: SEC (Securities and Exchange Commission)
+- **UK**: FCA (Financial Conduct Authority)
+- **Other countries**: Various securities regulators
+
+**Function**: Enforce disclosure, prevent fraud, protect investors
+
+### How These Forces Interact
+
+Good governance requires all these forces working together:
+
+1. **Board monitors management**
+2. **Auditors verify financial statements**
+3. **Markets react to information**
+4. **Analysts scrutinize company**
+5. **Regulators enforce rules**
+6. **Debt holders impose covenants**
+
+**When governance fails**, often MULTIPLE systems fail simultaneously:
+- **Enron**: Management fraud + Board failure + Auditor failure + Analyst failure
+
+### Comparative Corporate Governance
+
+Corporate governance varies dramatically across countries. Let me give you a framework for understanding these differences.
+
+### Four Drivers of Governance Differences
+
+The textbook identifies four main factors:
+
+#### 1. Financial Market Development
+
+**Question**: How developed and liquid are capital markets?
+
+**Anglo-American Markets** (US, UK, Canada, Australia):
+- Deep, liquid public equity markets
+- Dispersed ownership
+- Active trading
+- Market-based finance
+
+**Bank-Based Systems** (Germany, Japan):
+- Less reliance on public equity
+- Banks provide finance
+- Banks often hold equity stakes
+- Long-term relationships
+
+**Emerging Markets**:
+- Developing capital markets
+- Often dominated by family groups or state
+- Less liquidity
+- Foreign capital important
+
+**Implication**: Where you get capital affects who controls you.
+
+#### 2. Separation of Ownership from Management
+
+**High Separation** (US, UK):
+- Professional managers
+- Dispersed shareholders
+- High agency problems
+- Need for strong external governance
+
+**Low Separation** (Family firms, SOEs):
+- Owners active in management
+- Less agency problem between owners and managers
+- BUT potential for minority shareholder expropriation
+
+**Data Point** (from textbook): 
+- Study of 5,232 corporations in 13 Western European countries
+- 44% family-controlled
+- Only 37% widely held
+
+**Surprising?** Family control is more common globally than widely-held!
+
+#### 3. Disclosure and Transparency
+
+**High Disclosure** (US, UK):
+- Extensive quarterly reporting
+- Detailed financial statements
+- Executive compensation disclosure
+- Regulatory enforcement
+
+**Lower Disclosure** (Many countries):
+- Annual reporting only
+- Less detailed
+- Private companies minimal disclosure
+
+**Cultural Factors**:
+- Individualistic cultures → more disclosure
+- Collectivist cultures → less disclosure
+- Trust-based relationships → less need for formal disclosure
+
+#### 4. Legal System Development
+
+**Critical Insight from Research**:
+
+> Investor protection is typically better in countries where English common law is the basis of the legal system, compared to codified civil law.
+
+**English Common Law** (UK, US, Canada, Australia, former British colonies):
+- Evolved through court decisions
+- Judge-made law
+- Flexible, adapts to circumstances
+- Better investor protection
+
+**Civil Law - French Origin** (France, Spain, Italy, Latin America, much of Africa):
+- Codified law
+- Based on Code Napoleon
+- More rigid
+- Weaker investor protection
+
+**Civil Law - German Origin** (Germany, Austria, Switzerland, Japan, Korea):
+- Codified but different from French
+- Stronger than French civil law
+- Still generally weaker than common law
+
+**Why This Matters**:
+- Common law countries: Minority shareholders better protected by courts
+- Civil law countries: Controlling shareholders/banks more important for governance
+
+### Two Governance Systems: Insider vs. Outsider
+
+The textbook provides excellent comparison (Exhibit 4.6). Let me elaborate:
+
+#### Outsider Systems (Market-Based)
+
+**Examples**: United States, United Kingdom, Canada, Australia
+
+**Characteristics**:
+
+1. **Share Ownership**: Widely dispersed
+2. **Control**: Management control (agency issues)
+3. **Market for Corporate Control**: Active, hostile takeovers common
+4. **Government Role**: Arms-length, regulatory only
+5. **Board Structure**: Single board, CEO often chairman
+6. **Transparency**: High disclosure, public compensation
+7. **Minority Protection**: Relatively weak (but better than some insiders systems)
+
+**Strengths**:
+- Liquid markets
+- Efficient capital allocation
+- Easy to raise capital
+- Market discipline on management
+
+**Weaknesses**:
+- Short-term pressure
+- Agency problems
+- Takeover defenses
+- Management entrenchment
+
+#### Insider Systems (Relationship-Based)
+
+**Examples**: Germany, Japan, France, Italy, much of Asia and Latin America
+
+**Characteristics**:
+
+1. **Share Ownership**: Concentrated (family, banks, cross-holdings, government)
+2. **Control**: Insider control (controlling shareholders)
+3. **Market for Corporate Control**: Rare, legal/structural barriers
+4. **Government Role**: Often participant (owns shares, directs credit)
+5. **Board Structure**: Often two-tier (Germany), or dominated by insiders
+6. **Transparency**: Lower disclosure
+7. **Minority Protection**: Often strong legal protection BUT practical expropriation possible
+
+**Strengths**:
+- Long-term perspective
+- Stable ownership
+- Lower agency costs (between owners and managers)
+- Patient capital
+
+**Weaknesses**:
+- Harder to raise capital
+- Minority shareholder expropriation risk
+- Resistance to change
+- Less market discipline
+
+### Specific Country Examples
+
+#### Germany
+- **Two-tier board**: Supervisory board (oversight) and Management board (operations)
+- **Codetermination (Mitbestimmung)**: Workers elect half of supervisory board
+- **Banks**: Major shareholders and lenders
+- **Stakeholder model**: Labor, banks, management all represented
+
+#### Japan
+- **Keiretsu**: Cross-shareholding among related companies
+- **Main Bank System**: Lead bank holds shares and provides credit
+- **Lifetime Employment**: Traditional (weakening now)
+- **Consensus decision-making**
+
+#### France
+- **Family Control**: Common even in large public companies
+- **Dual-class shares**: Voting vs. non-voting
+- **Government**: Often significant shareholder (even after privatization)
+- **Stakeholder orientation**: Labor laws strong
+
+#### China
+- **State-owned enterprises dominate**
+- **Communist Party**: Significant role in governance
+- **Mixed**: Some private firms, increasingly sophisticated
+- **Evolution**: Moving toward more market-based but maintaining state control
+
+### The Convergence Debate
+
+**Question**: Are governance systems converging toward Anglo-American model?
+
+**Arguments FOR convergence**:
+- Globalization of capital markets
+- Foreign investors demand better governance
+- Privatization pressure
+- Competition for capital
+- Scandals force reform
+
+**Arguments AGAINST convergence**:
+- Path dependence (history matters)
+- Legal systems don't change quickly
+- Cultural differences persist
+- Political resistance
+
+**Current View**: Partial convergence
+- Emerging markets adopting some reforms (independent directors, disclosure)
+- But maintaining distinctive features
+- US/UK also adopting stakeholder elements (ESG focus)
+
+### Good Governance and Corporate Reputation
+
+### Does Good Governance Have Value?
+
+**This is an empirical question**, and the evidence is mixed but generally positive.
+
+**Studies show**:
+- Firms with better governance have higher valuations
+- Better governance associated with higher profitability
+- Less prone to fraud
+- Lower cost of capital
+- Better performance during crises
+
+**But**:
+- Correlation not necessarily causation
+- Well-governed firms may be better for other reasons
+- Different measures of governance give different results
+
+### Common Principles of Good Governance
+
+Despite differences, certain principles are widely accepted. The textbook references OECD principles:
+
+#### 1. Shareholder Rights
+- One share, one vote
+- Right to participate in shareholder meetings
+- Right to elect board
+- Right to share in profits
+- Right to information
+
+#### 2. Board Responsibilities
+- Ultimate responsibility for firm
+- Hire/fire CEO
+- Approve strategy
+- Ensure disclosure
+- Manage conflicts of interest
+
+#### 3. Equitable Treatment of Shareholders
+- All shareholders of same class treated equally
+- Minority shareholders protected from abuse
+- No special deals for insiders
+
+#### 4. Stakeholder Rights
+- Recognize legitimate stakeholder interests
+- Allow stakeholder participation where appropriate
+- Employee rights respected
+
+#### 5. Disclosure and Transparency
+- Timely, accurate financial reporting
+- Disclosure of ownership structure
+- Disclosure of remuneration
+- Independent audit
+
+### Governance Failures
+
+Let me give you some examples of governance failures to illustrate what can go wrong:
+
+#### Enron (2001)
+- **What Happened**: Accounting fraud, special purpose entities to hide debt
+- **Governance Failures**: 
+  - Board didn't understand business
+  - Auditor (Arthur Andersen) had consulting conflicts
+  - Analysts didn't question numbers
+  - Management fraud
+- **Result**: Bankruptcy, criminal prosecutions, Arthur Andersen dissolved
+- **Reform**: Sarbanes-Oxley Act (2002)
+
+#### Volkswagen Dieselgate (2015)
+- **What Happened**: Software to cheat emissions tests
+- **Governance Failures**:
+  - Controlling family
+  - Dual-class shares
+  - Government board seats
+  - Conflicting interests
+  - Weak oversight
+- **Result**: Billions in fines, CEO resigned, reputation damage
+
+#### Toshiba (2021)
+- **What Happened**: Accounting scandal, then corporate governance scandal
+- **Governance Issues**:
+  - Management worked with government to pressure foreign shareholders
+  - Failed to respond to shareholder concerns
+  - Traditional Japanese insider governance conflicting with modern investor expectations
+- **Result**: Ongoing reform pressures, leadership changes
+
+**See Mini-Case at end of chapter for full Toshiba story!**
+
+---
+
+## Part 4: The Market for Corporate Control
+
+### What is the Market for Corporate Control?
+
+The textbook provides a great definition from Jensen and Ruback (1983):
+
+> "The market for corporate control is best viewed as an arena in which managerial teams compete for the rights to manage corporate resources."
+
+**In simpler terms**: It's the market where companies (or parts of companies) get bought and sold, and where control changes hands.
+
+**Why This Exists**: Theoretical foundation is that resources (companies) should be controlled by those who can use them most productively.
+
+### Functions of the Market for Corporate Control
+
+1. **Discipline poor management**: Threat of takeover keeps managers on their toes
+2. **Reallocate assets**: Move assets to higher-value uses
+3. **Create synergies**: Combine companies for operational or financial benefits
+4. **Enable restructuring**: Break up conglomerates, refocus businesses
+
+### Takeovers: Friendly vs. Hostile
+
+### Friendly Takeovers (Negotiated Acquisitions)
+
+**Process**:
+1. Acquirer approaches target management
+2. Negotiations on price and terms
+3. Due diligence (examine books)
+4. Agreement reached
+5. Target board recommends to shareholders
+6. Shareholder vote
+7. Deal closes
+
+**Advantages**:
+- Access to information
+- Can plan integration
+- Less expensive (no fight)
+- Higher success rate
+
+### Hostile Takeovers (Contested)
+
+**Process**:
+1. Acquirer makes offer directly to shareholders (tender offer)
+2. Target management opposes
+3. Target uses defenses (see below)
+4. Acquirer may raise bid or use other tactics
+5. Proxy fight possible
+6. Ultimately shareholders decide
+
+**Why Go Hostile**?
+- Target management refuses to negotiate
+- Acquirer thinks shareholders will override management
+- Speed (no long negotiations)
+
+### Regulatory Thresholds and Requirements
+
+The textbook provides excellent overview (Exhibit 4.7) of various thresholds in takeover process. Let me explain these:
+
+### Disclosure Threshold
+
+**Typical Level**: 5% (3% in UK, 10% in Canada)
+
+**Requirement**: When acquirer crosses this threshold, must publicly disclose stake and intentions.
+
+**Purpose**:
+- Alert market to potential takeover
+- Transparency
+- Give target time to respond
+
+**What Happens**: Stock price typically rises on disclosure (takeover premium anticipated).
+
+### Mandatory Bid Rule Threshold
+
+**Typical Level**: 30% (some countries 33%)
+
+**Requirement**: At this point, acquirer must make tender offer for ALL remaining shares.
+
+**Purpose**:
+- Protect minority shareholders
+- Ensure fair price for all
+- Prevent "creeping takeover"
+
+**Not in US!** US allows gradual accumulation without mandatory bid.
+
+### Minimum Price Rules
+
+**Some countries require**: Tender price must be at minimum price based on recent trading prices.
+
+**Purpose**: Ensure "fair" price, prevent low-ball offers
+
+**Typical formula**: Highest price paid by acquirer in past 6-12 months, or recent average price
+
+### Controlling Interest Point
+
+**Typically**: 50% + 1 share
+
+**Significance**: Voting control, can elect board, approve major decisions
+
+**But note**: Effective control possible with less if ownership dispersed
+
+### Squeeze-Out Threshold
+
+**Typical Level**: 90%
+
+**Meaning**: Once acquirer reaches 90%, can force remaining shareholders to sell
+
+**Purpose**: Allow acquirer to fully own company, delist if desired
+
+**Reciprocal**: Sell-out rights allow remaining shareholders to force acquirer to buy them out
+
+### Takeover Defenses (Anti-Takeover Provisions)
+
+Now let's discuss how target companies defend against hostile takeovers. This is fascinating because it gets to core governance questions about who controls the company.
+
+### Why Defend?
+
+**Management's perspective**:
+- Offer undervalues company
+- Wrong strategic fit
+- Will destroy jobs/culture
+- Bidder can't execute
+
+**Cynical view**:
+- Management protecting their jobs
+
+**Reality**: Probably a mix
+
+### Categories of Defenses
+
+The textbook distinguishes between defenses that affect:
+1. **Voting power** (change shareholder structure)
+2. **Firm value** (change attractiveness of target)
+
+### Voting Power Defenses
+
+#### Dual-Class Stock
+
+**What it is**: Two classes of shares with different voting rights
+
+**Example**:
+- Class A shares: 10 votes per share (held by founding family)
+- Class B shares: 1 vote per share (sold to public)
+
+**Effect**: Family controls company despite owning minority of economic interest
+
+**Real Example**: 
+- Facebook: Zuckerberg controls through supervoting shares
+- Google/Alphabet: Founders controlled through dual class
+- Hermes: Family controls despite public shares
+
+**Pro**: Protects founding vision, long-term thinking
+**Con**: Minority shareholders have less voice
+
+#### Poison Pills (Shareholder Rights Plan)
+
+**What it is**: Allows existing shareholders to buy additional shares at discount if acquirer reaches threshold (typically 15-20%)
+
+**Mechanism**:
+1. Hostile bidder crosses trigger (say 15%)
+2. Pill "activates"
+3. All shareholders except bidder can buy new shares at 50% discount
+4. Massive dilution of bidder's stake
+5. Makes takeover prohibitively expensive
+
+**Types**:
+- **Flip-in**: Existing shareholders buy target shares at discount
+- **Flip-over**: If deal goes through, shareholders can buy acquirer shares at discount
+
+**Effectiveness**: Very effective, almost impossible to proceed without board removing pill
+
+**Controversy**:
+- Critics: Entrenches management
+- Defenders: Gives board leverage to negotiate better price
+
+**Note**: Board can remove pill if they approve of deal
+
+### Staggered Board
+
+**What it is**: Board members serve staggered terms (typically 3 years), only 1/3 up for election each year
+
+**Effect**: Hostile bidder can't take control of board immediately, takes 2 years minimum
+
+**Example**:
+- Year 1: Acquirer gains majority of shares, elects 1/3 of board
+- Year 2: Elects another 1/3, now controls 2/3
+- Meanwhile, target has time to mount defense or find white knight
+
+### Supermajority Requirements
+
+**What it is**: Bylaw requiring more than 50% vote for certain actions (e.g., 67%, 80%)
+
+**Applied to**: Mergers, sales of assets, amendments to bylaws
+
+**Effect**: Harder to force through hostile deal
+
+### Firm Value Defenses
+
+#### Crown Jewel Defense
+
+**What it is**: Sell or spin off the most valuable assets (the "crown jewels")
+
+**Effect**: Makes target less attractive to acquirer
+
+**Example**: If acquirer wants target for its patent portfolio, sell or license the patents
+
+**Problem**: May harm target shareholders!
+
+#### Scorched Earth Defense
+
+**What it is**: Take on massive debt, pay huge dividend, sell assets—basically destroy the target to prevent acquisition
+
+**Effect**: Makes target financially unattractive or weak
+
+**Problem**: Extreme, can backfire badly
+
+#### White Knight Defense
+
+**What it is**: Find a friendlier acquirer (the "white knight") to acquire target instead of hostile bidder
+
+**Process**:
+1. Hostile bidder makes offer
+2. Target negotiates with white knight
+3. White knight makes higher, friendly offer
+4. Original bidder may drop out or bid again
+
+**Example**: Kraft's hostile bid for Cadbury (UK) in 2009
+- Cadbury sought white knight
+- Eventually Kraft succeeded (controversial in UK)
+
+#### Pac-Man Defense
+
+**What it is**: Target tries to acquire the hostile bidder!
+
+**Effect**: Turn the tables, make bidder the target
+
+**Rare**: Requires target to have resources and access to financing
+
+**Historical example**: Bendix vs. Martin Marietta (1982)
+- Bendix tried to acquire Martin Marietta
+- Martin Marietta started acquiring Bendix!
+- Eventually Allied Corporation acquired Bendix
+
+### Golden Parachutes
+
+**What it is**: Lucrative severance packages for executives if company acquired
+
+**Effect**: Makes deal more expensive, aligns management with shareholders (they get paid either way)
+
+**Controversy**: Rewards failure? Or fair compensation for job loss?
+
+### Legal and Regulatory Defenses
+
+#### Antitrust Review
+
+**What it is**: Argue deal violates competition law
+
+**Process**: Refer to FTC, DOJ (US), or EU competition authorities
+
+**Effect**: Delay, possible blocking
+
+#### National Security Review
+
+**What it is**: Argue deal threatens national security (especially foreign acquirers)
+
+**US**: CFIUS (Committee on Foreign Investment in the United States)
+**UK**: Similar review process
+**Other countries**: Various mechanisms
+
+**Effect**: Can block foreign acquisitions
+
+**Example**: 
+- China's CNOOC tried to buy Unocal (US oil company) 2005—blocked
+- Dubai Ports World tried to buy US port operations 2006—forced to divest
+
+### Cross-Border Takeovers
+
+When takeovers cross borders, additional complexities arise:
+
+### Additional Challenges
+
+1. **Currency Risk**: Deal value changes with exchange rates
+2. **Regulatory Approvals**: Multiple countries involved
+3. **Cultural Integration**: Different business cultures
+4. **Legal Systems**: Different corporate laws
+5. **Political Sensitivity**: Foreign ownership controversial
+
+### Different National Rules
+
+**US**:
+- No mandatory bid rule
+- Active market for control
+- Creeping takeovers possible
+- State law governs (Delaware common)
+
+**UK (Takeover Code)**:
+- Mandatory bid at 30%
+- Strong shareholder rights
+- Board neutrality required
+- "No frustrating action" rule
+
+**Germany**:
+- Stakeholder orientation
+- Labor representation
+- Volkswagen Law protections
+- Less hostile activity
+
+**Japan**:
+- Cross-shareholdings historically prevented most takeovers
+- Weakening now but still defensive culture
+
+### Recent Trends
+
+1. **More cross-border activity**: Globalization of M&A
+2. **Sovereign wealth funds**: More active as investors and acquirers
+3. **Private equity**: Major players in takeover market
+4. **Nationalism**: Increasing restrictions on foreign buyers
+5. **Technology**: Tech companies aggressive acquirers (Google, Facebook, Amazon)
+
+### Corporate Responsibility and Sustainability
+
+Let me conclude this chapter by returning to the fundamental question: **What is the purpose of the corporation?**
+
+### The Traditional Debate
+
+**Shareholder Primacy View (Milton Friedman)**:
+> "There is one and only one social responsibility of business—to use its resources and engage in activities designed to increase its profits so long as it stays within the rules of the game."
+
+**Stakeholder View**:
+> Corporations have responsibilities to all stakeholders and to society.
+
+### The Modern Evolution
+
+We're witnessing a significant evolution in thinking:
+
+**2019—Business Roundtable Statement on Corporate Purpose**:
+
+Purpose of a corporation is to:
+1. Deliver value to customers
+2. Invest in employees
+3. Deal fairly with suppliers
+4. Support communities
+5. Generate long-term value for shareholders
+
+**Note**: Shareholders listed last, not first!
+
+### ESG Investing Growth
+
+**Massive Capital Flows to ESG**:
+- Trillions of dollars in ESG-focused funds
+- Institutional investors demand ESG performance
+- BlackRock (world's largest asset manager) prioritizes ESG
+
+**The Debate**:
+- **Supporters**: ESG creates long-term value, addresses market failures, attracts capital
+- **Critics**: ESG is vague, allows management to avoid accountability, "woke capitalism"
+
+### Sustainability Defined
+
+The textbook quotes Brundtland Report (1987):
+
+> "Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs."
+
+**Applied to business**: Don't create profits today by imposing costs on future generations.
+
+### Two Channels of Argument
+
+#### Economic Channel ("Enlightened Self-Interest")
+- **Argument**: Pursuing sustainability maximizes long-term value
+- **Environmental**: Climate change poses financial risks
+- **Social**: Poor labor practices create reputation/legal risks
+- **Governance**: Good governance reduces fraud risk
+- **Conclusion**: Sustainability = profitable in long run
+
+#### Moral Channel ("Corporate Citizenship")
+- **Argument**: Corporations have moral responsibilities regardless of profitability
+- **Corporation as "person"**: Has rights and responsibilities like citizens
+- **Social license to operate**: Society grants corporate privileges, expects responsibilities
+- **Conclusion**: Right thing to do, independent of profit
+
+### My Perspective for Your Understanding
+
+**This is an active, evolving debate without consensus.**
+
+As a finance student, you should:
+1. **Understand both perspectives** (and there are more than two!)
+2. **Think critically** about assumptions and evidence
+3. **Recognize context matters**: Some firms, some industries, some countries may differ
+4. **Follow developments**: This is changing rapidly
+5. **Form your own views**: You'll make decisions about this in your career
+
+**What's clear**:
+- Simple shareholder primacy is being challenged globally
+- ESG is not going away (though may evolve)
+- Stakeholder interests matter (even if debatable how much)
+- Long-term value creation requires sustainable practices
+- Corporate governance continues to evolve
+
+---
+
+## Conclusion and Synthesis {.unnumbered}
+
+### Bringing It All Together {.unnumbered}
+
+Let me connect the major themes from today's lecture:
+
+### Business Ownership
+- Ownership structures vary widely: SOEs, family firms, partnerships, widely-held public companies
+- Who owns and who controls may differ
+- Separation of ownership from management creates agency problems
+- Different ownership structures lead to different governance needs
+
+### Corporate Objectives
+- **Shareholder capitalism**: Maximize shareholder value (Anglo-American model)
+- **Stakeholder capitalism**: Balance interests of all stakeholders (Continental European, Asian models)
+- Current evolution toward stakeholder thinking, ESG emphasis
+- Operational goals must balance multiple objectives, often in tension
+
+### Corporate Governance
+- System of rules, practices, and processes directing and controlling firms
+- Varies dramatically across countries based on:
+  - Financial market development
+  - Legal systems
+  - Ownership concentration  
+  - Cultural factors
+- Insider vs. outsider systems
+- Good governance matters for firm value, but hard to measure
+- Governance failures can destroy enormous value (Enron, Volkswagen, Toshiba)
+
+### Market for Corporate Control
+- Mechanism for changing corporate control
+- Can be friendly (negotiated) or hostile (contested)
+- Various thresholds and requirements vary by country
+- Defenses range from reasonable to extreme
+- Cross-border adds complexity
+- Raises fundamental questions about corporate purpose
+
+### The Ongoing Evolution
+
+**What's clear**: Corporate governance is evolving rapidly.
+
+**Drivers**:
+- Globalization of capital
+- Technology (information availability, communication)
+- Corporate scandals prompting reform
+- ESG movement
+- Changing societal expectations
+- Geopolitical tensions
+
+### The Toshiba Case: Synthesis {.unnumbered}
+
+The Toshiba mini-case in your textbook beautifully illustrates many themes from this chapter:
+
+**Ownership**: Foreign institutional investors vs. Japanese traditional model
+**Control**: Management working with government to limit shareholder influence
+**Governance**: Board independence questions, information asymmetry, stakeholder conflicts
+**Market for Control**: Activist investors pushing for change, potential privatization
+**Cultural Clash**: Anglo-American governance expectations vs. Japanese traditions
+
+**I highly recommend** reading the Toshiba case carefully—it's a real-world example of everything we discussed today.
+
+### Looking Ahead {.unnumbered}
+
+In future chapters, we'll build on these governance foundations as we explore:
+- How MNEs structure their global operations
+- How governance affects cost of capital
+- How currency and political risks interact with governance
+- How MNEs manage cash flows across jurisdictions with different governance regimes
+
+### Why This Matters to You {.unnumbered}
+
+### Career Preparation
+- **Investment Banking / M&A**: This chapter is your foundation
+- **Consulting**: Corporate governance is a major practice area
+- **Corporate Finance**: You'll work within governance structures
+- **Investment Management**: Evaluate governance of potential investments
+- **Any Business Role**: Understanding governance helps you navigate organizations
+
+### Responsible Leadership
+- You'll face ethical decisions about stakeholders
+- You'll participate in governance as board member or executive someday
+- You'll vote as shareholder
+- Your decisions will affect employees, communities, environment
+
+### Global Competence
+- Cannot understand international business without understanding governance differences
+- Cultural sensitivity requires understanding different governance philosophies
+- Success in global career requires navigating different systems
+
+### Practical Advice {.unnumbered}
+
+### For Understanding This Material
+1. **Don't just memorize**: Understand the logic and trade-offs
+2. **Follow current events**: Corporate governance is in the news constantly
+3. **Think critically**: There are rarely "right answers"—there are trade-offs
+4. **Compare systems**: US vs. Germany vs. Japan vs. China—understand why they differ
+
+### For Exam Preparation
+1. **Know key terms**: Agency problem, SWM vs. SCM, insider vs. outsider systems
+2. **Understand mechanisms**: How do different defenses work? Why do governance structures differ?
+3. **Be able to apply**: Given a scenario, what governance issues arise?
+4. **Real examples**: Know the major cases (Enron, Volkswagen, Toshiba)
+
+### Discussion Questions to Consider {.unnumbered}
+
+I want to leave you with some questions to think about:
+
+1. **Can you have both strong shareholder returns AND strong stakeholder treatment, or is there inherently a trade-off?**
+
+2. **Should foreign investors be subject to different rules than domestic investors? (Think Toshiba case)**
+
+3. **Are poison pills good or bad for shareholders?** (Defend both sides)
+
+4. **Should boards include employee representatives (German model) or is that a conflict of interest?**
+
+5. **Is the trend toward ESG and stakeholder capitalism genuine or just marketing?**
+
+6. **How should minority shareholders be protected in family-controlled firms?**
+
+7. **Should there be a global standard for corporate governance, or should countries maintain their own systems?**
+
+These questions don't have easy answers, but thinking through them will deepen your understanding.
+
+---
+
+## Questions and Class Discussion {.unnumbered}
+
+### Check for Understanding {.unnumbered}
+
+Before we conclude, let me pose a few questions to gauge comprehension:
+
+### Question 1
+"Can someone explain the difference between a state-owned enterprise that is publicly traded and a purely private enterprise that is publicly traded? Use Petrobras as an example."
+
+**What I'm looking for**:
+- Petrobras: Government owns 64%, but 36% publicly traded
+- Government controls despite public shares
+- This affects governance, objectives
+- Contrast with fully private firm like Apple
+
+### Question 2
+"Why might shareholder wealth maximization lead to different decisions than stakeholder capitalism? Give a specific example."
+
+**What I'm looking for**:
+- SWM: Close unprofitable plant to cut costs
+- SCM: Keep plant open to preserve jobs, even if unprofitable
+- Short-term vs. long-term trade-offs
+- Who decides and on what basis?
+
+### Question 3
+"What's a poison pill, and why is it controversial?"
+
+**What I'm looking for**:
+- Shareholder rights plan, dilutes hostile bidder
+- Very effective defense
+- Controversy: Protects shareholders from low-ball bid OR entrenches management?
+
+### Question 4
+"Why do governance systems differ between US and Germany?"
+
+**What I'm looking for**:
+- Legal system (common vs. civil law)
+- History (post-war reconstruction)
+- Ownership structure (dispersed vs. concentrated)
+- Cultural factors (individualism vs. stakeholder orientation)
+
+### Application Exercise {.unnumbered}
+
+**Let's work through a scenario**:
+
+> "You're a board member of a US publicly traded company. An activist investor has acquired 8% of shares and is publicly demanding that you:
+> 1. Cut R&D spending by 50%
+> 2. Increase debt from 30% to 60% of capital structure
+> 3. Use freed-up cash for massive share buyback
+> 4. Spin off your renewable energy division (currently losing money but strategically important)
+
+> The activist argues this will boost share price 30%. Your CEO believes it will destroy long-term value. How do you think through this as a board member?"
+
+**Let's discuss**:
+- What's your fiduciary duty?
+- To whom?
+- What's the time horizon?
+- What information do you need?
+- What are the trade-offs?
+
+---
+
+## Preview of Next Class and Assignments {.unnumbered}
+
+### Next Session {.unnumbered}
+
+Next week we'll dive into **Chapter 5: The Foreign Exchange Market**. We'll explore:
+- How currency markets work
+- Exchange rate quotations and calculations
+- Spot vs. forward markets
+- Currency trading mechanics
+- Who participates and why
+
+This will build directly on our understanding of corporate goals and governance, as exchange rate management is a key challenge for MNEs.
+
+### Assignments {.unnumbered}
+
+**For next class**:
+
+1. **Read Chapter 5** in your textbook
+
+2. **Review today's lecture** and the governance diagrams—make sure you understand the models
+
+3. **Read the Toshiba mini-case** at the end of Chapter 4 carefully and be prepared to discuss:
+   - What governance failures occurred?
+   - How did Japanese governance traditions conflict with foreign investor expectations?
+   - What should happen next?
+
+4. **Find a current article** about:
+   - A hostile takeover attempt (past 2 years), OR
+   - A corporate governance controversy, OR  
+   - ESG activism
+
+Be prepared to briefly summarize and discuss in class.
+
+5. **Practice Problems**: Complete the end-of-chapter problems on shareholder returns (Problems 4.1-4.5). We'll review these next session.
+
+### Office Hours {.unnumbered}
+
+I'm available during my regular office hours, and I encourage you to come with questions about:
+- Corporate governance differences
+- The Toshiba case
+- Any of the concepts from today
+- How this applies to your career interests
+
+---
+
+# Final Thoughts {.unnumbered}
+
+Corporate governance might seem abstract, but it affects:
+- Whether you get a job (companies with good governance are more stable)
+- How you're treated as employee (stakeholder vs. shareholder orientation)
+- Your retirement savings (your pension fund invests based on governance)
+- Products you buy (corporate responsibility)
+- Communities you live in (corporate impact)
+
+This is not just finance theory—it's about how economic power is organized and controlled in society.
+
+The debate between shareholder and stakeholder capitalism is really a debate about:
+- What kind of capitalism do we want?
+- What responsibilities do corporations have?
+- How should power be balanced?
+
+These are fundamentally important questions, and you—the next generation of business leaders—will help answer them.
+
+**Thank you for your attention today. I'll see you next week. Please don't hesitate to reach out with questions.**
+
+### Additional Resources (Optional) {.unnumbered}
+
+For those interested in going deeper:
+
+**Books**:
+- "The Enlightened Capitalists" by James O'Toole
+- "Reimagining Capitalism in a World on Fire" by Rebecca Henderson
+- "The Value of Everything" by Mariana Mazzucato
+
+**Articles**:
+- "The End of Shareholder Primacy" (Harvard Business Review)
+- "Shareholder Capitalism Got a Makeover" (Financial Times)
+
+**Documentaries**:
+- "The Corporation" (2003)
+- "Inside Job" (2010) - on financial crisis and governance
+
+**Follow**:
+- Harvard Law School Forum on Corporate Governance
+- Financial Times Lex Column
+- The Economist business section
+
+---
+
+**End of Lecture**

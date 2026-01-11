@@ -2,7 +2,6 @@
 title: "Chapter 1 - Multinational Financial Management: Opportunities and Challenges"
 author: "Prof. Barker"
 date: today
-
 format:
   html:
     toc: true
@@ -10,7 +9,9 @@ format:
     toc-depth: 3
     toc-expand: 1
     number-sections: true
+    number-offset: 0
     title-block-style: default
+    theme: cosmo
   docx:
     toc: true
     number-sections: true
@@ -18,20 +19,17 @@ format:
     toc: true
     number-sections: true
     geometry: margin=1in
-
-
-
 ---
 
-# Introduction and Opening {.unnumbered}
+# Introduction
 
-## Welcome and Context Setting {.unnumbered}
+**"The best math you can learn is how to calculate the future cost of current decisions."**
 
 This course is about exploring what makes multinational financial management both uniquely challenging and remarkably rewarding.
 
 **Think about this"** "How often have you have used a product that was made by a company operating in multiple countries?"
 
-This simple exercise demonstrates that we live in a deeply interconnected global economy. The phone in your pocket, the coffee you drank this morning, the streaming service you use - all likely involve multinational enterprises (MNEs) managing complex financial operations across borders.
+This simple exercise demonstrates that we live in a deeply interconnected global economy. The phone in your pocket, the coffee you drank this morning, the streaming service you use - all likely involve **multinational enterprises (MNEs)** managing complex financial operations across borders.
 
 ## Chapter Roadmap {.unnumbered}
 
@@ -44,17 +42,17 @@ Four major section:
 
 ------------------------------------------------------------------------
 
-# The Global Financial Marketplace
+## The Global Financial Marketplace
 
-## The Players
+### The Players
 
 Multinational Enterprises (MNE) are companies or businesses that have operations in more than one country and conduct their business through branches, foreign subsidiaries, or joint ventures with host country firms.
 
-## The Playing Field
+### The Playing Field
 
 Think of the global financial marketplace as a complex ecosystem with three fundamental components:
 
-### Assets (Financial Assets)
+#### Assets (Financial Assets)
 
 These are the debt securities issued by governments. These form the baseline for other forms of financing.
 
@@ -65,7 +63,7 @@ These are the debt securities issued by governments. These form the baseline for
 
 **Critical Point:** The health of the global financial system depends on the quality of these securities. When securities fail (remember the 2008 financial crisis with mortgage-backed securities), the entire system suffers.
 
-### Institutions
+#### Institutions
 
 These are the governmental, commercial, and private banks. Their health keeps the global financial system stable.
 
@@ -73,7 +71,7 @@ These are the governmental, commercial, and private banks. Their health keeps th
 -   **Commercial Banks**: Take deposits and extend loans both domestically and internationally
 -   **Investment Banks & Financial Institutions**: Trade securities, facilitate capital flows, create financial products
 
-### Linkages
+#### Linkages
 
 These are the interbank networks using currency. Without ready exchange of currencies, the market is hard-pressed to operate efficiently.
 
@@ -84,7 +82,7 @@ These are the interbank networks using currency. Without ready exchange of curre
 
 ![The Global Capital Markets](../assets/images/GlobalCapitalMarkets.jpg)
 
-## The Market for Currencies
+### The Market for Currencies
 
 **Key Concept:** A foreign exchange rate is simply the price of one currency in terms of another.
 
@@ -96,7 +94,9 @@ or
 USD 1.1274 = EUR 1.00
 ```
 
-### Important Terminology Discussion
+#### Important Terminology Discussion
+
+(Reading exchange rates can be confusing, but it just takes practice.)
 
 There are different ways to express the same exchange rate:
 
@@ -109,14 +109,14 @@ There are different ways to express the same exchange rate:
 
 All mean the same thing. The key is understanding which currency is the "base" (the one that equals 1.00) and which is the "quote" (the price).
 
-**Convention to Remember:**
+**Convention to Remember (Please note the inconsistency that makes this tricky):**
 
 -   EUR, GBP (British pound), and some Commonwealth currencies are typically quoted as "dollars per foreign currency"
 -   Most other currencies quote as "foreign currency per dollar"
 
 **Why does this matter?** Because when you calculate percentage changes or returns, you need to know which currency is in the numerator and which is in the denominator.
 
-## Calculating Percentage Changes in Exchange Rates
+### Calculating Percentage Changes in Exchange Rates
 
 **Please pay attention to this.**
 
@@ -129,7 +129,7 @@ Let's work through the Argentinian peso example from your textbook:
 -   Beginning rate (12/16/15): ARG 9.7908 = USD 1.00
 -   Ending rate: (12/17/15) ARG 13.6160 = USD 1.00
 
-### Method 1 - Foreign Currency Terms (Foreign currency per USD)
+#### Method 1 - Foreign Currency Terms (Foreign currency per USD)
 
 ![Foreign Currency Terms](../assets/images/Foreign_Currency_Terms.png){width="75%"}
 
@@ -152,17 +152,17 @@ cat("Percentage change:", round(pct_change_method1, 2), "%\n")
 
 **Interpretation:** The peso FELL 28.09% in value. Notice:
 
--   It takes MORE pesos to buy one dollar (went from 16.00 to 20.00)
+-   It takes MORE pesos to buy one dollar (went from 9.7908 to 13.616)
 -   The calculation yielded a NEGATIVE number
 -   Both indicate depreciation
 
-### Method 2 - Home Currency Terms (USD per foreign currency)
+#### Method 2 - Home Currency Terms (USD per foreign currency)
 
 ![Home Currency Terms](../assets/images/Home_Currency_Terms.png){width="75%"}
 
-First, we need to flip (take the inverse) of the rates (1/9.7908 = 0.10214 and 1/13.6160 = 0.07344).
+First, we need to flip (take the inverse) of the rates (USD 1/ ARG 9.7908 = 0.10214 and USD 1/ARG 13.6160 = 0.07344).
 
-This tells us how much US \$ that 1 ARG peso could buy. 1 ARG peso could buy \$0.10 on 12/16/15, and only \$0.07 on 12/17/15.
+This tells us how much USD that 1 ARG peso could buy. 1 ARG peso could buy \$0.10 on 12/16/15, and only \$0.07 on 12/17/15. In 24 hours, the ARG lost purchasing power compared to the USD. A little estimation tells us the ARG lost approximately 30% of purchasing power (from \$0.10 to \$0.07).
 
 **We do this because we are looking at the effect on the "Home" currency, the US Dollar.**
 
@@ -183,11 +183,11 @@ cat("Ending rate: USD", round(end_rate_usd, 5), "= ARG 1.00\n")
 cat("Percentage change:", round(pct_change_method2, 2), "%\n")
 ```
 
-**Both calculations give us the same answer** The peso fell 28.09%.
+**Both calculations give us the same answer** The peso fell 28.09%. (This is very close to our estimation of 30%.)
 
 **Teaching Point:** Many find Method 2 more intuitive because it follows the standard "end minus beginning over beginning" formula. However, both methods MUST give the same answer.
 
-### Practice Problem
+#### Practice Problem
 
 If the Mexican peso changes from MXN 16.00 = USD 1.00 to MXN 20.00 = USD 1.00, what is the percentage change? Do the calculations using the equations above and see if you get the correct answer.
 
@@ -206,7 +206,11 @@ cat("Mexican Peso Change:\n")
 cat("Answer:", round(mxn_pct_change, 2), "%\n")
 ```
 
-## Eurocurrencies and the Eurocurrency Interest Rates
+**Currency exchange is one of the major themes in International Finance. Please refer back to this section periodically if you need to review.**
+
+Now shifting gears back to the bigger picture...
+
+### Eurocurrencies and the Eurocurrency Interest Rates
 
 **Critical Definition:** Eurocurrencies are deposits of a currency held in banks OUTSIDE that currency's home country.
 
@@ -216,9 +220,9 @@ cat("Answer:", round(mxn_pct_change, 2), "%\n")
 -   **Euroyen**: Japanese yen deposited in a Singapore bank
 -   **Eurosterling**: British pounds deposited in a Paris bank
 
-**Important:** The "euro" prefix has NOTHING to do with the European currency. This terminology predates the euro.
+**Very Important:** The "euro" prefix has **NOTHING** to do with the European currency. This terminology predates the euro.
 
-### Historical Origin (Fascinating backstory)
+#### Historical Origin (Fascinating backstory)
 
 -   Born after WWII
 
@@ -232,7 +236,7 @@ cat("Answer:", round(mxn_pct_change, 2), "%\n")
 
 -   A country generally cannot freeze their own currency if it is held in an foreign bank, unless the foreign entity agrees to freeze those assets as well.
 
-### Eurocurrency Interest Rates - Why Does This Market Exist and Thrive?
+#### Eurocurrency Interest Rates - Why Does This Market Exist and Thrive?
 
 1.  **Regulatory Arbitrage**: Fewer regulations than domestic banking
     -   No reserve requirements
@@ -252,9 +256,9 @@ cat("Answer:", round(mxn_pct_change, 2), "%\n")
 
 **Current Developments:** LIBOR is being replaced due to manipulation scandals. We'll explore this transition in detail in Chapter 8.
 
-## Wayback Machine {.unnumbered}
+### \*\*Pre 1.2 - Wayback Machine {.unnumbered}
 
-### Why or how do nations exist? {.unnumbered}
+#### Why or how do nations exist? {.unnumbered}
 
 One theory (by Mancur Olson) supposes that originally people were nomadic clans that finally settled in a certain location. Periodically, roving bandits would ransack and pillage the community leaving them destitute, and riding off into the sunset (or wherever bandits roam). Then the community would rebuild, replant their crops, raise their livestock, and recover.
 
@@ -272,9 +276,13 @@ After the bandit became stationary, even though a portion of their produce went 
 
 And the nation-state was born.
 
-### Logical Structure
+(There are other theories, but this is my favorite.)
+
+#### Logical Structure {.unnumbered}
 
 **Roving Bandit**: Anarchy → Low Investment → Low Output
+
+-   Hypothetically, if you knew that your instructor would periodically walk throughout the classroom and confiscate any of your property they chose, would you bring anything of value to class? **Of course not.**
 
 **Stationary Bandit**: Protection + Order → Investment + Planning → Higher output + Tax base
 
@@ -285,9 +293,9 @@ And the nation-state was born.
 -   Financial intermediation develops because lenders expect repayment.
 -   States create courts, contract enforcement, currencies.
 
-# Theory of Comparative Advantage
+## Theory of Comparative Advantage
 
-## Foundational Economic Theory
+### Foundational Economic Theory
 
 **Driving question:** "Why do countries trade with each other?"
 
@@ -297,9 +305,9 @@ The theory of comparative advantage, developed by David Ricardo in 1817 (buildin
 -   Trade increases productivity through specialization and the division of knowledge.
 -   Trade increases productivity through comparative advantage.
 
-## Core Concepts
+### Core Concepts
 
-### Absolute Advantage (Adam Smith)
+#### Absolute Advantage (Adam Smith)
 
 -   A country should specialize in producing goods it can make most efficiently
 -   Trade these for goods other countries make more efficiently
@@ -318,7 +326,7 @@ The theory of comparative advantage, developed by David Ricardo in 1817 (buildin
 **Why gains emerge:**
 
 -   Specialize where productivity is highest relative to the alternative uses of resources.
--   Smith’s pin factory:
+-   Smith’s pin factory (famous story from the Wealth of Nations):
     -   Specialization increases productivity because of:
         -   Learning by doing
         -   Reduced switching costs
@@ -332,6 +340,20 @@ The theory of comparative advantage, developed by David Ricardo in 1817 (buildin
 
 **Key takeaway:** Productivity is organizational, not merely technological.
 
+**Alternative example that is more than just financial:**
+
+-   One bar of iron costs about \$5,
+
+-   Or worth about \$50 if made into horseshoes,
+
+-   Or between \$3,500-\$5,000 if made into needles,
+
+-   Or over \$500,000 if made into watch spring.
+
+**"Human potential is shaped by effort and skill, not just by inherent qualities."**
+
+**What you make of your life is mostly determined by your choices, not your circumstances.**
+
 **Connection to trade:**
 
 -   Specialization requires exchange:
@@ -341,32 +363,32 @@ The theory of comparative advantage, developed by David Ricardo in 1817 (buildin
 
 Absolute advantage explains *some* trade, but not enough. Ricardo's insight goes deeper.
 
-### Comparative Advantage (David Ricardo)
+#### Comparative Advantage (David Ricardo)
 
 -   Even if one country has absolute advantage in producing EVERYTHING, both countries benefit from specialization
--   Each country should specialize in what it does RELATIVELY better
+-   Each country should specialize in what it does RELATIVELY better than others
 -   The key word is "comparative" - relative, not absolute
 
 **OPPORTUNITY COST - what do we have to give up to get something?**
 
 -   This is the relative, or comparative difference between the productive abilities of countries.
 
-### Simple Example
+#### Simple Example
 
 Imagine two countries - the US and China:
 
--   US: Can produce either 100 computers OR 100 bushels of wheat with the same resources
+-   US: Can produce either 100 computers OR 200 bushels of wheat with the same resources
 -   China: Can produce either 50 computers OR 150 bushels of wheat with the same resources
 
 Even though the US has absolute advantage in computers, China might still have comparative advantage in wheat production if the opportunity costs differ appropriately.
 
-Who should produce computers or wheat?
+Who has the comparative advantage in each good? And who should produce computers or wheat?
 
-## Modern Reality vs. Theory
+### Modern Reality vs. Theory
 
 The textbook presents important limitations to pure comparative advantage theory:
 
-### Government Interference
+#### Government Interference
 
 -   Tariffs and quotas
 -   Subsidies to domestic industries
@@ -374,14 +396,14 @@ The textbook presents important limitations to pure comparative advantage theory
 
 **Example:** Many countries protect their agricultural sectors even when they're not the most efficient producers, because food security is considered a national security issue.
 
-### Factor Mobility
+#### Factor Mobility
 
 -   Classical theory assumed factors of production (land, labor, capital) stayed within countries
 -   Modern reality: Capital flows freely across borders
 -   Technology transfers rapidly
--   Even labor moves (though less freely than capital)
+-   Even labor moves (though less freely than capital, think immigration, both legal and illegal)
 
-### More Complex Factors of Production
+#### More Complex Factors of Production
 
 Modern location decisions consider:
 
@@ -394,7 +416,7 @@ Modern location decisions consider:
 -   Tax differentials
 -   Political stability
 
-### Comparative Advantage Shifts Over Time
+#### Comparative Advantage Shifts Over Time
 
 **Example from Textbook:**
 
@@ -404,7 +426,7 @@ Cotton textile production comparative advantage has shifted over 150 years:
 
 This illustrates how comparative advantage is dynamic, not static.
 
-## Relevance Today
+### Relevance Today
 
 Despite limitations, comparative advantage remains highly relevant:
 
@@ -426,17 +448,17 @@ Despite limitations, comparative advantage remains highly relevant:
 
 ------------------------------------------------------------------------
 
-# What Makes International Finance Management Different?
+## What Makes International Finance Management Different?
 
-## Framework for Understanding Differences {.unnumbered}
+### Framework for Understanding Differences {.unnumbered}
 
 International financial management differs from domestic finance in six key dimensions:
 
 ![Key Differences](../assets/images/Exhibit%201.3.png){width="100%"}
 
-## Culture, History, and Institutional Differences
+### Culture, History, and Institutional Differences
 
-### Cultural Challenges
+Cultural Challenges
 
 -   Business practices vary enormously
 -   Contract interpretation differences
@@ -445,13 +467,13 @@ International financial management differs from domestic finance in six key dime
 
 **Example:** In many Asian business cultures, building relationships (guanxi in China) is prerequisite to doing business. In the US, contracts often precede relationships.
 
-### Historical Context
+Historical Context
 
 -   Legal systems differ (common law vs. civil law vs. religious law)
 -   Accounting standards vary (though IFRS is harmonizing some)
 -   Property rights protection differs dramatically
 
-### Institutional Frameworks
+Institutional Frameworks
 
 -   Banking system structures
 -   Capital market development levels
@@ -460,11 +482,11 @@ International financial management differs from domestic finance in six key dime
 
 **Real World Impact:** A company expanding to a new country must understand these differences. What works in New York may fail in Mumbai or Moscow - not because the financial principles are different, but because the operating environment is different.
 
-## Corporate Governance Differences
+### Corporate Governance Differences
 
 **Critical Point:** Not all countries have the same ownership structures or governance models.
 
-### Three Primary Models
+Three Primary Models
 
 **1. Anglo-American Model:**
 
@@ -495,7 +517,7 @@ International financial management differs from domestic finance in six key dime
 -   Determines accountability structures
 -   Shapes strategic objectives
 
-## Foreign Exchange Risk
+### Foreign Exchange Risk
 
 **This is THE defining characteristic of international finance.**
 
@@ -507,98 +529,29 @@ International financial management differs from domestic finance in six key dime
     -   Foreign assets and liabilities
     -   Foreign subsidiary operations
 
-### Types of Foreign Exchange Exposure
+Types of Foreign Exchange Exposure
 
-**1. Transaction Exposure:**
+**1. Transaction Exposure (Chapter 10):**
 
 -   Committed but not yet settled foreign currency transactions
 -   Example: US company sells to German customer, invoice for €1 million due in 90 days
 -   Risk: Euro value could fall during 90 days
 
-**2. Translation (Accounting) Exposure:**
+**2. Translation (Accounting) Exposure (Chapter 11):**
 
 -   Converting foreign subsidiary financial statements to home currency
 -   Even if foreign operations are stable, exchange rate changes affect reported results
 
-**3. Economic (Operating) Exposure:**
+**3. Economic (Operating) Exposure (Chapter 12):**
 
 -   Long-term competitiveness effects from exchange rate changes
 -   Hardest to measure but potentially most significant
 
-### Classroom Example: Ganado Corporation
-
-Let's create a simple consolidation example:
-
-```{r}
-#| echo: false
-#| label: ganado-consolidation
-
-# Create a data frame for Ganado's subsidiaries
-library(knitr)
-
-subsidiaries <- data.frame(
-  Subsidiary = c("US Parent", "Europe", "China"),
-  Currency = c("USD", "EUR", "CNY"),
-  Sales_Local = c(300.0, 120.0, 600.0),
-  Earnings_Local = c(28.6, 10.5, 71.4),
-  Exchange_Rate = c(1.0000, 1.1200, 0.1515),
-  Rate_Description = c("USD 1.00 = USD 1.00", 
-                       "USD 1.12 = EUR 1.00", 
-                       "CNY 6.60 = USD 1.00")
-)
-
-# Calculate USD equivalents
-subsidiaries$Sales_USD <- subsidiaries$Sales_Local * subsidiaries$Exchange_Rate
-subsidiaries$Earnings_USD <- subsidiaries$Earnings_Local * subsidiaries$Exchange_Rate
-
-# Display the consolidation
-kable(subsidiaries, 
-      caption = "Ganado Corporation - Consolidated Results",
-      digits = 2)
-
-# Calculate totals
-cat("\nConsolidated Totals:\n")
-cat("Total Sales (USD millions):", round(sum(subsidiaries$Sales_USD), 2), "\n")
-cat("Total Earnings (USD millions):", round(sum(subsidiaries$Earnings_USD), 2), "\n")
-```
-
-**Question:** "If the euro falls from \$1.12 to \$1.00, what happens to consolidated earnings, even if European operations don't change?"
-
-```{r}
-#| echo: false
-#| label: euro-depreciation-impact
-
-# Original scenario
-eur_earnings_local <- 10.5  # million EUR
-exchange_rate_original <- 1.12
-earnings_usd_original <- eur_earnings_local * exchange_rate_original
-
-# New scenario - euro depreciates
-exchange_rate_new <- 1.00
-earnings_usd_new <- eur_earnings_local * exchange_rate_new
-
-# Calculate impact
-impact <- earnings_usd_new - earnings_usd_original
-
-cat("European Subsidiary Earnings Analysis:\n")
-cat("Local currency earnings (EUR): €", eur_earnings_local, "million (unchanged)\n")
-cat("\nOriginal scenario:\n")
-cat("  Exchange rate: $", exchange_rate_original, "/€\n")
-cat("  USD earnings: $", round(earnings_usd_original, 2), "million\n")
-cat("\nNew scenario (euro depreciation):\n")
-cat("  Exchange rate: $", exchange_rate_new, "/€\n")
-cat("  USD earnings: $", round(earnings_usd_new, 2), "million\n")
-cat("\nImpact on consolidated earnings: $", round(impact, 2), "million\n")
-cat("Percentage decline: ", round((impact/earnings_usd_original)*100, 1), "%\n")
-```
-
-**Answer:** Reported earnings fall by over \$1 million purely due to translation!
-
-## Political Risk
+### Political Risk (Chapter 17)
 
 **Definition:** Risk that government actions will adversely affect business operations or asset values.
 
-### Types of Political Risk
+Types of Political Risk
 
 **1. Transfer Risk:**
 
@@ -632,52 +585,52 @@ cat("Percentage decline: ", round((impact/earnings_usd_original)*100, 1), "%\n")
 
 **Key Point:** Political risk is hard to quantify, difficult to hedge, but absolutely must be considered in international investment decisions.
 
-## Modifications to Financial Theory
+### Modifications to Financial Theory
 
 Core financial theories remain valid but require adaptation:
 
-### Cost of Capital
+Cost of Capital
 
 -   Must consider multiple country risk premiums
 -   Currency risk affects required returns
 -   Access to global capital markets can LOWER cost of capital
 
-### Capital Budgeting
+Capital Budgeting
 
 -   Project cash flows may be in foreign currency
 -   Repatriation restrictions must be considered
 -   Country risk must be incorporated
 -   Multiple tax jurisdictions complicate analysis
 
-### Working Capital Management
+Working Capital Management
 
 -   Multiple currencies to manage
 -   International cash pooling opportunities
 -   More complex credit analysis for foreign customers
 
-### Capital Structure
+Capital Structure
 
 -   Access to foreign debt markets
 -   Currency matching strategies (financing in same currency as revenues)
 -   Different optimal leverage ratios in different countries
 
-## Modified Financial Instruments
+### Modified Financial Instruments
 
 International finance has adapted standard instruments:
 
-### Currency Derivatives
+Currency Derivatives
 
 -   Forward contracts
 -   Futures
 -   Options on currencies
 -   Currency swaps
 
-### Interest Rate Instruments
+Interest Rate Instruments
 
 -   Cross-currency interest rate swaps
 -   International bonds (Eurobonds, foreign bonds)
 
-### Trade Finance Instruments
+Trade Finance Instruments
 
 -   Letters of credit
 -   Banker's acceptances
@@ -685,96 +638,7 @@ International finance has adapted standard instruments:
 
 **Preview:** We'll study many of these in detail in later chapters.
 
-------------------------------------------------------------------------
-
-# The Globalization Process
-
-## Introducing Ganado Corporation
-
-**Ganado is our textbook's case company we'll follow throughout the semester.**
-
-### Background
-
--   Founded 1948 in Los Angeles
--   Originally family-owned telecommunications equipment manufacturer
--   Went public (IPO) in 1988 - became a publicly traded company
--   Now faces decisions about global expansion
-
-**Why This Matters:** Ganado's journey mirrors what thousands of real companies experience as they globalize.
-
-## Phase 1: Domestic to International Trade
-
-### Domestic Phase Characteristics
-
--   All suppliers are domestic (US)
--   All customers are domestic (US)
--   All transactions in US dollars
--   Subject only to US laws and regulations
--   Credit assessment under familiar US practices
-
-**Simple and low-risk,** but **limited growth potential.**
-
-### Catalyst for Change
-
-NAFTA (North American Free Trade Agreement) created opportunities for trade with Mexico and Canada.
-
-### International Trade Phase
-
--   BEGIN importing from Mexican suppliers
--   BEGIN exporting to Canadian customers
--   NOW dealing with multiple currencies (USD, MXN, CAD)
-
-### Two New Major Challenges
-
-**1. Foreign Exchange Risk:**
-
--   Which currency to quote prices in?
--   Which currency to accept payment in?
--   Which currency to pay suppliers in?
--   What if exchange rates change between agreement and payment?
-
-**Example:**
-
-```{r}
-#| echo: false
-#| label: fx-risk-example
-
-# Ganado quotes Canadian customer
-quoted_price_cad <- 1000
-exchange_rate_at_quote <- 1.25  # CAD per USD
-expected_usd <- quoted_price_cad / exchange_rate_at_quote
-
-# By payment time, CAD depreciates
-exchange_rate_at_payment <- 1.30
-actual_usd <- quoted_price_cad / exchange_rate_at_payment
-
-loss <- actual_usd - expected_usd
-
-cat("Foreign Exchange Risk Example:\n")
-cat("Quoted price: CAD", quoted_price_cad, "\n")
-cat("Exchange rate at quote: CAD", exchange_rate_at_quote, "= USD 1.00\n")
-cat("Expected USD receipt: $", round(expected_usd, 2), "\n\n")
-cat("Exchange rate at payment: CAD", exchange_rate_at_payment, "= USD 1.00\n")
-cat("Actual USD receipt: $", round(actual_usd, 2), "\n\n")
-cat("Loss due to currency movement: $", round(loss, 2), "\n")
-```
-
-**2. Credit Risk Assessment:**
-
--   How creditworthy is Mexican supplier?
--   Will Canadian customer actually pay?
--   Different business practices
--   Different legal systems
--   Different bankruptcy laws
--   Less available information
-
-**Key Point:** Even in this relatively simple international trade phase, financial management complexity increases dramatically compared to purely domestic operations.
-
-## Phase 2: International Trade to Multinational Enterprise
-
-**Critical Decision Point:** At some point, successful international trading leads companies to consider foreign direct investment (FDI).
-
-### Why Make This Leap?
+### Why Do Firms Go Global?
 
 **Strategic Motivations (Five Categories):**
 
@@ -807,11 +671,87 @@ cat("Loss due to currency movement: $", round(loss, 2), "\n")
 -   Diversify political risk
 -   Example: Hong Kong firms investing in Canada, Australia before 1997 Chinese takeover
 
+**Each of these strategies should be either Proactive or Defensive:**
+
+-   Proactive investments are designed to enhance the growth and profitability of the firm itself.
+-   Defensive investments are designed to deny growth and profitability to the firm's competitors.
+
 **Important Note:** These are not mutually exclusive. One investment may serve multiple purposes.
 
-## The Foreign Direct Investment Spectrum
+------------------------------------------------------------------------
 
-### Increasing Foreign Presence (Low to High)
+## The Globalization Process
+
+### Introducing Ganado Corporation
+
+**Ganado is our textbook's case company we'll follow throughout the semester.**
+
+Background
+
+-   Founded 1948 in Los Angeles
+-   Originally family-owned telecommunications equipment manufacturer
+-   Went public (IPO) in 1988 - became a publicly traded company
+-   Now faces decisions about global expansion
+
+**Why This Matters:** Ganado's journey mirrors what thousands of real companies experience as they globalize.
+
+### Phase 1: Domestic to International Trade
+
+Domestic Phase Characteristics
+
+-   All suppliers are domestic (US)
+-   All customers are domestic (US)
+-   All transactions in US dollars
+-   Subject only to US laws and regulations
+-   Credit assessment under familiar US practices
+
+**Simple and low-risk,** but **limited growth potential.**
+
+Catalyst for Change:
+
+NAFTA (North American Free Trade Agreement) created opportunities for trade with Mexico and Canada.
+
+International Trade Phase
+
+-   BEGIN importing from Mexican suppliers
+-   BEGIN exporting to Canadian customers
+-   NOW dealing with multiple currencies (USD, MXN, CAD)
+
+![Initiation of the Globalization Process](../assets/images/Exhibit_1.4.png){width="75%"}
+
+
+**Two New Major Challenges**
+
+1.  Foreign Exchange Risk:
+
+-   Which currency to quote prices in?
+-   Which currency to accept payment in?
+-   Which currency to pay suppliers in?
+-   What if exchange rates change between agreement and payment?
+
+2.  Credit Risk Assessment:
+
+-   How creditworthy is Mexican supplier?
+-   Will Canadian customer actually pay?
+-   Different business practices
+-   Different legal systems
+-   Different bankruptcy laws
+-   Less available information
+
+**Key Point:** Even in this relatively simple international trade phase, financial management complexity increases dramatically compared to purely domestic operations.
+
+
+
+
+### Phase 2: International Trade to Multinational Enterprise
+
+**Critical Decision Point:** At some point, successful international trading leads companies to consider foreign direct investment (FDI).
+
+![Foreign Direct Investment Sequence](../assets/images/Exhibit_1.5.png){width="75%"}
+
+### The Foreign Direct Investment Spectrum
+
+#### Increasing Foreign Presence (Low to High)
 
 **1. Exporting from Home Production**
 
@@ -855,7 +795,9 @@ cat("Loss due to currency movement: $", round(loss, 2), "\n")
 -   **Capital at risk increases** (more investment)
 -   **Potential returns increase** (greater opportunities)
 
-## Consolidation Challenges
+
+
+### Consolidation Challenges
 
 This is a critical practical issue. Once Ganado has foreign subsidiaries:
 
@@ -863,7 +805,7 @@ This is a critical practical issue. Once Ganado has foreign subsidiaries:
 -   Chinese subsidiary keeping books in yuan
 -   US parent keeping books in dollars
 
-### The Problem
+#### The Problem
 
 Ganado must periodically (quarterly, annually) produce consolidated financial statements in US dollars for:
 
@@ -872,7 +814,7 @@ Ganado must periodically (quarterly, annually) produce consolidated financial st
 -   Tax purposes
 -   Performance evaluation
 
-### The Process
+#### The Process
 
 1.  Each subsidiary reports in local currency
 2.  Convert to common currency (USD) using appropriate exchange rates
@@ -886,17 +828,17 @@ Ganado must periodically (quarterly, annually) produce consolidated financial st
 
 ------------------------------------------------------------------------
 
-# Limits to Financial Globalization
+## Limits to Financial Globalization
 
-## Not All Globalization is Inevitable or Beneficial
+### Not All Globalization is Inevitable or Beneficial
 
 Classical economic theory suggests capital should flow freely to its most productive uses globally. **Reality is more complex.**
 
-## The "Twin Agency Problems"
+### The "Twin Agency Problems"
 
 **Agency Problem Definition:** When someone managing assets (agent) has different interests than the asset owners (principals)
 
-### First Agency Problem - Corporate Insiders
+#### First Agency Problem - Corporate Insiders
 
 -   Do managers/executives pursue firm value maximization?
 -   OR do they pursue personal wealth/power?
@@ -908,7 +850,7 @@ Classical economic theory suggests capital should flow freely to its most produc
 -   Resistance to beneficial takeovers
 -   Related-party transactions that benefit insiders
 
-### Second Agency Problem - Government/Sovereign Insiders
+#### Second Agency Problem - Government/Sovereign Insiders
 
 -   Do political leaders pursue national economic welfare?
 -   OR do they pursue personal power/wealth?
@@ -920,7 +862,7 @@ Classical economic theory suggests capital should flow freely to its most produc
 -   Capital controls that harm economy but protect political power
 -   Regulatory capture
 
-## Consequences for Global Capital Flows
+### Consequences for Global Capital Flows
 
 **IF corporate and government insiders pursue value maximization:**
 
@@ -935,7 +877,7 @@ Classical economic theory suggests capital should flow freely to its most produc
 → Creates "winners" and "losers"\
 → Segmented markets
 
-### Real-World Examples
+#### Real-World Examples
 
 **Positive Examples (Attracting Capital):**
 
@@ -947,9 +889,9 @@ Classical economic theory suggests capital should flow freely to its most produc
 -   Venezuela: Expropriation, corruption, poor governance
 -   Result: Economic collapse, capital flees
 
-## Contemporary Challenges
+### Contemporary Challenges
 
-### Three Current Issues
+#### Three Current Issues
 
 **1. Inequality:**
 
@@ -971,7 +913,7 @@ Classical economic theory suggests capital should flow freely to its most produc
 
 **Example:** US restrictions on Chinese investment in American technology companies, even when economically beneficial.
 
-## The Path Forward
+### The Path Forward
 
 > "Welcome to the future. This will be a constant struggle. We need leadership, citizenship, and dialogue."\
 > - Donald Lessard
@@ -986,25 +928,25 @@ Classical economic theory suggests capital should flow freely to its most produc
 
 ------------------------------------------------------------------------
 
-# Conclusion and Synthesis
+## Conclusion and Synthesis
 
-## Connecting the Dots
+### Connecting the Dots
 
 Let's bring together these major themes:
 
-### The Global Financial Marketplace
+#### The Global Financial Marketplace
 
 -   Complex ecosystem of securities, institutions, and currency linkages
 -   Larger and more interconnected than ever
 -   Creates both opportunities and risks
 
-### Comparative Advantage
+#### Comparative Advantage
 
 -   Still explains why international trade benefits countries
 -   Modern version focuses on services, skills, technology
 -   Dynamic, not static - shifts over time
 
-### What Makes International Finance Unique
+#### What Makes International Finance Unique
 
 -   Foreign exchange risk
 -   Political risk
@@ -1012,20 +954,20 @@ Let's bring together these major themes:
 -   Corporate governance variations
 -   Required modifications to financial theories and instruments
 
-### The Globalization Journey
+#### The Globalization Journey
 
 -   Progression from domestic → international trade → multinational
 -   Each phase brings new opportunities and new complexities
 -   Not all firms should fully globalize
 -   Not all globalization creates value
 
-### Limits and Challenges
+#### Limits and Challenges
 
 -   Agency problems at corporate and sovereign levels
 -   Potential for value destruction
 -   Ongoing tension between efficiency and other goals (security, equity, stability)
 
-## Looking Ahead
+### Looking Ahead
 
 **Next chapters will build on this foundation:**
 
@@ -1034,15 +976,15 @@ Let's bring together these major themes:
 -   Chapter 4: Corporate Governance in depth - Different models worldwide
 -   Later: Foreign exchange markets, currency derivatives, international investment, multinational capital budgeting
 
-## Why This Matters to You
+### Why This Matters to You
 
-### Career Relevance
+#### Career Relevance
 
 -   Almost every major company operates internationally
 -   Understanding these concepts makes you more valuable
 -   Finance, marketing, operations, strategy all require international awareness
 
-### Citizenship
+#### Citizenship
 
 -   Trade policy
 -   Tax policy
@@ -1051,33 +993,33 @@ Let's bring together these major themes:
 
 All involve international finance concepts.
 
-### Personal Finance
+#### Personal Finance
 
 -   International diversification
 -   Currency considerations
 -   Understanding global markets
 
-## Practical Advice for Success in This Course
+### Practical Advice for Success in This Course
 
-### Stay Current
+#### Stay Current
 
 -   Read *Financial Times*, *Wall Street Journal*, *The Economist*
 -   Follow exchange rates
 -   Track international business news
 
-### Think Critically
+#### Think Critically
 
 -   Don't just memorize formulas
 -   Understand the "why" behind concepts
 -   Question assumptions
 
-### Connect Concepts
+#### Connect Concepts
 
 -   International finance is integrative
 -   Links to economics, politics, strategy, culture
 -   Make connections across chapters
 
-### Use Real Examples
+#### Use Real Examples
 
 -   Apply concepts to companies you know
 -   Follow a multinational company throughout semester
@@ -1085,7 +1027,7 @@ All involve international finance concepts.
 
 ------------------------------------------------------------------------
 
-# Preview Next Section
+## Preview Next Section
 
 **What's next:**
 
@@ -1097,7 +1039,7 @@ All involve international finance concepts.
 
 ------------------------------------------------------------------------
 
-# Final Thoughts
+## Final Thoughts
 
 International finance is one of the most dynamic, challenging, and relevant fields in business today. Every concept we study has real-world application. Every formula we learn represents actual business decisions.
 
