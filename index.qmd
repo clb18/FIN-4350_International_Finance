@@ -15,8 +15,4 @@ Brief description of the course (1–2 paragraphs).
 
 ## Topics covered
 
-1.  [Reading and writing data](lectures/ch01.qmd)
-2.  [Variable selection](lectures/ch02.qmd)
-3.  [Specification: dummies, interactions, polynomials](lectures/ch03.qmd)
-4.  [Data cleaning; modifying variables; estimating a model](lectures/ch04.qmd)
-5.  ...
+- coming soon...
