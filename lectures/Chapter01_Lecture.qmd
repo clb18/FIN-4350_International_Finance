@@ -27,7 +27,7 @@ format:
 
 This course is about exploring what makes multinational financial management both uniquely challenging and remarkably rewarding.
 
-**Think about this"** "How often have you have used a product that was made by a company operating in multiple countries?"
+**Think about this:** "How often have you have used a product that was made by a company operating in multiple countries?"
 
 This simple exercise demonstrates that we live in a deeply interconnected global economy. The phone in your pocket, the coffee you drank this morning, the streaming service you use - all likely involve **multinational enterprises (MNEs)** managing complex financial operations across borders.
 
@@ -234,7 +234,7 @@ Now shifting gears back to the bigger picture...
 
 -   The market grew from there
 
--   A country generally cannot freeze their own currency if it is held in an foreign bank, unless the foreign entity agrees to freeze those assets as well.
+-   A country generally cannot freeze the currency of another country if it is held in an foreign bank, unless the foreign entity agrees to freeze those assets as well. For example, the U.S. cannot freeze the assets of Russia if the funds are held in a Belarus bank, unless Belarus agrees to freeze the funds as well.
 
 #### Eurocurrency Interest Rates - Why Does This Market Exist and Thrive?
 
@@ -719,7 +719,6 @@ International Trade Phase
 
 ![Initiation of the Globalization Process](../assets/images/Exhibit_1.4.png){width="75%"}
 
-
 **Two New Major Challenges**
 
 1.  Foreign Exchange Risk:
@@ -739,9 +738,6 @@ International Trade Phase
 -   Less available information
 
 **Key Point:** Even in this relatively simple international trade phase, financial management complexity increases dramatically compared to purely domestic operations.
-
-
-
 
 ### Phase 2: International Trade to Multinational Enterprise
 
@@ -794,8 +790,6 @@ International Trade Phase
 -   **Managerial intensity increases** (more complex to manage)
 -   **Capital at risk increases** (more investment)
 -   **Potential returns increase** (greater opportunities)
-
-
 
 ### Consolidation Challenges
 
