@@ -31,8 +31,8 @@ format:
     number-sections: true
     css: styles.css
     grid: 
-      sidebar-width: 350px
-      body-width: 1150px
+      sidebar-width: 275px
+      body-width: 1200px
       margin-width: 0px
       gutter-width: 1.5rem
     
