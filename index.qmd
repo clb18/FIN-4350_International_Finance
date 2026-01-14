@@ -4,7 +4,9 @@ title: "International Finance"
 
 ## Course overview
 
-Brief description of the course (1–2 paragraphs).
+A study of global financial markets and operations of multinational firms. Topics include foreign exchange markets, balance of payments, international investment and banking, monetary and fiscal policy in an open economy, economic integration and monetary unification, and the international monetary system.
+
+Managerial Finance (FIN3430) is the only prerequisite for this course. This course, while an upper-level finance course, is at the same time an economics and international relations course. We will be looking at finance broadly, not just the calculations, but the decisions and the incentives behind the decisions that determine international finance.
 
 ## Important dates
 
@@ -15,4 +17,4 @@ Brief description of the course (1–2 paragraphs).
 
 ## Topics covered
 
-- coming soon...
+-   coming soon...

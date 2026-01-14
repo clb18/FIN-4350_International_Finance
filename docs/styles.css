@@ -1,20 +1,41 @@
-:root {
-  --if-sidebar-width: 400px;   /* adjust width here */
-}
+/* =========================
+   International Finance (Quarto)
+   CLEAN + SAFE styles.css
+   - No layout/grid overrides
+   - No sidebar width overrides
+   - No margin-left hacks
+   ========================= */
 
-/* Sidebar width */
-#quarto-sidebar {
-  width: var(--if-sidebar-width) !important;
-  max-width: var(--if-sidebar-width) !important;
-}
-
-/* Shift the whole content area right so it never sits under the sidebar */
+/* Ensure Quarto controls layout (prevents overlap issues) */
 #quarto-content .content {
-  margin-left: 200px !important;
-  padding-left: 16px !important;  /* small spacing between sidebar and content */
+  margin-left: 0 !important;
 }
 
-/* Also shift the fixed header so alignment stays consistent */
-#quarto-header {
-  left: 0 !important;
+/* Make long sidebar items wrap nicely (prevents horizontal weirdness) */
+#quarto-sidebar a,
+#quarto-sidebar .sidebar-item-text {
+  white-space: normal !important;
+  word-break: break-word;
+}
+
+/* Slightly tighten sidebar spacing for readability */
+#quarto-sidebar .sidebar-item {
+  line-height: 1.2;
+}
+
+/* Optional: improve "On this page" TOC readability */
+#TOC, nav[role="doc-toc"] {
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+/* Optional: slightly reduce excessive top spacing under title blocks */
+.quarto-title-block {
+  margin-bottom: 1rem;
+}
+
+/* Optional: make code blocks wrap instead of forcing horizontal scroll */
+pre code {
+  white-space: pre-wrap;
+  word-break: break-word;
 }
