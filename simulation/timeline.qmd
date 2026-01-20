@@ -1,0 +1,61 @@
+---
+title: "Simulation Timeline"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Overview
+The simulation is organized into three acts. You will experience concepts in the order they occur in the real world: stable conditions first, then shock and crisis response, then reconstruction.
+
+::: {.callout-tip}
+**Key idea:** Early choices create constraints later. Consistency and credibility matter.
+:::
+
+## Visual timeline (12-week simulation)
+
+```
+Weeks 1–2     Weeks 3–6              Weeks 7–8              Weeks 9–12
+─────────┬──────────────────┬──────────────────┬────────────────────────
+ PREP    │     ACT I         │     ACT II       │        ACT III
+         │ Foundations       │ Shock &          │ Reconstruction &
+         │ & Stable System   │ Realignment      │ New System
+─────────┼──────────────────┼──────────────────┼────────────────────────
+         │ Exchange Rates    │ Regional War     │ Firm Exposure
+         │ BoP               │ Capital Flight   │ Capital & Credibility
+         │ FX Markets        │ State Splits     │ Tax & Trade Finance
+         │ Parity Conditions │ Crisis Response  │ New Institutions
+─────────┴──────────────────┴──────────────────┴────────────────────────
+```
+
+## Week-by-week map
+
+### Prep (Weeks 1–2)
+- Course foundations; simulation mechanics; role training; practice exercise (non-graded)
+
+### Act I: Foundations and stability (Weeks 3–6)
+- Week 3: national priorities and exchange-rate regime
+- Week 4: balance of payments adjustment
+- Week 5: FX market pressure and parity spillovers
+- Week 6: intervention, credibility, and currency defense
+
+### Act II: Shock and realignment (Weeks 7–8)
+- Week 7: regional war shock; trade and capital disruptions; emergency policy response
+- Week 8: realignment; successor states formed; credibility reset
+
+### Act III: Reconstruction and new system (Weeks 9–12)
+- Week 9: firm-level exposure and domestic conflict
+- Week 10: credibility repair; capital access; funding choices
+- Week 11: tax competition and trade finance; coordination challenges
+- Week 12: new international system; final presentations
+
+## Chapter alignment (high level)
+The simulation activates chapter concepts after you have discussed them in lecture.
+
+- Act I: Chapters 1, 2, 3, 5, 6, 9
+- Act II: Chapters 8, 9, 17
+- Act III: Chapters 10–12, 13–16
+
+See: [Weekly Briefs and Release Schedule](weekly-briefs.qmd)

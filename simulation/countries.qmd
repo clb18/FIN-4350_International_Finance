@@ -1,0 +1,123 @@
+---
+title: "Countries"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Why fictional countries?
+All countries in the simulation are fictional. Their backgrounds are informed by real historical experiences, but no country is intended to be a direct copy of a modern state.
+
+::: {.callout-note}
+**Learning goal:** The purpose is to reason from institutional constraints and economic mechanisms—not to debate current politics.
+:::
+
+## Initial countries (Act I)
+
+### Atlantica (Reserve-currency issuer)
+**Economic structure:** large, diversified, consumption-led economy with deep capital markets.
+
+**Typical strengths**
+- global influence and financial depth
+- low financing costs in normal times
+
+**Typical vulnerabilities**
+- persistent current account deficits
+- spillovers from domestic policy decisions
+
+**Common tensions inside the team**
+- global stability vs domestic political priorities
+
+---
+
+### Noravia (Advanced export-led economy)
+**Economic structure:** high-income exporter with strong institutions and persistent current account surplus.
+
+**Typical strengths**
+- high credibility and policy capacity
+- strong tradable sector
+
+**Typical vulnerabilities**
+- appreciation pressure that threatens competitiveness
+- political resistance to internal adjustment
+
+---
+
+### Pacifica (Financial hub and small open economy)
+**Economic structure:** trade and finance hub with very high openness.
+
+**Typical strengths**
+- institutional discipline and policy coordination
+- strong investor confidence in normal times
+
+**Typical vulnerabilities**
+- high exposure to global risk sentiment
+- limited policy autonomy
+
+---
+
+### Agrona (Commodity exporter)
+**Economic structure:** heavy reliance on one or two commodities; export revenues are volatile.
+
+**Typical strengths**
+- strong revenues in commodity booms
+
+**Typical vulnerabilities**
+- boom-bust cycles and exchange-rate volatility
+- political pressure for procyclical spending
+
+---
+
+### Industralia (Import-substitution industrial economy)
+**Economic structure:** domestically oriented manufacturing and chronic external financing needs.
+
+**Typical strengths**
+- political support for industrial policy
+
+**Typical vulnerabilities**
+- persistent trade deficit and reserve pressure
+- currency credibility challenges
+
+---
+
+### Frontieria (Fragile, low-income state)
+**Economic structure:** narrow export base, limited fiscal capacity, and donor dependence.
+
+**Typical strengths**
+- potential for rapid gains with credible reforms
+
+**Typical vulnerabilities**
+- weak institutions and high sensitivity to shocks
+- limited ability to defend a currency
+
+---
+
+### Mercatoria (Trade-dependent emerging manufacturer)
+**Economic structure:** export manufacturing with thin margins and strong dependence on trade finance.
+
+**Typical strengths**
+- growth potential through trade integration
+
+**Typical vulnerabilities**
+- high exposure to tariffs, logistics shocks, and currency swings
+
+---
+
+### Petrovia (Resource-rich state)
+**Economic structure:** energy and resource exporter with large rents and political risk.
+
+**Typical strengths**
+- fiscal capacity during booms
+
+**Typical vulnerabilities**
+- sanctions exposure and external political risk
+- difficulty diversifying the economy
+
+## Realignment note (Act II)
+Midway through the semester, a regional war shock triggers **mandatory realignment** in two countries:
+- **Industralia**
+- **Frontieria**
+
+Those delegations will be reassigned into two successor states each. See: [Shock and Realignment](shock.qmd)

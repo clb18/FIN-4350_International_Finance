@@ -1,55 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/schedule.html</loc>
-    <lastmod>2026-01-01T22:18:34.287Z</lastmod>
-  </url>
-  <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/lectures/Chapter04_Lecture.html</loc>
-    <lastmod>2026-01-09T04:24:46.388Z</lastmod>
-  </url>
-  <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/lectures/Chapter04_Lecture_original.html</loc>
-    <lastmod>2026-01-09T02:01:09.411Z</lastmod>
-  </url>
-  <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/lectures/Chapter05_Lecture.html</loc>
-    <lastmod>2026-01-09T04:24:49.428Z</lastmod>
-  </url>
-  <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/cv.html</loc>
-    <lastmod>2026-01-08T20:24:24.337Z</lastmod>
-  </url>
-  <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/index.html</loc>
-    <lastmod>2026-01-14T02:38:47.058Z</lastmod>
-  </url>
-  <url>
     <loc>https://clb18.github.io/FIN-4350_International_Finance/unused_pages/Chapter_02_Lecture_alt.html</loc>
     <lastmod>2026-01-09T05:23:02.601Z</lastmod>
-  </url>
-  <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/unused_pages/Chapter02_Lecture_original.html</loc>
-    <lastmod>2026-01-09T05:23:11.122Z</lastmod>
-  </url>
-  <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/about.html</loc>
-    <lastmod>2025-12-24T20:44:56.923Z</lastmod>
   </url>
   <url>
     <loc>https://clb18.github.io/FIN-4350_International_Finance/syllabus.html</loc>
     <lastmod>2026-01-06T00:14:41.741Z</lastmod>
   </url>
   <url>
-    <loc>https://clb18.github.io/FIN-4350_International_Finance/lectures/Chapter03_Lecture.html</loc>
-    <lastmod>2026-01-09T21:56:03.528Z</lastmod>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/timeline.html</loc>
+    <lastmod>2026-01-17T21:44:03.879Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/roles.html</loc>
+    <lastmod>2026-01-17T21:44:32.498Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/grading.html</loc>
+    <lastmod>2026-01-17T21:41:54.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/deliverables.html</loc>
+    <lastmod>2026-01-17T21:42:16.182Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/countries.html</loc>
+    <lastmod>2026-01-17T21:44:18.006Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/schedule.html</loc>
+    <lastmod>2026-01-01T22:18:34.287Z</lastmod>
   </url>
   <url>
     <loc>https://clb18.github.io/FIN-4350_International_Finance/lectures/Chapter01_Lecture.html</loc>
-    <lastmod>2026-01-14T23:21:35.471Z</lastmod>
+    <lastmod>2026-01-18T22:08:08.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/cv.html</loc>
+    <lastmod>2026-01-08T20:24:24.337Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/about.html</loc>
+    <lastmod>2025-12-24T20:44:56.923Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/index.html</loc>
+    <lastmod>2026-01-17T21:28:46.489Z</lastmod>
   </url>
   <url>
     <loc>https://clb18.github.io/FIN-4350_International_Finance/lectures/Chapter02_Lecture.html</loc>
-    <lastmod>2026-01-09T05:44:12.885Z</lastmod>
+    <lastmod>2026-01-17T18:29:54.491Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/Later_index.html</loc>
+    <lastmod>2026-01-18T00:01:09.215Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/decisions.html</loc>
+    <lastmod>2026-01-17T21:44:48.386Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/faq.html</loc>
+    <lastmod>2026-01-17T21:39:03.809Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/markets.html</loc>
+    <lastmod>2026-01-17T21:42:41.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/shock.html</loc>
+    <lastmod>2026-01-17T21:43:09.769Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/simulation/weekly-briefs.html</loc>
+    <lastmod>2026-01-17T21:41:30.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://clb18.github.io/FIN-4350_International_Finance/unused_pages/Chapter02_Lecture_original.html</loc>
+    <lastmod>2026-01-09T05:23:11.122Z</lastmod>
   </url>
 </urlset>

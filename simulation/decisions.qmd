@@ -1,0 +1,63 @@
+---
+title: "Decisions and Rules"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## The weekly decision cycle
+Each simulation week follows the same cycle:
+
+1. **Weekly brief released** (global context + country impacts + task)
+2. **Internal country meeting** (roles negotiate a position)
+3. **Submission via Canvas** (decision + justification)
+4. **Market reaction released** (system outcomes and constraints)
+5. **Adjust for next round**
+
+See: [Weekly Briefs](weekly-briefs.qmd)
+
+## Week 1: Country Framework Plan
+In the first simulation round, each country submits a baseline framework (“how your country operates”). This creates constraints you will be held to later.
+
+Your plan must state:
+- exchange-rate regime (fixed, managed, or floating)
+- monetary stance (tight, neutral, or accommodative)
+- fiscal stance (austerity, neutral, or stimulus)
+- capital policy (open, managed, or controlled)
+- trade stance (open, selective protection, or high protection)
+- top 3 priorities (e.g., stability, growth, employment, credibility)
+
+::: {.callout-important}
+**Credibility rule:** Markets punish inconsistency. If you repeatedly reverse commitments without a credible reason, outcomes will worsen.
+:::
+
+## What you submit each week
+Unless instructed otherwise, each country submits:
+- **Decision Form** (short)
+- **Policy Memo** (1–2 pages)
+
+Some weeks also require:
+- negotiation position sheet (trade/international role)
+- stakeholder brief (business/labor role)
+- joint statement or agreement draft
+
+See: [Deliverables](deliverables.qmd)
+
+## What countries can and cannot do
+### Permitted
+- adjust monetary and fiscal stances
+- choose and modify exchange-rate policy (within constraints)
+- negotiate agreements (trade, support, institution building)
+- request international assistance
+
+### Not permitted
+- unilateral debt cancellation without consequences
+- “instant credibility restoration” without reforms
+- retroactively changing history or prior commitments
+- border changes beyond instructor-announced realignment
+
+::: {.callout-warning}
+The instructor may impose market reactions, spillovers, and constraints to reflect realistic international responses.
+:::

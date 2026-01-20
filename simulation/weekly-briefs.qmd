@@ -1,0 +1,239 @@
+---
+title: "Weekly Briefs and Release Schedule"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+::: {.callout-important}
+This page contains the **weekly simulation prompts** (the “script”). Your instructor may release each week’s section on Canvas and/or direct you to the relevant subsection here.
+:::
+
+## How to use this page
+- Each week includes a **student-facing prompt** and a **submission checklist**.
+- Items labeled **Instructor-only** are guidance for running the round and can be removed from the student site.
+
+::: {.callout-warning}
+**Students:** Do not work ahead. Later rounds assume market reactions and constraints that will be announced.
+:::
+
+## Round 1 (Week 3): Country Framework Plan
+**Chapters:** 1–2
+
+### Student-facing brief
+Your delegation will submit a baseline plan describing how your country will operate in the international system.
+
+**Decide and justify:**
+1. Exchange-rate regime (fixed, managed, floating)
+2. Monetary stance (tight, neutral, accommodative)
+3. Fiscal stance (austerity, neutral, stimulus)
+4. Trade stance (open, selective protection, high protection)
+5. Capital policy (open, managed, controls)
+6. Top 3 priorities (e.g., inflation control, employment, growth, credibility)
+
+### Submission checklist (Canvas)
+- Country Framework Plan memo (1–2 pages)
+- Decision Form (country-level)
+
+::: {.callout-note}
+**Instructor-only:** Evaluate coherence and realism. Use this to establish each country’s initial credibility rating.
+:::
+
+## Round 2 (Week 4): Balance of Payments Stress
+**Chapter:** 3
+
+### Student-facing brief
+New data suggest your country’s **current account** position is becoming politically salient.
+
+**Task:** Diagnose your BoP situation and propose an adjustment strategy.
+
+**Questions to answer:**
+1. Is your imbalance driven primarily by trade flows or capital flows?
+2. What adjustment mechanism will you pursue (policy change, exchange-rate adjustment, demand management, trade measures, or “wait and see”)?
+3. What political constraint is most binding?
+
+### Submission checklist (Canvas)
+- BoP Diagnosis + Policy Response memo (1–2 pages)
+- Decision Form
+
+::: {.callout-note}
+**Instructor-only:** Announce directional outcomes: deficit countries face currency pressure; surplus countries face appreciation or political pressure to expand demand.
+:::
+
+## Round 3 (Week 5): FX Market Pressure and Parity Spillovers
+**Chapters:** 5–6
+
+### Student-facing brief
+Global investors are repricing risk. A major economy signals a policy shift, creating **interest-rate differentials** and FX pressure.
+
+**Task:** Choose a monetary/FX response consistent with your regime and constraints.
+
+**Questions to answer:**
+1. Do you adjust interest rates? Why?
+2. Do you intervene in FX markets? If yes, how do you preserve reserves?
+3. How will you communicate the policy (one-paragraph statement)?
+
+### Submission checklist (Canvas)
+- Policy memo (1–2 pages)
+- Decision Form
+- Central bank statement (short)
+
+::: {.callout-note}
+**Instructor-only:** Reward coherence. Punish “fixed peg + no reserves + no rate move” unless paired with controls or assistance.
+:::
+
+## Round 4 (Week 6): Currency Defense vs Regime Adjustment
+**Chapter:** 9
+
+### Student-facing brief
+Speculative pressure intensifies. Markets question whether some countries can sustain their current commitments.
+
+**Task:** Decide whether to defend the currency, adjust the regime, impose controls, or seek coordination.
+
+**Questions to answer:**
+1. What is your red line (inflation, reserves, employment, credibility)?
+2. If you defend, what is your exit strategy?
+3. If you adjust, how will you preserve credibility?
+
+### Submission checklist (Canvas)
+- Policy memo (1–2 pages)
+- Decision Form
+- Trade/International position sheet (bullets)
+
+::: {.callout-note}
+**Instructor-only:** This round sets up the shock. Record which countries are “fragile,” “stable,” and “appreciation-pressured.”
+:::
+
+## Round 5 (Week 7): SHOCK — Regional War
+**Chapters activated:** 9 and 17
+
+### Student-facing brief
+A regional armed conflict escalates and disrupts trade corridors, energy supplies, shipping insurance, and investor confidence. Liquidity tightens and risk premiums rise.
+
+**Task:** Submit an emergency response package.
+
+**Questions to answer:**
+1. What is your immediate stabilization priority?
+2. What do you do about FX policy and reserves?
+3. What domestic political pressure is most acute?
+4. What international alignment or assistance will you seek?
+
+### Submission checklist (Canvas)
+- Emergency response brief (1–2 pages)
+- Decision Form
+
+::: {.callout-note}
+**Instructor-only:** After submissions, release the shock announcement and market reaction. Prepare to initiate mandatory realignment next week.
+:::
+
+## Round 6 (Week 8): Realignment and Successor State Stabilization
+**Chapters:** 17 and 8 (compressed)
+
+### Student-facing brief
+Two countries undergo mandatory realignment:
+- Industralia
+- Frontieria
+
+Your instructor will assign successor states. Successor states inherit assets and debt asymmetrically and face temporary credibility penalties.
+
+**Task:** As a successor state, submit a stabilization plan.
+
+**Questions to answer:**
+1. What exchange-rate regime will you adopt now?
+2. How will you stabilize expectations given your initial conditions?
+3. Do you seek assistance? If yes, what reforms will you offer?
+
+### Submission checklist (Canvas)
+- Stabilization plan (1–2 pages)
+- Decision Form
+
+::: {.callout-note}
+**Instructor-only:** Apply the fixed inheritance table and credibility penalties for two rounds.
+:::
+
+## Round 7 (Week 9): Firm-Level Exposure and Domestic Conflict
+**Chapters:** 10–12
+
+### Student-facing brief
+Firms and households experience FX-driven losses and rising costs. Business and labor pressure the government for relief.
+
+**Task:** Propose a policy response that addresses exposure while maintaining external viability.
+
+**Questions to answer:**
+1. What is the primary exposure (transaction, translation, or operating)?
+2. Do you subsidize, encourage hedging, protect, or restructure?
+3. What is the long-run competitiveness impact?
+
+### Submission checklist (Canvas)
+- Policy memo (1–2 pages)
+- Decision Form
+- Business/Labor stakeholder brief (bullets)
+
+::: {.callout-note}
+**Instructor-only:** Announce distributional consequences: who gains/loses from depreciation and tightening.
+:::
+
+## Round 8 (Week 10): Rebuilding Credibility and Access to Capital
+**Chapters:** 13–14 (combined)
+
+### Student-facing brief
+Markets are selectively reopening. Countries must choose between autonomy and conditional access to capital.
+
+**Task:** Submit a credibility-and-capital strategy.
+
+**Questions to answer:**
+1. What reforms will you implement to reduce borrowing costs?
+2. What financing mix do you prefer (domestic vs foreign; short vs long)?
+3. What trade-offs are you willing to accept?
+
+### Submission checklist (Canvas)
+- Credibility reform package (1–2 pages)
+- Decision Form
+
+::: {.callout-note}
+**Instructor-only:** Provide differential access outcomes: credible reformers gain; inconsistent policies face tighter spreads.
+:::
+
+## Round 9 (Week 11): Tax Competition and Trade Finance Recovery
+**Chapters:** 15–16 (combined)
+
+### Student-facing brief
+Countries compete to attract mobile firms and revive trade. Some propose coordination; others pursue aggressive competition.
+
+**Task:** Choose a tax strategy and a trade finance recovery policy.
+
+**Questions to answer:**
+1. Do you coordinate on taxes or compete? Why?
+2. Will you support trade finance (export credit, guarantees)?
+3. What are the risks of a race to the bottom?
+
+### Submission checklist (Canvas)
+- Policy memo (1–2 pages)
+- Decision Form
+- Trade/International negotiation sheet (bullets)
+
+::: {.callout-note}
+**Instructor-only:** Frame this as a prisoner’s-dilemma dynamic; reward credible coordination.
+:::
+
+## Round 10 (Week 12): Designing the New International System
+**Synthesis (institution-building)**
+
+### Student-facing brief
+The class will negotiate the principles and institutions of a new international economic framework.
+
+**Task:** Propose and defend institutional rules for:
+1. crisis liquidity and conditionality
+2. exchange-rate cooperation (if any)
+3. trade and trade finance norms
+4. tax and investment coordination principles
+
+### Submission checklist (Canvas)
+- Final country presentation (format specified by instructor)
+- One-page reflection: what theory best explained your outcomes?
+
+::: {.callout-note}
+**Instructor-only:** Use this round as the culminating assessment. Emphasize mechanisms and trade-offs rather than “who won.”
+:::

@@ -1,5 +1,5 @@
 ---
-title: "Chapter 2 - International Monetary System v.1"
+title: "Chapter 2 - International Monetary System"
 author: "Prof. Barker"
 date: today
 format:
@@ -22,8 +22,10 @@ format:
 
 # Introduction
 
- "The price of every thing rises and falls from time to time and place to place; and with every such change the purchasing power of money changes so far as that thing goes."\
- — Alfred Marshall
+Random Quote: **Every sheep lives in fear of the wolf, only to be eaten by the shepherd. Choose your shepherd wisely.**
+
+"The price of every thing rises and falls from time to time and place to place; and with every such change the purchasing power of money changes so far as that thing goes."\
+— Alfred Marshall
 
 ## Chapter Roadmap {.unnumbered}
 
@@ -32,7 +34,7 @@ Major section:
 1.  **The History of the International Monetary System** - How did we get here?
 2.  **Fixed versus Flexible Exchange Rates** - What are they and how do we choose?
 3.  **The Impossible Trinity** - The trilemma of international finance.
-4.  **A Single Currency for Europe: The Euro** - How companies evolve from domestic to truly global operations
+4.  **A Single Currency for Europe: The Euro** - Can countries work together as one economy?
 5.  **Internationalization of the Chinese RMB** - The Chinese approach
 6.  **Emerging Markets and Regime Choices** - The Final Frontier?
 
@@ -40,25 +42,42 @@ Major section:
 
 ## History of the International Monetary System
 
+"No world central bank issues a separate currency for commerce across national boundaries. Instead, a "system" of national monies works more or less well in providing a medium of exchange and unit of account for current international transactions, as well as a store of value and standard of deferred payment for long-term borrowing and lending."
+
+-   Ronald I. McKinnon, Rules of the Game: International Money in Historical Perspective, Journal of Economic Literature, Vol. 31, No. 1, March 1993, pp.1-44
+
+![The Evolution of the Global Monetary System](../assets/images/Ch02/Exhibit_2.1.png){width="85%"}
+
 ### The Classical Gold Standard (1879-1913)
 
-**How It Worked:** - Each currency pegged to fixed amount of gold - Example: \$20.67 = 1 oz gold (US), £4.2474 = 1 oz gold (UK) - Therefore: \$20.67/£4.2474 = \$4.87/£1 - Exchange rates FIXED through gold link
+**How It Worked:** - Each currency pegged to fixed amount of gold - Example: \$20.67 = 1 oz gold (US), £4.2474 = 1 oz gold (UK) - Therefore: \$20.67/£4.2474 = \$4.87/£1 - Exchange rates FIXED through gold link. The rate was generally determined by how much gold each country held.
 
 **Czar Nicholas II's 1894 Bond Example:** - 100-year Russian bearer bond - Payable in SIX currencies: roubles, francs, marks, pounds, florins, dollars - Possible because fixed exchange rates made all currencies predictable - Investors received interest in currency of choice
 
-**Rules of the Game:** 1. Governments buy/sell gold on demand at fixed parity 2. Requires maintaining gold reserves 3. Money supply limited to rate of gold acquisition 4. Inherently anti-inflationary
+**"Rules of the Game":**
+
+1.  Governments buy/sell gold on demand at fixed parity
+2.  Requires maintaining gold reserves
+3.  Money supply limited to rate of gold acquisition
+4.  Inherently anti-inflationary
 
 **Why It Failed:** - WWI disrupted trade and gold flows - Countries suspended convertibility to finance war - System couldn't handle modern economic pressures
 
 ### The Interwar Years and World War II (1914-1944)
 
-**The Chaos:** - Post-WWI: Floating rates led to speculation - Weak currencies sold short, driving them lower - Britain left gold standard 1931 (couldn't maintain reserves) - US modified system 1934 (\$35/oz, central banks only) - Great Depression: Trade collapsed, protectionism rose
+**The Chaos:** - Post-WWI: Floating rates led to speculation - Weak currencies sold short, driving them lower - Britain left gold standard 1931 (couldn't maintain reserves) - US modified system 1934 (\$35/oz, central banks only) - Great Depression: Trade collapsed, protectionism (tariffs) rose
+
+**Example:** During the Spanish Civil War (1936-1939), the Soviet Union stole millions of dollars worth of gold from Spain. They claimed they placing it into "safekeeping" so the Germans would not capture it. Spain never saw their gold again.
 
 **Lesson:** Flexible rates without institutions = instability and reduced trade
 
-### Bretton Woods and the International Monetary Fund (1944-1973)
+### Bretton Woods and the International Monetary Fund (1944)
 
 **The Debate:** - John Maynard Keynes (UK): Wanted flexibility - Harry Dexter White (US): Wanted stability - Compromise: Fixed but adjustable rates
+
+The Bretton Woods Agreement represented a pragmatic compromise between the rigidity of the gold standard and the chaos of the interwar period. It established a dollar-centered system of fixed but adjustable exchange rates, supported by the creation of the International Monetary Fund (IMF) and the World Bank.
+
+Under Bretton Woods, currencies were pegged to the U.S. dollar, and the dollar alone was convertible into gold at \$35 per ounce. The IMF was designed to provide temporary financing to countries facing balance-of-payments difficulties, thereby reducing the need for abrupt devaluations. (Balance of Payments will be Chapter 3)
 
 **Three Pillars:**
 
@@ -77,15 +96,40 @@ Major section:
 
 **Special Drawing Rights (1969):** Current basket (2016): - US dollar: 41.73% - Euro: 30.93% - Chinese yuan: 10.92% (added 2016!) - Japanese yen: 8.33% - British pound: 8.09%
 
+#### Special Drawing Right (SDR)
+
+An innovation of Bretton Woods was the creation of the Special Drawing Right. It is an international reserve asset created by the Internation Monetary Fund to supplement existing foreign exchange reserves. It is a mixture of several major currencies and provides an additional option for a currency to be pegged against. So instead of having a fixed exchange rate with the U.S. dollar, a country could peg its currency again the SDR.
+
+### Fixed Exchange Rates (1945–1973)
+
+During the postwar period, the Bretton Woods system supported rapid growth in world trade and investment. However, it relied heavily on U.S. monetary discipline. As global demand for dollars expanded, the United States ran persistent balance-of-payments deficits, creating an overhang of dollars <span title="An 'overhang of dollars' refers to a situation where there are more U.S. dollars held by foreigners or foreign central banks than the United States has gold reserves to back them.">(note)</span> relative to U.S. gold reserves.
+
+This structural tension undermined confidence in dollar convertibility and culminated in the suspension of gold convertibility in 1971. By 1973, fixed exchange rates among major currencies had collapsed.
+
 **Why It Failed:** 1. US dollar overhang (persistent deficits) 2. 1971: Lost 1/3 of gold reserves in 7 months 3. August 15, 1971: Nixon closes gold window 4. March 1973: Currencies float
+
+### Floating Exchange Rates (1973–1997)
+
+Since 1973, most major currencies have floated against one another. Floating exchange rates allow for continuous adjustment to economic fundamentals and preserve monetary policy autonomy. However, they have also been associated with increased volatility and uncertainty.
+
+The post-1973 era revealed that while floating rates reduce the likelihood of reserve crises, they do not eliminate exchange rate misalignment or financial instability.
+
+### The Emerging Era (1997–Present)
+
+Following the Asian Financial Crisis of 1997, global capital mobility increased dramatically. Capital flows began to dominate trade flows, particularly for emerging market economies. This shift placed new pressures on exchange rate regimes and exposed the fragility of intermediate arrangements.
 
 ------------------------------------------------------------------------
 
-## Contemporary Regimes 
+### IMF Classification of Currency Regimes
 
-### IMF Classification (De Facto - Observed Behavior)
+The IMF classifies exchange rate regimes based on observed behavior rather than official declarations. This shift from de jure to de facto classification reflects the recognition that governments often behave differently from their stated policies.
+
+### The IMF’s De Facto System
 
 **Four Categories:**
+
+![IMF Exchange Rate Classifications](../assets/images/Ch02/Exhibit_2.3.png){width="85%"}
+#### Summary around the world today
 
 1.  **Hard Pegs (13%)**
     -   Dollarization: Ecuador, Panama, Zimbabwe
@@ -102,17 +146,45 @@ Major section:
 4.  **Residual (7%)**
     -   Frequent policy shifts
 
+![Taxonomy of Exchange Rate Regimes](../assets/images/Ch02/Exhibit_2.4.png){width="85%"}
+
+### A Global Eclectic
+
+The contemporary international monetary system is best described as a global eclectic: a coexistence of diverse regimes with no single anchor or governing authority.
+
 **Key Insight:** Distribution stable over past decade - no "best" system emerged
 
 ------------------------------------------------------------------------
 
+## Fixed vs. Flexible Exchange Rates
+
+The choice between fixed and flexible exchange rates reflects national priorities regarding inflation, growth, and policy sovereignty. Fixed rates provide stability and credibility but require monetary discipline and large reserve holdings. Flexible rates allow monetary autonomy and shock absorption but expose economies to volatility.
+
+**Terminology matters:** official changes under fixed regimes are devaluations or revaluations, while market-driven changes under floating regimes are depreciations or appreciations.
+
+---------------------------------------------------------------
+
 ## The Impossible Trinity
+
+The Impossible Trinity, or trilemma, states that a country cannot simultaneously achieve exchange rate stability, full capital mobility, and independent monetary policy. Only two of the three are feasible at any given time.
+
+This framework explains historical system breakdowns and contemporary regime choices. It clarifies why the United States floats, Europe adopted a single currency, and China maintains capital controls.
 
 ### The Core Framework
 
-**Cannot simultaneously have:** 1. Fixed exchange rate 2. Free capital flows 3. Independent monetary policy
+**Cannot simultaneously have:** 
+1. Fixed exchange rate 
+2. Free capital flows 
+3. Independent monetary policy
 
-**Why Impossible?** - Lower rates to stimulate (independent policy) - Capital flows out to higher rates (free capital) - Currency depreciates - Must raise rates to defend peg (lose independence) - **Contradiction!**
+![The Evolution of the Global Monetary System](../assets/images/Ch02/Exhibit_2.6.png){width="85%"}
+
+**Why Impossible?** 
+- Lower rates to stimulate (independent policy) 
+- Capital flows out to higher rates (free capital) 
+- Currency depreciates 
+- Must raise rates to defend peg (lose independence) 
+**Creates contradictions.**
 
 **Three Choices:**
 
@@ -125,7 +197,7 @@ Major section:
 
 **1997-98 Asian Crisis:** - Countries tried to have all three - When confidence collapsed: massive capital outflows - Couldn't defend fixed rates - Forced to float
 
-**Key Point:** This isn't a suggestion - it's mathematical impossibility. No cheats or workarounds.
+**Key Point:** This isn't a suggestion - it's mathematical impossibility. There is no cheat code or workarounds.
 
 ------------------------------------------------------------------------
 
@@ -141,9 +213,13 @@ Major section:
 
 ### The Maastricht Treaty and Monetary Union
 
+The Maastricht Treaty committed European Union members to monetary union, replacing national currencies with the euro. Convergence criteria were designed to align macroeconomic conditions prior to entry.
+
 Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates ≤ 2% above 3 lowest 3. Budget deficit ≤ 3% GDP 4. Debt ≤ 60% GDP 5. Two years exchange rate stability
 
 ### European Central Bank (ECB)
+
+The ECB was established as an independent central bank with a primary mandate of price stability. National central banks ceded control over monetary policy while retaining supervisory roles.
 
 -   Frankfurt-based
 -   Independent
@@ -151,6 +227,10 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 -   Modeled on German Bundesbank
 
 ### The Launch of the Euro
+
+The euro was introduced in 1999 as a unit of account and in 2002 as physical currency. The transition was smooth due to decades of prior exchange rate coordination.
+
+The euro represents a permanent resolution of the Impossible Trinity within Europe: exchange rate stability and capital mobility were preserved at the cost of national monetary sovereignty.
 
 ### Benefits
 
@@ -189,11 +269,51 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 **Lesson:** Impossible trinity perfectly illustrated - gave up monetary independence, had no tools when crisis hit.
 
-------------------------------------------------------------------------
 
-## Emerging Markets 
+## Internationalization of the Chinese RMB
 
-### Currency Boards: Argentina (1991-2001)
+### Renminbi Valuation
+
+China operates a managed float in which the central bank sets a daily parity rate and allows limited market movement. Exchange rate stability remains a policy priority.
+
+### Two-Market Currency Development
+
+The RMB operates in a segmented onshore (CNY) and offshore (CNH) structure. This allows China to experiment with international use while maintaining domestic control.
+
+**Onshore (CNY):** - Heavily regulated - Capital controls - People's Bank of China (PBC) sets daily parity - Trading within ±1-2%
+
+**Offshore (CNH - Hong Kong):** - More flexible - Less regulated - Panda Bonds<span title="Panda bonds are bonds issued by foreigners (non-Chinese) but denominated in renminbi (RMB) to entities in the Chinese mainland bond market. It provides a way for foreign businesses to tap into the Chinese capital markets.">(note)</span> issued here - Expanding to Singapore, London
+
+### Internationalization: Theoretical Principles and Practical Concerns
+
+Internationalization occurs in stages: trade use, investment use, and reserve currency status. China has advanced unevenly across these dimensions, constrained primarily by capital controls.
+
+**Level 1: Trade Currency** - Despite being largest trader: - 93% imports in USD - 95% exports in USD - RMB use growing but LOW
+
+**Level 2: Investment Currency** - Gradual opening via: - RQFII (Renminbi Qualified Foreign Institutional Investor) program - Bond Connect - Stock Connect - Fear of capital flight
+
+**Level 3: Reserve Currency** - Added to SDR 2016 at 10.92% - 2-3% of global reserves - Forecasts: 15-50% by 2024 (huge range = uncertainty)
+
+### Triffin Dilemma
+
+As with earlier reserve currencies, widespread international use of the RMB would require China to supply liquidity to the world, potentially conflicting with domestic policy objectives.
+
+**The Paradox:** 1. World needs your currency → run deficits to supply it 2. But persistent deficits → growing debt → undermines confidence
+
+**China's Problem:** - To be reserve currency needs: - Current account deficits - Free capital outflows - Policy independence loss - But China has: - Current account surpluses - Tight capital controls - Values independence
+
+### Currency Trading Hubs
+
+**Strategy:** - Clearing centers in: Hong Kong, London, Singapore, Frankfurt, NYC, Sydney - Make RMB accessible globally - But maintain control through approved institutions
+
+
+## Emerging Markets and Regime Choices
+
+### Currency Boards
+
+#### Argentina
+
+Argentina’s currency board initially stabilized inflation but ultimately collapsed due to overvaluation, recession, and loss of confidence.
 
 **Structure:** - Every peso backed 100% by US dollars - Government can't print money without reserves - Peso pegged 1:1 to dollar
 
@@ -205,51 +325,46 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 ### Dollarization
 
-**Ecuador (2000):** - 1999 crisis: Sucre 25,000 per dollar - Adopted dollar January 2000 - Stability achieved but limited shock response
+Dollarization involves adopting a foreign currency outright, eliminating exchange rate risk but also monetary sovereignty.
 
-**El Salvador (2001):** - Lowest inflation in Central America (2%) - Extended growth period - **2021: Added Bitcoin as legal tender!** - First country ever - Highly controversial - Bitcoin volatility vs money functions
+#### Ecuador
 
-**Zimbabwe:** - Hyperinflation: 79.6 billion % per month (2008) - 2009-2019: Multi-currency (USD primary) - 2019: Return to zimdollar → inflation returned - 2020: Back to multi-currency - Jan 2021: Inflation \>350%
+Ecuador adopted the U.S. dollar following severe inflation and banking crises, gaining stability at the cost of policy flexibility.
+
+- 1999 crisis: Sucre 25,000 per dollar - Adopted dollar January 2000 - Stability achieved but limited shock response
+
+#### El Salvador 
+
+El Salvador dollarized in 2001 and achieved low inflation, though growth outcomes remain debated.
+
+- Lowest inflation in Central America (2%) - Extended growth period - **2021: Added Bitcoin as legal tender** - First country ever - Highly controversial - Bitcoin volatility vs money functions
+
+#### Zimbabwe
+
+Zimbabwe’s experience with hyperinflation led to abandonment of its national currency and episodic use of foreign currencies.
+
+- Hyperinflation: 79.6 billion % per month (2008) - 2009-2019: Multi-currency (USD primary) - 2019: Return to zimdollar → inflation returned - 2020: Back to multi-currency - Jan 2021: Inflation \>350%
 
 **Lesson:** Currency regime won't fix bad fiscal/governance policies
 
-### Calvo & Mishkin (2003)
+### Currency Regime Choices for Emerging Markets
 
-> "Choice of exchange rate regime is of second order importance to development of good institutions."
+High capital mobility and weak institutions often force emerging markets toward extreme regimes—either free floating or hard pegs—while intermediate regimes prove unstable.
+
+Three common features of emerging market economies that make any specific currency regime choice difficult:
+
+1. weak fiscal, financial, and monetary institutions
+2. tendencies for commerce to allow currency substitution and the denomination of liabilities in dollars
+3. the emerging market's vulnerability  to sudden stoppages of outside capital flows.
+
+**"Choice of exchange rate regime is of second order importance to development of good institutions."**
+
+- Calvo and Mishkin (2003)
 
 **What Matters More:** - Independent central banks - Fiscal discipline - Financial regulation - Rule of law - Open trade
 
-------------------------------------------------------------------------
 
-## Chinese RMB 
-
-### Two-Market Structure
-
-**Onshore (CNY):** - Heavily regulated - Capital controls - PBC sets daily parity - Trading within ±1-2%
-
-**Offshore (CNH - Hong Kong):** - More flexible - Less regulated - Panda Bonds issued here - Expanding to Singapore, London
-
-### Three Internationalization Levels
-
-**Level 1: Trade Currency** - Despite being largest trader: - 93% imports in USD - 95% exports in USD - RMB use growing but LOW
-
-**Level 2: Investment Currency** - Gradual opening via: - RQFII program - Bond Connect - Stock Connect - Fear of capital flight
-
-**Level 3: Reserve Currency** - Added to SDR 2016 at 10.92% - 2-3% of global reserves - Forecasts: 15-50% by 2024 (huge range = uncertainty)
-
-### Triffin Dilemma
-
-**The Paradox:** 1. World needs your currency → run deficits to supply it 2. But persistent deficits → growing debt → undermines confidence
-
-**China's Problem:** - To be reserve currency needs: - Current account deficits - Free capital outflows - Policy independence loss - But China has: - Current account surpluses - Tight capital controls - Values independence
-
-### Currency Trading Hubs
-
-**Strategy:** - Clearing centers in: Hong Kong, London, Singapore, Frankfurt, NYC, Sydney - Make RMB accessible globally - But maintain control through approved institutions
-
-------------------------------------------------------------------------
-
-## Reserve Currencies & Digital Currency 
+## Reserve Currencies & What Lies Ahead
 
 ### Current Landscape
 
@@ -271,7 +386,7 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 ### Challenges
 
 1.  US fiscal deficits
-2.  "Weaponization" (sanctions via SWIFT)
+2.  "Weaponization" (sanctions via SWIFT) - SWIFT (Society for Worldwide Interbank Financial Telecommunications) is a global messaging system (imagine an email system specifically for financial transactions). It is not a bank, but just a communications network. The U.S. could pressure SWIFT to remove certain actors or countries.
 3.  Multipolarity
 4.  Digital currencies
 
@@ -290,9 +405,9 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 3.  New currency competition dimensions
 4.  Financial inclusion
 
-------------------------------------------------------------------------
 
-## Conclusion 
+
+## Conclusion
 
 ### Five Key Lessons
 
@@ -315,7 +430,7 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 ------------------------------------------------------------------------
 
-### Discussion Questions
+### Questions to think about:
 
 1.  If advising emerging market on regime choice, what factors would you prioritize?
 
@@ -327,10 +442,9 @@ Before joining: 1. Inflation ≤ 1.5% above 3 lowest members 2. Interest rates �
 
 5.  Is the "impossible trinity" really impossible? Could new tech provide workarounds?
 
-------------------------------------------------------------------------
 
-**Next Class:** Chapter 3 - Balance of Payments
 
-------------------------------------------------------------------------
+**Next:** Chapter 3 - Balance of Payments
 
-⸻
+
+

@@ -1,0 +1,1582 @@
+---
+title: "Chapter 6 - International Parity Conditions"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    toc-expand: 1
+    number-sections: true
+    number-offset: 5
+    title-block-style: default
+    theme: cosmo
+  docx:
+    toc: true
+    number-sections: true
+    prefer-html: true
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+---
+
+# Introduction and Learning Objectives {#sec-introduction}
+
+## Opening Quote and Context
+
+> "...if capital freely flowed towards those countries where it could be most profitably employed, there could be no difference in the rate of profit, and no other difference in the real or labour price of commodities, than the additional quantity of labour required to convey them to the various markets where they were to be sold."
+>
+> --- David Ricardo, *On the Principles of Political Economy and Taxation*, 1817
+
+This quote from David Ricardo sets the stage for our discussion today. Ricardo was describing what happens in a world of perfect capital mobility---a world where money flows freely to wherever it can earn the highest return. While we don't live in Ricardo's ideal world, his insights form the foundation of international parity conditions.
+
+## What Are Parity Conditions?
+
+International parity conditions are the economic theories that link:
+
+-   **Exchange rates** (the price of one currency in terms of another)
+-   **Price levels and inflation** (the cost of goods and how it changes over time)
+-   **Interest rates** (the cost of borrowing money)
+
+These theories form the core of what makes international finance **unique**. They help us understand and predict how currencies should behave in relation to economic fundamentals.
+
+## Learning Objectives
+
+By the end of this lecture, you should be able to:
+
+1.  **Examine** how price levels and inflation determine exchange rates (Purchasing Power Parity)
+2.  **Show** how interest rates reflect inflation and drive currency values (Fisher Effects)
+3.  **Explain** how forward markets reflect market expectations (Forward Rate as Predictor)
+4.  **Analyze** how spot rates, forward rates, interest differentials, and inflation expectations align in equilibrium (Interest Rate Parity)
+
+## Why Study Parity Conditions?
+
+**Three key reasons:**
+
+1.  **Forecasting**: These theories help predict future exchange rate movements
+2.  **Risk Management**: Understanding parity conditions helps firms hedge currency risk effectively
+3.  **Investment Decisions**: They guide international investment and financing decisions
+
+**Important caveat**: These theories don't always work perfectly in practice, but they provide essential benchmarks for understanding currency movements. As your textbook notes, "the mistake is not always in the theory itself, but in the way it is interpreted or applied in practice."
+
+------------------------------------------------------------------------
+
+# Prices and Exchange Rates {#sec-prices-exchange}
+
+## The Law of One Price
+
+Let's start with the most fundamental concept in international finance: the **Law of One Price**.
+
+### Core Principle
+
+**Definition**: If identical products can be sold in two different markets with no restrictions on sale or transportation, and no transportation costs, the price should be the same in both markets.
+
+This seems obvious, right? But it has profound implications for exchange rates.
+
+### Mathematical Expression
+
+If a product sells for \$P\^{\$}\$ in the United States and ¥\$P\^{¥}\$ in Japan, the exchange rate should be:
+
+$$S^{¥/\$} = \frac{P^{¥}}{P^{\$}}$$
+
+Where \$S\^{¥/\$}\$ is the spot exchange rate (yen per dollar).
+
+**Example**: If a laptop costs \$1,000 in the U.S. and ¥110,000 in Japan, the exchange rate implied by the law of one price would be:
+
+$$S^{¥/\$} = \frac{¥110,000}{\$1,000} = ¥110/\$$\$
+
+```{r}
+#| label: law-one-price-example
+#| echo: true
+
+# Law of One Price Calculation
+price_us <- 1000      # Price in USD
+price_japan <- 110000 # Price in JPY
+
+# Implied exchange rate
+implied_rate <- price_japan / price_us
+
+cat("U.S. Price: $", price_us, "\n")
+cat("Japan Price: ¥", price_japan, "\n")
+cat("Implied Exchange Rate: ¥", implied_rate, "/$\n")
+```
+
+### Why It Matters
+
+If the actual exchange rate differs from this implied rate, **arbitrage opportunities** exist. Traders could:
+
+1.  Buy the product where it's cheap
+2.  Sell it where it's expensive
+3.  Make a risk-free profit
+
+This arbitrage activity should drive prices back toward parity.
+
+## Purchasing Power Parity (PPP)
+
+### From One Price to Many Prices
+
+The Law of One Price applies to a single product. **Purchasing Power Parity (PPP)** extends this concept to a **basket of goods**---essentially, the overall price level in an economy.
+
+### Absolute PPP
+
+**Absolute PPP** states that the exchange rate between two currencies should equal the ratio of the price levels in the two countries:
+
+$$S = \frac{P^{¥}}{P^{\$}}$$
+
+Where \$P\^{¥}\$ and \$P\^{\$}\$ are price indices (like the CPI) in Japan and the U.S.
+
+**Example**: If a basket of goods costs ¥1,000 in Japan and \$10 in the U.S., absolute PPP suggests:
+
+$$S^{¥/\$} = \frac{¥1,000}{\$10} = ¥100/\$$\$
+
+### Relative PPP
+
+**Relative PPP** is more practical and more commonly used. It focuses on **changes** rather than absolute levels:
+
+**If the spot exchange rate starts in equilibrium, any change in the differential rate of inflation between two countries tends to be offset over the long run by an equal but opposite change in the spot exchange rate.**
+
+Mathematically:
+
+$$\frac{S_2 - S_1}{S_1} = \pi^{¥} - \pi^{\$}$$
+
+Where: - \$S_1\$ = spot rate at time 1 - \$S_2\$ = spot rate at time 2 - \$\pi\^{¥}\$ = Japan's inflation rate - \$\pi\^{\$}\$ = U.S. inflation rate
+
+**Interpretation**: If Japanese inflation is 1% and U.S. inflation is 5%, the yen should **appreciate** by approximately 4% against the dollar.
+
+```{r}
+#| label: relative-ppp-calculation
+#| echo: true
+
+# Relative PPP Example
+spot_rate_initial <- 104.00  # JPY/USD
+inflation_us <- 0.05         # 5%
+inflation_japan <- 0.01      # 1%
+
+# Expected change in exchange rate
+expected_change <- inflation_japan - inflation_us
+
+# Expected future spot rate
+spot_rate_future <- spot_rate_initial * (1 + expected_change)
+
+cat("Initial Spot Rate: ¥", spot_rate_initial, "/$\n")
+cat("U.S. Inflation: ", inflation_us * 100, "%\n")
+cat("Japan Inflation: ", inflation_japan * 100, "%\n")
+cat("Expected Change in Exchange Rate: ", expected_change * 100, "%\n")
+cat("Expected Future Spot Rate: ¥", round(spot_rate_future, 2), "/$\n")
+```
+
+### The Logic Behind PPP
+
+**Why should this relationship hold?**
+
+If U.S. inflation is higher than Japanese inflation:
+
+1.  U.S. goods become **more expensive** relative to Japanese goods
+2.  U.S. exports **decrease** (they're less competitive)
+3.  U.S. imports **increase** (foreign goods are relatively cheaper)
+4.  This creates increased **demand for foreign currency** (to buy imports)
+5.  The dollar **depreciates** to restore equilibrium
+
+## The Big Mac Index
+
+### A Practical Application of PPP
+
+The Economist magazine created the **Big Mac Index** in 1986 as a lighthearted but surprisingly useful test of PPP.
+
+**Why the Big Mac?**
+
+1.  **Nearly identical** product worldwide (McDonald's quality control)
+2.  **Widely available** across many countries
+3.  **Locally produced** (reflects local costs, not import prices)
+4.  **Non-tradable** (you can't arbitrage Big Macs across borders)
+
+### How It Works
+
+Let's look at the example from your textbook (Exhibit 6.1):
+
+**China Example** (January 2021): - Big Mac price in China: Yuan 22.4 - Big Mac price in U.S.: \$5.66 - Actual exchange rate: Yuan 6.4751 = \$1.00
+
+**Step 1**: Convert Chinese price to dollars
+
+$$\text{Big Mac in USD} = \frac{Yuan 22.4}{6.4751} = \$3.46$$
+
+```{r}
+#| label: big-mac-china-conversion
+#| echo: true
+
+# Big Mac Index - China Example
+bigmac_china_yuan <- 22.4
+bigmac_us_usd <- 5.66
+actual_rate <- 6.4751  # Yuan per USD
+
+# Convert Chinese price to USD
+bigmac_china_usd <- bigmac_china_yuan / actual_rate
+
+cat("Big Mac in China: Yuan", bigmac_china_yuan, "\n")
+cat("Big Mac in U.S.: $", bigmac_us_usd, "\n")
+cat("Actual Exchange Rate: Yuan", actual_rate, "/$\n")
+cat("Chinese Big Mac in USD: $", round(bigmac_china_usd, 2), "\n")
+```
+
+**Step 2**: Calculate implied PPP exchange rate
+
+$$\text{Implied Rate} = \frac{\text{Yuan Price}}{\text{USD Price}} = \frac{Yuan 22.4}{\$5.66} = Yuan 3.9576/\$$\$
+
+```{r}
+#| label: big-mac-implied-rate
+#| echo: true
+
+# Calculate implied PPP rate
+implied_ppp_rate <- bigmac_china_yuan / bigmac_us_usd
+
+cat("Implied PPP Exchange Rate: Yuan", round(implied_ppp_rate, 4), "/$\n")
+```
+
+**Step 3**: Calculate over/undervaluation
+
+$$\text{Valuation} = \frac{\text{Implied Rate} - \text{Actual Rate}}{\text{Actual Rate}} = \frac{3.9576 - 6.4751}{6.4751} = -38.9\%$$
+
+The yuan appears **38.9% undervalued** against the dollar.
+
+```{r}
+#| label: big-mac-valuation
+#| echo: true
+
+# Calculate valuation
+valuation <- (implied_ppp_rate - actual_rate) / actual_rate * 100
+
+cat("Valuation: ", round(valuation, 1), "%\n")
+
+if(valuation < 0) {
+  cat("The yuan is UNDERVALUED by", abs(round(valuation, 1)), "%\n")
+} else {
+  cat("The yuan is OVERVALUED by", round(valuation, 1), "%\n")
+}
+```
+
+### Interpreting the Big Mac Index
+
+**What does undervaluation mean?**
+
+-   Big Macs are **cheaper** in China than PPP would predict
+-   The yuan may be **artificially weak** (possibly due to government intervention)
+-   Over the **long term**, the yuan might appreciate toward the PPP rate
+
+**Important caveats:**
+
+1.  PPP is a **long-term** theory (may take years to adjust)
+2.  Many factors affect exchange rates **beyond** just prices
+3.  Big Macs aren't perfectly identical (local tastes, taxes, rent vary)
+4.  The index is useful for illustration but not for trading decisions
+
+### Big Mac Index Across Countries
+
+Let's visualize several countries from Exhibit 6.1:
+
+```{r}
+#| label: fig-bigmac-multiple
+#| fig-cap: "Big Mac Index Valuation Against USD (January 2021)"
+#| echo: true
+
+library(ggplot2)
+library(dplyr)
+
+# Create dataset from Exhibit 6.1
+bigmac_data <- data.frame(
+  Country = c("Norway", "Britain", "Euro area", "Canada", "United States", 
+              "Denmark", "Singapore", "Japan", "Thailand", "Mexico", "China", 
+              "India", "Russia"),
+  Valuation = c(7.5, -21.6, -8.8, -6.6, 0, -13.4, -21.7, -33.9, -24.9, 
+                -52.6, -38.9, -54.3, -68.0)
+)
+
+# Sort by valuation
+bigmac_data <- bigmac_data %>% arrange(Valuation)
+bigmac_data$Country <- factor(bigmac_data$Country, levels = bigmac_data$Country)
+
+# Create plot
+ggplot(bigmac_data, aes(x = Country, y = Valuation, fill = Valuation > 0)) +
+  geom_col() +
+  coord_flip() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  scale_fill_manual(values = c("steelblue", "coral"), guide = "none") +
+  labs(title = "Big Mac Index: Currency Valuation vs USD",
+       subtitle = "January 2021",
+       x = NULL,
+       y = "Valuation Against USD (%)") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold", size = 14))
+```
+
+**Key observations:**
+
+-   Only **Norway** shows overvaluation (+7.5%)
+-   Most emerging market currencies show significant undervaluation
+-   European currencies (Euro, Britain) show moderate undervaluation
+-   Extreme undervaluation: Russia (-68%), India (-54%), Mexico (-53%)
+
+## Empirical Evidence on PPP
+
+### Does PPP Hold in Practice?
+
+**Short answer**: Not very well in the short run, better in the long run.
+
+**Research findings:**
+
+1.  **Short-term** (months to 1-2 years): PPP performs **poorly**
+    -   Exchange rates are highly volatile
+    -   Inflation differentials are relatively stable
+    -   Many other factors drive exchange rates
+2.  **Long-term** (5-10+ years): PPP performs **better**
+    -   Currencies tend to move toward PPP values
+    -   Especially for countries with high inflation
+3.  **PPP works better for**:
+    -   Countries with **high inflation differentials**
+    -   **Emerging markets** vs. developed markets
+    -   **Very long** time periods
+
+### Why Doesn't PPP Hold Perfectly?
+
+Several important reasons:
+
+1.  **Transaction costs**: Shipping, insurance, tariffs
+2.  **Non-tradable goods**: Haircuts, real estate, many services
+3.  **Trade barriers**: Tariffs, quotas, regulations
+4.  **Product differentiation**: Products aren't truly identical
+5.  **Capital flows**: Money moves for investment, not just trade
+6.  **Government intervention**: Central banks, capital controls
+7.  **Market imperfections**: Monopolies, information asymmetries
+
+## Real Effective Exchange Rate Index
+
+### Beyond Bilateral Rates
+
+So far, we've discussed exchange rates between **two countries**. But what if we want to know if a currency is strong or weak against **all** its trading partners?
+
+Enter the **Real Effective Exchange Rate (REER) Index**.
+
+### Nominal vs. Real Effective Exchange Rates
+
+**Nominal Effective Exchange Rate Index**: - Weighted average of bilateral exchange rates - Weights based on trade importance - Shows pure currency movements - Does NOT account for inflation
+
+**Real Effective Exchange Rate Index**: - Adjusts nominal index for inflation differentials - Shows changes in **purchasing power** - Index value of 100 = equilibrium - Above 100 = overvalued; Below 100 = undervalued
+
+### Formula
+
+$$E_R = E_N \times \frac{C^{\$}}{C^{FC}}$$
+
+Where: - \$E_R\$ = Real effective exchange rate index - \$E_N\$ = Nominal effective exchange rate index - \$C\^{\$}\$ = Domestic cost index (e.g., U.S. CPI) - \$C\^{FC}\$ = Foreign cost index (trade-weighted)
+
+### Interpretation
+
+**If the REER index is:**
+
+-   **= 100**: Currency is at PPP equilibrium
+-   **\> 100**: Currency is **overvalued** (purchasing power has increased more than inflation suggests)
+    -   Exports become less competitive
+    -   Imports become more attractive
+    -   Pressure for currency depreciation
+-   **\< 100**: Currency is **undervalued** (purchasing power has increased less than inflation suggests)
+    -   Exports become more competitive
+    -   Imports become less attractive
+    -   Pressure for currency appreciation
+
+### Real Effective Exchange Rate Trends
+
+Your textbook shows REER indices for the U.S. dollar, Japanese yen, and euro from 1980-2021 (Exhibit 6.2). Key observations:
+
+**U.S. Dollar:** - Substantially overvalued in early 1980s (index \~140) - Undervalued 1988-1996 (index below 100) - Returned to overvaluation since 2014 (index above 110)
+
+**Japanese Yen:** - Bounced between under- and overvaluation - Significant overvaluation in mid-1990s - Recent trend toward undervaluation
+
+**Euro:** - Relatively stable near 100 since 2009 - Slight fluctuations but generally near equilibrium
+
+```{r}
+#| label: reer-example-calc
+#| echo: true
+
+# REER Calculation Example
+# Suppose the nominal effective exchange rate index = 105
+# U.S. costs have increased to 115 (base year = 100)
+# Foreign costs have increased to 108 (base year = 100)
+
+nominal_index <- 105
+us_costs <- 115
+foreign_costs <- 108
+
+# Calculate REER
+reer <- nominal_index * (us_costs / foreign_costs)
+
+cat("Nominal Effective Exchange Rate Index:", nominal_index, "\n")
+cat("U.S. Cost Index:", us_costs, "\n")
+cat("Foreign Cost Index:", foreign_costs, "\n")
+cat("Real Effective Exchange Rate Index:", round(reer, 2), "\n")
+
+if(reer > 100) {
+  cat("\nThe dollar is OVERVALUED by", round(reer - 100, 1), "points\n")
+  cat("U.S. exports are less competitive\n")
+} else if(reer < 100) {
+  cat("\nThe dollar is UNDERVALUED by", round(100 - reer, 1), "points\n")
+  cat("U.S. exports are more competitive\n")
+} else {
+  cat("\nThe dollar is at PPP equilibrium\n")
+}
+```
+
+## Exchange Rate Pass-Through
+
+### Definition and Importance
+
+**Exchange rate pass-through** measures how much of an exchange rate change is reflected in import/export prices.
+
+**Complete pass-through (100%)**: Exchange rate change is fully reflected in prices **Partial pass-through (\<100%)**: Only part of the exchange rate change affects prices
+
+### Example: Volvo Exports
+
+Let's use the textbook example of Volvo exporting from Belgium to the U.S.
+
+**Initial Situation:** - Volvo price in Belgium: €50,000 - Spot exchange rate: \$1.00 = €1.00 - Volvo price in U.S.: \$50,000
+
+**Scenario: Euro appreciates 20%** - New exchange rate: \$1.20 = €1.00
+
+**Complete Pass-Through (100%):** - New U.S. price = €50,000 × \$1.20/€ = **\$60,000** - Price increase = 20% (same as exchange rate change)
+
+```{r}
+#| label: complete-passthrough
+#| echo: true
+
+# Complete Pass-Through Example
+price_eur <- 50000
+initial_rate <- 1.00  # USD per EUR
+new_rate <- 1.20      # USD per EUR (euro appreciation)
+
+initial_price_usd <- price_eur * initial_rate
+new_price_usd <- price_eur * new_rate
+
+price_change_pct <- (new_price_usd - initial_price_usd) / initial_price_usd * 100
+
+cat("Initial U.S. Price: $", initial_price_usd, "\n")
+cat("New U.S. Price (complete pass-through): $", new_price_usd, "\n")
+cat("Price Change: ", round(price_change_pct, 1), "%\n")
+```
+
+**Partial Pass-Through (say, 40%):** - New U.S. price = \$50,000 × (1 + 0.20 × 0.40) = **\$54,000** - Price increase = 8% (less than the exchange rate change)
+
+```{r}
+#| label: partial-passthrough
+#| echo: true
+
+# Partial Pass-Through Example (40%)
+passthrough_rate <- 0.40
+exchange_rate_change <- 0.20
+
+effective_price_change <- exchange_rate_change * passthrough_rate
+new_price_partial <- initial_price_usd * (1 + effective_price_change)
+
+cat("Pass-through rate:", passthrough_rate * 100, "%\n")
+cat("New U.S. Price (partial pass-through): $", new_price_partial, "\n")
+cat("Actual Price Change: ", round(effective_price_change * 100, 1), "%\n")
+```
+
+### Why Partial Pass-Through Occurs
+
+**From the exporter's perspective:**
+
+1.  **Input costs**: Some costs are in foreign currency (become cheaper when home currency appreciates)
+2.  **Pricing strategy**: Exporters may absorb some exchange rate changes to maintain market share
+3.  **Competition**: Must remain competitive with local producers
+4.  **Time lags**: Contracts already in place at old prices
+
+### Price Elasticity of Demand
+
+**Key concept**: The degree of pass-through depends on **price elasticity of demand**.
+
+**Price elasticity of demand**: $$e_p = \frac{\%\Delta Q^d}{\%\Delta P}$$
+
+-   **Elastic demand** (\$\|e_p\| \> 1\$): Quantity demanded is sensitive to price
+    -   Small price increase → Large drop in sales
+    -   Exporter absorbs more of exchange rate change
+    -   **Lower pass-through**
+-   **Inelastic demand** (\$\|e_p\| \< 1\$): Quantity demanded is insensitive to price
+    -   Price increase → Small drop in sales
+    -   Exporter can pass through more of exchange rate change
+    -   **Higher pass-through**
+
+**Example products:**
+
+-   **Inelastic** (higher pass-through): Luxury goods, specialized equipment, pharmaceuticals
+-   **Elastic** (lower pass-through): Generic consumer goods, commodities, products with many substitutes
+
+### Pass-Through and Emerging Markets
+
+Your textbook discusses an important modern application: emerging market currencies and the Impossible Trinity (Exhibit 6.3).
+
+**The Situation:**
+
+1.  **Emerging markets** have shifted from Point A to Point C in the Impossible Trinity:
+    -   **From**: Fixed exchange rates + independent monetary policy
+    -   **To**: Floating exchange rates + capital flows
+2.  **Consequence**: Exchange rate pass-through becomes a major issue
+    -   Currency appreciation → import price decreases → potential deflation
+    -   Currency depreciation → import price increases → **inflation**
+3.  **The Problem**: Major industrial countries (US, EU, Japan) have kept interest rates very low
+    -   Capital flows to emerging markets seeking higher returns
+    -   Emerging market currencies appreciate
+    -   Pass-through causes prices to rise → inflationary pressure
+
+**Example**: If the Brazilian real appreciates 10% against the dollar, and Brazil imports significant amounts of manufactured goods from the U.S., those import prices will fall, affecting domestic producers and potentially causing imported inflation.
+
+### Key Takeaway
+
+Understanding pass-through is critical for:
+
+-   **Central banks**: Predicting inflation effects of exchange rate changes
+-   **Exporters**: Pricing strategies in foreign markets
+-   **Importers**: Forecasting cost changes
+-   **Policymakers**: Understanding how exchange rate policy affects the domestic economy
+
+------------------------------------------------------------------------
+
+# Interest Rates and Exchange Rates {#sec-interest-exchange}
+
+Now we shift from prices to **interest rates** and their relationship with exchange rates. This is where international finance gets particularly interesting!
+
+## The Fisher Effect
+
+### Nominal vs. Real Interest Rates
+
+**Question**: If a bank offers you 5% interest on a savings account, are you really earning 5%?
+
+**Answer**: It depends on inflation!
+
+The **Fisher Effect**, named after economist Irving Fisher, decomposes nominal interest rates into two components:
+
+$$i = r + \pi + r\pi$$
+
+Where: - \$i\$ = Nominal interest rate (what the bank quotes) - \$r\$ = Real interest rate (true increase in purchasing power) - \$\pi\$ = Expected inflation rate - \$r\pi\$ = Cross-product term (usually small)
+
+### Approximate Form
+
+Since the cross-product term \$r\pi\$ is typically small, we often use the approximation:
+
+$$i = r + \pi$$
+
+Or rearranged:
+
+$$r = i - \pi$$
+
+**Interpretation**: Your real return is the nominal interest rate minus inflation.
+
+### Example
+
+```{r}
+#| label: fisher-effect-example
+#| echo: true
+
+# Fisher Effect Example
+nominal_rate <- 0.08  # 8% nominal interest
+expected_inflation <- 0.05  # 5% expected inflation
+
+# Exact calculation
+real_rate_exact <- ((1 + nominal_rate) / (1 + expected_inflation)) - 1
+
+# Approximate calculation
+real_rate_approx <- nominal_rate - expected_inflation
+
+cat("Nominal Interest Rate:", nominal_rate * 100, "%\n")
+cat("Expected Inflation:", expected_inflation * 100, "%\n")
+cat("Real Interest Rate (exact):", round(real_rate_exact * 100, 2), "%\n")
+cat("Real Interest Rate (approximate):", round(real_rate_approx * 100, 2), "%\n")
+```
+
+**Application to Two Countries:**
+
+United States: $$i^{\$} = r^{\$} + \pi^{\$}$$
+
+Japan: $$i^{¥} = r^{¥} + \pi^{¥}$$
+
+### Key Insight
+
+If capital markets are efficient and open, **real rates should equalize** across countries (after adjusting for risk):
+
+$$r^{\$} = r^{¥}$$
+
+Why? Because investors will move capital to wherever real returns are highest, driving rates into equilibrium.
+
+## The International Fisher Effect
+
+### From Domestic to International
+
+The **International Fisher Effect (IFE)** extends the Fisher Effect to the relationship between interest rate differentials and exchange rate changes.
+
+**Core Statement**: The spot exchange rate should change in an amount equal to but opposite in sign to the difference in interest rates between two countries.
+
+### Mathematical Expression
+
+$$\frac{S_1 - S_2}{S_2} = i^{\$} - i^{¥}$$
+
+Or in the precise form:
+
+$$\frac{S_1 - S_2}{S_2} = \frac{i^{\$} - i^{¥}}{1 + i^{¥}}$$
+
+**Interpretation**: If U.S. interest rates are 2% higher than Japanese rates, the dollar should **depreciate** by approximately 2% against the yen.
+
+### Why Should This Hold?
+
+**The Logic:**
+
+1.  Suppose U.S. interest rates are 6% and Japanese rates are 4%
+2.  An investor earning 2% more in dollars looks attractive
+3.  **BUT**: If everyone wants dollars for the higher return, the dollar appreciates **now**
+4.  Higher dollar today means investors expect it to depreciate **later**
+5.  In equilibrium, the currency appreciation exactly offsets the interest differential
+
+**In other words**: You can't systematically make excess returns just by investing in the high-interest-rate currency.
+
+### Example Calculation
+
+```{r}
+#| label: international-fisher-example
+#| echo: true
+
+# International Fisher Effect Example
+spot_rate_initial <- 110  # JPY/USD
+interest_us <- 0.06       # 6% USD
+interest_japan <- 0.04    # 4% JPY
+
+# Interest differential
+interest_diff <- interest_us - interest_japan
+
+# Expected exchange rate change (%)
+expected_change_pct <- interest_diff
+
+# Expected future spot rate
+spot_rate_future <- spot_rate_initial * (1 - expected_change_pct)
+
+cat("Initial Spot Rate: ¥", spot_rate_initial, "/$\n")
+cat("U.S. Interest Rate:", interest_us * 100, "%\n")
+cat("Japan Interest Rate:", interest_japan * 100, "%\n")
+cat("Interest Differential:", interest_diff * 100, "%\n")
+cat("Expected Dollar Depreciation:", expected_change_pct * 100, "%\n")
+cat("Expected Future Spot Rate: ¥", round(spot_rate_future, 2), "/$\n")
+```
+
+**Interpretation**: The dollar is expected to **weaken** from ¥110/\$ to ¥107.80/\$ over the period, offsetting the higher U.S. interest rate.
+
+### Does IFE Hold in Practice?
+
+**Empirical Evidence:**
+
+-   **Short run**: IFE performs **poorly**
+    -   Too many other factors affect exchange rates
+    -   Capital flows, speculation, central bank intervention
+-   **Long run**: Some evidence of IFE
+    -   Particularly for currencies with large interest differentials
+    -   But many exceptions exist
+
+**Important Caveat**: The textbook notes that some studies suggest a **foreign exchange risk premium** exists, meaning expected exchange rate changes might consistently differ from interest rate differentials.
+
+### Global Finance in Practice 6.2: High Inflation vs. High Real Rates
+
+Your textbook includes an excellent case study about Paul Volcker and the U.S. Federal Reserve in 1979.
+
+**The Situation:**
+
+-   Late 1970s: U.S. suffered high inflation (\~10%+)
+-   Nominal interest rates were high, but so was expected inflation
+-   Fisher equation: \$i = r + \pi\$
+    -   High \$i\$ was driven by high \$\pi\$, not high \$r\$
+
+**Volcker's Policy:**
+
+1.  Drastically restricted money supply growth
+2.  Drove real interest rates UP (increased \$r\$)
+3.  Caused severe recession (1981-82)
+4.  **Result**: Eliminated inflation (\$\pi\$ fell dramatically)
+
+**Effect on Exchange Rates:**
+
+-   High **real** rates attracted capital to the U.S.
+-   Dollar **appreciated strongly**
+-   It was the \$r\$ (real rate), not \$\pi\$ (inflation), that attracted capital
+
+**Key Lesson**: Investors care about **real returns**, not just nominal rates. High nominal rates due to inflation don't attract capital; high real rates do.
+
+## Interest Rate Parity (IRP)
+
+### The Crown Jewel of Parity Conditions
+
+Interest Rate Parity is perhaps the most important and most reliable of all parity conditions. It links the **foreign exchange market** with the **money market**.
+
+**Core Statement**: The difference in interest rates between two countries should equal the forward premium or discount on the exchange rate (except for transaction costs).
+
+### The Framework
+
+Consider an investor with \$1 million who can invest for 90 days. Two alternatives:
+
+**Alternative 1**: Invest in U.S. dollar money market - Return: \$(1 + i\^{\$})
+
+**Alternative 2**: Covered Interest Arbitrage (CIA) 1. Convert dollars to Swiss francs at spot rate \$S\$ 2. Invest in Swiss franc money market at rate \$i\^{SF}\$ 3. Simultaneously sell francs forward at rate \$F\$ - Return: \$\frac{(1 + i^{SF})}{F/S}\$
+
+### IRP Condition
+
+In equilibrium (no arbitrage opportunities):
+
+$$(1 + i^{\$}) = \frac{(1 + i^{SF}) \times F}{S}$$
+
+Or rearranged:
+
+$$\frac{F}{S} = \frac{(1 + i^{\$})}{(1 + i^{SF})}$$
+
+### Approximate Form
+
+The percentage difference between forward and spot rates (forward premium) should equal the interest differential:
+
+$$\frac{F - S}{S} = i^{\$} - i^{SF}$$
+
+### Numerical Example
+
+Using the textbook example (Exhibit 6.5):
+
+**Given:** - Spot rate: SF1.4800 = \$1.00 - 90-day forward rate: SF1.4655 = \$1.00 - U.S. interest rate: 8.00% per annum (2.00% for 90 days) - Swiss franc interest rate: 4.00% per annum (1.00% for 90 days)
+
+**Check IRP:**
+
+```{r}
+#| label: irp-equilibrium-check
+#| echo: true
+
+# IRP Equilibrium Example
+spot_rate <- 1.4800       # SF/$
+forward_rate <- 1.4655    # SF/$
+interest_usd_annual <- 0.08
+interest_sf_annual <- 0.04
+
+# Convert to 90-day rates
+interest_usd_90 <- interest_usd_annual * (90/360)
+interest_sf_90 <- interest_sf_annual * (90/360)
+
+# Left side of IRP equation
+left_side <- 1 + interest_usd_90
+
+# Right side of IRP equation
+right_side <- (1 + interest_sf_90) * (forward_rate / spot_rate)
+
+cat("Investment in USD:\n")
+cat("  Return: ", round(left_side, 6), "\n\n")
+
+cat("Covered Investment in CHF:\n")
+cat("  Return: ", round(right_side, 6), "\n\n")
+
+cat("Difference: ", round(abs(left_side - right_side), 6), "\n")
+
+if(abs(left_side - right_side) < 0.0001) {
+  cat("IRP holds - markets are in equilibrium\n")
+} else {
+  cat("IRP does not hold - arbitrage opportunity exists\n")
+}
+```
+
+The returns are essentially equal, so **IRP holds** and no arbitrage opportunity exists.
+
+**Calculate the forward premium:**
+
+```{r}
+#| label: forward-premium-calculation
+#| echo: true
+
+# Forward premium calculation
+forward_premium_90day <- (spot_rate - forward_rate) / forward_rate
+forward_premium_annual <- forward_premium_90day * (360/90)
+
+interest_differential <- interest_usd_annual - interest_sf_annual
+
+cat("Forward Premium (90-day):", round(forward_premium_90day * 100, 2), "%\n")
+cat("Forward Premium (annualized):", round(forward_premium_annual * 100, 2), "%\n")
+cat("Interest Rate Differential:", round(interest_differential * 100, 2), "%\n")
+cat("\nThe forward premium approximately equals the interest differential,\n")
+cat("confirming Interest Rate Parity.\n")
+```
+
+### Visualizing IRP
+
+Let's create a visual representation of how IRP works:
+
+```{r}
+#| label: fig-irp-diagram
+#| fig-cap: "Interest Rate Parity: Equilibrium Condition"
+#| echo: true
+
+library(ggplot2)
+
+# Create data for IRP line
+interest_diff_range <- seq(-6, 6, by = 0.5)
+forward_premium_range <- interest_diff_range
+
+irp_data <- data.frame(
+  Interest_Differential = interest_diff_range,
+  Forward_Premium = forward_premium_range
+)
+
+# Add transaction cost band
+transaction_cost <- 0.25
+irp_data$Upper_Bound <- irp_data$Forward_Premium + transaction_cost
+irp_data$Lower_Bound <- irp_data$Forward_Premium - transaction_cost
+
+# Plot
+ggplot(irp_data, aes(x = Interest_Differential, y = Forward_Premium)) +
+  geom_ribbon(aes(ymin = Lower_Bound, ymax = Upper_Bound), 
+              fill = "lightblue", alpha = 0.3) +
+  geom_line(color = "darkblue", size = 1.2) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
+  annotate("text", x = 4, y = -3, label = "IRP Line", color = "darkblue", size = 4) +
+  annotate("text", x = 3, y = 4.5, label = "Transaction Cost Band", 
+           color = "steelblue", size = 3.5) +
+  labs(title = "Interest Rate Parity (IRP)",
+       subtitle = "Forward Premium vs. Interest Rate Differential",
+       x = "Interest Rate Differential: i$ - iFC (%)",
+       y = "Forward Premium: f (%)") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold", size = 14))
+```
+
+**Points on or within the band**: No arbitrage opportunity (markets in equilibrium) **Points outside the band**: Arbitrage opportunity exists
+
+## Covered Interest Arbitrage (CIA)
+
+### Exploiting Disequilibrium
+
+When IRP doesn't hold (markets are out of equilibrium), **Covered Interest Arbitrage (CIA)** opportunities exist.
+
+**CIA Definition**: The process of: 1. Borrowing in one currency 2. Converting to another currency at spot rate 3. Investing in money market 4. Covering exchange risk with forward contract
+
+**"Covered"** means exchange rate risk is eliminated by the forward contract.
+
+### CIA Example
+
+Let's work through the textbook example (Exhibit 6.6):
+
+**Market Conditions:** - Spot rate: ¥106.00 = \$1.00 - 180-day forward rate: ¥103.50 = \$1.00 - U.S. interest rate: 8.00% per annum (4.00% for 180 days) - Japanese interest rate: 4.00% per annum (2.00% for 180 days)
+
+**Check for arbitrage opportunity:**
+
+```{r}
+#| label: cia-opportunity-check
+#| echo: true
+
+# CIA Example - Check for opportunity
+spot_jpy_usd <- 106.00
+forward_jpy_usd <- 103.50
+int_usd_180 <- 0.04  # 4% for 180 days
+int_jpy_180 <- 0.02  # 2% for 180 days
+
+# Calculate forward premium
+fwd_premium <- (spot_jpy_usd - forward_jpy_usd) / forward_jpy_usd
+
+# Calculate interest differential
+int_differential <- int_usd_180 - int_jpy_180
+
+cat("Forward Premium:", round(fwd_premium * 100, 2), "%\n")
+cat("Interest Differential:", round(int_differential * 100, 2), "%\n")
+cat("\nDifference:", round((fwd_premium - int_differential) * 100, 2), "%\n")
+
+if(abs(fwd_premium - int_differential) > 0.002) {
+  cat("\nIRP does NOT hold - CIA opportunity exists!\n")
+} else {
+  cat("\nIRP holds - no CIA opportunity\n")
+}
+```
+
+**The CIA Transaction** (assuming we start with \$1 million):
+
+```{r}
+#| label: cia-transaction
+#| echo: true
+#| tbl-cap: "Covered Interest Arbitrage Transaction Flow"
+
+# CIA Transaction Simulation
+initial_usd <- 1000000
+
+cat("COVERED INTEREST ARBITRAGE TRANSACTION\n")
+cat("=====================================\n\n")
+
+# Alternative 1: Invest in USD
+cat("Alternative 1: Invest in U.S. Dollars\n")
+cat("-------------------------------------\n")
+usd_investment <- initial_usd
+usd_return <- usd_investment * (1 + int_usd_180)
+cat("Start: $", format(usd_investment, big.mark = ","), "\n")
+cat("Return after 180 days: $", format(round(usd_return, 2), big.mark = ","), "\n\n")
+
+# Alternative 2: CIA via Japanese Yen
+cat("Alternative 2: Covered Interest Arbitrage via Yen\n")
+cat("--------------------------------------------------\n")
+
+# Step 1: Convert USD to JPY at spot
+jpy_amount <- initial_usd * spot_jpy_usd
+cat("Step 1 - Convert to yen at spot (¥", spot_jpy_usd, "/$):\n")
+cat("        ¥", format(round(jpy_amount, 2), big.mark = ","), "\n\n")
+
+# Step 2: Invest in yen money market
+jpy_investment_return <- jpy_amount * (1 + int_jpy_180)
+cat("Step 2 - Invest at yen rate (", int_jpy_180 * 100, "%):\n")
+cat("        ¥", format(round(jpy_investment_return, 2), big.mark = ","), "\n\n")
+
+# Step 3: Convert back at forward rate
+usd_final <- jpy_investment_return / forward_jpy_usd
+cat("Step 3 - Convert back at forward (¥", forward_jpy_usd, "/$):\n")
+cat("        $", format(round(usd_final, 2), big.mark = ","), "\n\n")
+
+# Calculate profit
+arbitrage_profit <- usd_final - usd_return
+cat("ARBITRAGE PROFIT\n")
+cat("================\n")
+cat("CIA Return:        $", format(round(usd_final, 2), big.mark = ","), "\n")
+cat("USD Investment:    $", format(round(usd_return, 2), big.mark = ","), "\n")
+cat("Profit:            $", format(round(arbitrage_profit, 2), big.mark = ","), "\n")
+cat("Profit %:          ", round(arbitrage_profit / initial_usd * 100, 3), "%\n")
+```
+
+**CIA yields a profit of approximately \$4,638!**
+
+### The Arbitrage Rule of Thumb
+
+**How do you know which direction to go?**
+
+Compare the **interest rate differential** to the **forward premium**:
+
+-   If **(i\$ - iFC)** \> **forward premium**: Invest in **foreign currency**
+-   If **(i\$ - iFC)** \< **forward premium**: Invest in **domestic currency**
+
+In our example: - Interest differential: 4% - 2% = **2%** - Forward premium: 4.83% - Since 2% \< 4.83%, invest in the **foreign currency (yen)**
+
+### How CIA Drives Markets Back to Equilibrium
+
+When CIA is profitable, arbitrageurs will:
+
+1.  **Borrow dollars** (drives up dollar interest rates)
+2.  **Buy yen spot** (yen appreciates in spot market)
+3.  **Invest in yen** (drives down yen interest rates)
+4.  **Sell yen forward** (yen depreciates in forward market)
+
+These actions continue until: - Interest rate differential narrows - Forward premium narrows - CIA profit disappears - **IRP is restored**
+
+## Uncovered Interest Arbitrage (UIA)
+
+### The Risky Alternative
+
+**Uncovered Interest Arbitrage (UIA)** is CIA **without** the forward contract hedge.
+
+**UIA Strategy:** 1. Borrow in low-interest-rate currency 2. Convert to high-interest-rate currency at spot 3. Invest in high-interest-rate currency 4. **Do NOT** cover exchange risk 5. Convert back at **future spot rate** (unknown today)
+
+**Key difference**: Exchange rate risk is **not hedged**. The investor speculates that the high-interest-rate currency will not depreciate by more than the interest differential.
+
+### The Yen Carry Trade
+
+The textbook provides an excellent example: the Japanese Yen Carry Trade (Exhibit 6.7).
+
+**Setup:** - Borrow ¥10,000,000 at 0.40% per annum - Convert to USD at spot: ¥120.00 = \$1.00 - Invest in USD at 5.00% per annum - **Hope** the exchange rate stays near ¥120/\$ after 360 days
+
+```{r}
+#| label: yen-carry-trade
+#| echo: true
+
+# Yen Carry Trade Example
+jpy_borrowed <- 10000000  # Yen borrowed
+jpy_rate <- 0.004         # 0.40% per annum
+usd_rate <- 0.05          # 5.00% per annum
+spot_initial <- 120.00    # JPY/USD
+spot_expected <- 120.00   # Expected future spot (unchanged)
+
+cat("YEN CARRY TRADE (Uncovered Interest Arbitrage)\n")
+cat("==============================================\n\n")
+
+# Amount owed in yen after 1 year
+jpy_owed <- jpy_borrowed * (1 + jpy_rate)
+
+# Convert to USD at initial spot
+usd_amount <- jpy_borrowed / spot_initial
+
+# Invest in USD
+usd_earned <- usd_amount * (1 + usd_rate)
+
+# Convert back to yen at expected future spot
+jpy_earned <- usd_earned * spot_expected
+
+# Calculate profit
+jpy_profit <- jpy_earned - jpy_owed
+
+cat("1. Borrow:         ¥", format(jpy_borrowed, big.mark = ","), 
+    "at", jpy_rate * 100, "%\n")
+cat("2. Convert to USD: $", format(round(usd_amount, 2), big.mark = ","), 
+    "at ¥", spot_initial, "/$\n")
+cat("3. Invest in USD:  $", format(round(usd_earned, 2), big.mark = ","), 
+    "at", usd_rate * 100, "%\n")
+cat("4. Convert to JPY: ¥", format(round(jpy_earned, 2), big.mark = ","), 
+    "at ¥", spot_expected, "/$\n\n")
+
+cat("Amount Owed:       ¥", format(round(jpy_owed, 2), big.mark = ","), "\n")
+cat("Amount Earned:     ¥", format(round(jpy_earned, 2), big.mark = ","), "\n")
+cat("PROFIT:            ¥", format(round(jpy_profit, 2), big.mark = ","), "\n")
+```
+
+**But what if the yen appreciates?**
+
+```{r}
+#| label: yen-carry-trade-risk
+#| echo: true
+
+# Scenario: Yen appreciates to 105 per dollar
+spot_future_scenario <- 105.00
+
+jpy_earned_scenario <- usd_earned * spot_future_scenario
+jpy_profit_scenario <- jpy_earned_scenario - jpy_owed
+
+cat("\nSCENARIO: Yen appreciates to ¥", spot_future_scenario, "/$\n")
+cat("=========================================\n")
+cat("Amount Earned:     ¥", format(round(jpy_earned_scenario, 2), big.mark = ","), "\n")
+cat("Amount Owed:       ¥", format(round(jpy_owed, 2), big.mark = ","), "\n")
+cat("LOSS:              ¥", format(round(jpy_profit_scenario, 2), big.mark = ","), "\n")
+
+loss_pct <- jpy_profit_scenario / jpy_borrowed * 100
+cat("Loss %:            ", round(loss_pct, 2), "%\n")
+```
+
+**The Risk**: If the yen strengthens significantly, the carry trade produces large **losses**, despite the interest rate advantage.
+
+### Why Do Carry Trades Exist?
+
+If IFE holds, carry trades shouldn't be profitable on average. So why do they exist?
+
+**Possible explanations:**
+
+1.  **Risk premium**: Investors earn excess returns as compensation for currency risk
+2.  **Market inefficiency**: Exchange rates don't adjust as quickly as theory predicts
+3.  **Central bank policy**: Some central banks keep interest rates artificially low (Japan) or high (emerging markets)
+4.  **Long stable periods**: Carry trades can be profitable for extended periods, then lose dramatically when currencies adjust suddenly
+
+**Key point**: Carry trades work **until they don't**. When exchange rates finally adjust, losses can be catastrophic.
+
+------------------------------------------------------------------------
+
+# Forward Rate as an Unbiased Predictor of the Future Spot Rate {#sec-forward-predictor}
+
+## The Efficient Markets Hypothesis
+
+### Forward Rates and Expectations
+
+We've learned how forward rates are calculated using interest rate parity:
+
+$$F = S \times \frac{(1 + i^{\$})}{(1 + i^{FC})}$$
+
+But there's another interpretation of the forward rate: as a **forecast** of the future spot rate.
+
+**The Unbiased Predictor Hypothesis** states:
+
+$$E_1(S_2) = F_{1,2}$$
+
+The **expected** future spot rate at time 2, formed at time 1, equals the forward rate contracted at time 1 for delivery at time 2.
+
+### What Does "Unbiased" Mean?
+
+**Unbiased does NOT mean**: - The forward rate will exactly equal the future spot rate - The forward rate is a good predictor - You can't improve on the forward rate
+
+**Unbiased DOES mean**: - On average, forecast errors are zero - The forward rate is not systematically wrong in one direction - Errors are random and unpredictable
+
+### Visual Representation
+
+Imagine the forward rate is ¥100 = \$1.00. If the forward rate is an unbiased predictor, the actual future spot rate might be:
+
+-   ¥95/\$ (error: -¥5)
+-   ¥105/\$ (error: +¥5)
+-   ¥98/\$ (error: -¥2)
+-   ¥103/\$ (error: +¥3)
+
+**On average**, the errors cancel out (sum to zero).
+
+```{r}
+#| label: fig-unbiased-predictor
+#| fig-cap: "Forward Rate as Unbiased Predictor"
+#| echo: true
+
+# Simulation of forward rate as unbiased predictor
+set.seed(123)
+n_periods <- 100
+forward_rate <- 100  # Fixed forward rate
+
+# Simulate actual spot rates with random errors
+errors <- rnorm(n_periods, mean = 0, sd = 5)
+actual_spot <- forward_rate + errors
+
+forecast_data <- data.frame(
+  Period = 1:n_periods,
+  Forward_Rate = forward_rate,
+  Actual_Spot = actual_spot,
+  Error = errors
+)
+
+# Plot
+library(ggplot2)
+ggplot(forecast_data, aes(x = Period)) +
+  geom_line(aes(y = Actual_Spot), color = "steelblue", alpha = 0.7) +
+  geom_hline(aes(yintercept = Forward_Rate), 
+             color = "darkred", linetype = "dashed", size = 1) +
+  annotate("text", x = 80, y = 102, label = "Forward Rate", 
+           color = "darkred", size = 4) +
+  annotate("text", x = 80, y = 95, label = "Actual Spot Rates", 
+           color = "steelblue", size = 4) +
+  labs(title = "Forward Rate as Unbiased Predictor",
+       subtitle = "Actual spot rates fluctuate around forward rate with mean error = 0",
+       x = "Time Period",
+       y = "Exchange Rate (¥/$)") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold"))
+
+# Calculate statistics
+cat("Mean Forward Rate:", mean(forecast_data$Forward_Rate), "\n")
+cat("Mean Actual Spot:", round(mean(forecast_data$Actual_Spot), 2), "\n")
+cat("Mean Error:", round(mean(forecast_data$Error), 4), "\n")
+cat("Standard Deviation of Errors:", round(sd(forecast_data$Error), 2), "\n")
+```
+
+## The Basis for the Hypothesis
+
+### Three Requirements
+
+For the forward rate to be an unbiased predictor, three conditions must hold:
+
+1.  **Efficient markets**: All relevant information is quickly reflected in both spot and forward rates
+2.  **Low transaction costs**: Arbitrage is easy and cheap
+3.  **Perfect substitutes**: Assets denominated in different currencies are interchangeable
+
+### The Logic
+
+**If these conditions hold:**
+
+1.  Any predictable deviation from forward = future spot would create profit opportunities
+2.  Arbitrageurs would exploit these opportunities
+3.  Their actions would eliminate the predictable pattern
+4.  Only **unpredictable** (random) deviations remain
+
+**In other words**: If you could systematically beat the forward rate forecast, you'd make risk-free profits. The market won't allow this.
+
+## Empirical Evidence
+
+### Does the Forward Rate Actually Predict?
+
+**Short answer**: The evidence is **mixed to negative**.
+
+**Research findings:**
+
+1.  **Short-term** (days to weeks): Forward rate is a **poor** predictor
+    -   High volatility in spot rates
+    -   Forward rate is relatively stable
+    -   Many short-term shocks affect currencies
+2.  **Medium-term** (months to 1 year): Some relationship, but weak
+    -   Forward rate slightly better than random walk
+    -   Still large forecast errors
+3.  **Long-term** (multiple years): Weak evidence of bias
+    -   Forward rates may systematically over- or under-predict
+    -   Suggests risk premiums exist
+
+### The Forward Rate Bias Puzzle
+
+**Puzzle**: Many studies find the forward rate is a **biased** predictor:
+
+-   High-interest-rate currencies tend to **appreciate** (not depreciate as IFE predicts)
+-   Carry trades are often profitable
+-   Suggests market inefficiency or risk premiums
+
+**Possible explanations:**
+
+1.  **Risk premium**: Investors require extra return for holding certain currencies
+2.  **Peso problem**: Rare large events (crises) are not reflected in forward rates
+3.  **Central bank intervention**: Governments prevent currencies from adjusting
+4.  **Irrational exuberance**: Markets periodically overshoot or undershoot
+
+## Practical Implications
+
+### For Corporate Treasurers
+
+**Should you use the forward rate as your forecast?**
+
+**Arguments FOR:**
+
+-   No cost (unlike hiring forecasters)
+-   Unbiased on average
+-   Based on market consensus
+-   Provides benchmark for hedging decisions
+
+**Arguments AGAINST:**
+
+-   Can be systematically wrong for periods
+-   Doesn't incorporate company-specific information
+-   May need to explain losses if forward rate is wrong
+
+**Practical approach**: Use forward rate as **starting point**, adjust for: - Company-specific exposures - Known upcoming events - Professional forecasts - Scenario analysis
+
+### For Investors
+
+The existence of profitable carry trades and the forward rate bias suggest:
+
+1.  **Markets may not be perfectly efficient**
+    -   Opportunities for skilled traders
+    -   But also significant risks
+2.  **Forecasting can add value**
+    -   But requires expertise and resources
+    -   Most individual investors can't beat the market consistently
+3.  **Currency risk is real**
+    -   Forward rate gives you the "no-arbitrage" prediction
+    -   Actual outcomes can differ significantly
+
+------------------------------------------------------------------------
+
+# Prices, Interest Rates, and Exchange Rates in Equilibrium {#sec-equilibrium}
+
+## Bringing It All Together
+
+We've now covered four major parity conditions:
+
+1.  **Purchasing Power Parity (PPP)**: Links inflation differentials to exchange rate changes
+2.  **Fisher Effect**: Links interest rates to expected inflation
+3.  **International Fisher Effect (IFE)**: Links interest differentials to exchange rate changes
+4.  **Interest Rate Parity (IRP)**: Links interest differentials to forward premiums
+
+**Now let's see how they all fit together in equilibrium.**
+
+## The International Parity Conditions Framework
+
+### The Complete Picture
+
+In a world where all parity conditions hold simultaneously, we can trace the relationships between:
+
+-   Spot exchange rates (\$S\$)
+-   Forward exchange rates (\$F\$)
+-   Interest rate differentials (\$i\^{\$} - i\^{¥}\$)
+-   Inflation differentials (\$\pi\^{\$} - \pi\^{¥}\$)
+-   Expected spot rate changes
+
+### Textbook Example (Exhibit 6.10)
+
+Let's work through the equilibrium example using U.S. dollars and Japanese yen:
+
+**Given:** - Current spot rate: ¥104 = \$1.00 - U.S. expected inflation: 5% - Japanese expected inflation: 1% - U.S. interest rate: 8% - Japanese interest rate: 4% - 1-year forward rate: ¥100 = \$1.00
+
+Let's verify each parity condition:
+
+```{r}
+#| label: equilibrium-example-setup
+#| echo: true
+
+# Equilibrium Example - Setup
+spot_current <- 104  # JPY/USD
+inflation_us <- 0.05
+inflation_japan <- 0.01
+interest_us <- 0.08
+interest_japan <- 0.04
+forward_1yr <- 100  # JPY/USD
+
+cat("INITIAL CONDITIONS\n")
+cat("==================\n")
+cat("Spot Rate: ¥", spot_current, "/$\n")
+cat("Forward Rate (1-year): ¥", forward_1yr, "/$\n")
+cat("U.S. Inflation: ", inflation_us * 100, "%\n")
+cat("Japan Inflation: ", inflation_japan * 100, "%\n")
+cat("U.S. Interest Rate: ", interest_us * 100, "%\n")
+cat("Japan Interest Rate: ", interest_japan * 100, "%\n\n")
+```
+
+### Relation A: Purchasing Power Parity (PPP)
+
+**PPP states**: Expected spot rate change should equal inflation differential.
+
+$$\frac{S_2 - S_1}{S_1} = \pi^{¥} - \pi^{\$}$$
+
+```{r}
+#| label: equilibrium-ppp
+#| echo: true
+
+cat("RELATION A: PURCHASING POWER PARITY\n")
+cat("====================================\n")
+
+# Calculate expected inflation differential
+inflation_differential <- inflation_japan - inflation_us
+
+# Calculate expected spot rate
+expected_spot_ppp <- spot_current * (1 + inflation_differential)
+
+cat("Inflation Differential: ", inflation_differential * 100, "%\n")
+cat("Expected % Change in Spot: ", inflation_differential * 100, "%\n")
+cat("Expected Future Spot Rate: ¥", round(expected_spot_ppp, 2), "/$\n\n")
+
+# Verify
+spot_change_pct <- (expected_spot_ppp - spot_current) / spot_current
+cat("Verification:\n")
+cat("  Actual % change: ", round(spot_change_pct * 100, 2), "%\n")
+cat("  Should equal inflation differential: ", inflation_differential * 100, "%\n")
+cat("  PPP holds: ", abs(spot_change_pct - inflation_differential) < 0.01, "\n\n")
+```
+
+### Relation B: Fisher Effect
+
+**Fisher Effect states**: Nominal interest rates reflect real rates plus expected inflation.
+
+If real rates are equal across countries:
+
+$$r^{\$} = i^{\$} - \pi^{\$}$$ $$r^{¥} = i^{¥} - \pi^{¥}$$
+
+```{r}
+#| label: equilibrium-fisher
+#| echo: true
+
+cat("RELATION B: FISHER EFFECT\n")
+cat("=========================\n")
+
+# Calculate real interest rates
+real_rate_us <- interest_us - inflation_us
+real_rate_japan <- interest_japan - inflation_japan
+
+cat("U.S. Real Rate: ", real_rate_us * 100, "%\n")
+cat("Japan Real Rate: ", real_rate_japan * 100, "%\n")
+
+if(abs(real_rate_us - real_rate_japan) < 0.01) {
+  cat("\nReal rates are equal - Fisher Effect holds\n\n")
+} else {
+  cat("\nReal rates differ - Fisher Effect does not hold perfectly\n\n")
+}
+```
+
+**Note**: In this example, real rates are equal (both 3%), confirming the Fisher Effect.
+
+### Relation C: International Fisher Effect (IFE)
+
+**IFE states**: Expected spot rate change should equal interest differential.
+
+$$\frac{S_2 - S_1}{S_1} = i^{¥} - i^{\$}$$
+
+```{r}
+#| label: equilibrium-ife
+#| echo: true
+
+cat("RELATION C: INTERNATIONAL FISHER EFFECT\n")
+cat("========================================\n")
+
+# Calculate interest differential
+interest_differential <- interest_japan - interest_us
+
+# Calculate expected spot rate per IFE
+expected_spot_ife <- spot_current * (1 + interest_differential)
+
+cat("Interest Differential: ", interest_differential * 100, "%\n")
+cat("Expected % Change in Spot: ", interest_differential * 100, "%\n")
+cat("Expected Future Spot Rate: ¥", round(expected_spot_ife, 2), "/$\n\n")
+
+# Note: This should match PPP result
+cat("Comparison with PPP:\n")
+cat("  IFE prediction: ¥", round(expected_spot_ife, 2), "/$\n")
+cat("  PPP prediction: ¥", round(expected_spot_ppp, 2), "/$\n")
+cat("  Match: ", abs(expected_spot_ife - expected_spot_ppp) < 0.01, "\n\n")
+```
+
+### Relation D: Interest Rate Parity (IRP)
+
+**IRP states**: Forward premium/discount should equal interest differential.
+
+$$\frac{F - S}{S} = i^{\$} - i^{¥}$$
+
+```{r}
+#| label: equilibrium-irp
+#| echo: true
+
+cat("RELATION D: INTEREST RATE PARITY\n")
+cat("=================================\n")
+
+# Calculate forward premium
+forward_premium <- (spot_current - forward_1yr) / forward_1yr
+
+# Calculate interest differential (note sign convention)
+interest_diff_irp <- interest_us - interest_japan
+
+cat("Forward Premium: ", round(forward_premium * 100, 2), "%\n")
+cat("Interest Differential (US - Japan): ", interest_diff_irp * 100, "%\n")
+
+if(abs(forward_premium - interest_diff_irp) < 0.01) {
+  cat("\nForward premium equals interest differential - IRP holds\n\n")
+} else {
+  cat("\nDifference exists - IRP does not hold perfectly\n\n")
+}
+```
+
+### Relation E: Forward Rate as Unbiased Predictor
+
+**Unbiased Predictor states**: Forward rate should equal expected future spot rate.
+
+$$F_{1,2} = E_1(S_2)$$
+
+```{r}
+#| label: equilibrium-forward-predictor
+#| echo: true
+
+cat("RELATION E: FORWARD RATE AS UNBIASED PREDICTOR\n")
+cat("===============================================\n")
+
+cat("Forward Rate: ¥", forward_1yr, "/$\n")
+cat("Expected Spot (PPP): ¥", round(expected_spot_ppp, 2), "/$\n")
+cat("Expected Spot (IFE): ¥", round(expected_spot_ife, 2), "/$\n\n")
+
+if(abs(forward_1yr - expected_spot_ppp) < 0.5) {
+  cat("Forward rate approximately equals expected spot rate\n")
+  cat("Unbiased predictor hypothesis holds\n\n")
+} else {
+  cat("Forward rate differs from expected spot rate\n")
+  cat("Unbiased predictor hypothesis does not hold\n\n")
+}
+```
+
+## The Equilibrium Diagram
+
+Let's create a comprehensive visualization showing all relationships:
+
+```{r}
+#| label: fig-equilibrium-relationships
+#| fig-cap: "International Parity Conditions in Equilibrium"
+#| fig-height: 8
+#| echo: true
+
+library(DiagrammeR)
+
+# Create diagram showing relationships
+grViz("
+digraph parity_conditions {
+  
+  # Graph attributes
+  graph [rankdir = TB, nodesep = 0.5, ranksep = 0.8]
+  
+  # Node definitions
+  node [shape = box, style = filled, fillcolor = lightblue, 
+        fontname = Arial, fontsize = 11]
+  
+  A [label = 'Expected Change in\nSpot Rate\n+4%\n(Yen Strengthens)', 
+     fillcolor = lightyellow]
+  B [label = 'Forward Premium\non Yen\n+4%', fillcolor = lightgreen]
+  C [label = 'Interest Differential\n(US - Japan)\n+4%\n(Higher in US)', 
+     fillcolor = lightcoral]
+  D [label = 'Inflation Differential\n(Japan - US)\n-4%\n(Lower in Japan)', 
+     fillcolor = lightpink]
+  E [label = 'Fisher Effect\nReal Rates Equal\n3% in both countries', 
+     fillcolor = lavender]
+  
+  # Edge definitions with labels
+  A -> B [label = '  Forward as\n  Unbiased Predictor', fontsize = 10]
+  C -> B [label = '  Interest Rate\n  Parity (IRP)', fontsize = 10]
+  C -> A [label = '  International\n  Fisher Effect', fontsize = 10]
+  D -> A [label = '  Purchasing Power\n  Parity (PPP)', fontsize = 10]
+  D -> C [label = '  Fisher Effect\n  (if real rates equal)', fontsize = 10]
+  E -> C [label = '  Implies', fontsize = 10, style = dashed]
+  E -> D [label = '  Implies', fontsize = 10, style = dashed]
+}
+")
+```
+
+## Key Insights from Equilibrium
+
+### 1. **All Conditions Are Interconnected**
+
+If you know any two of these variables, you can derive the others (assuming equilibrium):
+
+-   Know inflation differential and interest differential? Can calculate expected spot change
+-   Know spot rate and forward rate? Can infer market's inflation expectations
+-   Know interest differential? Can calculate forward premium
+
+### 2. **The Role of Real Interest Rates**
+
+When real interest rates are equal across countries (Fisher Effect holds), then:
+
+-   **PPP** and **IFE** give the same prediction for spot rate changes
+-   Interest differential = Inflation differential
+-   The system is internally consistent
+
+### 3. **IRP is the Most Reliable**
+
+Of all the parity conditions, **Interest Rate Parity holds most consistently** because:
+
+-   Covered interest arbitrage is easy and low-risk
+-   Transaction costs are small
+-   Securities are good substitutes
+-   Arbitrageurs quickly eliminate deviations
+
+**Other parity conditions are less reliable because:**
+
+-   Goods are not perfect substitutes (PPP)
+-   Capital controls exist
+-   Risk premiums vary
+-   Market inefficiencies
+
+## Why Parity Conditions Don't Always Hold
+
+### Real-World Frictions
+
+**For PPP:** 1. Transportation costs 2. Trade barriers (tariffs, quotas) 3. Non-tradable goods (services, real estate) 4. Product differentiation 5. Market power (monopolies)
+
+**For Fisher Effects:** 1. Tax differences across countries 2. Risk premiums vary 3. Expectations can be wrong 4. Capital controls
+
+**For IRP:** 1. Transaction costs (though small) 2. Political risk (capital controls) 3. Differential tax treatment 4. Default risk differences
+
+**For Forward Rate:** 1. Risk premiums 2. Market inefficiency 3. Speculation 4. Central bank intervention
+
+### The Bottom Line
+
+**Parity conditions are:** - **Useful benchmarks** for understanding currency behavior - **Not perfect predictors** in the short run - **Better guides** over the long run - **Most reliable** when conditions approach the theoretical ideal
+
+**For managers:** - Use parity conditions as **starting points** - Adjust for **market imperfections** - Monitor for **arbitrage opportunities** - Consider **multiple scenarios**
+
+------------------------------------------------------------------------
+
+# Summary and Key Takeaways {#sec-summary}
+
+## Recap of International Parity Conditions
+
+Let's review what we've covered today:
+
+### 1. Prices and Exchange Rates
+
+**Law of One Price**: Identical goods should have identical prices across markets (after adjusting for exchange rates)
+
+**Purchasing Power Parity (PPP)**: - **Absolute PPP**: Exchange rate = ratio of price levels - **Relative PPP**: Exchange rate changes = inflation differential - **Big Mac Index**: Practical (and fun!) application - **Reality**: Works better long-term, high inflation countries
+
+**Key Formula**: $$\frac{S_2 - S_1}{S_1} \approx \pi^{FC} - \pi^{DC}$$
+
+### 2. Interest Rates and Exchange Rates
+
+**Fisher Effect**: Nominal interest rate = Real rate + Expected inflation
+
+$$i = r + \pi$$
+
+**International Fisher Effect**: Interest differential = Expected exchange rate change
+
+$$\frac{S_2 - S_1}{S_1} \approx i^{DC} - i^{FC}$$
+
+**Interest Rate Parity (IRP)**: Forward premium = Interest differential
+
+$$\frac{F - S}{S} \approx i^{DC} - i^{FC}$$
+
+**Key Insight**: IRP is the most reliable parity condition because covered interest arbitrage enforces it
+
+### 3. Arbitrage Opportunities
+
+**Covered Interest Arbitrage (CIA)**: - Borrow → Convert → Invest → Cover forward - **Risk-free** if executed properly - Drives markets toward IRP equilibrium
+
+**Uncovered Interest Arbitrage (UIA)**: - Same as CIA but **without forward cover** - **Risky** - exposed to exchange rate changes - Carry trades exploit this (sometimes profitably, sometimes disastrously)
+
+### 4. Forward Rates and Expectations
+
+**Forward Rate as Unbiased Predictor**: - Theory: Forward rate should equal expected future spot rate - Reality: Mixed evidence; often biased - **Practical use**: Benchmark for hedging decisions
+
+## The Big Picture
+
+### How the Parity Conditions Fit Together
+
+In a perfect world where all parity conditions hold:

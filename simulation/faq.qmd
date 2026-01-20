@@ -1,0 +1,29 @@
+---
+title: "FAQ"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+---
+
+## How much math is required?
+Very little. You will use basic arithmetic for exchange-rate changes, trade balances, and simple comparisons. The focus is on reasoning.
+
+## Can my country fail?
+Your country can experience severe stress (currency collapse, loss of market access, etc.). That is part of the learning. You are not graded on outcomes.
+
+## What if markets react badly?
+You respond with a new policy package. Markets reward coherence and credible reforms.
+
+## Do we need to predict exact exchange rates?
+No. Outcomes are reported directionally (appreciation/depreciation; inflows/outflows).
+
+## How do we coordinate with other countries?
+Your trade/international representative will negotiate. Agreements must be documented briefly.
+
+## How do submissions work?
+All submissions go through Canvas. See: [Deliverables](deliverables.qmd)
+
+## What changes after the shock?
+Two countries split into successor states and face temporary credibility penalties. Roles remain the same. See: [Shock and Realignment](shock.qmd)

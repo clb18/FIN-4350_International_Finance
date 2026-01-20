@@ -1,0 +1,40 @@
+---
+title: "Evaluation and Rubric"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Grading philosophy
+Simulation grades reflect the quality of analysis and decision-making.
+
+::: {.callout-note}
+You are **not** graded on whether your country "wins." You are graded on whether your decisions are economically defensible and well-justified.
+:::
+
+## Rubric (summary)
+| Criterion | What we look for |
+|---|---|
+| Economic reasoning | Correct use of course concepts; clear causal logic |
+| Policy coherence | Internally consistent package; realistic commitments |
+| Use of evidence/theory | Connects choices to chapter frameworks |
+| Role engagement | Recommendations match role objectives and constraints |
+| Clarity and professionalism | Concise writing; clear recommendation |
+
+::: {.callout-tip}
+**How to improve quickly:** Start your memo with a specific recommendation, then justify it using 2–3 chapter concepts.
+:::
+
+## What earns a top score
+- a coherent policy package that matches your regime and constraints
+- explicit trade-offs (what you give up to achieve your goal)
+- clear recognition of spillovers and political constraints
+- consistent signaling over time, with justified adjustments
+
+## Common pitfalls
+- proposing mutually inconsistent policies (e.g., fixed peg + money creation + no reserves)
+- ignoring balance-of-payments constraints
+- shifting objectives week-to-week with no explanation
+- vague memos that do not commit to a policy

@@ -80,7 +80,7 @@ These are the interbank networks using currency. Without ready exchange of curre
 -   Historically centered on LIBOR (London Interbank Offered Rate)
 -   **Important note:** LIBOR is being phased out and replaced (we'll study this in Chapter 8)
 
-![The Global Capital Markets](../assets/images/GlobalCapitalMarkets.jpg)
+![The Global Capital Markets](../assets/images/Ch01/GlobalCapitalMarkets.jpg)
 
 ### The Market for Currencies
 
@@ -131,7 +131,7 @@ Let's work through the Argentinian peso example from your textbook:
 
 #### Method 1 - Foreign Currency Terms (Foreign currency per USD)
 
-![Foreign Currency Terms](../assets/images/Foreign_Currency_Terms.png){width="75%"}
+![Foreign Currency Terms](../assets/images/Ch01/Foreign_Currency_Terms.png){width="75%"}
 
 ```{r}
 #| echo: false
@@ -158,7 +158,7 @@ cat("Percentage change:", round(pct_change_method1, 2), "%\n")
 
 #### Method 2 - Home Currency Terms (USD per foreign currency)
 
-![Home Currency Terms](../assets/images/Home_Currency_Terms.png){width="75%"}
+![Home Currency Terms](../assets/images/Ch01/Home_Currency_Terms.png){width="75%"}
 
 First, we need to flip (take the inverse) of the rates (USD 1/ ARG 9.7908 = 0.10214 and USD 1/ARG 13.6160 = 0.07344).
 
@@ -454,7 +454,7 @@ Despite limitations, comparative advantage remains highly relevant:
 
 International financial management differs from domestic finance in six key dimensions:
 
-![Key Differences](../assets/images/Exhibit%201.3.png){width="100%"}
+![Key Differences](../assets/images/Ch01/Exhibit%201.3.png){width="100%"}
 
 ### Culture, History, and Institutional Differences
 
@@ -717,7 +717,7 @@ International Trade Phase
 -   BEGIN exporting to Canadian customers
 -   NOW dealing with multiple currencies (USD, MXN, CAD)
 
-![Initiation of the Globalization Process](../assets/images/Exhibit_1.4.png){width="75%"}
+![Initiation of the Globalization Process](../assets/images/Ch01/Exhibit_1.4.png){width="60%"}
 
 **Two New Major Challenges**
 
@@ -743,7 +743,7 @@ International Trade Phase
 
 **Critical Decision Point:** At some point, successful international trading leads companies to consider foreign direct investment (FDI).
 
-![Foreign Direct Investment Sequence](../assets/images/Exhibit_1.5.png){width="75%"}
+![Foreign Direct Investment Sequence](../assets/images/Ch01/Exhibit_1.5.png){width="60%"}
 
 ### The Foreign Direct Investment Spectrum
 
@@ -831,6 +831,12 @@ Classical economic theory suggests capital should flow freely to its most produc
 ### The "Twin Agency Problems"
 
 **Agency Problem Definition:** When someone managing assets (agent) has different interests than the asset owners (principals)
+
+There is a growing debate over whether many of the insiders and rulers of organizations with enterprises globally are taking actions consistent with creating firm value or consistent with increasing their own personal stakes and power.
+
+![Limits of Financial Globalization](../assets/images/Ch01/Exhibit_1.7.jpg){width="60%"}
+
+If these influential insiders are building wealth over that of the firm, it will result in preventing the flow of capital across borders, currencies, and institutions to create a more open and integrated global financial community.
 
 #### First Agency Problem - Corporate Insiders
 

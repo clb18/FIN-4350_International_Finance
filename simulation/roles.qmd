@@ -1,0 +1,81 @@
+---
+title: "Roles and Responsibilities"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Why roles?
+International finance decisions are made by institutions with different objectives. In this simulation, roles create productive internal conflict—your goal is to negotiate a coherent country position.
+
+::: {.callout-important}
+Roles are **permanent** for the simulation. When realignment occurs, you keep your role.
+:::
+
+## Central Banker
+**Responsibilities**
+- set monetary policy stance (tighten/loosen/hold)
+- manage the exchange-rate regime and reserves
+- maintain credibility and financial stability
+- communicate clearly (policy signals matter)
+
+**Common trade-offs**
+- inflation control vs growth
+- defending the currency vs preserving reserves
+- credibility vs flexibility
+
+**Typical outputs**
+- short central bank statement (paragraph)
+- policy recommendation to the cabinet
+
+## Head of Government / Legislature
+**Responsibilities**
+- set fiscal policy stance (stimulus/austerity/neutral)
+- assess political feasibility and distributional consequences
+- coordinate across roles to produce a unified plan
+- lead crisis decisions
+
+**Common trade-offs**
+- political constraints vs economic discipline
+- short-run stabilization vs long-run credibility
+
+**Typical outputs**
+- cabinet decision memo (1 page)
+- press statement to the public
+
+## Trade / International Representative
+**Responsibilities**
+- negotiate with other countries (trade, coordination, institutions)
+- represent the country in multilateral forums
+- assess retaliation risks, sanctions, treaty terms, and alignment options
+
+**Common trade-offs**
+- national advantage vs system stability
+- hard bargaining vs reputation
+
+**Typical outputs**
+- negotiation position sheet (bullets)
+- proposed agreement text (short)
+
+## Business and Labor Representative
+**Responsibilities**
+- represent firms and households affected by policy
+- assess FX and interest-rate exposure (transaction/operating)
+- propose mitigation: hedging, relocation, wage adjustments, support programs
+
+**Common trade-offs**
+- competitiveness vs wages and employment
+- openness vs protection
+
+**Typical outputs**
+- stakeholder brief (bullets)
+- support or opposition statement to the cabinet
+
+## Team governance
+::: {.callout-note}
+A strong team does two things every week:
+1) it debates internally (roles disagree), and
+2) it submits one coherent country position with a clear rationale.
+:::

@@ -1,0 +1,74 @@
+---
+title: "Shock and Realignment"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+::: {.callout-important}
+This page becomes relevant in **Week 7** (Shock) and **Week 8** (Realignment). You do not need to memorize it early—but you should know it exists.
+:::
+
+## Shock narrative: Regional war
+Midway through the simulation, a **regional armed conflict** escalates and disrupts trade corridors, energy supplies, insurance and shipping, and investor confidence. The result is a system-level breakdown: capital tightens, risk premiums rise, and pegged regimes come under severe pressure.
+
+## Countries subject to mandatory realignment
+Two countries undergo mandatory realignment:
+- **Industralia**
+- **Frontieria**
+
+All other countries remain territorially intact at this stage.
+
+## Successor states
+Each realigning country divides into **two successor states**:
+- **Successor State A:** institutionally stronger
+- **Successor State B:** institutionally weaker
+
+::: {.callout-note}
+Successor states are newly recognized participants in the system. They do not automatically inherit the old country's credibility.
+:::
+
+## Asymmetric inheritance rules (fixed)
+The following allocations are fixed and non-negotiable:
+
+| Category | Successor A (Stronger) | Successor B (Weaker) |
+|---|---:|---:|
+| Foreign exchange reserves | 65% | 35% |
+| Sovereign debt obligations | 40% | 60% |
+| Access to international capital | Moderate | Severely constrained |
+| Trade infrastructure | Largely intact | Partially disrupted |
+| Institutional credibility | Medium | Low |
+
+## Exchange-rate regime reset
+All successor states must re-declare:
+- exchange-rate regime
+- monetary stance
+- fiscal stance
+- capital/trade policy
+
+Pegs require reserves and credibility; floating regimes may experience volatility.
+
+## Temporary credibility penalties
+For the next **two simulation rounds** after realignment, successor states face:
+- higher borrowing costs
+- reduced access to liquidity
+- heightened sensitivity to policy mistakes
+- increased scrutiny by trade partners
+
+## Student reassignment and role continuity
+- Students from Industralia and Frontieria are reassigned evenly across successor states.
+- The instructor assigns successors (no self-selection).
+- **Roles do not change.**
+
+## Successor state briefing (summary)
+### Successor A (Stronger)
+- advantage: greater reserves and administrative capacity
+- risk: overconfidence; defending an implausible peg
+- objective: stabilize expectations and rebuild credibility
+
+### Successor B (Weaker)
+- constraint: low reserves, high debt, weak credibility
+- risk: currency collapse and loss of trade access
+- objective: avoid collapse; secure assistance and stabilize

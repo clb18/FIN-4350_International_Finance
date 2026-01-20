@@ -1,0 +1,39 @@
+---
+title: "Deliverables"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Submission method
+All submissions are made through **Canvas**.
+
+::: {.callout-important}
+Submit on time. Late policy decisions reduce your delegation's ability to influence outcomes.
+:::
+
+## Regular weekly deliverables
+Unless otherwise noted, each country submits:
+- **Decision Form** (short; checklists + key choices)
+- **Policy Memo** (1–2 pages; justification and expected consequences)
+
+### Recommended memo structure
+1. **Recommendation** (what you will do)
+2. **Rationale** (chapter concepts + constraints)
+3. **Risks and trade-offs**
+4. **Expected outcomes** (FX, capital flows, trade, credibility)
+
+## Crisis and shock deliverables
+During the shock and immediate aftermath, you may be asked to submit:
+- emergency response brief
+- stabilization plan (successor states)
+- negotiation position sheet
+
+## Final deliverables
+- final country presentation (format TBA)
+- short reflection: theory vs outcomes
+
+## Instructor discretion
+Specific prompts and deliverables for each round are listed on the [Weekly Briefs](weekly-briefs.qmd) page.

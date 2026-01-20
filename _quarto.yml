@@ -1,6 +1,15 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - "*.qmd"
+    - "lectures/**.qmd"
+    - "!lectures/Chapter03_Lecture**.qmd"
+    - "!lectures/Chapter04_Lecture**.qmd"
+    - "!lectures/Chapter05_Lecture**.qmd"
+    - "!lectures/Chapter06_Lecture**.qmd"
+    - "!simulation/index**.qmd"
+    
 
 website:
   title: "International Finance"

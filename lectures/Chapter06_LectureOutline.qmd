@@ -1,0 +1,64 @@
+---
+title: "Chapter 6 - International Parity Conditions"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 3
+    toc-expand: 1
+    number-sections: true
+    number-offset: 5
+    title-block-style: default
+    theme: cosmo
+  docx:
+    toc: true
+    number-sections: true
+    prefer-html: true
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=1in
+---
+
+# Introduction
+
+## Opening Quote and Context
+
+> "...if capital freely flowed towards those countries where it could be most profitably employed, there could be no difference in the rate of profit, and no other difference in the real or labour price of commodities, than the additional quantity of labour required to convey them to the various markets where they were to be sold."
+>
+> --- David Ricardo, *On the Principles of Political Economy and Taxation*, 1817
+
+This quote from David Ricardo sets the stage for our discussion today. Ricardo was describing what happens in a world of perfect capital mobility---a world where money flows freely to wherever it can earn the highest return. While we don't live in Ricardo's ideal world, his insights form the foundation of international parity conditions.
+
+## Chapter Roadmap {.unnumbered}
+
+## Prices and Exchange Rates
+### Purchasing Power Parity and the Law of One Price
+### Relative Purchasing Power Parity
+### Empirical Tests of Purchasing Power
+### Exchange Rate Indices: Real and Nominal
+### Exchange Rate Pass-Through
+#### Complete versus Partial Pass-Through
+#### Price Elasticity of Demand
+#### Pass-Through and Emerging Market Currencies
+## Interest Rates and Exchange Rates
+### The Fisher Effect
+### The International Fisher Effect
+### The Forward Rate
+### Calculation of Forward Premiums
+#### Foreign Currency Terms
+### Interest Rate Parity (IRP)
+### Covered Interest Arbitrage (CIA)
+#### Rule of Thumb
+#### Arbitrage Rule of Thumb
+### Uncovered Interest Arbitrage (UIA)
+### Equilibrium between Interest Rates and Exchange Rates
+## Forward Rate as an Unbiased Predictor of the Future Spot Rate
+## Prices, Interest Rates, and Exchange Rates in Equilibrium
+### Relation A: Purchasing Power Parity (PPP)
+### Relation B: The Fisher Effect
+### Relation C: International Fisher Effect
+### Relation D: Interest Rate Parity (IRP)
+### Relation E: Forward Rate as an Unbiased Predictor
