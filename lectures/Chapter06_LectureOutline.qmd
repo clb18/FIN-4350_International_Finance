@@ -35,30 +35,57 @@ This quote from David Ricardo sets the stage for our discussion today. Ricardo w
 ## Chapter Roadmap {.unnumbered}
 
 ## Prices and Exchange Rates
+
 ### Purchasing Power Parity and the Law of One Price
+
 ### Relative Purchasing Power Parity
+
 ### Empirical Tests of Purchasing Power
+
 ### Exchange Rate Indices: Real and Nominal
+
 ### Exchange Rate Pass-Through
+
 #### Complete versus Partial Pass-Through
+
 #### Price Elasticity of Demand
+
 #### Pass-Through and Emerging Market Currencies
+
 ## Interest Rates and Exchange Rates
+
 ### The Fisher Effect
+
 ### The International Fisher Effect
+
 ### The Forward Rate
+
 ### Calculation of Forward Premiums
+
 #### Foreign Currency Terms
+
 ### Interest Rate Parity (IRP)
+
 ### Covered Interest Arbitrage (CIA)
+
 #### Rule of Thumb
+
 #### Arbitrage Rule of Thumb
+
 ### Uncovered Interest Arbitrage (UIA)
+
 ### Equilibrium between Interest Rates and Exchange Rates
+
 ## Forward Rate as an Unbiased Predictor of the Future Spot Rate
+
 ## Prices, Interest Rates, and Exchange Rates in Equilibrium
+
 ### Relation A: Purchasing Power Parity (PPP)
+
 ### Relation B: The Fisher Effect
+
 ### Relation C: International Fisher Effect
+
 ### Relation D: Interest Rate Parity (IRP)
+
 ### Relation E: Forward Rate as an Unbiased Predictor
