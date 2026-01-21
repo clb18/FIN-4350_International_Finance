@@ -29,7 +29,7 @@ Random Quote: **Every sheep lives in fear of the wolf, only to be eaten by the s
 
 ## Chapter Roadmap {.unnumbered}
 
-Major section:
+Major sections:
 
 1.  **The History of the International Monetary System** - How did we get here?
 2.  **Fixed versus Flexible Exchange Rates** - What are they and how do we choose?
