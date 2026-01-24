@@ -8,8 +8,23 @@ project:
     - "!lectures/Chapter04_Lecture**.qmd"
     - "!lectures/Chapter05_Lecture**.qmd"
     - "!lectures/Chapter06_Lecture**.qmd"
-    - "!simulation/index**.qmd"
-    
+
+    # ==============================
+    # SIMULATION RENDER MODE TOGGLE
+    # ==============================
+
+    # --- PRIVATE MODE (drafting) ---
+    #- "!simulation/**.qmd"
+
+    # --- PUBLIC MODE (release) ---
+    - "simulation/**.qmd"
+
+# IMPORTANT:
+# When switching simulation modes:
+# 1. Delete docs/
+# 2. Render website
+# 3. Hard refresh browser
+
 
 website:
   title: "International Finance"
@@ -32,6 +47,18 @@ website:
       - section: "Lecture Notes"
         contents: lectures
 
+      # ==============================
+      # SIMULATION SIDEBAR MODE TOGGLE
+      # ==============================
+
+      # --- PRIVATE MODE (hidden) ---
+      # (nothing here)
+
+      # --- PUBLIC MODE (visible) ---
+      - section: "IF Simulation"
+        contents: simulation
+
+
 format:
   html:
     theme: cosmo
@@ -44,4 +71,3 @@ format:
       body-width: 1200px
       margin-width: 0px
       gutter-width: 1.5rem
-    

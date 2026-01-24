@@ -1,14 +1,95 @@
 ---
 title: "International Finance Simulation"
 subtitle: "How the simulation works, what to do each week, and what you will submit"
+date: today
 format:
   html:
     toc: true
+    toc-location: left
     toc-depth: 3
+    toc-expand: 1
     number-sections: true
-    page-layout: article
+    number-offset: 5
+    title-block-style: default
+    theme: cosmo
+  docx:
+    toc: true
+    number-sections: true
+    prefer-html: true
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=1in
 ---
 
-::: {.callout-important}
-This section is under construction and will be released later.
+::: callout-important
+**Start here.** Read this page first. Then review **Countries**, **Roles**, and **Decisions** before the first simulation round.
 :::
+
+## Purpose
+
+The simulation is a semester-long, country-based decision exercise where you and your teammates represent a fictional country operating in a shared global economy. Each week you will respond to a policy problem involving exchange rates, capital flows, trade, and financial stability.
+
+The simulation is designed to help you:
+
+-   apply international finance concepts to realistic policy decisions
+-   understand trade-offs among exchange rates, interest rates, capital flows, and trade
+-   see how credibility and institutions shape market outcomes
+-   analyze how shocks propagate through the international system
+-   practice writing concise, professional policy memos
+
+## What the simulation is (and is not)
+
+### What it is
+
+-   A **repeated decision cycle**: problem → decision → market reaction → adjustment
+-   A structured way to apply chapter concepts to realistic constraints
+-   A setting where internal disagreement is expected (because roles have different objectives)
+
+### What it is not
+
+-   Not a math-heavy forecasting model
+-   Not a game where the “best” outcome always wins
+-   Not graded on whether your country “succeeds” in the short run
+
+::: callout-note
+**How you are graded:** You are evaluated primarily on the quality of your reasoning and the coherence of your policy choices—not on whether markets react positively.
+:::
+
+## Course flow and timing
+
+The simulation runs for **12 weeks** within the semester. There are additional weeks before and after the simulation for preparation and final exam review.
+
+-   **Prep (Weeks 1–2):** training, roles, practice round
+-   **Act I (Weeks 3–6):** foundations and a stable system
+-   **Act II (Weeks 7–8):** regional war shock and realignment
+-   **Act III (Weeks 9–12):** reconstruction and new system
+
+See: [Simulation Timeline](timeline.qmd)
+
+## Your weekly workflow
+
+Each simulation week follows the same workflow:
+
+1.  **Read** the assigned chapter(s) and the weekly case brief
+2.  **Meet** with your country team and negotiate a position (roles may disagree)
+3.  **Submit** a decision and justification (Canvas)
+4.  **Receive** the market reaction and updated constraints
+5.  **Adjust** for the next round
+
+See: [How Decisions Work](decisions.qmd)
+
+## Submissions
+
+All simulation submissions are made through **Canvas**.
+
+Common submissions include: - Country policy memos (1–2 pages) - Decision forms (country-level, role-level, or both) - Crisis briefs (during shock weeks) - Final presentation materials
+
+See: [Deliverables](deliverables.qmd)
+
+## Where to go next
+
+-   [Countries](countries.qmd)
+-   [Roles and Responsibilities](roles.qmd)
+-   [Decisions and Rules](decisions.qmd)
+-   [Weekly Briefs and Release Schedule](weekly-briefs.qmd)
