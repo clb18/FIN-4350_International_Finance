@@ -1,5 +1,7 @@
 project:
   type: website
+  resources: 
+    - assets/**
   output-dir: docs
   render: 
     - "*.qmd"
@@ -14,10 +16,10 @@ project:
     # ==============================
 
     # --- PRIVATE MODE (drafting) ---
-    #- "!simulation/**.qmd"
+    - "!simulation/**.qmd"
 
     # --- PUBLIC MODE (release) ---
-    - "simulation/**.qmd"
+    #- "simulation/**.qmd"
 
 # IMPORTANT:
 # When switching simulation modes:
@@ -55,8 +57,8 @@ website:
       # (nothing here)
 
       # --- PUBLIC MODE (visible) ---
-      - section: "IF Simulation"
-        contents: simulation
+      #- section: "IF Simulation"
+        #contents: simulation
 
 
 format:

@@ -1,0 +1,193 @@
+---
+title: "Chapter 2.1 - 2026 Example"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 4
+    toc-expand: 1
+    number-sections: true
+    number-offset: 0
+    title-block-style: default
+    theme: cosmo
+    code-fold: true
+  docx:
+    toc: true
+    number-sections: true
+    number-offset: 2
+  pdf:
+    toc: true
+    number-sections: true
+    number-offset: 2
+    geometry: margin=1in
+---
+
+# The Dollar, Trade, and International Finance
+
+**Three recent articles from the WSJ:**
+
+1.  [A Weaker Dollar Has Always Been Part of Trump's Plan](../assets/docs/A_Weaker_Dollar.docx)
+2.  [What the Slide in the Dollar Means for Trade](../assets/docs/What_the_Slide.docx)
+3.  [The Perils of a Falling Trump Dollar](../assets/docs/The_Perils.docx)
+
+## Key Terminology
+
+**Strong Dollar:** A currency that buys more foreign currency. A strong dollar makes imports cheaper and exports more expensive.
+
+**Weak Dollar:** A currency that buys less foreign currency. A weak dollar makes exports cheaper and imports more expensive.
+
+**Exchange Rate:** The price of one currency in terms of another. Reserve Currency: A currency widely used in international trade, finance, and central bank reserves. The U.S. dollar is the dominant reserve currency.
+
+**Currency Depreciation:** A fall in the value of a currency relative to others.
+
+**Safe Haven Asset:** An asset investors trust in times of uncertainty (e.g., U.S. Treasury bonds).
+
+## Historical U.S. Dollar Policy
+
+Since the mid-1980s, the United States has maintained a de facto 'strong dollar policy.' After the Plaza Accord (1985) and Louvre Accord (1987), U.S. officials generally avoided direct currency intervention. The policy emphasized confidence, financial stability, low inflation, and attracting global capital.
+
+This approach supported the dollar’s role as the world’s reserve currency and helped keep U.S. borrowing costs low.
+
+
+## Why the Dollar Became So Strong
+
+Over the past decade, the dollar strengthened due to U.S. economic outperformance, political stability, strong legal institutions, and deep financial markets. Foreign investors—pension funds, insurers, and central banks—channeled savings into U.S. assets.
+
+This capital inflow raised the dollar’s value and supported asset prices, but also contributed to persistent U.S. trade deficits.
+
+## The Trump Administration’s Shift
+
+President Trump openly rejects the traditional strong-dollar consensus. His administration views a strong dollar as harmful to manufacturing, exports, and trade balance goals.
+
+A weaker dollar is seen as a tool to:
+
+ - Boost exports
+ - Support reshoring and industrial policy
+ - Reduce trade deficits
+
+This represents a shift toward prioritizing the dollar’s domestic role over its global role.
+
+## Trade Deficits and the Dollar
+
+Trade deficits occur when a country imports more than it exports. A strong dollar encourages imports and discourages exports, contributing to deficits.
+
+However, trade deficits are closely tied to capital inflows. Foreign demand for U.S. financial assets strengthens the dollar, which in turn worsens the trade balance. These are two sides of the same global accounting identity.
+
+## Short-Run Benefits of a Weaker Dollar
+
+A weaker dollar can:
+
+ - Improve export competitiveness
+ - Increase foreign earnings of U.S. firms
+ - Act as an alternative to tariffs
+
+Export-oriented firms (technology, energy, manufacturing) may benefit in the short run.
+
+## Risks and Pitfalls of a Weak Dollar Strategy
+
+**Inflation Risk:** Imported goods and commodities become more expensive.
+
+**Loss of Safe Haven Premium:** Investors may demand higher returns on U.S. debt.
+
+**Policy Credibility:** Political pressure on monetary policy undermines confidence.
+
+**Limited Long-Run Effects:** Exchange-rate gains often fade as prices and wages adjust.
+
+## International Spillovers
+
+Dollar movements affect the entire global economy.
+
+**Europe:** A stronger euro lowers inflation but hurts exports.
+
+**Japan:** Yen weakness reflects domestic rebalancing; instability raises global risk.
+
+**China:** Yuan management reflects fear of deflation, not export manipulation.
+
+U.S. dollar policy therefore imposes external effects on allies and competitors alike.
+
+## Is the Dollar in Decline?
+
+The dollar remains the world’s reserve currency, and no close substitute exists. However, investors are no longer treating it as a one-way bet.
+
+The shift is better described as diversification rather than abandonment.
+
+## Conclusion
+
+### Questions
+
+**Question 1: Nominal vs. Real Stock Market Gains** If the dollar is weakening while U.S. stock prices continue to rise, what does this suggest about whether those gains reflect real increases in productivity and profits, or simply higher nominal values driven by inflation and currency depreciation?
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+A rising stock market during a period of dollar weakness does not automatically imply real economic improvement. Stock prices may be rising either because firms are genuinely more productive and real profits are increasing, or because inflation and exchange-rate effects are inflating nominal revenues and earnings. In the latter case, stock prices rise in dollar terms even though real purchasing power and real output have not improved. Thus, stock market gains during dollar depreciation may partly or fully reflect nominal illusion rather than real growth.
+
+</details>
+
+**Question 2: Overvaluation and Inflation** If a weakening dollar raises nominal corporate profits through higher prices and foreign earnings, but also fuels inflation, how might this lead investors to overestimate the true (real) value of U.S. stocks? Could this create the appearance of a strong market even as real purchasing power stagnates or declines?
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+A weaker dollar can inflate nominal earnings through higher prices and favorable currency translation, even if real output is unchanged. At the same time, inflation and easier monetary policy reduce real interest rates, mechanically boosting asset prices. Investors focusing on nominal earnings growth may misinterpret inflation-driven gains as real value creation, leading to stock market overvaluation.
+
+</details>
+
+
+**Question 3: Winners and Losers from a Weak Dollar** Who benefits and who loses from a weakening dollar, and why do these groups disagree about whether it is good or bad?
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+Exporters and multinational firms benefit because their goods become cheaper abroad and foreign revenues convert into more dollars. Debtors, including the U.S. government, may benefit as inflation reduces the real burden of debt. Consumers lose because imported goods become more expensive, while workers may suffer declining real wages. Foreign investors also lose purchasing power. Disagreement exists because benefits are concentrated while costs are broad and immediate.
+
+</details>
+
+**Question 4: Trade Deficits and Capital Flows** If a weaker dollar is supposed to reduce the U.S. trade deficit, why might large foreign capital inflows continue to keep the dollar stronger than policymakers intend? 
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+Foreign investors purchasing U.S. assets must first buy dollars, increasing demand for the currency. This capital inflow pushes the dollar upward, even if trade policy aims to weaken it. As a result, strong capital inflows can sustain a stronger dollar and persistent trade deficits, reflecting the accounting link between the capital account and current account.
+
+</details>
+
+
+**Question 5: Stock Market Illusion** Can a rising stock market during a period of dollar depreciation be misleading?
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+Yes. A rising stock market may reflect higher nominal prices rather than real economic improvement. Inflation and exchange-rate effects can raise revenues and stock prices even if real wages and real output stagnate, creating a misleading signal about overall economic health.
+
+</details>
+
+
+**Question 6: International Spillovers** How does a weaker U.S. dollar affect other countries’ economies, and why is U.S. currency policy an international issue?
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+A weaker dollar strengthens foreign currencies, lowering inflation abroad but hurting export competitiveness. It can also cause volatile capital flows, especially in emerging markets. Because the dollar is the global reserve currency, changes in its value affect trade, finance, and stability worldwide.
+
+</details>
+
+
+**Question 7:** If investors believe the U.S. is willing to tolerate inflation or politicize monetary policy, what are the long-run consequences?
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+Eroding confidence would cause investors to demand higher yields on U.S. debt, raising borrowing costs. Investors may diversify away from dollar assets or hedge more aggressively. Over time, this would reduce the dollar’s safe-haven premium and limit U.S. fiscal and monetary flexibility.
+
+</details>
+
+### Summary
+
+The dollar’s (or any country's currency) power  rests on trust, stability, and institutions.
+
+A weaker dollar, peso, or pound may deliver short-term gains, but risks long-term costs if confidence erodes.
+
+Understanding currency policy requires balancing domestic objectives with global responsibilities.

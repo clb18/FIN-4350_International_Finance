@@ -35,7 +35,7 @@ The simulation is designed to help you:
 -   apply international finance concepts to realistic policy decisions
 -   understand trade-offs among exchange rates, interest rates, capital flows, and trade
 -   see how credibility and institutions shape market outcomes
--   analyze how shocks propagate through the international system
+-   analyze how shocks proliferate throughout the international system
 -   practice writing concise, professional policy memos
 
 ## What the simulation is (and is not)
@@ -58,11 +58,11 @@ The simulation is designed to help you:
 
 ## Course flow and timing
 
-The simulation runs for **12 weeks** within the semester. There are additional weeks before and after the simulation for preparation and final exam review.
+The simulation runs for **approximately 12 weeks** within the semester. There are additional weeks before and after the simulation for preparation and final exam review.
 
 -   **Prep (Weeks 1–2):** training, roles, practice round
 -   **Act I (Weeks 3–6):** foundations and a stable system
--   **Act II (Weeks 7–8):** regional war shock and realignment
+-   **Act II (Weeks 7–8):** shock and realignment
 -   **Act III (Weeks 9–12):** reconstruction and new system
 
 See: [Simulation Timeline](timeline.qmd)
@@ -71,7 +71,7 @@ See: [Simulation Timeline](timeline.qmd)
 
 Each simulation week follows the same workflow:
 
-1.  **Read** the assigned chapter(s) and the weekly case brief
+1.  **Read** the assigned chapter notes and the weekly case brief
 2.  **Meet** with your country team and negotiate a position (roles may disagree)
 3.  **Submit** a decision and justification (Canvas)
 4.  **Receive** the market reaction and updated constraints

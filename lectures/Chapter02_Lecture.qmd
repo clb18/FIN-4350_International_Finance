@@ -14,9 +14,11 @@ format:
   docx:
     toc: true
     number-sections: true
+    number-offset: 1
   pdf:
     toc: true
     number-sections: true
+    number-offset: 1
     geometry: margin=1in
 ---
 
@@ -46,7 +48,7 @@ Major sections:
 
 -   Ronald I. McKinnon, Rules of the Game: International Money in Historical Perspective, Journal of Economic Literature, Vol. 31, No. 1, March 1993, pp.1-44
 
-![The Evolution of the Global Monetary System](../assets/images/Ch02/Exhibit_2.1.png){width="85%"}
+![The Evolution of the Global Monetary System](../assets/images/Ch02/Exhibit_2.1.png){width="70%"}
 
 ### The Classical Gold Standard (1879-1913)
 
@@ -128,7 +130,7 @@ The IMF classifies exchange rate regimes based on observed behavior rather than 
 
 **Four Categories:**
 
-![IMF Exchange Rate Classifications](../assets/images/Ch02/Exhibit_2.3.png){width="85%"}
+![IMF Exchange Rate Classifications](../assets/images/Ch02/Exhibit_2.3.png){width="70%"}
 #### Summary around the world today
 
 1.  **Hard Pegs (13%)**
@@ -146,7 +148,7 @@ The IMF classifies exchange rate regimes based on observed behavior rather than 
 4.  **Residual (7%)**
     -   Frequent policy shifts
 
-![Taxonomy of Exchange Rate Regimes](../assets/images/Ch02/Exhibit_2.4.png){width="85%"}
+![Taxonomy of Exchange Rate Regimes](../assets/images/Ch02/Exhibit_2.4.png){width="70%"}
 
 ### A Global Eclectic
 
@@ -177,7 +179,7 @@ This framework explains historical system breakdowns and contemporary regime cho
 2. Free capital flows 
 3. Independent monetary policy
 
-![The Evolution of the Global Monetary System](../assets/images/Ch02/Exhibit_2.6.png){width="85%"}
+![The Evolution of the Global Monetary System](../assets/images/Ch02/Exhibit_2.6.png){width="70%"}
 
 **Why Impossible?** 
 - Lower rates to stimulate (independent policy) 

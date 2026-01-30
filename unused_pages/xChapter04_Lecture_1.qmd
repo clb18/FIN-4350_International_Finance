@@ -1,5 +1,5 @@
 ---
-title: "Chapter 4 - Financial Goals, Corporate Governance, and the Market for Corporate Control"
+title: "Chapter 4.1 - Financial Goals, Corporate Governance, and the Market for Corporate Control"
 author: "Prof. Barker"
 date: today
 format:
@@ -12,15 +12,12 @@ format:
     number-offset: 3
     title-block-style: default
     theme: cosmo
-    code-fold: true
   docx:
     toc: true
     number-sections: true
-    number-offset: 3
   pdf:
     toc: true
     number-sections: true
-    number-offset: 3
     geometry: margin=1in
 ---
 
@@ -54,7 +51,7 @@ By the end of this chapter, you should be able to:
 
 ------------------------------------------------------------------------
 
-## Business Ownership
+# Business Ownership
 
 We begin our discussion of corporate financial goals by asking two basic questions:
 
@@ -63,14 +60,14 @@ We begin our discussion of corporate financial goals by asking two basic questio
 
 In global business today, the ownership and control of organizations varies dramatically across countries and cultures. To understand how and why those businesses operate, one must first understand the many different ownership structures.
 
-### Types of Ownership
+## Types of Ownership
 
 The terminology associated with the ownership of a business can be confusing. Let's clarify the key distinctions:
 
-#### Public vs. Private Enterprise
+### Public vs. Private Enterprise
 
 | Term | Definition |
-|------------------------|-----------------------------------------------|
+|------|------------|
 | **Public Enterprise** | A business owned by a government or the state; also called a State-Owned Enterprise (SOE) |
 | **Private Enterprise** | A business owned by a private individual or organization |
 | **Privately Held** | A business owned by a private party or small group of private individuals |
@@ -78,7 +75,7 @@ The terminology associated with the ownership of a business can be confusing. Le
 
 **Key Insight:** A second distinction on ownership clouds the terminology. A business owned by a private party is termed *privately held*. If those owners wish to sell a portion of their ownership in the business in the capital markets—for example, by listing and trading the company's shares on a stock exchange—the firm's shares are then said to be *publicly traded*.
 
-#### Hybrid Ownership Structures
+### Hybrid Ownership Structures
 
 In the world today, there are a multitude of hybrid ownership structures that could alter the financial objectives of firms:
 
@@ -86,7 +83,7 @@ In the world today, there are a multitude of hybrid ownership structures that co
 -   The public shares, however, often represent less than 50% ownership
 -   Businesses may be owned in whole or in part by families and may be operated for profit or not for profit
 
-#### Ownership Examples
+### Ownership Examples
 
 The following three multinational enterprises illustrate how ownership differs in global business:
 
@@ -115,19 +112,19 @@ The following three multinational enterprises illustrate how ownership differs i
 -   Family retained **73%** ownership and control
 -   *Example of:* Family-controlled, publicly traded company
 
-#### Understanding Ownership and Control
+### Understanding Ownership and Control
 
 Once the ownership of the business is established, it is easier to understand where **control** lies, as ownership and control are separate concepts:
 
 | Company | Status | Control |
-|-------------------------|----------------------|-------------------------|
+|---------|--------|---------|
 | Petrobras | Publicly traded Brazilian business | Controlled by Brazilian government |
 | Hermès | Publicly traded French business | Controlled by Hermès family |
 | Apple | Publicly traded, widely held | Control rests with board of directors and senior leadership |
 
 **Important:** Any business, whether initially owned by the state, a family, or a private individual or institution, may choose to have a portion of its ownership traded as shares in the public marketplace. A 100% publicly traded firm can no longer be either state-owned or privately held by definition.
 
-#### Going Public and Going Private
+### Going Public and Going Private
 
 **Initial Public Offering (IPO):** If a firm's owners decide to sell a portion of the company to the public, it conducts an IPO. Typically only a small percentage of the company is initially sold to the public, anywhere from 10% to 20%.
 
@@ -135,7 +132,7 @@ Once the ownership of the business is established, it is easier to understand wh
 
 *Example:* In 2005, Koch Industries (U.S.), a very large private firm, purchased all outstanding shares of Georgia-Pacific (U.S.), a very large publicly traded company. Koch took Georgia-Pacific private.
 
-#### Implications of Going Public
+### Implications of Going Public
 
 When a firm becomes publicly traded, it becomes subject to many increased legal, regulatory, and reporting requirements:
 
@@ -145,11 +142,11 @@ When a firm becomes publicly traded, it becomes subject to many increased legal,
 
 **Note:** In most countries, firms which are privately held do not have to publish detailed financial and operating results.
 
-### The Corporation
+## The Corporation
 
 A **corporation** is an organization, typically a group of people or companies, recognized legally by the state to act as a single entity. This is often described as a **legal person**.
 
-#### Characteristics of a Corporation
+### Characteristics of a Corporation
 
 As a legal person, the corporation has many of the same rights and attributes of individuals:
 
@@ -158,7 +155,11 @@ As a legal person, the corporation has many of the same rights and attributes of
 -   Sue and be sued
 -   Purchase or sell assets
 
-#### Limited Liability
+### How Corporations are Formed
+
+Corporations are formed when individuals exchange some form of consideration, typically cash, in exchange for a **financial interest**—the interest entitling the shareholder to a portion of any profits.
+
+### Limited Liability
 
 A very important benefit of the corporate form is that shareholders have **limited liability**:
 
@@ -166,7 +167,7 @@ A very important benefit of the corporate form is that shareholders have **limit
 -   They do not have personal liability
 -   This feature is often seen as an incentive for shareholders to undertake greater risks
 
-#### Complexities of the Corporate Form
+### Complexities of the Corporate Form
 
 **First complexity:** Shareholders are financial investors, not truly owners in the traditional sense:
 
@@ -177,11 +178,20 @@ A very important benefit of the corporate form is that shareholders have **limit
 
 **Second complexity:** The corporation is a legal person, an artificial person, not an actual person. This has led to a recurring debate over whether the corporation has social interests or a conscience or whether it is purely an organization for financial profit.
 
-### Separation of Ownership and Management
+### Historical Origins of the Modern Corporation
+
+The corporate form has many historical antecedents:
+
+-   **11th century Italy:** The *commenda* system combined a financial partner (passive partner) with a merchant vessel (managing partner)
+-   **1600s Britain:** Joint stock companies pooled capital for risky ventures requiring more resources than individual investors could bear
+-   **English East India Company:** Granted monopoly by the Crown to conduct trade with India
+-   **Virginia Company (1606):** Two joint stock companies chartered by James I to establish colonies on the North American coast—self-governance was later seen as one of the seeds of American democracy
+
+## Separation of Ownership and Management
 
 One of the most challenging issues in the financial management of the corporation or enterprise is the possible separation of ownership from management.
 
-#### The Agency Problem
+### The Agency Problem
 
 Hired or professional management may be present under any ownership structure, though most common in SOEs and publicly traded companies. This separation of ownership from management raises the possibility that the two entities may have:
 
@@ -192,16 +202,62 @@ This is the so-called **principal-agent problem** or simply the **agency problem
 
 As Adam Smith wrote in *The Wealth of Nations* (1776):
 
-> "The directors of such \[joint-stock\] companies, however, being the managers rather of other people's money than of their own, it cannot well be expected, that they should watch over it with the same anxious vigilance with which the partners in a private copartnery frequently watch over their own."
+> "The directors of such [joint-stock] companies, however, being the managers rather of other people's money than of their own, it cannot well be expected, that they should watch over it with the same anxious vigilance with which the partners in a private copartnery frequently watch over their own."
 
-#### Examples of Agency Issues
+### Examples of Agency Issues
 
 -   **Management as agent:** Management is hired as an agent of the shareholder to represent the shareholder's interests
 -   **Risk tolerance mismatch:** Shareholders, benefiting from the corporate form, are interested in the firm taking significant risks in search of profits. Managers, dependent on the continuing operation of the corporation for their livelihood, may be reluctant to take excessive risk
 
+### Strategies for Aligning Interests
+
+There are several strategies available for aligning shareholder and management interests:
+
+-   Senior management ownership of shares
+-   Share options tied to company performance
+-   Performance-based compensation systems
+
+### Global Variations in Ownership Structure
+
+**Anglo-American Markets (U.S. and U.K.):**
+
+-   Characterized by widespread ownership of shares
+-   Managers may own some small portion of stock
+-   Management is largely a hired agent expected to represent shareholder interests
+
+**Non-Anglo-American Markets:**
+
+-   Characterized by controlling shareholders such as:
+    -   Government
+    -   Institutions (e.g., banks in Germany)
+    -   Family (e.g., in France, Italy, and throughout Asia and Latin America)
+    -   Consortiums of interests (e.g., *keiretsus* in Japan and *chaebols* in South Korea)
+
+**Key Point:** A business that is owned and managed by the same entity does not suffer the agency problem. In many of these cases, control is enhanced by:
+
+-   Ownership of shares with dual voting rights
+-   Interlocking directorates
+-   Staggered election of the board of directors
+-   Takeover safeguards
+
+### Global Ownership Patterns
+
+According to OECD research on global ownership patterns:
+
+**Three areas of interest and concern:**
+
+1.  **Institutional Ownership Dominance:** Institutional investors hold 41% of global market capitalization. If these large institutional investors act only passively, they may pay little attention to risks and opportunities faced by individual corporations.
+
+2.  **Public Sector Ownership:** Government ownership of shares in publicly listed companies is large and significant in China, other emerging Asia nations, and emerging markets in general. Government only controls 14% of global stock market capitalization, but its ownership in these key regional sectors is notable through:
+    -   Direct ownership
+    -   Pension fund ownership and control
+    -   Sovereign wealth funds
+
+3.  **Strategic Individuals:** Private individuals with significant ownership are one of the most influential but "hidden" sources of control and influence. In half of the world's publicly listed companies, the top three strategic individuals control more than 50% of the capital.
+
 ------------------------------------------------------------------------
 
-## The Corporate Objective?
+# The Corporate Objective?
 
 **What is the purpose of the corporation?**
 
@@ -239,13 +295,22 @@ A **stakeholder** is any entity with an interest, right, or concern with an orga
 -   Civil society
 -   Environment
 
-### Shareholder Capitalism
+### Historical Oversimplification
+
+Historically, an overly simplistic description of the world was:
+
+-   Anglo-American markets followed shareholder capitalism
+-   The rest of the world pursued some form of stakeholder capitalism
+
+But as with so many aspects of life and business, it is a bit more complicated than that today!
+
+## Shareholder Capitalism
 
 As the Michigan State Supreme Court stated in *Dodge v. Ford Motor Company* (1919):
 
-> "A business corporation is organized and carried on primarily for the profit of the stockholders. The powers of the directors are to be employed for that end. The discretion of directors is to be exercised in the choice of means to attain that end, and does not extend to a change in the end itself, to the reduction of profits, or to the non-distribution of profits among stockholders in order to devote them to other purposes."
+> "A business corporation is organized and carried on primarily for the profit of the stockholders. The powers of the directors are to be employed for that end."
 
-**Definition of Shareholder Wealth Maximization (SWM)**
+### Definition of Shareholder Wealth Maximization (SWM)
 
 The Anglo-American markets have a philosophy that a firm's objective should follow **shareholder capitalism**, also frequently termed **shareholder wealth maximization (SWM)**.
 
@@ -255,7 +320,7 @@ More specifically, the firm should strive to:
 -   Alternatively, minimize the risk to shareholders for a given rate of return
 -   Do so in preference to the interests and returns to all other stakeholders of the firm
 
-#### Market Efficiency
+### Market Efficiency
 
 The SWM theoretical model assumes, as a universal truth, that the **stock market is efficient**. This means:
 
@@ -263,7 +328,7 @@ The SWM theoretical model assumes, as a universal truth, that the **stock market
 -   It quickly incorporates new information into the share price
 -   Share prices, in turn, are deemed the best allocators of capital in the macro economy
 
-#### Risk
+### Risk
 
 The SWM model also treats its definition of risk as a universal truth:
 
@@ -280,7 +345,7 @@ The SWM model also treats its definition of risk as a universal truth:
 -   Can be eliminated through portfolio diversification by investors
 -   Should not be a prime concern for management unless it increases the possibility of bankruptcy
 
-#### Agency Theory
+### Agency Theory
 
 **Agency theory** is the study of how shareholders can motivate management to accept the prescriptions of the SWM model.
 
@@ -292,7 +357,7 @@ The SWM model also treats its definition of risk as a universal truth:
 
 **Key mechanism:** This discipline is made possible by the **one-share-one-vote rule** that exists in most Anglo-American markets.
 
-#### Long-Term versus Short-Term Value Maximization
+### Long-Term versus Short-Term Value Maximization
 
 During the 1990s, the economic boom and rising stock prices exposed a flaw in the SWM model, especially in the United States.
 
@@ -309,19 +374,19 @@ Firms such as Enron, Global Crossing, HealthSouth, Adelphia, Tyco, Parmalat, and
 **Impatient vs. Patient Capitalism:**
 
 | Type | Description |
-|-----------------------|-------------------------------------------------|
+|------|-------------|
 | **Impatient Capitalism** | Short-term focus on the part of both management and investors; destructive short-term thinking |
 | **Patient Capitalism** | Focuses on long-term shareholder wealth maximization |
 
 *Example:* Legendary investor Warren Buffett, through his investment vehicle Berkshire Hathaway, represents one of the best of the patient capitalists. Buffett has become a billionaire by focusing his portfolio on mainstream firms that grow slowly but steadily with the economy, such as Coca-Cola.
 
-### Stakeholder Capitalism
+## Stakeholder Capitalism
 
 As Frank W. Abrams, Chairman of Standard Oil of New Jersey, stated in 1951:
 
 > "The job of management is to maintain an equitable and working balance among the claims of the various directly interested groups... stockholders, employees, customers, and the public at large."
 
-**Characteristics of Stakeholder Capitalism**
+### Characteristics of Stakeholder Capitalism
 
 In the non-Anglo-American markets, controlling shareholders also strive to maximize long-term returns to equity. However, they are more constrained by other powerful stakeholders:
 
@@ -329,28 +394,28 @@ In the non-Anglo-American markets, controlling shareholders also strive to maxim
 -   Governments interfere more in the marketplace to protect important stakeholder groups (local communities, the environment, employment)
 -   Banks and other financial institutions are more important creditors than securities markets
 
-#### Market Efficiency
+### Market Efficiency
 
 Stakeholder capitalism **does not assume** that equity markets are either efficient or inefficient.
 
 -   It does not really matter because the firm's financial goals are not exclusively shareholder-oriented since they are constrained by other stakeholders
 -   The SCM model assumes that long-term "loyal" shareholders, typically controlling shareholders, should influence corporate strategy rather than the transient portfolio investor
 
-#### Risk
+### Risk
 
 The SCM model assumes that **total risk**, that is, operating risk, does count.
 
 -   It is a specific corporate objective to generate growing earnings and dividends over the long run with as much certainty as possible
 -   Risk measurement is based more on product market variability than on short-term variation in earnings and share price
 
-#### Single versus Multiple Goals
+### Single versus Multiple Goals
 
 Although the SCM model typically avoids a flaw of the SWM model—impatient capital that is short-run oriented—it has its own flaw:
 
 -   Trying to meet the desires of multiple stakeholders leaves management without a clear signal about the trade-offs
 -   Management tries to influence the trade-offs through written and oral disclosures and complex compensation systems
 
-#### The Scorecard
+### The Scorecard
 
 In contrast to the SCM model, the SWM model requires a **single goal of value maximization** with a well-defined scorecard.
 
@@ -359,7 +424,7 @@ According to the theoretical model of SWM, the objective of management is to **m
 ### Events Renewing the Debate
 
 | Period | Event | Implication |
-|---------------------|------------------|---------------------------------|
+|--------|-------|-------------|
 | 1990s | Non-Anglo-American markets privatized industries | Shareholder wealth focus needed to attract international capital |
 | 2008-2010 | Global financial crisis | Demonstrated major income and employment inequalities; civil society called for stakeholder capitalism |
 | 2010-present | Focus on environmental and social concerns | Climate change, global pandemic inequities—concerns more aligned with stakeholder capitalism |
@@ -374,7 +439,7 @@ Environmental, social, and governance (ESG) concerns are today an everyday topic
 -   Only the leaders of the publicly traded firm are humans, and it is not appropriate for those leaders to impose their own values on the corporation
 -   In the process of maximizing value for the shareholder, the entire pie is enlarged for all stakeholders
 
-As Milton Friedman (Uncle Milty), Nobel Prize-winning economist, stated:
+As Milton Friedman, Nobel Prize-winning economist, stated:
 
 > "There is one and only one social responsibility of business—to use its resources and engage in activities designed to increase its profits so long as it stays within the rules of the game, which is to say, engages in open and free competition without deception or fraud."
 
@@ -391,13 +456,13 @@ The World Economic Forum (WEF) believes that if businesses are to thrive, compan
 3.  **People:** Dignity and equality, health and well-being, skills for the future
 4.  **Prosperity:** Employment and wealth generation, innovation of better products and services, community and social vitality
 
-### Operational Goals
+## Operational Goals
 
 The management objective of maximizing profit is not as simple as it sounds because the measure of profit used by ownership/management differs between the private firm and the publicly traded firm.
 
 **Key Question:** Is management attempting to maximize current income, capital appreciation as in a share price, or both?
 
-#### Returns to Investors in Publicly Traded Firms
+### Returns to Investors in Publicly Traded Firms
 
 The return to a shareholder in a publicly traded firm combines:
 
@@ -416,7 +481,7 @@ Where:
 
 **Example:** In the United States in the 1990s, a diversified investor may have received an average annual return of 14%: 2% from dividends and 12% from capital gains. This "split" differs dramatically across the world's major markets over time.
 
-**Management's Influence on Returns**
+### Management's Influence on Returns
 
 -   **Dividend yield:** Management generally believes it has the most direct influence over this component. Management makes strategic and operational decisions that grow sales and generate profits, then distributes those profits to ownership in the form of dividends.
 -   **Capital gains:** Much more complex and reflects many forces not under management control. Despite growing market share, profits, or any other traditional measure of business success, the market may not reward these actions directly with share price appreciation.
@@ -425,14 +490,14 @@ Where:
 
 ### The Case of Apple
 
-In March 2012, Apple announced it would end a 17-year period of no dividend payments. This was followed by a similarly shocking announcement in April 2013 that it would raise nearly \$17 billion in debt, although the company had an enormous cash balance.
+In March 2012, Apple announced it would end a 17-year period of no dividend payments. This was followed by a similarly shocking announcement in April 2013 that it would raise nearly $17 billion in debt, although the company had an enormous cash balance.
 
 **Understanding the Policy Change:**
 
 One way to understand the financial policy change is to consider whether Apple had grown and evolved from a **growth firm** to a **value firm**.
 
 | Type | Characteristics |
-|-------------------|----------------------------------------------------|
+|------|-----------------|
 | **Growth Firms** | Small to medium-sized firms in early rapid growth stages; value growing rapidly; share prices rising; need all capital for growth; debt often viewed as slowing agility |
 | **Value Firms** | Large, mature businesses; difficult to create material value changes; share price movements slower and more subtle; generate massive cash flow; may face pressure from activists to pay dividends and take on debt |
 
@@ -456,10 +521,10 @@ A privately held firm has a much simpler shareholder return objective function: 
 
 **Research Finding:** A recent McKinsey study found that privately held firms consistently used significantly lower levels of debt (averaging 5% less debt to equity) than publicly traded firms. Interestingly, these same private firms also enjoyed a lower cost of debt (roughly 30 basis points lower).
 
-#### Exhibit 4.3 - Public versus Private Ownership 
+### Public versus Private Ownership Comparison
 
 | Characteristic | State-Owned | Publicly Traded | Privately Held |
-|------------------|------------------|-------------------|------------------|
+|----------------|-------------|-----------------|----------------|
 | Entrepreneurial | No | No; stick to core competencies | Yes; do anything the owners wish |
 | Long-term or short-term focus | Long-term focus; political cycles | Short-term focus on quarterly earnings | Long-term focus |
 | Focused on profitable growth | No | Yes; growth in earnings is critical | No; needs defined by owner's earnings need |
@@ -468,7 +533,7 @@ A privately held firm has a much simpler shareholder return objective function: 
 | Role of earnings (profits) | Earnings may constitute funding for government | Earnings to signal the equity markets | Earnings to support owners and family |
 | Leaders are owners | Caretakers, not owners | Minimal interests; some have stock options | Yes; ownership and management often one and the same |
 
-#### Operational Goals for MNEs
+### Operational Goals for MNEs
 
 The MNE must be guided by operational goals suitable for various levels of the firm. The MNE must determine the proper balance between three common operational financial objectives:
 
@@ -478,7 +543,7 @@ The MNE must be guided by operational goals suitable for various levels of the f
 
 **Important:** These goals are frequently incompatible, in that the pursuit of one may result in a less desirable outcome of another. Management must make decisions daily about the proper trade-offs between goals.
 
-#### Consolidated Profits
+### Consolidated Profits
 
 The primary operational goal of the MNE is to maximize **consolidated profits** after-tax.
 
@@ -486,7 +551,7 @@ The primary operational goal of the MNE is to maximize **consolidated profits** 
 -   All foreign subsidiaries have their own set of local currency financial statements needed for incorporation and tax obligations
 -   The MNE must combine all of their financial results, originating in many different currencies, for reporting in the currency of the parent
 
-#### Public/Private Hybrids
+### Public/Private Hybrids
 
 The global business environment is, as one analyst termed it, "a messy place." The ownership of companies of all kinds, including MNEs, is not necessarily purely public or purely private.
 
@@ -494,31 +559,41 @@ The global business environment is, as one analyst termed it, "a messy place." T
 
 **Implication:** The firm may be publicly traded, but a family still wields substantial power over the strategic and operational decisions of the firm. This may prove to be a good thing.
 
-**NOTE** Sometime these work, sometimes these don't. The US Postal Service is an example of a US Public/Private Hybrid. We call them "quasi-governmental" agencies.
-
-### Activist Investors
+## Activist Investors
 
 One of the most dramatic developments globally in the corporate governance of the publicly traded firm has been the development and activities of **activist investors**.
 
-**What Are Activist Investors?**
+### What Are Activist Investors?
 
 Activist investors, when unhappy with the way a publicly traded company is being led, try to induce change in the strategy and financial management of the firm. This is a radical departure from the traditional passive investor who, if dissatisfied, simply sold their shares and exited.
 
 **Notable Activists:**
 
--   Carl Icahn - Icahn Enterprises
--   Nelson Peltz - Trian Partners
--   William Ackman - Pershing Square Capital Management
--   Daniel Loeb - Third Point LLC
--   Paul Singer - Elliott Management
+-   Carl Icahn
+-   Nelson Peltz
+-   William Ackman
+-   Daniel Loeb
+-   Paul Singer
 
 **Firms Influenced by Activists:**
 
 Apple (United States), AkzoNobel (Netherlands), Danone (France), ExxonMobil (United States), Google (United States), Nestlé (Switzerland), ThyssenKrupp (Germany)
 
-#### The Activist's Playbook
+### The Activist's Playbook
 
-![The Activist's Playbook](../assets/images/Ch04/Exhibit_4.jpg){width="70%"}
+**Step 1: Acquire Position**
+
+Activists accumulate anywhere between 3% and 10% of the public shares in a target firm.
+
+**Step 2: Influence Leadership**
+
+Activists work to influence leadership through every means possible:
+
+-   Phone calls
+-   Published letters and white papers
+-   Shareholder meetings
+-   Shareholder votes
+-   Board representation
 
 **Strategic Changes Advocated:**
 
@@ -542,7 +617,7 @@ Apple (United States), AkzoNobel (Netherlands), Danone (France), ExxonMobil (Uni
 ### Perspectives on Activist Investing
 
 | If You Are... | Activists Are Seen As... |
-|---------------------------|---------------------------------------------|
+|---------------|--------------------------|
 | Target firm leadership | Disruptive outsiders, interested in inducing short-term gains at the expense of long-term value creation |
 | Existing shareholder | Welcomed investors willing to step up and question established corporate leadership—advocates for small or passive investors |
 
@@ -550,21 +625,21 @@ Apple (United States), AkzoNobel (Netherlands), Danone (France), ExxonMobil (Uni
 
 ------------------------------------------------------------------------
 
-## Corporate Governance
+# Corporate Governance
 
 **Corporate governance** is the system of rules, practices, and processes by which an organization is directed and controlled.
 
 Although the governance structure of any company—domestic, international, or multinational—is fundamental to its very existence, this subject has become the lightning rod of political and business debate in the past few years as failures in governance in a variety of forms have led to corporate fraud and failure.
 
-**Recent Governance Failures**
+### Recent Governance Failures
 
 Beginning with the accounting fraud and questionable ethics of business conduct at Enron, culminating in its bankruptcy in the fall of 2001, failures in corporate governance have raised issues about the ethics and culture of business conduct for the past 20 years.
 
-### The Structure of Governance
+## The Structure of Governance
 
 Our first challenge is to understand what people mean when they use the expression "corporate governance."
 
-**Internal vs. External Forces**
+### Internal vs. External Forces
 
 The various internal and external parties and organizations all exert some form of influence over the activities of the corporation:
 
@@ -583,10 +658,10 @@ The various internal and external parties and organizations all exert some form 
 -   **Auditors and legal advisers:** Testify to the fairness and legality of the company's financial statements
 -   **Regulators:** Oversee the company's actions
 
-**Exhibit 4.5 - Structure of Corporate Governance for a US firm.**
+### Roles in Corporate Governance
 
 | Entity | Role |
-|-----------------------------------------|-------------------------------|
+|--------|------|
 | Board of Directors | Legal body accountable for the governance of the corporation; chairman and members are responsible for the organization |
 | Management | CEO and team run the company day-to-day |
 | Equity Markets | Analysts and other market agents evaluate firm performance on a daily basis |
@@ -595,7 +670,7 @@ The various internal and external parties and organizations all exert some form 
 
 This web of governance is believed to not only provide a discipline to the firm but collectively work to protect the investor who places their hard-earned money in the securities of the firm.
 
-### Comparative Corporate Governance
+## Comparative Corporate Governance
 
 The origins of the need for a corporate governance process arise from:
 
@@ -623,7 +698,7 @@ This ensures that governance practices will differ across countries and cultures
 -   Resulting in only marginal public ownership of enterprise
 -   Subject to significant restrictions on business practices
 
-**Four Major Factors in Corporate Governance**
+### Four Major Factors in Corporate Governance
 
 All exchange rate regimes are a function of at least four major factors in the evolution of corporate governance principles and practices globally:
 
@@ -664,7 +739,7 @@ All exchange rate regimes are a function of at least four major factors in the e
 A second—simpler—way of categorizing governance regimes is on the basis of whether they are driven by forces from within (**insider regimes**) or by forces from without (**outsider** or **market-based regimes**).
 
 | Dimension | Insider Regimes (Germany, Japan) | Outsider Regimes (U.S., UK) |
-|----------------|------------------------------|--------------------------|
+|-----------|----------------------------------|------------------------------|
 | **Share Ownership** | Concentrated among insiders who often exert some control over corporate management | Widely distributed; significant separation of ownership and management |
 | **Control** | Insider relationship-based control; strong family-based ownership or cross-shareholdings among companies | Management control (agency issues); public shareholders widely dispersed giving management more power |
 | **Market for Corporate Control** | Hostile takeovers are rare due to legal barriers and cross-shareholding relationships | Hostile takeovers are common; few institutional or legal barriers |
@@ -707,7 +782,7 @@ Volkswagen AG, periodically the largest automobile company in the world, provide
 -   Government interests were inherently political and often focused on employment
 -   Family ownership pursued market dominance over profitability
 
-### Good Governance and Corporate Reputation
+## Good Governance and Corporate Reputation
 
 **Does good corporate governance matter?**
 
@@ -717,7 +792,7 @@ This is a difficult question, and the realistic answer has been largely dependen
 
 One way in which companies may signal good governance to the investor markets is to adopt and publicize a fundamental set of governance policies and practices. Nearly all publicly traded firms have adopted this approach.
 
-**OECD Good Governance Principles**
+### OECD Good Governance Principles
 
 A consensus on good governance practices has emerged, led by the OECD:
 
@@ -745,11 +820,13 @@ An added dimension of interest is the role of country governance, as this influe
 
 ------------------------------------------------------------------------
 
-## The Market for Corporate Control
+# The Market for Corporate Control
 
 As Jensen and Ruback stated in 1983:
 
 > "...the market for corporate control is best viewed as an arena in which managerial teams compete for the rights to manage corporate resources."
+
+### The Concept
 
 Theoretically, a management team that is underperforming in its direction of a company could potentially be replaced by a competitive team under the expectation of superior performance. Or, as in the case of an acquisition—friendly or hostile—the combining of the two firms could create value that neither could obtain on its own.
 
@@ -762,7 +839,7 @@ Theoretically, a management team that is underperforming in its direction of a c
 
 The process as a whole is called the **market for corporate control**.
 
-**Friendly vs. Hostile Takeovers**
+### Friendly vs. Hostile Takeovers
 
 **Friendly Takeover:**
 
@@ -776,7 +853,7 @@ The process as a whole is called the **market for corporate control**.
 -   If the target firm's leadership is not interested in being acquired by the bidder, it might not cooperate in information-sharing
 -   If the bidder wishes to continue, the bidder could announce a **public tender offer** to shareholders, going around management of the target firm
 
-**Key Thresholds in Corporate Control**
+### Key Thresholds in Corporate Control
 
 Regardless of method, the objective is the same: to gain control of a sufficient number of votes to dictate corporate actions.
 
@@ -824,7 +901,7 @@ An acquirer faced with making a mandatory bid for control may also face a minimu
 -   The dual consideration to squeeze-out rights
 -   Ensures that residual minority shareholders are offered a fair price once control has changed
 
-### Cross-Border Takeovers and Defenses
+## Cross-Border Takeovers and Defenses
 
 Takeovers, whether domestic or cross-border, are regulated by national law, primarily the laws of the country of the target firm. Most major industrial countries only established laws governing corporate acquisitions over the past 30 years.
 
@@ -836,7 +913,7 @@ These legal structures all possessed a common objective: to strike a balance bet
 -   The efficient deployment of capital
 -   Ensuring the fair treatment of all shareholders, including minority shareholders
 
-**Anti-Takeover Provisions (ATPs)**
+### Anti-Takeover Provisions (ATPs)
 
 The management of a target company normally takes a side—it is rarely neutral. If an acquisition or merger is described as benefiting from significant cost synergies (reduction of redundant activities between the two companies), managers of the target company will likely be out of a job.
 
@@ -845,11 +922,11 @@ The management of a target company normally takes a side—it is rarely neutral.
 ATPs generally either change the shares outstanding of the target firm (voting power) or change the target firm's value and risk (financial and business structure).
 
 | Category | Examples |
-|------------------------------------|------------------------------------|
+|----------|----------|
 | **Voting Power ATPs** | Multiple classes of stock with varying voting rights; issuance of new shares for intentional dilution |
 | **Firm Value ATPs** | Divestment of assets; taking on debt; increased dividends and share repurchases; merging with a third party |
 
-**Specific Defense Mechanisms**
+### Specific Defense Mechanisms
 
 #### Dual Class Stock
 
@@ -905,7 +982,7 @@ Other defense mechanisms focus on making the target firm less desirable:
 -   **Selling off key business lines or assets** that are the focus of acquirer interest—selling off the most valued assets in the eyes of the acquirer
 -   **Taking on large additional debt obligations** to make acquisition more costly and more of a financial burden to the hostile acquirer
 
-### Corporate Responsibility and Sustainability
+## Corporate Responsibility and Sustainability
 
 As the Brundtland Report (1987) stated:
 
@@ -919,7 +996,7 @@ As the Brundtland Report (1987) stated:
 
 As a result of globalization, this growing role of the corporation in society has added an additional level of complexity not seen before.
 
-**The Triple Bottom Line**
+### The Triple Bottom Line
 
 Nearly two decades ago, a number of large corporations began to refine their publicly acknowledged corporate objective as "the pursuit of the triple bottom line":
 
@@ -942,16 +1019,15 @@ This was considered an enlightened development of modern capitalism—a growing 
 
 ------------------------------------------------------------------------
 
-## Conclusion
+# Conclusion
 
-### Key Takeaways
+## Key Takeaways
 
 1.  **Ownership structures vary globally:** State-owned enterprises, privately held firms, publicly traded companies, and family-controlled businesses all have different financial objectives and governance structures.
 
 2.  **The agency problem is central:** The separation of ownership from management creates potential conflicts of interest that corporate governance structures attempt to resolve.
 
 3.  **Two competing models of capitalism:**
-
     -   Shareholder capitalism focuses on maximizing returns to shareholders
     -   Stakeholder capitalism considers the interests of all stakeholders including employees, community, and environment
 
@@ -961,7 +1037,38 @@ This was considered an enlightened development of modern capitalism—a growing 
 
 6.  **Sustainability is increasingly important:** ESG concerns are becoming central to corporate strategy and investor decision-making.
 
-**Final Note:** There is a lot of good that can be talked about ESG and Stakeholder capitalism. However, Scripture says that we cannot serve two masters. So serve the one who has hired you to do the job: the shareholder.
+------------------------------------------------------------------------
+
+## Discussion Questions
+
+1.  In the case of Apple, what factors might have influenced the company's decision to begin paying dividends and taking on debt after years of avoiding both?
+
+2.  Compare and contrast the agency problem in a widely held U.S. corporation versus a family-controlled firm in Germany. Which faces greater agency costs? Why?
+
+3.  How does the legal system (common law vs. civil law) influence corporate governance practices in different countries?
+
+4.  Do activist investors create value or destroy value? Consider arguments on both sides.
+
+5.  Should corporations prioritize shareholder wealth maximization or stakeholder capitalism? What are the trade-offs?
+
+------------------------------------------------------------------------
+
+## Practice Problems
+
+**Problem 1: Shareholder Return Calculation**
+
+If the share price of a company rises from \$12 to \$15 over a one-year period, what is the rate of return to the shareholder given each of the following:
+
+a.  The company paid no dividends
+b.  The company paid a dividend of \$1 per share
+c.  Separate the total return into the dividend yield and the capital gain
+
+**Problem 2: Dual Class Voting Rights**
+
+PolyProduction Inc. has two classes of common stock. Class A has 5 million shares with 10 votes per share. Class B has 5 million shares with 1 vote per share. If the dividends per share are equal for both Class A and B stock:
+
+a.  What proportion of total votes do Class A shareholders have?
+b.  What proportion of dividends do Class A shareholders receive?
 
 ------------------------------------------------------------------------
 
