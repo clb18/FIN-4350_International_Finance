@@ -1,5 +1,5 @@
 ---
-title: "Chapter 3.2 - The Balance of Payments"
+title: "Chapter 3 - The Balance of Payments"
 author: "Prof. Barker"
 date: today
 format:
@@ -26,12 +26,14 @@ format:
 
 # Introduction
 
-Random Quote: **When goods don’t cross borders, soldiers will.**  
+Random Quote: **Ships are always safe at ports. But that is not what they were made for.**
+
+Quote for the chapter: **When goods don’t cross borders, soldiers will.**  
 — commonly attributed to Frédéric Bastiat
 
 > The measurement of all international economic transactions between the residents of a country and foreign residents is called the **balance of payments (BOP)**.
 
-This chapter gives you the accounting “dashboard” for the international economy. The BOP is not just a record-keeping exercise—it is the bridge between **trade flows**, **capital flows**, and the “big three” macro prices that dominate international finance: **exchange rates, interest rates, and inflation**.
+This chapter gives you the accounting “dashboard” for the international economy. The BOP is not just a record-keeping exercise—it is the bridge between **trade flows**, **capital flows**, and the “big three” macro issues that dominate international finance: **exchange rates, interest rates, and inflation**.
 
 ## Chapter Roadmap {.unnumbered}
 
@@ -43,13 +45,27 @@ Major sections:
 4. **Trade Balances and Exchange Rates** — Why devaluations often “hurt first, help later” (the J-curve).
 5. **Capital Mobility** — How open (or closed) capital markets reshape crisis risk and policy choices.
 
+### BOP data are important fo the following reasons: {.unnumbered}
+
+1. The BOP is an important indicator of pressure on a country's foreign exchange rate and thus of the potential for a firm trading with or investing in that country to experience foreign exchange gains or losses. Changes in the BOP may predict the imposition or removal of foreign exchange controls.
+
+2. Changes in a country's BOP may signal the imposition or removal of controls over payment of dividends and interest, license fees, or other cash disbursements to foreign firms or investors.
+
+3. The BOP helps to forecast a country's market potential, especially in the short run. A country experiencing a serious trade deficit is not as likely to expand imports, as it would be if running a surplus. It may, however, welcome investments that increase its exports.
+
 ------------------------------------------------------------------------
 
 ## Fundamentals of BOP Accounting
 
-A BOP statement is fundamentally a **statement of cash flows over an interval of time**. If you remember one practical tip for this chapter, it is:
+A BOP statement is fundamentally a **statement of cash flows over an interval of time**. 
 
-**Follow the cash flow.**  
+The main elements of the actual process of measuring international economic activity:
+
+1. Identifying what is and is not an international economic transaction.
+2. Understanding how the flow of goods, services, assets, and money creates debits and credits to the overall BOP.
+3. Understanding the bookkeeping procedures for BOP accounting.
+
+A good rule of thumb: **Follow the cash flow.**  
 Who *pays* whom? In what currency? For what? And who is the **resident**?
 
 ### Defining International Economic Transactions
@@ -115,10 +131,11 @@ Suppose a U.S. firm exports $10m of machinery to Brazil, paid in USD deposited i
 
 ## The Accounts of the Balance of Payments
 
-Conceptually, break the BOP into two big buckets:
+The BOP has three major sub-accounts:
 
-1. **Current account:** trade and income-like flows.
-2. **Capital + financial accounts:** transactions in assets and claims.
+1. **Current account** 
+2. **Capital account**
+3. **Financial accounts** 
 
 Then add two “balancing/operational” accounts:
 
@@ -129,23 +146,28 @@ Then add two “balancing/operational” accounts:
 
 The **current account** includes international transactions where income/payment flows occur within the current period (often defined as within one year). It has four main subcategories:
 
-1. **Goods trade** (merchandise)  
-2. **Services trade**  
+1. **Goods trade** - merchandise trade, this is the most basic and largest for most countries
+2. **Services trade** - Common internationals services are financial services provided by banks to foreign importers and exporters, travel (airlines), etc. This has had the fastest growth in the past decade.
 3. **Income** (investment income, compensation, etc.)  
-4. **Current transfers** (unilateral transfers: remittances, some aid, etc.)
+4. **Current transfers** (unilateral transfers: remittances, some aid, etc.) Money sent back to home countries from migrant workers appear here.
 
 A helpful simplification:
 
 - **Balance of trade (BOT)** is typically just **goods exports − goods imports**.  
   (The press often uses “trade balance” loosely; the textbook’s BOT focus is goods.)
 
+Merchandise trade is the core of international trade and is the basis for the Industrial Revolution and the Theory of Comparative Advantage.
+
+Declines in the US BOT attributed to specific sectors, such as steel, automobiles, automotive parts, textiles, and shoe manufacturing, caused massive economic and social disruption.
+
+Understanding merchandise import and export performance is much like understanding the market for any single product. The demand factors that drive both are income, the economic growth rate of the buyer, and price of the product in the eyes of the consumer after passing through an exchange rate. As income rises, so does the demand for imports. US manufacturing exports depend not on the incomes of US residents, but on the incomes of buyers of US products globally.
 
 ### The Capital and Financial Accounts
 
 The **capital account** (as defined in modern IMF presentation) is usually small for most countries; it includes:
 
 - Transfers of financial assets (e.g., debt forgiveness in some cases)
-- Acquisition/disposal of **nonproduced, nonfinancial assets** (e.g., some intellectual property rights)
+- Acquisition/disposal of **nonproduced/nonfinancial assets** (e.g., some intellectual property rights), the capital account is relatively minor.
 
 For most macro discussions in this course, the **financial account** carries the action.
 
@@ -162,7 +184,7 @@ The financial account classifies assets primarily by **degree of control** (not 
 
 #### Direct Investment
 
-**Direct investment** is cross-border investment intended to exert meaningful influence/control over operations—often proxied by a threshold such as **10% ownership**.
+**Direct investment** is cross-border investment intended to exert meaningful influence/control over operations—often proxied by a threshold such as **10% ownership**. This is very important.
 
 **Two recurring political-economy concerns:**
 
@@ -173,11 +195,21 @@ The financial account classifies assets primarily by **degree of control** (not 
 - Foreign automaker builds a plant in Tennessee → inward FDI (financial-account inflow).
 - U.S. firm acquires a foreign subsidiary → outward FDI (financial-account outflow).
 
+**Important Clarification**
+
+1. "The choice of words used to describe foreign investment can also influence public opinion. If these massive capital inflows are described as "capital investments from all over the world demonstrating faith in the future of US industry," the net capital surplus is represented as decidedly positive. If, however, the net capital surplus is described as resulting in "the United States being the world's largest debtor nation," the negative connotation is obvious. Both are essentially spins on the same economic principles at work."
+
+2. "Capital, whether short-term or long-term, flows to where the investor believes it can earn the greatest return for the level of risk. And although in an accounting sense this is "international debt," when the majority of the capital inflow occurs in the form of direct investment, a long-term commitment to jobs, production, services, technological, and other competitiveness of industry located within a country is increased."
+
+3. When a foreign entity puts money into the US, they are buying claims on US assets (some type of investment) which creates a liability for the US. The US is required to pay back the investment at some point in the future, or at least the income derived from the investment. It is not "technically" borrowing, the US is not asking for the funds in order for the US to do something. However, the MNE must convert their currency to US dollars to build within the US.
+
+Whether this is a good thing or bad thing for the US (or home economy) is how we use the invested funds. If we use them to build productive investments (capital goods or something that raises future output) that is good. However, if we use the investment only to finance current consumption without productive capabilities, that would be bad. 
+
 #### Portfolio Investment
 
 **Portfolio investment** is cross-border investment without control—motivated primarily by **return**.
 
-- Equity purchases below the direct-investment threshold (10%)
+- Equity purchases below the direct-investment threshold **(10%)**
 - **Debt securities** (bonds) are classified as portfolio because they do not convey control by design.
 
 Portfolio flows are typically **more volatile** than FDI and are often central in currency crises.
@@ -191,6 +223,15 @@ Portfolio flows are typically **more volatile** than FDI and are often central i
 - Short-term claims and liabilities not captured elsewhere
 
 This category can surge during credit booms and collapse during “sudden stops.”
+
+
+**Important Note:** The current account and financial account should net to zero, or at least be should be close.
+
+$$
+\text{Current Account} + \text{Financial Account} = 0
+$$
+Think about it this way: the Current Account is the "stuff" purchased or sold, and the Financial Account is the payment made or received for the "stuff".
+
 
 ### Net Errors and Omissions and Official Reserves Accounts
 
@@ -229,6 +270,8 @@ China has periodically exhibited a **twin surplus**—surpluses in both the curr
 - Strong growth prospects attracting inflows
 - Administrative controls and sterilization policies enabling sustained reserve buildup
 
+This has also been caused by China's rigid capital outflow restrictions, that limit the amount of capital that can leave the country.
+
 ------------------------------------------------------------------------
 
 ## BOP Impacts on Key Macroeconomic Rates
@@ -246,10 +289,14 @@ BOP = (X - M) + (CI - CO) + (FI - FO) + FXB
 \]
 
 Where:
-- \(X, M\): exports and imports (goods + services)  
-- \(CI, CO\): capital-account inflows/outflows  
-- \(FI, FO\): financial-account inflows/outflows  
-- \(FXB\): change in official reserves (conceptually, the balancing item in many regime discussions)
+
+**Current Account** - \(X, M\): exports and imports (goods + services)
+
+**Capital Account** - \(CI, CO\): capital inflows/capital outflows
+
+**Financial Account** - \(FI, FO\): financial inflows/financial outflows
+
+**Reserve Balance** - \(FXB\): change in official reserves (conceptually, the balancing item in many regime discussions)
 
 ### The BOP and Exchange Rates
 
@@ -268,16 +315,16 @@ Under a **fixed exchange rate**, the government commits to a parity. Therefore:
 - Persistent deficits can deplete reserves → crisis risk → devaluation or capital controls.
 
 Rule of thumb:  
-If the private-sector transactions don’t sum near zero, **official reserves must move**.
+If the private-sector transactions don’t sum near zero, **official reserves must move to stabilize the peg or will be forced to devalue the currency**.
 
 #### Floating Exchange Rate Countries
 
 Under a **floating rate**, the government does not promise a parity.
 
 - The exchange rate adjusts to equilibrate supply/demand in FX markets.
-- BOP “imbalance” shows up as **currency depreciation/appreciation**, not necessarily reserve loss.
+- BOP “imbalance” shows up as **currency depreciation/appreciation**, not necessarily reserve loss. (In other words, any imbalance will be adjusted by a change in the value of the currency relative to other currencies. This may take time, which is known as the "J-Curve".)
 
-In practice, even floaters watch the current and financial accounts because they signal medium-run pressures and vulnerability.
+In practice, even floaters watch the current and financial accounts because they signal medium-run pressures and vulnerability. As with other things, more volatility signals instability, which translates to more risk.
 
 #### Managed Floats
 
@@ -287,17 +334,22 @@ A managed float sits between fixed and floating:
 - Reserve accumulation (or depletion) is common.
 - Policy instruments often include both **intervention** and **interest-rate policy**.
 
+**Focus is on Capital Inflows and Outflows**:
+
+A change in the interest rates will alter the capital account balance, especially the short-term portfolio component of these capital flows, that should correct any "imbalance" in the current account.
+
+Remember the effects of raising interest rates: Increased rates attract foreign capital to the domestic country. The downside is that it increases the costs of local domestic borrowing.
+
 ### The BOP and Interest Rates
 
 Interest rates are a primary channel through which countries attract or repel financial flows.
 
-- Lower real interest rates normally encourage **capital outflows** (search for yield).
+- Lower real interest rates normally encourage **capital outflows** (the capital search for yield).
 - Higher real interest rates normally attract **capital inflows** (carry trades, bond demand).
 
 However, risk and growth prospects can dominate yield:
 - The United States has often attracted inflows even with relatively low real rates due to perceived safety, depth of markets, and growth/innovation expectations.
 
-Teaching link:  
 Financial-account inflows can **finance** current-account deficits and **temper** interest-rate pressure—but if confidence shifts, the reversal can be abrupt.
 
 ### The BOP and Inflation Rates
@@ -307,7 +359,6 @@ Imports can affect inflation through competition and prices:
 - Cheaper imports can restrain domestic pricing power → lower inflation.
 - But import competition can reduce domestic output/employment in affected sectors, worsening the current account through lower export capacity or higher import dependence.
 
-Inflation also feeds back into the exchange rate: persistent inflation differentials tend to pressure nominal depreciation under many models (covered later).
 
 ------------------------------------------------------------------------
 
@@ -328,7 +379,7 @@ But the trade balance may initially **worsen** because quantities adjust slowly.
 
 ### The J-Curve Adjustment Path
 
-The J-curve is the classic “worse before better” story. Adjustment tends to occur in three stages:
+The J-curve is the classic “it gets worse before it gets better” story. Adjustment tends to occur in three stages:
 
 1. **Currency contract period** (contracts already set; quantities fixed)  
 2. **Pass-through period** (exchange-rate change passes into import/export prices)  
@@ -336,22 +387,28 @@ The J-curve is the classic “worse before better” story. Adjustment tends to 
 
 Typical classroom timing heuristic: each stage can take **months**, not weeks.
 
+**Here is the flow of the J-curve over time:**
+
+![The J-Curve](../assets/images/Ch03/Exhibit_3.6.jpg){width="75%"}
+
 ### Trade Balance Adjustment Path: The Equation
 
 Think of the trade balance in domestic currency:
 
-\[
-TB = (P_X^{\$} Q_X) - (S^{\$/fc} \cdot P_M^{fc} Q_M)
-\]
+$$
+TB = \left( P_X^{\$} Q_X \right) - \left( S^{\$/fc} \cdot P_M^{fc} Q_M \right)
+$$
 
 Where:
-- \(P_X^{\$}\): export price in domestic currency  
-- \(Q_X\): export quantity  
-- \(P_M^{fc}\): import price in foreign currency  
-- \(Q_M\): import quantity  
-- \(S^{\$/fc}\): spot exchange rate (domestic per unit foreign)
 
-Immediate depreciation raises \(S^{\$/fc}\), mechanically raising the domestic-currency value of imports—before \(Q_M\) has time to fall.
+- $P_X^{\text{\$}}$: export price in domestic currency  
+- $Q_X$: export quantity  
+- $P_M^{fc}$: import price in foreign currency  
+- $Q_M$: import quantity  
+- $S^{\text{\$/}fc}$: spot exchange rate (domestic per unit foreign)
+
+
+Immediate depreciation raises $S^{\$/fc}$, mechanically raising the domestic-currency value of imports—before $Q_M$ has time to fall.
 
 ------------------------------------------------------------------------
 
@@ -366,10 +423,10 @@ In crisis episodes, however, the financial account can reverse suddenly (“sudd
 
 ### Current Account versus Financial Account Capital Flows
 
-Two frames to teach together:
+Two sides that go together:
 
-- **Trade/real-side frame:** current account reflects saving vs investment and trade competitiveness.
-- **Finance frame:** financial account reflects portfolio preferences, risk, expected returns, and institutional credibility.
+- **Trade/real-side:** current account reflects saving vs investment and trade competitiveness.
+- **Finance side:** financial account reflects portfolio preferences, risk, expected returns, and institutional credibility.
 
 They are linked by accounting identity, but **driven by different behavioral margins**.
 
