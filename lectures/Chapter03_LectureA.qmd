@@ -224,14 +224,42 @@ Portfolio flows are typically **more volatile** than FDI and are often central i
 
 This category can surge during credit booms and collapse during “sudden stops.”
 
-
 **Important Note:** The current account and financial account should net to zero, or at least be should be close.
+
+Think about it this way: the Current Account is the "stuff" purchased or sold, and the Financial Account is the payment made or received for the "stuff".
 
 $$
 \text{Current Account} + \text{Financial Account} = 0
 $$
-Think about it this way: the Current Account is the "stuff" purchased or sold, and the Financial Account is the payment made or received for the "stuff".
+**More Notes (Because this is important):**
 
+Example:
+
+The United States buys goods worth \$100 from China. China sends the goods to the United States, and the United States send \$100 (USD not Renminbi) to China. So now China holds \$100 that cannot be spent in China. What do they do?
+
+**China (or any country that the US trades with) has three choices:**
+
+1. Spend the dollars on US goods/services
+2. Exchange the dollars for another currency
+3. Hold or invest the dollars in US assets
+
+**Option 1** doesn't happen very much, which is why we have a 'trade deficit'. Logically, if this happened more, then our exports would be closer to equal with our imports.
+
+**Option 2** relies on some other country wanting US dollars. Regardless of who holds them, some other country ends up holding USD.
+
+**Option 3** is the most common. In this example, China would either hold the USD or buy a financial asset denominated in dollars:
+
+- Bank deposits
+- US Treasuries
+- US Corporate bonds
+- US Equities
+- Some other dollar denominated assets
+
+**Holding dollars = holding claims on the US economy**
+
+**Trade deficits necessarily imply that foreigners accumulate financial claims on the deficit country.**
+
+**Question:** This may sound very negative and/or pessimistic. But is this fundamentally any different than buying a share of stock? Isn't a shareholder the residual claimant for a company?
 
 ### Net Errors and Omissions and Official Reserves Accounts
 
@@ -302,10 +330,21 @@ Where:
 
 BOP pressure is fundamentally **pressure on the currency market**.
 
-- A deficit implies net demand for foreign currency (net supply of domestic currency).
-- A surplus implies net demand for domestic currency (net supply of foreign currency).
+In other words, "International transactions create demand and supply for currencies." Any imbalance is implying there is excess demand (shortage) of either a foreign or domestic currency.
 
-How that pressure translates into outcomes depends on the regime.
+- A Current account deficit implies net demand for foreign currency (net supply of domestic currency).
+
+Example: If the US buys goods from China, US residents either pay in USD or RMB. If we pay in dollars, those firms who made the goods must exchange some of those dollars into yuan to pay their expenses (labor, materials, etc.). This creates additional demand for the yuan (the foreign currency). Additionally, now there is a greater supply of dollars internationally. 
+
+Does this pressure appreciate the dollar or depreciate it?
+
+**It depreciates the dollar.**
+
+- A Current account surplus implies net demand for domestic currency (net supply of foreign currency).
+
+Now, look at the earlier example, except from China's perspective.
+
+How that pressure translates into outcomes depends on the regime. (Remember the trade-offs from Chapter 2)
 
 #### Fixed Exchange Rate Countries
 
