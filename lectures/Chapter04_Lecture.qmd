@@ -26,7 +26,11 @@ format:
 
 # Introduction
 
-Random Quote: **"A Corporation then, or a body politic, or body incorporate, is a collection of many individuals united into one body, under a special denomination, having perpetual succession under an artificial form."**
+Random Quote: **A student asked his master, "You talk about peace, but you only teach me to fight. How do you reconcile the two?" The master replied, "It is better to be a warrior in a garden, than a gardener in a war."**
+
+Scripture: **"I am sending you out like sheep among wolves. Therefore be as shrewd as snakes and as innocent as doves. Be on your guard;"** - Matthew 10:16-17a
+
+Quote: **"A Corporation then, or a body politic, or body incorporate, is a collection of many individuals united into one body, under a special denomination, having perpetual succession under an artificial form."**
 
 — Stewart Kyd, *A Treatise on the Law of Corporations*, 1793
 
@@ -965,4 +969,4 @@ This was considered an enlightened development of modern capitalism—a growing 
 
 ------------------------------------------------------------------------
 
-**Next:** Chapter 5 - The Foreign Exchange Market
+**Next:** Exam 1, then moving into Section 2.

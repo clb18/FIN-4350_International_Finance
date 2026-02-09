@@ -7,7 +7,7 @@ project:
     - "*.qmd"
     - "lectures/**.qmd"
 #    - "!lectures/Chapter03_Lecture**.qmd"
-    - "!lectures/Chapter04_Lecture**.qmd"
+#    - "!lectures/Chapter04_Lecture**.qmd"
     - "!lectures/Chapter05_Lecture**.qmd"
     - "!lectures/Chapter06_Lecture**.qmd"
 
