@@ -6,8 +6,6 @@ project:
   render: 
     - "*.qmd"
     - "lectures/**.qmd"
-#    - "!lectures/Chapter03_Lecture**.qmd"
-#    - "!lectures/Chapter04_Lecture**.qmd"
     - "!lectures/Chapter05_Lecture**.qmd"
     - "!lectures/Chapter06_Lecture**.qmd"
 
@@ -16,10 +14,10 @@ project:
     # ==============================
 
     # --- PRIVATE MODE (drafting) ---
-    - "!simulation/**.qmd"
+#    - "!simulation/**.qmd"
 
     # --- PUBLIC MODE (release) ---
-    #- "simulation/**.qmd"
+    - "simulation/**.qmd"
 
 # IMPORTANT:
 # When switching simulation modes:
@@ -57,10 +55,18 @@ website:
       # (nothing here)
 
       # --- PUBLIC MODE (visible) ---
-      #- section: "IF Simulation"
-        #contents: simulation
-
-
+      - section: "IF Simulation"
+        contents: 
+          - text: "Overview - START HERE"
+            href: simulation/index.qmd
+          - simulation/roles.qmd
+          - simulation/countries.qmd
+          - simulation/decisions.qmd
+          - simulation/deliverables.qmd
+          - simulation/Weekly_Brief_sample.qmd
+          - simulation/markets.qmd
+          - simulation/grading.qmd
+          
 format:
   html:
     theme: cosmo

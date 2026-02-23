@@ -631,25 +631,25 @@ This ensures that governance practices will differ across countries and cultures
 
 All exchange rate regimes are a function of at least four major factors in the evolution of corporate governance principles and practices globally:
 
-#### 1. Financial Market Development
+#### Financial Market Development
 
 -   The depth and breadth of capital markets are critical to the evolution of corporate governance practices
 -   Country markets that have had relatively low growth or have industrialized rapidly utilizing neighboring capital markets may not form large public equity market systems
 -   Without significant public trading of ownership shares, high concentrations of ownership are preserved and few disciplined processes of governance are developed
 
-#### 2. Separation of Management and Ownership
+#### Separation of Management and Ownership
 
 -   In countries and cultures where the ownership of the firm has continued to be an integral part of management, agency issues and failures have been less problematic
 -   Family-based ownership maintains the owner-operator link
 -   In countries like the United States, where ownership has become largely separated from management (and widely dispersed), aligning the goals of management and ownership is much more difficult
 
-#### 3. Disclosure and Transparency
+#### Disclosure and Transparency
 
 -   The extent of disclosure regarding the operations and financial results of a company varies dramatically across countries
 -   Disclosure practices reflect a wide range of cultural and social forces
 -   **Transparency**, a parallel concept to disclosure, reflects the visibility of decision-making processes within the business organization
 
-#### 4. Historical Development of the Legal System
+#### Historical Development of the Legal System
 
 **English Common Law:**
 
@@ -864,6 +864,8 @@ A **dual class stock** is when a company issues differing classes of shares:
 -   Or both
 
 *Example:* A family-based firm may restrict B-shares to family members while A-shares are sold to the public. The B-shares often carry significantly higher voting rights, ensuring continued family control.
+
+**Ford Motor Company** The Ford family holds 40% of the voting power of the company through a special class of stock (Class B shares).
 
 #### Poison Pills
 

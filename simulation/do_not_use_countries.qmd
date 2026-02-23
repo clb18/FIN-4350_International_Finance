@@ -1,0 +1,328 @@
+---
+title: "Countries"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Why fictional countries?
+
+All countries in the simulation are fictional. Their backgrounds are based on real historical experiences, but no country is intended to be a direct copy of any modern state. You may see some similarities.
+
+::: callout-note
+**Learning goal:** You will reason from **initial conditions** and
+**constraints**, then choose policies. Countries are *not* scripted to
+“win” or “lose.”
+:::
+
+## What is pre-set vs. what you choose
+
+### Pre-set (initial conditions)
+
+These are slow-moving fundamentals and the starting macro snapshot:
+
+1.  **Economic structure:** what your country produces and trades
+2.  **Institutions & credibility:** ability to commit and be believed
+3.  **Financial depth:** access to markets, banking strength
+4.  **Politics:** domestic coalitions (tariff pressure, inflation
+    aversion, etc.)
+5.  **Starting snapshot:** inflation, reserves, external balance, debt,
+    unemployment (in **tiers**, not precise numbers)
+
+### You choose (policy path)
+
+Starting in Round 1, your delegation chooses:
+
+1.  **Exchange-rate regime** (fixed / managed / floating)
+2.  **Monetary stance** (tighten / hold /loosen)
+3.  **Fiscal stance** (austerity / neutral / stimulus)
+4.  **Trade posture** (open / selective protection / high protection)
+5.  **Capital policy** (open /managed / restricted)
+6.  **Crisis response tools and international alignment**
+
+::: callout-important
+**Agency rule:** Your initial snapshot creates constraints, but **your
+policies can change outcomes over time** (for better or worse).
+:::
+
+## Initial countries 
+
+Each country below is defined by a **Country Dossier**. 
+The tier options are: 
+ 1. **Low / Medium / High** 
+ 2. **Strong / Moderate / Weak** 
+ 3. **Open / Managed / Restricted**
+
+------------------------------------------------------------------------
+
+### Atlantica (Systemic financial power)
+
+**Structural profile** - Diversified, service-heavy economy with deep
+financial markets. - Large role in global finance and safe-asset supply.
+
+**Starting snapshot (tiers):** 
+
+1. Wage level: **High** 
+2. Inflation: **Low–Medium** 
+3. External balance (current account): **Deficit (Medium)** 
+4. FX reserves: **Medium** 
+5. Public debt: **High** 
+6. Financial depth: **High** 
+7. Institutional credibility: **Strong** 
+8. Trade openness: **High** 
+9. Capital mobility: **Open**
+
+**Domestic politics** - Voters care about growth and jobs; inflation
+tolerance is limited. - Financial sector has influence; exporters push
+back against overvaluation.
+
+**Main constraints** - Policy spillovers matter: your decisions affect
+everyone. - Persistent deficits create periodic political pressure.
+
+**What you control (examples)** - Whether to prioritize global stability
+or domestic goals. - Whether to tighten policy to support credibility
+vs. ease to support growth.
+
+------------------------------------------------------------------------
+
+### Noravia (High-credibility export champion)
+
+**Structural profile** - High-income, export-led economy with strong
+institutions and a large tradables sector.
+
+**Starting snapshot (tiers):** 
+
+1. Wage level: **High** 
+2. Inflation: **Low** 
+3. External balance (current account): **Surplus (High)** 
+4. FX reserves: **High** 
+5. Public debt: **Low-Medium** 
+6. Financial depth: **High** 
+7. Institutional credibility: **Strong** 
+8. Trade openness: **High** 
+9. Capital mobility: **Open**
+
+**Domestic politics** - Export sector wants a competitive currency;
+households dislike inflation. - Strong preference for rules-based policy
+and fiscal restraint.
+
+**Main constraints** - Appreciation pressure during turmoil. - External
+partners may accuse you of “excess surpluses.”
+
+**What you control (examples)** - Whether to accept appreciation,
+intervene, or stimulate domestic demand. - Whether to coordinate with
+others to reduce imbalances.
+
+------------------------------------------------------------------------
+
+### Pacifica (Small open financial hub)
+
+**Structural profile** - Small, highly open economy specializing in
+finance, logistics, and high-value services.
+
+**Starting snapshot (tiers):**
+
+1. Wage level: **High** 
+2. Inflation: **Low-Medium** 
+3. External balance (current account): **Near balance / small surplus** 
+4. FX reserves: **Medium-High** 
+5. Public debt: **Low-Medium** 
+6. Financial depth: **High** 
+7. Institutional credibility: **Strong** 
+8. Trade openness: **High** 
+9. Capital mobility: **Open**
+
+
+**Domestic politics** - Finance and trade sectors demand stability and
+predictability. - Public is sensitive to housing/cost-of-living
+pressures.
+
+**Main constraints** - Limited domestic policy autonomy (high exposure
+to global flows). - Vulnerable to sudden stops and reputational shocks.
+
+**What you control (examples)** - Whether to prioritize stability via
+tight policy/managed FX vs. flexibility. - Whether to impose targeted
+capital measures during stress.
+
+------------------------------------------------------------------------
+
+### Agrona (Commodity exporter)
+
+**Structural profile** - Resource- and agriculture-heavy exporter with
+volatile terms of trade.
+
+**Starting snapshot (tiers):**
+
+1. Wage level: **Low-Medium** 
+2. Inflation: **Medium** 
+3. External balance (current account): **Volatile (can swing)** 
+4. FX reserves: **Low-Medium** 
+5. Public debt: **Medium** 
+6. Financial depth: **Medium** 
+7. Institutional credibility: **Moderate** 
+8. Trade openness: **Medium** 
+9. Capital mobility: **Managed**
+
+
+**Domestic politics** - Rural/commodity interests are powerful. - Public
+pressure rises quickly during price busts and currency weakness.
+
+**Main constraints** - Commodity price shocks dominate the cycle. -
+Limited buffers mean policy mistakes are punished quickly.
+
+**What you control (examples)** - Whether to save windfalls (buffers) or
+spend for short-run relief. - Whether to let the currency absorb shocks
+or resist volatility.
+
+------------------------------------------------------------------------
+
+### Industralia (Industrializing importer)
+
+**Structural profile** - Mid-income economy trying to climb the value
+chain; imports key capital goods and energy.
+
+**Starting snapshot (tiers):**
+
+1. Wage level: **Medium** 
+2. Inflation: **Medium-High** 
+3. External balance (current account): **Deficit (High)** 
+4. FX reserves: **Low-Medium** 
+5. Public debt: **Medium-High** 
+6. Financial depth: **Medium** 
+7. Institutional credibility: **Moderate** 
+8. Trade openness: **Medium** 
+9. Capital mobility: **Managed**
+
+
+**Domestic politics** - Industrial firms lobby for protection and
+credit. - Labor is organized; unemployment is politically sensitive.
+
+**Main constraints** - Balance-of-payments pressure is persistent. -
+Credibility is earned through consistency (and lost quickly).
+
+**What you control (examples)** - Whether to prioritize stabilization
+(tighten) vs. growth (ease). - Whether to liberalize trade/capital
+gradually or double down on protection.
+
+::: callout-warning
+**Realignment note:** Industralia is one of the two countries eligible
+for **post-shock realignment** (state split) during Act II.
+:::
+
+------------------------------------------------------------------------
+
+### Frontieria (Fragile, aid-dependent state)
+
+**Structural profile** - Low-income economy with weak institutions;
+relies on aid/remittances and a narrow export base.
+
+**Starting snapshot (tiers):**
+
+1. Wage level: **Low** 
+2. Inflation: **High** 
+3. External balance (current account): **Deficit (Medium-High)** 
+4. FX reserves: **Low** 
+5. Public debt: **Medium** 
+6. Financial depth: **Low** 
+7. Institutional credibility: **Weak** 
+8. Trade openness: **Medium** 
+9. Capital mobility: **Restricted**
+
+
+**Domestic politics** - High political volatility; legitimacy is
+contested. - Households are highly sensitive to food/fuel prices.
+
+**Main constraints** - Small shocks can become crises. - External
+financing often comes with conditions.
+
+**What you control (examples)** - Whether to seek external support early
+vs. preserve sovereignty. - Whether to stabilize prices via tight policy
+vs. risk unrest.
+
+::: callout-warning
+**Realignment note:** Frontieria is one of the two countries eligible
+for **post-shock realignment** (state split) during Act II.
+:::
+
+------------------------------------------------------------------------
+
+### Mercatoria (Trade-dependent manufacturing economy)
+
+**Structural profile** - Export-oriented manufacturer integrated into
+global supply chains; competitiveness is central.
+
+**Starting snapshot (tiers):**
+
+1. Wage level: **Low-Medium** 
+2. Inflation: **Medium** 
+3. External balance (current account): **Near balance / small deficit** 
+4. FX reserves: **Medium** 
+5. Public debt: **Low-Medium** 
+6. Financial depth: **Medium** 
+7. Institutional credibility: **Moderate** 
+8. Trade openness: **High** 
+9. Capital mobility: **Managed-Open**
+
+
+**Domestic politics** - Exporters push for a competitive currency and
+stable trade rules. - Consumers dislike inflation; policymakers fear
+capital flight.
+
+**Main constraints** - Sensitive to global demand and trade
+disruptions. - Thin margins mean exchange-rate swings matter.
+
+**What you control (examples)** - Whether to prioritize competitiveness
+(weaker currency) vs. price stability. - Whether to pursue trade deals,
+diversification, or protection.
+
+------------------------------------------------------------------------
+
+### Petrovia (Resource-rich, politically exposed)
+
+**Structural profile** - Energy/resource exporter with concentrated
+revenue base and elevated geopolitical risk.
+
+**Starting snapshot (tiers):**
+
+1. Wage level: **Medium** 
+2. Inflation: **Medium** 
+3. External balance (current account): **Surplus (Medium) but volatile** 
+4. FX reserves: **Medium-High** 
+5. Public debt: **Low-Medium** 
+6. Financial depth: **Medium** 
+7. Institutional credibility: **Moderate** 
+8. Trade openness: **Medium** 
+9. Capital mobility: **Managed**
+
+
+**Domestic politics** - Resource sector dominates; governance disputes
+are common. - Policy debates center on how to use resource revenue (save
+vs spend).
+
+**Main constraints** - Sanctions and political risk can disrupt finance
+and trade. - Commodity price swings transmit quickly to the budget.
+
+**What you control (examples)** - Whether to build buffers
+(stabilization funds) and credibility. - Whether to diversify the
+economy or rely on resource rents.
+
+------------------------------------------------------------------------
+
+## How successor states will work (Act II)
+
+If realignment occurs (Industralia and Frontieria), each splits into two
+successor states:
+
+-   **Successor A (Stronger):** inherits more reserves and stronger
+    capacity
+-   **Successor B (Weaker):** inherits more debt and lower credibility
+
+::: callout-note
+Successor states will receive a separate one-page briefing at the time
+of realignment describing their updated constraints and objectives.
+:::

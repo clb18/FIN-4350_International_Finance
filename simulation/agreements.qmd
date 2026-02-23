@@ -1,0 +1,162 @@
+---
+title: "Trade and Financial Agreements"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## When agreements become available
+
+Beginning in **Round 3** (or when the instructor announces), countries may pursue **bilateral agreements** to strengthen trade ties or stabilize financial conditions.
+
+::: {.callout-note}
+Agreements are **optional**. You may choose to negotiate, refuse, or counteroffer. However, agreements can materially affect **credibility**, **capital flows**, and **trade outcomes**.
+:::
+
+## What agreements can and cannot do
+
+### Agreements *can*:
+- reduce trade frictions and improve market access
+- provide emergency liquidity support (swap lines)
+- signal credibility through commitments
+- create cooperation (or dependence) that affects outcomes
+
+### Agreements *cannot*:
+- override instructor-imposed shocks or constraints
+- eliminate all risk (markets still react)
+- guarantee favorable outcomes if policies are inconsistent
+
+::: {.callout-important}
+**Consistency rule:** If a country signs an agreement and then violates it without a credible justification, markets will impose a **credibility penalty**.
+:::
+
+## Agreement types (Phase 1)
+
+During the first phase (Rounds 3–6), the simulation permits **two** agreement types:
+
+### 1. Trade Agreement (TA)
+A bilateral deal focused on **goods/services trade**.
+
+Typical provisions (choose 2–3 max):
+- tariff reductions (general or sector-specific)
+- removal of non-tariff barriers (quotas, licensing delays)
+- mutual recognition of standards or customs fast-tracking
+- export restriction commitments (e.g., no sudden bans)
+
+**Common trade-offs**
+- domestic political backlash (protected industries)
+- competitiveness shifts across countries
+- distributional impacts (business vs labor)
+
+---
+
+### 2. Central Bank Swap Line (SL)
+A bilateral **liquidity backstop** providing foreign currency access during stress.
+
+Typical provisions (choose 2–3 max):
+- size of the line (small / medium / large tier)
+- trigger conditions (only during stress; discretionary; automatic)
+- policy conditions (e.g., maintain inflation target band; fiscal discipline)
+- maturity/renewal terms
+
+**Common trade-offs**
+- moral hazard concerns (“bailout” perception)
+- loss of autonomy (conditions)
+- reputational risk for the provider
+
+::: {.callout-warning}
+A swap line is **not free money**. It improves liquidity and credibility, but may increase political tension and conditionality.
+:::
+
+## Negotiation rules (simple and enforceable)
+
+### Proposal limits
+- Each country may submit **at most one (1)** proposal per round.
+- The instructor may approve **at most two (2)** agreements per round for activation (to keep the system manageable).
+
+### Acceptance requirement
+Agreements **only take effect** if the partner country submits an **acceptance** (or both submit a shared final text).
+
+### Duration
+Choose one:
+- **1 round**
+- **2 rounds**
+- **Indefinite** (until explicitly canceled)
+
+### Cancellation and violation
+- Countries may cancel an agreement by announcing cancellation **one round in advance**.
+- Violations without credible justification lead to:
+  - credibility penalty
+  - higher risk premium / reduced capital inflows
+  - reduced willingness of partners to negotiate
+
+## What to submit (Canvas)
+
+Each agreement submission includes:
+1. **Proposal Form** (one page)
+2. **Partner Response** (accept / reject / counter)
+3. Optional: **Short Memo** (≤ 1 page) if the instructor requests it for grading
+
+See also: [Decisions and Rules](decisions.qmd) and [Weekly Briefs](weekly-briefs.qmd)
+
+## Proposal template (copy/paste)
+
+### Agreement Proposal
+- **Type:** TA / SL  
+- **Proposing country:**  
+- **Partner country:**  
+- **Duration:** 1 round / 2 rounds / indefinite  
+
+**Terms (max 3 bullets):**
+- 
+- 
+- 
+
+**Concessions offered (max 2 bullets):**
+- 
+- 
+
+**What you request in return (max 2 bullets):**
+- 
+- 
+
+**Domestic politics note (1–2 sentences):**
+- 
+
+### Partner Response (required)
+- **Decision:** Accept / Reject / Counter  
+- **If counter:** revised terms (max 3 bullets)
+
+## How agreements affect outcomes (market logic)
+
+Agreements influence outcomes through:
+- **Credibility:** commitment signals reduce perceived risk
+- **Trade volumes:** lower frictions expand trade over time
+- **Capital flows:** swap lines and credible cooperation reduce “sudden stop” risk
+- **Spillovers:** partners’ conditions transmit across countries
+
+::: {.callout-note}
+**Instructor note (how you’ll see results):** Outcomes will be reported directionally (↑ ↓ stable) with short causal explanations linking decisions to market reactions.
+:::
+
+## Grading (if used)
+
+If agreements are graded in a given round, evaluation focuses on:
+- **Economic logic** (does the deal address the stated problem?)
+- **Coherence** (terms are consistent with your country’s framework)
+- **Trade-offs** (acknowledges winners/losers domestically)
+- **Feasibility** (realistic commitments and enforcement)
+
+---
+
+## Phase 2 (post-shock expansion)
+
+After the shock and realignment (Act II), the instructor may allow additional agreement types, such as:
+- regional trade blocs
+- reserve pooling arrangements
+- currency bands/basket pegs
+- investment treaties (FDI protections)
+
+These will be announced at the time they become available.

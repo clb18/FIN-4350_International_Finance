@@ -1,5 +1,7 @@
 ---
 title: "Countries"
+resources:
+  - assets/forms/Initial_Policy_Framework_Form_Round0.docx
 format:
   html:
     toc: true
@@ -12,9 +14,7 @@ editor:
 
 ## Why fictional countries?
 
-All countries in the simulation are fictional. Their backgrounds are
-inspired by real historical experiences, but no country is intended to
-be a direct copy of any modern state. You may see some similarities.
+All countries in the simulation are fictional. Their backgrounds are based on real historical experiences, but no country is intended to be a direct copy of any modern state. You may see some similarities.
 
 ::: callout-note
 **Learning goal:** You will reason from **initial conditions** and
@@ -38,25 +38,194 @@ These are slow-moving fundamentals and the starting macro snapshot:
 
 ### You choose (policy path)
 
-Starting in Round 1, your delegation chooses:
+Starting in Round 1, your delegation chooses the strategic direction of your country. These choices determine how markets interpret your credibility, how capital flows respond, and how vulnerable you are to shocks.
 
-1.  **Exchange-rate regime** (fixed / managed / floating)
-2.  **Monetary stance** (tighten / hold /loosen)
-3.  **Fiscal stance** (austerity / neutral / stimulus)
-4.  **Trade posture** (open / selective protection / high protection)
-5.  **Capital policy** (open /managed / restricted)
-6.  **Crisis response tools and international alignment**
+---
+
+**1. Exchange-rate regime (fixed / managed / floating)**
+
+**What you are choosing:**  
+How your currency’s value is determined and how much control your central bank retains over monetary policy.
+
+- **Fixed:**  
+  - Currency is pegged to another currency or basket.  
+  - Central bank must use reserves to defend the rate.  
+  - Lower short-term volatility.  
+  - Limited monetary independence.  
+  - Vulnerable if reserves are insufficient during stress.
+
+- **Managed (dirty float):**  
+  - Currency moves with market forces but central bank intervenes occasionally.  
+  - Partial monetary independence.  
+  - Moderate reserve use.  
+  - Can smooth volatility but may create credibility questions.
+
+- **Floating:**  
+  - Currency determined primarily by supply and demand.  
+  - Full monetary independence.  
+  - Exchange rate absorbs shocks.  
+  - Higher short-term volatility but fewer reserve constraints.
+
+- **Most constrained by:**
+  - External balance
+  - Foreign reserves
+  - Financial depth
+  - Institutional credibility
+  - Export concentration
+
+---
+
+**2. Monetary stance (tighten / hold / loosen)**
+
+**What you are choosing:**  
+The level of interest rates and liquidity in your economy.
+
+- **Tighten:**  
+  - Raise interest rates or reduce money supply.  
+  - Reduces inflation pressure.  
+  - Attracts capital inflows.  
+  - May slow growth and increase unemployment.
+
+- **Hold:**  
+  - Maintain current interest rate settings.  
+  - Signals stability.  
+  - Markets evaluate consistency with economic conditions.
+
+- **Loosen:**  
+  - Lower interest rates or expand liquidity.  
+  - Stimulates growth and employment.  
+  - May weaken currency and raise inflation risk.  
+  - May trigger capital outflows if credibility is low.
+
+- **Most constrained by:**
+  - Inflation level
+  - External balance
+  - Credibility
+  - Financial depth
+  
+---
+
+**3. Fiscal stance (austerity / neutral / stimulus)**
+
+**What you are choosing:**  
+Government spending and taxation policy.
+
+- **Austerity:**  
+  - Reduce deficits (cut spending or raise taxes).  
+  - Improves debt sustainability and credibility.  
+  - May slow growth in the short run.
+
+- **Neutral:**  
+  - Maintain current fiscal trajectory.  
+  - Signals stability but may not address shocks.
+
+- **Stimulus:**  
+  - Increase spending or reduce taxes.  
+  - Supports growth and employment.  
+  - May increase debt and inflation expectations.  
+  - Can widen trade deficits through higher imports.
+
+- **Most constrained by:**
+  - Public debt level
+  - External balance
+  - Political coalitions
+  - Credibility
+  
+---
+
+**4. Trade posture (open / selective protection / high protection)**
+
+**What you are choosing:**  
+The degree of openness to imports and exports.
+
+- **Open:**  
+  - Low tariffs and minimal barriers.  
+  - Increases trade volume and efficiency.  
+  - Exposes domestic industries to competition.
+
+- **Selective protection:**  
+  - Targeted tariffs or quotas in key sectors.  
+  - Protects strategic industries.  
+  - May invite retaliation.
+
+- **High protection:**  
+  - Broad tariffs and strong barriers.  
+  - Shields domestic producers.  
+  - Raises consumer prices and reduces trade flows.  
+  - May provoke trade conflict.
+
+- **Most constrained by:**
+  - Economics structure
+  - Export concentration
+  - Domestic coalitions
+  - External balance
+  
+---
+
+**5. Capital policy (open / managed / restricted)**
+
+**What you are choosing:**  
+How freely money moves across your borders.
+
+- **Open:**  
+  - Free movement of capital in and out.  
+  - Encourages investment inflows.  
+  - Increases exposure to sudden stops and capital flight.
+
+- **Managed:**  
+  - Some monitoring or targeted controls.  
+  - Moderates volatility.  
+  - Markets may question transparency.
+
+- **Restricted:**  
+  - Strong limits on cross-border financial flows.  
+  - Reduces volatility from external shocks.  
+  - May reduce foreign investment and credibility.
+
+- **Most constrained by:**
+  - Financial depth
+  - Credibility
+  - External balance
+  - Reserve level
+  
+---
+
+**6. Crisis response tools and international alignment**
+
+**What you are choosing:**  
+How willing your country is to coordinate internationally and what stabilization tools you are prepared to use.
+
+Examples include:
+- Forming trade agreements
+- Establishing swap lines
+- Requesting international assistance
+- Coordinating interest-rate policy
+- Joining regional blocs
+- Adjusting exchange-rate commitments
+
+**Key trade-off:**  
+Greater coordination can improve stability and credibility, but may reduce policy autonomy.
+
+- **Most constrained by:**
+  - Credibility
+  - Reserve level
+  - Domestic politics
+  - Financial depth
+  
+---
 
 ::: callout-important
 **Agency rule:** Your initial snapshot creates constraints, but **your
-policies can change outcomes over time** (for better or worse).
+policies can change outcomes over time** (for better or worse). Markets respond not only to what you choose, but whether your choices are internally consistent and credible over time.
 :::
 
-## Initial countries (Act I)
+## Initial countries 
 
-Each country below is defined by a **Country Dossier**. The
-tiers are: 1. **Low / Medium / High** 2. **Strong / Moderate / Weak** 3.
-**Open / Managed / Restricted**
+Each country below is defined by a **Country Dossier**. 
+The tier options are: 
+ 1. **Low / Medium / High** 
+ 2. **Strong / Moderate / Weak** 
+ 3. **Open / Managed / Restricted**
 
 ------------------------------------------------------------------------
 
@@ -209,11 +378,6 @@ Credibility is earned through consistency (and lost quickly).
 (tighten) vs. growth (ease). - Whether to liberalize trade/capital
 gradually or double down on protection.
 
-::: callout-warning
-**Realignment note:** Industralia is one of the two countries eligible
-for **post-shock realignment** (state split) during Act II.
-:::
-
 ------------------------------------------------------------------------
 
 ### Frontieria (Fragile, aid-dependent state)
@@ -244,10 +408,6 @@ financing often comes with conditions.
 vs. preserve sovereignty. - Whether to stabilize prices via tight policy
 vs. risk unrest.
 
-::: callout-warning
-**Realignment note:** Frontieria is one of the two countries eligible
-for **post-shock realignment** (state split) during Act II.
-:::
 
 ------------------------------------------------------------------------
 
@@ -311,18 +471,20 @@ and trade. - Commodity price swings transmit quickly to the budget.
 (stabilization funds) and credibility. - Whether to diversify the
 economy or rely on resource rents.
 
-------------------------------------------------------------------------
+## Initial Policy Set-up Form
 
-## How successor states will work (Act II)
+**Each country should download the form below and submit to the instructor AFTER roles have been submitted.
 
-If realignment occurs (Industralia and Frontieria), each splits into two
-successor states:
+::: {.callout-note}
+**Download (Round 0):** [Initial Policy Framework Form (Word)](assets/forms/Initial_Policy_Framework_Form_Round0.docx)
 
--   **Successor A (Stronger):** inherits more reserves and stronger
-    capacity
--   **Successor B (Weaker):** inherits more debt and lower credibility
-
-::: callout-note
-Successor states will receive a separate one-page briefing at the time
-of realignment describing their updated constraints and objectives.
+Each country submits this form to establish its baseline policy package:
+exchange-rate regime, monetary stance, fiscal stance, trade posture, capital policy, and crisis posture/alignment.
 :::
+
+## Where to go next
+
+---------------------------------------------
+
+-   [Decisions and Rules](decisions.qmd)
+-   [Weekly Briefs and Release Schedule](weekly-briefs.qmd)

@@ -1,6 +1,6 @@
 ---
-title: "International Finance Simulation"
-subtitle: "How the simulation works, what to do each week, and what you will submit"
+title: "Overview - International Finance Simulation"
+#subtitle: 
 date: today
 format:
   html:
@@ -28,7 +28,7 @@ format:
 
 ## Purpose
 
-The simulation is a semester-long, country-based decision exercise where you and your teammates represent a fictional country operating in a shared global economy. Each week you will respond to a policy problem involving exchange rates, capital flows, trade, and financial stability.
+The simulation is a multi-week, country-based decision exercise where each team will represent a fictional country operating in a shared global economy. Each week you will respond to a policy problem involving exchange rates, capital flows, trade, and financial stability.
 
 The simulation is designed to help you:
 
@@ -43,29 +43,23 @@ The simulation is designed to help you:
 ### What it is
 
 -   A **repeated decision cycle**: problem → decision → market reaction → adjustment
--   A structured way to apply chapter concepts to realistic constraints
--   A setting where internal disagreement is expected (because roles have different objectives)
+-   A structured way to apply the concepts, ideas, and topics to realistic constraints
+-   A setting where internal disagreement within each country is expected (because roles have different objectives)
 
 ### What it is not
 
--   Not a math-heavy forecasting model
--   Not a game where the “best” outcome always wins
+-   Not a math-heavy forecasting model (theory not calculations)
+-   Not a game where the “best” outcome always wins (remember, other countries decisions may affect your decisions)
 -   Not graded on whether your country “succeeds” in the short run
 
 ::: callout-note
-**How you are graded:** You are evaluated primarily on the quality of your reasoning and the coherence of your policy choices—not on whether markets react positively.
+**How you are graded:** You are evaluated primarily on the quality of your reasoning and the coherence of your policy choices—not on whether markets react positively or whether your policies achieve their desired goals.
+See: [Evaluation and Rubric](grading.qmd)
 :::
 
 ## Course flow and timing
 
-The simulation runs for **approximately 12 weeks** within the semester. There are additional weeks before and after the simulation for preparation and final exam review.
-
--   **Prep (Weeks 1–2):** training, roles, practice round
--   **Act I (Weeks 3–6):** foundations and a stable system
--   **Act II (Weeks 7–8):** shock and realignment
--   **Act III (Weeks 9–12):** reconstruction and new system
-
-See: [Simulation Timeline](timeline.qmd)
+The simulation runs for **approximately 6-8 weeks** within the semester. There are additional weeks before and after the simulation for preparation and final exam review.
 
 ## Your weekly workflow
 
@@ -73,7 +67,7 @@ Each simulation week follows the same workflow:
 
 1.  **Read** the assigned chapter notes and the weekly case brief
 2.  **Meet** with your country team and negotiate a position (roles may disagree)
-3.  **Submit** a decision and justification (Canvas)
+3.  **Submit** a decision and justification (Submission will be on Canvas; firm deadlines, if there is no submission, your previous week's submission will be re-used, but you will receive a 0 for the assignment.)
 4.  **Receive** the market reaction and updated constraints
 5.  **Adjust** for the next round
 
@@ -83,13 +77,13 @@ See: [How Decisions Work](decisions.qmd)
 
 All simulation submissions are made through **Canvas**.
 
-Common submissions include: - Country policy memos (1–2 pages) - Decision forms (country-level, role-level, or both) - Crisis briefs (during shock weeks) - Final presentation materials
+Submissions include: 1. Country policy memos (1–2 pages) 2. Decision forms (country-level, role-level, or both) 
 
 See: [Deliverables](deliverables.qmd)
 
 ## Where to go next
 
--   [Countries](countries.qmd)
 -   [Roles and Responsibilities](roles.qmd)
+-   [Countries](countries.qmd)
 -   [Decisions and Rules](decisions.qmd)
--   [Weekly Briefs and Release Schedule](weekly-briefs.qmd)
+

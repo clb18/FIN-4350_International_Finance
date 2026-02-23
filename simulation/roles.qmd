@@ -1,5 +1,7 @@
 ---
 title: "Roles and Responsibilities"
+resources:
+  - assets/forms/Country_Team_Roles_Form.docx
 format:
   html:
     toc: true
@@ -8,74 +10,125 @@ format:
 ---
 
 ## Why roles?
-International finance decisions are made by institutions with different objectives. In this simulation, roles create productive internal conflict—your goal is to negotiate a coherent country position.
+International finance decisions are made by institutions with different objectives. In this simulation, roles create productive internal conflict—your goal is to negotiate a coherent policy to achieve national goals.
 
 ::: {.callout-important}
-Roles are **permanent** for the simulation. When realignment occurs, you keep your role.
+Roles are **permanent** for the simulation. Changes only may occur for significant reasons.
 :::
 
 ## Central Banker
-**Responsibilities**
+**Responsibilities:**
+
 - set monetary policy stance (tighten/loosen/hold)
 - manage the exchange-rate regime and reserves
 - maintain credibility and financial stability
 - communicate clearly (policy signals matter)
 
-**Common trade-offs**
+**Common trade-offs:**
+
 - inflation control vs growth
 - defending the currency vs preserving reserves
 - credibility vs flexibility
 
-**Typical outputs**
+**Typical outputs:**
+
 - short central bank statement (paragraph)
 - policy recommendation to the cabinet
 
 ## Head of Government / Legislature
-**Responsibilities**
+**Responsibilities:**
+
 - set fiscal policy stance (stimulus/austerity/neutral)
 - assess political feasibility and distributional consequences
 - coordinate across roles to produce a unified plan
 - lead crisis decisions
 
-**Common trade-offs**
+**Common trade-offs:**
+
 - political constraints vs economic discipline
 - short-run stabilization vs long-run credibility
 
-**Typical outputs**
+**Typical outputs:**
+
 - cabinet decision memo (1 page)
 - press statement to the public
 
+## Finance Minister (Treasury)
+**Responsibilities:**
+
+- set fiscal policy stance (stimulus/austerity/neutral)
+- manage taxation and government spending priorities
+- assess public debt sustainability and borrowing needs
+- coordinate with the central bank while respecting institutional boundaries
+- prepare budgetary adjustment during crisis periods
+
+**Common trade-offs:**
+
+- short-run stimulus vs long-run debt sustainability
+- growth vs fiscal discipline
+- domestic political pressures vs market credibility
+- social spending vs investor confidence
+- fiscal expansion under a fixed exchange rate vs reserve stability
+
+**Typical outputs:**
+
+- short fiscal policy memo (1 paragraph)
+- budget stance recommendation to the cabinet
+- debt sustainability assessment (brief justification)
+
+
+
 ## Trade / International Representative
-**Responsibilities**
+**Responsibilities:**
+
 - negotiate with other countries (trade, coordination, institutions)
 - represent the country in multilateral forums
 - assess retaliation risks, sanctions, treaty terms, and alignment options
 
-**Common trade-offs**
+**Common trade-offs:**
+
 - national advantage vs system stability
 - hard bargaining vs reputation
 
-**Typical outputs**
-- negotiation position sheet (bullets)
+**Typical outputs:**
+
+- negotiation position sheet 
 - proposed agreement text (short)
 
-## Business and Labor Representative
-**Responsibilities**
+## Business and Labor Representative 
+**Responsibilities:**
+
 - represent firms and households affected by policy
 - assess FX and interest-rate exposure (transaction/operating)
 - propose mitigation: hedging, relocation, wage adjustments, support programs
 
-**Common trade-offs**
+**Common trade-offs:**
+
 - competitiveness vs wages and employment
 - openness vs protection
 
-**Typical outputs**
-- stakeholder brief (bullets)
+**Typical outputs:**
+
+- stakeholder brief 
 - support or opposition statement to the cabinet
 
 ## Team governance
-::: {.callout-note}
-A strong team does two things every week:
+
+A strong team does two things each week:
 1) it debates internally (roles disagree), and
 2) it submits one coherent country position with a clear rationale.
+
+## Country Role Assignments
+
+**Each team needs to download the form below, fill it out, and email to the instructor.**
+
+::: {.callout-note}
+**Download:** [Country Team Roles & Contact Sheet (Word)](assets/forms/Country_Team_Roles_Form.docx)
 :::
+
+
+## Where to go next
+
+-   [Countries](countries.qmd)
+-   [Decisions and Rules](decisions.qmd)
+-   [Deliverables](deliverables.qmd)

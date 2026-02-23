@@ -35,6 +35,6 @@ You are **not** graded on whether your country "wins." You are graded on whether
 
 ## Common pitfalls
 - proposing mutually inconsistent policies (e.g., fixed peg + money creation + no reserves)
-- ignoring balance-of-payments constraints
 - shifting objectives week-to-week with no explanation
 - vague memos that do not commit to a policy
+- failing to submit a required document

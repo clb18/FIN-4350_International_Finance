@@ -1,0 +1,29 @@
+---
+title: "Post_Shock_information"
+editor: visual
+---
+
+
+**From Market Reactions page**
+
+## Post-shock reactions (successor states)
+### Successor State A (Stronger)
+- coherent policies: modest depreciation then stabilization; limited market access returns
+- incoherent policies: sharp depreciation; pressure to abandon regime
+
+### Successor State B (Weaker)
+- credible stabilization: large depreciation then partial stabilization; assistance may become available
+- incoherent policies: severe collapse; trade finance freezes
+
+::: {.callout-warning}
+New states are especially sensitive to mistakes for the first two post-shock rounds.
+:::
+
+**From FAQ section**
+
+### How do we coordinate with other countries?
+Your trade/international representative will negotiate. Agreements must be documented briefly.
+
+### What changes after the shock?
+Two countries split into successor states and face temporary credibility penalties. Roles remain the same. See: [Shock and Realignment](shock.qmd)
+
