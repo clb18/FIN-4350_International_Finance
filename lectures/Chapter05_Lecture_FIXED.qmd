@@ -89,7 +89,7 @@ The foreign exchange (FX) market is the mechanism by which participants:
 ### Common misconceptions
 
 -   **“The FX market is a physical place.”**  
-    It’s overwhelmingly an electronic, global, OTC network.
+    It’s overwhelmingly an electronic, global, Over the Counter (OTC) network (in other words, customizable, and not a central exchange).
 -   **“FX is only for speculators.”**  
     The core volume exists because of trade, investment, and financing needs; speculation is *layered on top*.
 -   **“Hedging eliminates risk for free.”**  
@@ -283,7 +283,7 @@ Typical when:
 -   The currency has capital controls or limited convertibility.
 -   Market participants still need hedging or price discovery offshore.
 
-**Teaching anchor:** NDFs are an institutional workaround—“we’ll settle the P&L in dollars rather than deliver the restricted currency.”
+**Note:** NDFs are an institutional workaround—“we’ll settle the P&L in dollars rather than deliver the restricted currency.”
 
 ### Settlement timing and value dates
 
@@ -306,27 +306,20 @@ The FX market is the world’s largest financial market by turnover.
 
 ![Top 10 Geographic Trading Centers](../assets/images/Ch05/Exhibit_5.7_top10_centers.png){width="90%"}
 
-Classroom point: London’s role as a global hub reflects time zone overlap, institutional depth, and historical network effects.
+**Note:** London’s role as a global hub reflects time zone overlap, institutional depth, and historical network effects.
 
 ### Currency composition
 
-![Daily FX Trading by Currency Pair](../assets/images/Ch05/Exhibit_5.8_currency_composition.png){width="90%"}
-
 The U.S. dollar appears on one side of most trades. That does **not** mean the U.S. must be a counterparty—it means the dollar is often the *vehicle currency* used to move between two less-liquid currencies.
 
-### Likely student misconceptions
+### Common misconceptions
 
 -   **“Spot means instantaneous.”**  
-    In interbank markets it typically settles T+2.
+    In interbank markets it typically settles T+2 ("by day after tomorrow").
 -   **“Forward contracts are like futures.”**  
     Both are forward-looking, but forwards are OTC and customized; futures are standardized and exchange-traded.
 -   **“Swaps are rare/advanced.”**  
     They are the *largest* volume category because funding and liquidity management is constant.
-
-### Check for understanding
-
-1.  A U.S. firm will pay JPY in 3 months. What FX instrument most directly locks in the USD cost today?
-2.  Why might a bank use swaps repeatedly rather than a single long-dated forward?
 
 ------------------------------------------------------------------------
 
@@ -379,7 +372,8 @@ These depend on who is “home”:
 -   **Direct quote**: home currency price of 1 unit of foreign currency.
 -   **Indirect quote**: foreign currency price of 1 unit of home currency.
 
-For a U.S. resident, \text{USD}/\text{EUR} is direct; \text{EUR}/\text{USD} is indirect.
+For a U.S. resident, $\text{USD}/\text{EUR}$ is direct; 
+$\text{EUR}/\text{USD}$ is indirect.
 
 #### Bid and ask rates
 
@@ -388,13 +382,10 @@ Interbank quotes are two-sided:
 -   **Bid**: dealer buys the base currency (you sell it to the dealer)
 -   **Ask (offer)**: dealer sells the base currency (you buy it from the dealer)
 
-![Bid, Ask, and Mid-Point Quotation](../assets/images/Ch05/Exhibit_5.10_bid_ask_midpoint.png){width="80%"}
-
 A useful operational rule:
 
 -   *You buy at the ask; you sell at the bid.*
 
-![Exchange Rates: New York Closing Snapshot](../assets/images/Ch05/Exhibit_5.11_WSJ_closing_snapshot.png){width="90%"}
 
 **Why do spreads exist?** processing costs, inventory costs, volatility, and market competition/liquidity.
 
@@ -404,7 +395,7 @@ Many currency pairs are thinly traded. Their rate is often implied via a third c
 
 Example logic:
 
-If you know \text{USD}/\text{EUR} and \text{USD}/\text{GBP}, then
+If you know $\text{USD}/\text{EUR}$ and $\text{USD}/\text{GBP}$, then
 
 $$
 \text{EUR} / \text{GBP} = \frac{\text{USD}/\text{GBP}}{\text{USD}/\text{EUR}}
@@ -418,7 +409,7 @@ Arbitrage exists when the implied cross-rate differs from the quoted cross-rate 
 
 ![Triangular Arbitrage by a Market Trader](../assets/images/Ch05/Exhibit_5.12_triangular_arbitrage.png){width="90%"}
 
-A safe teaching sequence:
+An example of Arbitrage:
 
 1.  Start with one currency (e.g., USD).
 2.  Convert to a second currency at the dealer’s bid/ask.
@@ -447,9 +438,9 @@ $$
 -   If \(F > S\): the foreign currency is at a **forward premium** (in American terms).
 -   If \(F < S\): it is at a **forward discount**.
 
-**Important teaching note:** the sign and interpretation can flip depending on quote convention (American vs European terms). The safest approach is: define your quote clearly, compute \((F-S)/S\), and interpret the meaning in words (“more or fewer USD per 1 unit of foreign currency”).
+**Important note:** the sign and interpretation can flip depending on quote convention (American vs European terms). The safest approach is to define your quote clearly, compute \((F-S)/S\), and interpret the meaning in words (“more or fewer USD per 1 unit of foreign currency”).
 
-### Likely student misconceptions
+### Possible misconceptions
 
 -   **“Direct vs. indirect is the same as American vs. European.”**  
     They are related but not identical; direct/indirect depends on who is “home.”
@@ -457,12 +448,6 @@ $$
     It matters *a lot* for arbitrage and any realistic conversion path.
 -   **“Cross rates are just multiplying numbers.”**  
     Cross rates are unit algebra; always track currency units.
-
-### Check for understanding
-
-1.  If EUR/USD is 1.10, what is USD/EUR?  
-2.  If a dealer quotes EUR/USD 1.1000–1.1004, what price do you pay to buy euros?
-3.  If the implied EUR/GBP differs from the quoted EUR/GBP, what additional information do you need before declaring “free money”?
 
 ------------------------------------------------------------------------
 
