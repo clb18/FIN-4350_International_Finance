@@ -1,0 +1,94 @@
+---
+title: "FX Market Dashboard"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## FX Index Dashboard
+
+All currencies begin at **100** in Round 0.
+
+::: {.callout-note}
+**How to read this table:** Higher scores indicate strengthening / inflows. Lower scores indicate depreciation pressure / outflows.
+:::
+
+| Country | FX Index | Status | Notes |
+|---|---:|---|---|
+| Agrona | 100 | Stable | |
+| Atlantica | 100 | Stable | |
+| Frontieria | 100 | Stable | |
+| Industralia | 100 | Stable | |
+| Mercatoria | 100 | Stable | |
+| Noravia | 100 | Stable | |
+| Pacifica | 100 | Stable | |
+| Petrovia | 100 | Stable | |
+
+::: {.callout-important}
+**Reminder:** The FX Index is a summary indicator. Your job is to submit a coherent policy package that restores confidence or adjusts the regime. 
+:::
+
+## What is the FX Index Score?
+
+Each currency is tracked using an **FX Index Score** so you can see how your currency is performing in the market **without doing calculations**.
+
+The FX Index is a market-style indicator that summarizes:
+
+- Demand for your currency
+- Capital inflows/outflows
+- Exchange-rate pressure (appreciation or depreciation pressure)
+
+::: {.callout-note}
+**Key idea:** A higher FX Index generally means the market wants to hold your currency. A lower FX Index generally means the market is trying to move into other currencies.
+:::
+
+## Starting Point
+
+- **Round 0:** All currencies begin at parity with an **FX Index of 100**.
+
+## How to Interpret the FX Index
+
+| FX Index Range | Market Label | Meaning |
+|---:|---|---|
+| 115–105 | Strengthening | Capital inflows and appreciation pressure |
+| 104–97 | Stable | Normal market conditions |
+| 96–90 | Softening | Mild depreciation pressure |
+| 89–80 | Under Pressure | Visible stress and market testing |
+| 79–70 | Severe Pressure | Strong outflows or reserve loss |
+| < 70 | Crisis | Devaluation or regime change likely |
+
+::: {.callout-important}
+Your goal is not to “maximize” the FX Index every week. Your goal is to choose a **coherent** policy mix that supports your country’s objectives while maintaining credibility.
+:::
+
+## What Affects Your Score
+
+The FX Index can change each round based on:
+
+- **Exchange-rate regime** (fixed vs. managed vs. floating)
+- **Monetary policy stance** (tighten / hold / loosen)
+- **Fiscal policy credibility** (sustainability and market confidence)
+- **Capital policy** (open vs. managed vs. restricted)
+- **External economic conditions** (commodity prices, global risk appetite, trade conditions)
+- **Consistency of the policy mix** (markets reward clear, internally consistent strategies)
+
+## How You Use It Each Week
+
+Each round you will receive:
+
+1. A **Market Report** (news/market narrative)
+2. An updated **FX Market Dashboard** (including FX Index Scores)
+
+Your team then submits a **Weekly Country Decision Form** responding to market conditions.
+
+If your FX Index is falling, it typically means markets are becoming less willing to hold your currency at current terms (credibility is falling). Your team must either:
+
+- Restore confidence (through credible, consistent policy), or
+- Adjust the exchange-rate regime (if your current regime is not sustainable)
+
+::: {.callout-note}
+**Tip:** A clear plan and consistent policy mix often matter as much as the policy choice itself.
+:::
+

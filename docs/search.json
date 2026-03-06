@@ -868,6 +868,90 @@
     ]
   },
   {
+    "objectID": "simulation/fx_dashboard.html",
+    "href": "simulation/fx_dashboard.html",
+    "title": "FX Market Dashboard",
+    "section": "",
+    "text": "All currencies begin at 100 in Round 0.\n\n\n\n\n\n\nNote\n\n\n\nHow to read this table: Higher scores indicate strengthening / inflows. Lower scores indicate depreciation pressure / outflows.\n\n\n\n\n\nCountry\nFX Index\nStatus\nNotes\n\n\n\n\nAgrona\n100\nStable\n\n\n\nAtlantica\n100\nStable\n\n\n\nFrontieria\n100\nStable\n\n\n\nIndustralia\n100\nStable\n\n\n\nMercatoria\n100\nStable\n\n\n\nNoravia\n100\nStable\n\n\n\nPacifica\n100\nStable\n\n\n\nPetrovia\n100\nStable\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nReminder: The FX Index is a summary indicator. Your job is to submit a coherent policy package that restores confidence or adjusts the regime.",
+    "crumbs": [
+      "Home",
+      "IF Simulation",
+      "FX Market Dashboard"
+    ]
+  },
+  {
+    "objectID": "simulation/fx_dashboard.html#fx-index-dashboard",
+    "href": "simulation/fx_dashboard.html#fx-index-dashboard",
+    "title": "FX Market Dashboard",
+    "section": "",
+    "text": "All currencies begin at 100 in Round 0.\n\n\n\n\n\n\nNote\n\n\n\nHow to read this table: Higher scores indicate strengthening / inflows. Lower scores indicate depreciation pressure / outflows.\n\n\n\n\n\nCountry\nFX Index\nStatus\nNotes\n\n\n\n\nAgrona\n100\nStable\n\n\n\nAtlantica\n100\nStable\n\n\n\nFrontieria\n100\nStable\n\n\n\nIndustralia\n100\nStable\n\n\n\nMercatoria\n100\nStable\n\n\n\nNoravia\n100\nStable\n\n\n\nPacifica\n100\nStable\n\n\n\nPetrovia\n100\nStable\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nReminder: The FX Index is a summary indicator. Your job is to submit a coherent policy package that restores confidence or adjusts the regime.",
+    "crumbs": [
+      "Home",
+      "IF Simulation",
+      "FX Market Dashboard"
+    ]
+  },
+  {
+    "objectID": "simulation/fx_dashboard.html#what-is-the-fx-index-score",
+    "href": "simulation/fx_dashboard.html#what-is-the-fx-index-score",
+    "title": "FX Market Dashboard",
+    "section": "2 What is the FX Index Score?",
+    "text": "2 What is the FX Index Score?\nEach currency is tracked using an FX Index Score so you can see how your currency is performing in the market without doing calculations.\nThe FX Index is a market-style indicator that summarizes:\n\nDemand for your currency\nCapital inflows/outflows\nExchange-rate pressure (appreciation or depreciation pressure)\n\n\n\n\n\n\n\nNote\n\n\n\nKey idea: A higher FX Index generally means the market wants to hold your currency. A lower FX Index generally means the market is trying to move into other currencies.",
+    "crumbs": [
+      "Home",
+      "IF Simulation",
+      "FX Market Dashboard"
+    ]
+  },
+  {
+    "objectID": "simulation/fx_dashboard.html#starting-point",
+    "href": "simulation/fx_dashboard.html#starting-point",
+    "title": "FX Market Dashboard",
+    "section": "3 Starting Point",
+    "text": "3 Starting Point\n\nRound 0: All currencies begin at parity with an FX Index of 100.",
+    "crumbs": [
+      "Home",
+      "IF Simulation",
+      "FX Market Dashboard"
+    ]
+  },
+  {
+    "objectID": "simulation/fx_dashboard.html#how-to-interpret-the-fx-index",
+    "href": "simulation/fx_dashboard.html#how-to-interpret-the-fx-index",
+    "title": "FX Market Dashboard",
+    "section": "4 How to Interpret the FX Index",
+    "text": "4 How to Interpret the FX Index\n\n\n\nFX Index Range\nMarket Label\nMeaning\n\n\n\n\n115–105\nStrengthening\nCapital inflows and appreciation pressure\n\n\n104–97\nStable\nNormal market conditions\n\n\n96–90\nSoftening\nMild depreciation pressure\n\n\n89–80\nUnder Pressure\nVisible stress and market testing\n\n\n79–70\nSevere Pressure\nStrong outflows or reserve loss\n\n\n&lt; 70\nCrisis\nDevaluation or regime change likely\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nYour goal is not to “maximize” the FX Index every week. Your goal is to choose a coherent policy mix that supports your country’s objectives while maintaining credibility.",
+    "crumbs": [
+      "Home",
+      "IF Simulation",
+      "FX Market Dashboard"
+    ]
+  },
+  {
+    "objectID": "simulation/fx_dashboard.html#what-affects-your-score",
+    "href": "simulation/fx_dashboard.html#what-affects-your-score",
+    "title": "FX Market Dashboard",
+    "section": "5 What Affects Your Score",
+    "text": "5 What Affects Your Score\nThe FX Index can change each round based on:\n\nExchange-rate regime (fixed vs. managed vs. floating)\nMonetary policy stance (tighten / hold / loosen)\nFiscal policy credibility (sustainability and market confidence)\nCapital policy (open vs. managed vs. restricted)\nExternal economic conditions (commodity prices, global risk appetite, trade conditions)\nConsistency of the policy mix (markets reward clear, internally consistent strategies)",
+    "crumbs": [
+      "Home",
+      "IF Simulation",
+      "FX Market Dashboard"
+    ]
+  },
+  {
+    "objectID": "simulation/fx_dashboard.html#how-you-use-it-each-week",
+    "href": "simulation/fx_dashboard.html#how-you-use-it-each-week",
+    "title": "FX Market Dashboard",
+    "section": "6 How You Use It Each Week",
+    "text": "6 How You Use It Each Week\nEach round you will receive:\n\nA Market Report (news/market narrative)\nAn updated FX Market Dashboard (including FX Index Scores)\n\nYour team then submits a Weekly Country Decision Form responding to market conditions.\nIf your FX Index is falling, it typically means markets are becoming less willing to hold your currency at current terms (credibility is falling). Your team must either:\n\nRestore confidence (through credible, consistent policy), or\nAdjust the exchange-rate regime (if your current regime is not sustainable)\n\n\n\n\n\n\n\nNote\n\n\n\nTip: A clear plan and consistent policy mix often matter as much as the policy choice itself.",
+    "crumbs": [
+      "Home",
+      "IF Simulation",
+      "FX Market Dashboard"
+    ]
+  },
+  {
     "objectID": "simulation/do_not_use_countries.html",
     "href": "simulation/do_not_use_countries.html",
     "title": "Countries",
@@ -2218,6 +2302,48 @@
     "title": "FAQ",
     "section": "7 What changes after the shock?",
     "text": "7 What changes after the shock?\nTwo countries split into successor states and face temporary credibility penalties. Roles remain the same. See: Shock and Realignment"
+  },
+  {
+    "objectID": "simulation/fx_index_score_student_explainer.html",
+    "href": "simulation/fx_index_score_student_explainer.html",
+    "title": "FX Index Score",
+    "section": "",
+    "text": "Each currency is tracked using an FX Index Score so you can see how your currency is performing in the market without doing calculations.\nThe FX Index is a market-style indicator that summarizes:\n\nDemand for your currency\nCapital inflows/outflows\nExchange-rate pressure (appreciation or depreciation pressure)\n\n\n\n\n\n\n\nNote\n\n\n\nKey idea: A higher FX Index generally means the market wants to hold your currency. A lower FX Index generally means the market is trying to move into other currencies."
+  },
+  {
+    "objectID": "simulation/fx_index_score_student_explainer.html#what-is-the-fx-index-score",
+    "href": "simulation/fx_index_score_student_explainer.html#what-is-the-fx-index-score",
+    "title": "FX Index Score",
+    "section": "",
+    "text": "Each currency is tracked using an FX Index Score so you can see how your currency is performing in the market without doing calculations.\nThe FX Index is a market-style indicator that summarizes:\n\nDemand for your currency\nCapital inflows/outflows\nExchange-rate pressure (appreciation or depreciation pressure)\n\n\n\n\n\n\n\nNote\n\n\n\nKey idea: A higher FX Index generally means the market wants to hold your currency. A lower FX Index generally means the market is trying to move into other currencies."
+  },
+  {
+    "objectID": "simulation/fx_index_score_student_explainer.html#starting-point",
+    "href": "simulation/fx_index_score_student_explainer.html#starting-point",
+    "title": "FX Index Score",
+    "section": "2 Starting Point",
+    "text": "2 Starting Point\n\nRound 0: All currencies begin at parity with an FX Index of 100."
+  },
+  {
+    "objectID": "simulation/fx_index_score_student_explainer.html#how-to-interpret-the-fx-index",
+    "href": "simulation/fx_index_score_student_explainer.html#how-to-interpret-the-fx-index",
+    "title": "FX Index Score",
+    "section": "3 How to Interpret the FX Index",
+    "text": "3 How to Interpret the FX Index\n\n\n\nFX Index Range\nMarket Label\nMeaning\n\n\n\n\n115–105\nStrengthening\nCapital inflows and appreciation pressure\n\n\n104–97\nStable\nNormal market conditions\n\n\n96–90\nSoftening\nMild depreciation pressure\n\n\n89–80\nUnder Pressure\nVisible stress and market testing\n\n\n79–70\nSevere Pressure\nStrong outflows or reserve loss\n\n\n&lt; 70\nCrisis\nDevaluation or regime change likely\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nYour goal is not to “maximize” the FX Index every week. Your goal is to choose a coherent policy mix that supports your country’s objectives while maintaining credibility."
+  },
+  {
+    "objectID": "simulation/fx_index_score_student_explainer.html#what-affects-your-score",
+    "href": "simulation/fx_index_score_student_explainer.html#what-affects-your-score",
+    "title": "FX Index Score",
+    "section": "4 What Affects Your Score",
+    "text": "4 What Affects Your Score\nThe FX Index can change each round based on:\n\nExchange-rate regime (fixed vs. managed vs. floating)\nMonetary policy stance (tighten / hold / loosen)\nFiscal policy credibility (sustainability and market confidence)\nCapital policy (open vs. managed vs. restricted)\nExternal economic conditions (commodity prices, global risk appetite, trade conditions)\nConsistency of the policy mix (markets reward clear, internally consistent strategies)"
+  },
+  {
+    "objectID": "simulation/fx_index_score_student_explainer.html#how-you-use-it-each-week",
+    "href": "simulation/fx_index_score_student_explainer.html#how-you-use-it-each-week",
+    "title": "FX Index Score",
+    "section": "5 How You Use It Each Week",
+    "text": "5 How You Use It Each Week\nEach round you will receive:\n\nA Market Report (news/market narrative)\nAn updated FX Market Dashboard (including FX Index Scores)\n\nYour team then submits a Weekly Country Decision Form responding to market conditions.\nIf your FX Index is falling, it typically means markets are becoming less willing to hold your currency at current terms. Your team must either:\n\nRestore confidence (through credible, consistent policy), or\nAdjust the exchange-rate regime (if your current regime is not sustainable)\n\n\n\n\n\n\n\nNote\n\n\n\nTip: A clear plan and consistent policy mix often matter as much as the policy choice itself."
   },
   {
     "objectID": "simulation/index.html",
