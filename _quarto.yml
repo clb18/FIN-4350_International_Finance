@@ -7,7 +7,7 @@ project:
     - "*.qmd"
     - "lectures/**.qmd"
 #    - "!lectures/Chapter05_Lecture**.qmd"
-    - "!lectures/Chapter06_Lecture**.qmd"
+#    - "!lectures/Chapter06_Lecture**.qmd"
 
     # ==============================
     # SIMULATION RENDER MODE TOGGLE
@@ -63,7 +63,7 @@ website:
           - simulation/countries.qmd
           - simulation/decisions.qmd
           - simulation/deliverables.qmd
-          - simulation/fx_dashboard.qmd
+          - simulation/fx_dashboard_week_1.qmd
           - simulation/Weekly_Brief_sample.qmd
           - simulation/markets.qmd
           - simulation/grading.qmd

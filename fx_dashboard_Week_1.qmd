@@ -1,0 +1,31 @@
+---
+title: "FX Market Dashboard"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## FX Index Dashboard
+
+All currencies begin at **100** in Round 0.
+
+::: {.callout-note}
+**How to read this table:** Higher scores indicate strengthening / inflows. Lower scores indicate depreciation pressure / outflows.
+:::
+
+| Country | FX Index | Status | Notes |
+|---|---:|---|---|
+| Agrona | 98 | Slight softening | Structural exposure to external volatility keeps markets cautious. |
+| Atlantica | 102 | Stable / slightly strengthening | Floating regime and neutral policy keep Atlantica calm and credible. |
+| Frontieria | 103 | Strengthening | Tight policy, austerity, and capital restrictions support stability. |
+| Industralia | 101 | Stable | Tight monetary policy and managed capital flows support confidence. |
+| Mercatoria | 100 | Stable | Balanced policy mix produces no strong directional pressure. |
+| Noravia | 101 | Stable | Tight monetary policy supports the currency, though markets watch policy consistency. |
+| Pacifica | 99 | Stable | Managed regime and open capital create exposure, but discipline contains pressure. |
+| Petrovia | 99 | Stable | Markets remain neutral but cautious toward a managed, resource-linked economy. |
+
+::: {.callout-important}
+**Reminder:** The FX Index is a summary indicator. Your job is to submit a coherent policy package that restores confidence or adjusts the regime.
+:::

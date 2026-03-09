@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Prof.&nbsp;Barker">
+<meta name="dcterms.date" content="2026-03-08">
+
+<title>Chapter 6 - International Parity Conditions – International Finance</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2e98a8173336b0a3fc6fb521ab0b9ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">International Finance</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lecture Notes</li><li class="breadcrumb-item"><a href="../lectures/Chapter01_Lecture.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/Chapter06_Lecture.html">Chapter 6 - International Parity Conditions</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Lecture Notes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Lectures</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter01_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 1 - Multinational Financial Management: Opportunities and Challenges</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter02_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 2 - International Monetary System</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter02.1_2026_Currency_example.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 2.1 - 2026 Example</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter03_LectureA.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 3 - The Balance of Payments</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter04_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 4 - Financial Goals, Corporate Governance, and the Market for Corporate Control</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter05_Lecture_FIXED.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 5 - The Foreign Exchange Market</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter06_Lecture.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Chapter 6 - International Parity Conditions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">IF Simulation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview - START HERE</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/roles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Roles and Responsibilities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/countries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Countries</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/decisions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Decisions and Rules</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/deliverables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deliverables</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/fx_dashboard_week_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FX Market Dashboard</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/Weekly_Brief_sample.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Weekly Brief – EXAMPLE ONLY</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/markets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Market Reactions &amp; FAQs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/grading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Evaluation and Rubric</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">6</span> Introduction</a>
+  <ul>
+  <li><a href="#chapter-roadmap" id="toc-chapter-roadmap" class="nav-link" data-scroll-target="#chapter-roadmap">Chapter Roadmap</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#prices-and-exchange-rates" id="toc-prices-and-exchange-rates" class="nav-link" data-scroll-target="#prices-and-exchange-rates"><span class="header-section-number">6.1</span> Prices and Exchange Rates</a>
+  <ul class="collapse">
+  <li><a href="#purchasing-power-parity-and-the-law-of-one-price" id="toc-purchasing-power-parity-and-the-law-of-one-price" class="nav-link" data-scroll-target="#purchasing-power-parity-and-the-law-of-one-price"><span class="header-section-number">6.1.1</span> Purchasing Power Parity and the Law of One Price</a>
+  <ul class="collapse">
+  <li><a href="#absolute-purchasing-power-parity" id="toc-absolute-purchasing-power-parity" class="nav-link" data-scroll-target="#absolute-purchasing-power-parity"><span class="header-section-number">6.1.1.1</span> Absolute Purchasing Power Parity</a></li>
+  <li><a href="#why-the-big-mac-index-is-a-strong-example" id="toc-why-the-big-mac-index-is-a-strong-example" class="nav-link" data-scroll-target="#why-the-big-mac-index-is-a-strong-example"><span class="header-section-number">6.1.1.2</span> Why the Big Mac Index Is A Strong Example</a></li>
+  </ul></li>
+  <li><a href="#relative-purchasing-power-parity" id="toc-relative-purchasing-power-parity" class="nav-link" data-scroll-target="#relative-purchasing-power-parity"><span class="header-section-number">6.1.2</span> Relative Purchasing Power Parity</a>
+  <ul class="collapse">
+  <li><a href="#example-of-relative-ppp" id="toc-example-of-relative-ppp" class="nav-link" data-scroll-target="#example-of-relative-ppp"><span class="header-section-number">6.1.2.1</span> Example of Relative PPP</a></li>
+  </ul></li>
+  <li><a href="#empirical-tests-of-purchasing-power" id="toc-empirical-tests-of-purchasing-power" class="nav-link" data-scroll-target="#empirical-tests-of-purchasing-power"><span class="header-section-number">6.1.3</span> Empirical Tests of Purchasing Power</a></li>
+  <li><a href="#exchange-rate-indices-real-and-nominal" id="toc-exchange-rate-indices-real-and-nominal" class="nav-link" data-scroll-target="#exchange-rate-indices-real-and-nominal"><span class="header-section-number">6.1.4</span> Exchange Rate Indices: Real and Nominal</a>
+  <ul class="collapse">
+  <li><a href="#nominal-effective-exchange-rate-index" id="toc-nominal-effective-exchange-rate-index" class="nav-link" data-scroll-target="#nominal-effective-exchange-rate-index"><span class="header-section-number">6.1.4.1</span> Nominal Effective Exchange Rate Index</a></li>
+  <li><a href="#real-effective-exchange-rate-index" id="toc-real-effective-exchange-rate-index" class="nav-link" data-scroll-target="#real-effective-exchange-rate-index"><span class="header-section-number">6.1.4.2</span> Real Effective Exchange Rate Index</a></li>
+  <li><a href="#why-managers-care" id="toc-why-managers-care" class="nav-link" data-scroll-target="#why-managers-care"><span class="header-section-number">6.1.4.3</span> Why Managers Care</a></li>
+  </ul></li>
+  <li><a href="#exchange-rate-pass-through" id="toc-exchange-rate-pass-through" class="nav-link" data-scroll-target="#exchange-rate-pass-through"><span class="header-section-number">6.1.5</span> Exchange Rate Pass-Through</a>
+  <ul class="collapse">
+  <li><a href="#complete-versus-partial-pass-through" id="toc-complete-versus-partial-pass-through" class="nav-link" data-scroll-target="#complete-versus-partial-pass-through"><span class="header-section-number">6.1.5.1</span> Complete versus Partial Pass-Through</a></li>
+  <li><a href="#why-partial-pass-through-occurs" id="toc-why-partial-pass-through-occurs" class="nav-link" data-scroll-target="#why-partial-pass-through-occurs"><span class="header-section-number">6.1.5.2</span> Why Partial Pass-Through Occurs</a></li>
+  <li><a href="#managerial-meaning" id="toc-managerial-meaning" class="nav-link" data-scroll-target="#managerial-meaning"><span class="header-section-number">6.1.5.3</span> Managerial Meaning</a></li>
+  <li><a href="#price-elasticity-of-demand" id="toc-price-elasticity-of-demand" class="nav-link" data-scroll-target="#price-elasticity-of-demand"><span class="header-section-number">6.1.5.4</span> Price Elasticity of Demand</a></li>
+  <li><a href="#pass-through-and-emerging-market-currencies" id="toc-pass-through-and-emerging-market-currencies" class="nav-link" data-scroll-target="#pass-through-and-emerging-market-currencies"><span class="header-section-number">6.1.5.5</span> Pass-Through and Emerging Market Currencies</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#interest-rates-and-exchange-rates" id="toc-interest-rates-and-exchange-rates" class="nav-link" data-scroll-target="#interest-rates-and-exchange-rates"><span class="header-section-number">6.2</span> Interest Rates and Exchange Rates</a>
+  <ul class="collapse">
+  <li><a href="#the-fisher-effect" id="toc-the-fisher-effect" class="nav-link" data-scroll-target="#the-fisher-effect"><span class="header-section-number">6.2.1</span> The Fisher Effect</a>
+  <ul class="collapse">
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters"><span class="header-section-number">6.2.1.1</span> Why This Matters</a></li>
+  <li><a href="#important-example" id="toc-important-example" class="nav-link" data-scroll-target="#important-example"><span class="header-section-number">6.2.1.2</span> Important Example</a></li>
+  <li><a href="#empirical-evidence" id="toc-empirical-evidence" class="nav-link" data-scroll-target="#empirical-evidence"><span class="header-section-number">6.2.1.3</span> Empirical Evidence</a></li>
+  </ul></li>
+  <li><a href="#the-international-fisher-effect" id="toc-the-international-fisher-effect" class="nav-link" data-scroll-target="#the-international-fisher-effect"><span class="header-section-number">6.2.2</span> The International Fisher Effect</a>
+  <ul class="collapse">
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example"><span class="header-section-number">6.2.2.1</span> Example</a></li>
+  <li><a href="#caution" id="toc-caution" class="nav-link" data-scroll-target="#caution"><span class="header-section-number">6.2.2.2</span> <strong>Caution</strong></a></li>
+  </ul></li>
+  <li><a href="#the-forward-rate" id="toc-the-forward-rate" class="nav-link" data-scroll-target="#the-forward-rate"><span class="header-section-number">6.2.3</span> The Forward Rate</a>
+  <ul class="collapse">
+  <li><a href="#forward-rate-calculation" id="toc-forward-rate-calculation" class="nav-link" data-scroll-target="#forward-rate-calculation"><span class="header-section-number">6.2.3.1</span> Forward Rate Calculation</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation"><span class="header-section-number">6.2.3.2</span> Interpretation</a></li>
+  </ul></li>
+  <li><a href="#calculation-of-forward-premiums" id="toc-calculation-of-forward-premiums" class="nav-link" data-scroll-target="#calculation-of-forward-premiums"><span class="header-section-number">6.2.4</span> Calculation of Forward Premiums</a>
+  <ul class="collapse">
+  <li><a href="#why-the-premium-exists" id="toc-why-the-premium-exists" class="nav-link" data-scroll-target="#why-the-premium-exists"><span class="header-section-number">6.2.4.1</span> Why the Premium Exists</a></li>
+  <li><a href="#foreign-currency-terms" id="toc-foreign-currency-terms" class="nav-link" data-scroll-target="#foreign-currency-terms"><span class="header-section-number">6.2.4.2</span> Foreign Currency Terms</a></li>
+  </ul></li>
+  <li><a href="#interest-rate-parity-irp" id="toc-interest-rate-parity-irp" class="nav-link" data-scroll-target="#interest-rate-parity-irp"><span class="header-section-number">6.2.5</span> Interest Rate Parity (IRP)</a>
+  <ul class="collapse">
+  <li><a href="#core-interpretation" id="toc-core-interpretation" class="nav-link" data-scroll-target="#core-interpretation"><span class="header-section-number">6.2.5.1</span> Core Interpretation</a></li>
+  </ul></li>
+  <li><a href="#covered-interest-arbitrage-cia" id="toc-covered-interest-arbitrage-cia" class="nav-link" data-scroll-target="#covered-interest-arbitrage-cia"><span class="header-section-number">6.2.6</span> Covered Interest Arbitrage (CIA)</a>
+  <ul class="collapse">
+  <li><a href="#textbook-example-fye-hong" id="toc-textbook-example-fye-hong" class="nav-link" data-scroll-target="#textbook-example-fye-hong"><span class="header-section-number">6.2.6.1</span> Textbook Example: Fye Hong</a></li>
+  <li><a href="#rule-of-thumb" id="toc-rule-of-thumb" class="nav-link" data-scroll-target="#rule-of-thumb"><span class="header-section-number">6.2.6.2</span> Rule of Thumb</a></li>
+  <li><a href="#how-cia-restores-equilibrium" id="toc-how-cia-restores-equilibrium" class="nav-link" data-scroll-target="#how-cia-restores-equilibrium"><span class="header-section-number">6.2.6.3</span> How CIA Restores Equilibrium</a></li>
+  </ul></li>
+  <li><a href="#uncovered-interest-arbitrage-uia" id="toc-uncovered-interest-arbitrage-uia" class="nav-link" data-scroll-target="#uncovered-interest-arbitrage-uia"><span class="header-section-number">6.2.7</span> Uncovered Interest Arbitrage (UIA)</a>
+  <ul class="collapse">
+  <li><a href="#the-yen-carry-trade" id="toc-the-yen-carry-trade" class="nav-link" data-scroll-target="#the-yen-carry-trade"><span class="header-section-number">6.2.7.1</span> The Yen Carry Trade</a></li>
+  <li><a href="#the-key-risk" id="toc-the-key-risk" class="nav-link" data-scroll-target="#the-key-risk"><span class="header-section-number">6.2.7.2</span> The Key Risk</a></li>
+  </ul></li>
+  <li><a href="#equilibrium-between-interest-rates-and-exchange-rates" id="toc-equilibrium-between-interest-rates-and-exchange-rates" class="nav-link" data-scroll-target="#equilibrium-between-interest-rates-and-exchange-rates"><span class="header-section-number">6.2.8</span> Equilibrium between Interest Rates and Exchange Rates</a>
+  <ul class="collapse">
+  <li><a href="#why-this-section-matters" id="toc-why-this-section-matters" class="nav-link" data-scroll-target="#why-this-section-matters"><span class="header-section-number">6.2.8.1</span> Why This Section Matters</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#forward-rate-as-an-unbiased-predictor-of-the-future-spot-rate" id="toc-forward-rate-as-an-unbiased-predictor-of-the-future-spot-rate" class="nav-link" data-scroll-target="#forward-rate-as-an-unbiased-predictor-of-the-future-spot-rate"><span class="header-section-number">6.3</span> Forward Rate as an Unbiased Predictor of the Future Spot Rate</a>
+  <ul class="collapse">
+  <li><a href="#what-unbiased-means" id="toc-what-unbiased-means" class="nav-link" data-scroll-target="#what-unbiased-means"><span class="header-section-number">6.3.1</span> What “Unbiased” Means</a>
+  <ul class="collapse">
+  <li><a href="#conditions-required-for-this-view" id="toc-conditions-required-for-this-view" class="nav-link" data-scroll-target="#conditions-required-for-this-view"><span class="header-section-number">6.3.1.1</span> Conditions Required for This View</a></li>
+  </ul></li>
+  <li><a href="#what-the-empirical-evidence-suggests" id="toc-what-the-empirical-evidence-suggests" class="nav-link" data-scroll-target="#what-the-empirical-evidence-suggests"><span class="header-section-number">6.3.2</span> What the Empirical Evidence Suggests</a>
+  <ul class="collapse">
+  <li><a href="#managerial-interpretation" id="toc-managerial-interpretation" class="nav-link" data-scroll-target="#managerial-interpretation"><span class="header-section-number">6.3.2.1</span> Managerial Interpretation</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#prices-interest-rates-and-exchange-rates-in-equilibrium" id="toc-prices-interest-rates-and-exchange-rates-in-equilibrium" class="nav-link" data-scroll-target="#prices-interest-rates-and-exchange-rates-in-equilibrium"><span class="header-section-number">6.4</span> Prices, Interest Rates, and Exchange Rates in Equilibrium</a>
+  <ul class="collapse">
+  <li><a href="#relation-a-purchasing-power-parity-ppp" id="toc-relation-a-purchasing-power-parity-ppp" class="nav-link" data-scroll-target="#relation-a-purchasing-power-parity-ppp"><span class="header-section-number">6.4.1</span> Relation A: Purchasing Power Parity (PPP)</a></li>
+  <li><a href="#relation-b-the-fisher-effect" id="toc-relation-b-the-fisher-effect" class="nav-link" data-scroll-target="#relation-b-the-fisher-effect"><span class="header-section-number">6.4.2</span> Relation B: The Fisher Effect</a></li>
+  <li><a href="#relation-c-international-fisher-effect" id="toc-relation-c-international-fisher-effect" class="nav-link" data-scroll-target="#relation-c-international-fisher-effect"><span class="header-section-number">6.4.3</span> Relation C: International Fisher Effect</a></li>
+  <li><a href="#relation-d-interest-rate-parity-irp" id="toc-relation-d-interest-rate-parity-irp" class="nav-link" data-scroll-target="#relation-d-interest-rate-parity-irp"><span class="header-section-number">6.4.4</span> Relation D: Interest Rate Parity (IRP)</a></li>
+  <li><a href="#relation-e-forward-rate-as-an-unbiased-predictor" id="toc-relation-e-forward-rate-as-an-unbiased-predictor" class="nav-link" data-scroll-target="#relation-e-forward-rate-as-an-unbiased-predictor"><span class="header-section-number">6.4.5</span> Relation E: Forward Rate as an Unbiased Predictor</a>
+  <ul class="collapse">
+  <li><a href="#big-picture-synthesis" id="toc-big-picture-synthesis" class="nav-link" data-scroll-target="#big-picture-synthesis"><span class="header-section-number">6.4.5.1</span> Big Picture Synthesis</a></li>
+  </ul></li>
+  <li><a href="#chapter-takeaways" id="toc-chapter-takeaways" class="nav-link" data-scroll-target="#chapter-takeaways">Chapter Takeaways</a></li>
+  <li><a href="#suggested-review-questions" id="toc-suggested-review-questions" class="nav-link" data-scroll-target="#suggested-review-questions">Suggested Review Questions</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Chapter06_Lecture.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="Chapter06_Lecture.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lecture Notes</li><li class="breadcrumb-item"><a href="../lectures/Chapter01_Lecture.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/Chapter06_Lecture.html">Chapter 6 - International Parity Conditions</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Chapter 6 - International Parity Conditions</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prof.&nbsp;Barker </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 8, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Introduction</h1>
+<p>Random Quote: <strong>The same boiling water that softens a potato hardens an egg. It’s not the circumstances, it’s what you are made of.</strong></p>
+<p>Scripture: <strong>“Two people owed money to a certain moneylender. One owed him five hundred denarii, and the other fifty. Neither of them had the money to pay him back, so he forgave the debts of both. Now which of them will love him more?” Simon replied,“I suppose the one who had the bigger debt forgiven.” “You have judged correctly,” Jesus said. Luke 7:41-43</strong></p>
+<p>Question: <strong>If you have a little sin and I have a lot, what does forgiveness cost?</strong></p>
+<p>Random Quote: <strong>Markets dislike free lunches. If one appears, someone will eat it quickly.</strong></p>
+<p><strong>“If capital freely flowed towards those countries where it could be most profitably employed, there could be no difference in the rate of profit, and no other difference in the real or labour price of commodities, than the additional quantity of labour required to convey them to the various markets where they were to be sold.”</strong>— David Ricardo, <em>On the Principles of Political Economy and Taxation</em>, 1817, Chapter 7</p>
+<p>Chapter 6 asks two of the most important questions in international finance: <strong>What determines exchange rates, and can exchange rate changes be predicted?</strong> The chapter answers those questions through the logic of the <strong>international parity conditions</strong>, the set of relationships linking prices, inflation, interest rates, forward rates, and spot exchange rates.</p>
+<p>This is one of the most important theory chapters in the course. It gives students the framework needed for foreign exchange pricing, hedging, arbitrage, speculation, and currency valuation. These parity conditions do <strong>not</strong> line up perfectly with real-world data in every period, especially in the short run, but they remain the benchmark structure managers and analysts use when interpreting currency markets.</p>
+<section id="chapter-roadmap" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="chapter-roadmap">Chapter Roadmap</h3>
+<p>Major sections:</p>
+<ol type="1">
+<li><strong>Prices and Exchange Rates</strong> - How goods prices, inflation, and competitiveness connect to currency values.</li>
+<li><strong>Interest Rates and Exchange Rates</strong> - How interest rates embed inflation expectations and interact with forward markets.</li>
+<li><strong>Forward Rate as an Unbiased Predictor</strong> - Whether the forward rate is just a pricing relationship or also a forecast.</li>
+<li><strong>Prices, Interest Rates, and Exchange Rates in Equilibrium</strong> - How the major parity conditions fit together as one integrated system.</li>
+</ol>
+<hr>
+</section>
+<section id="learning-objectives" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
+<p>By the end of this chapter, students should be able to:</p>
+<ol type="1">
+<li>Examine how price levels and price level changes (inflation) in countries determine the exchange rates at which their currencies are traded</li>
+<li>Show how interest rates reflect inflationary forces within each country and drive currency exchange rates</li>
+<li>Explain how forward markets for currencies reflect expectations held by market participants about the future spot exchange rate</li>
+<li>Analyze how, in equilibrium, the spot and forward currency markets are aligned with interest differentials and differentials in expected inflation</li>
+</ol>
+</section>
+<section id="prices-and-exchange-rates" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="prices-and-exchange-rates"><span class="header-section-number">6.1</span> Prices and Exchange Rates</h2>
+<p><strong>The economic theories that link exchange rates, price levels, and interest rates are called international parity conditions.</strong></p>
+<p>The first major building block of international parity is the relationship between <strong>goods prices</strong> and <strong>currency values</strong>. If competitive markets function across countries, exchange rates should eventually reflect differences in the prices of comparable goods and services.</p>
+<p><strong>Core intuition:</strong> if the same good is materially cheaper in one country than another after adjusting for the exchange rate, arbitrage, substitution, or competitive pressure should push that gap toward closure. That is the basic logic of the law of one price and purchasing power parity.</p>
+<section id="purchasing-power-parity-and-the-law-of-one-price" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="purchasing-power-parity-and-the-law-of-one-price"><span class="header-section-number">6.1.1</span> Purchasing Power Parity and the Law of One Price</h3>
+<p><strong>Basic idea:</strong> identical goods should have identical prices once those prices are translated into a common currency, provided markets are competitive and frictions are minimal.</p>
+<p>The <strong>law of one price</strong> states that if an identical product or service can be sold in two different markets, and there are no restrictions on sale or transport and no meaningful transaction costs, then the product should sell for the same price in both markets once prices are expressed in a common currency.</p>
+<p>In notation, if the price of a product in the United States is denoted by p-dollar and the price in Japan is denoted by p-yen, then the prices should satisfy:</p>
+<p><span class="math display">\[
+p_{\$} \times S_{\yen = \$1.00} = p_{\yen}
+\]</span></p>
+<p>Rearranging gives the exchange rate implied by relative goods prices:</p>
+<p><span class="math display">\[
+S_{\yen = \$1.00} = \frac{p_{\yen}}{p_{\$}}
+\]</span></p>
+<p>This leads directly to <strong>purchasing power parity (PPP)</strong>. If the law of one price were true for all goods and services, the exchange rate implied by the prices of identical baskets of goods would be the equilibrium exchange rate.</p>
+<p><strong>Purchasing Power Parity says that the same good in different countries should cost the amount after converting currencies, or at least eventually.</strong></p>
+<section id="absolute-purchasing-power-parity" class="level4" data-number="6.1.1.1">
+<h4 data-number="6.1.1.1" class="anchored" data-anchor-id="absolute-purchasing-power-parity"><span class="header-section-number">6.1.1.1</span> Absolute Purchasing Power Parity</h4>
+<p><strong>Absolute PPP:</strong> the spot exchange rate should equal the ratio of price levels in two countries.</p>
+<p>The <strong>absolute version of PPP</strong> states that the spot exchange rate is determined by the relative prices of similar baskets of goods in two countries.</p>
+<p>In other words:</p>
+<p><span class="math display">\[
+S = \frac{PI_{foreign}}{PI_{domestic}}
+\]</span></p>
+<p>Absolute PPP is easiest to understand with the <strong>Big Mac Index</strong>. (The international magazine “The Economist” created this index.) If a Big Mac is viewed as roughly the same product worldwide, then the price of a Big Mac in local currency compared with the U.S. price suggests a PPP-implied exchange rate.</p>
+<p>For example, the textbooks’s illustration uses China and the United States. In China, a Big Mac costs Yuan 22.4. In the United States, it costs USD 5.66. The PPP-implied exchange rate is therefore:</p>
+<p><span class="math display">\[
+S_{\text{PPP}} = \frac{22.4}{5.66} = 3.9576 \text{ yuan per dollar}
+\]</span></p>
+<p>If the actual market exchange rate is Yuan 6.4751 per dollar, the yuan appears <strong>undervalued</strong> relative to the dollar because it takes more yuan to buy one dollar than PPP would imply.</p>
+<p>The percentage under- or overvaluation is calculated as:</p>
+<p><span class="math display">\[
+\frac{\text{Implied Rate} - \text{Actual Rate}}{\text{Actual Rate}}
+\]</span></p>
+<p>So in the China example:</p>
+<p><span class="math display">\[
+\frac{3.9576 - 6.4751}{6.4751} = -38.9\%
+\]</span></p>
+<p>That negative value indicates the yuan is about <strong>38.9% undervalued</strong> versus the U.S. dollar under this measure.</p>
+</section>
+<section id="why-the-big-mac-index-is-a-strong-example" class="level4" data-number="6.1.1.2">
+<h4 data-number="6.1.1.2" class="anchored" data-anchor-id="why-the-big-mac-index-is-a-strong-example"><span class="header-section-number">6.1.1.2</span> Why the Big Mac Index Is A Strong Example</h4>
+<p>The Big Mac is:</p>
+<ul>
+<li>highly standardized, a Big Mac is a Big Mac;</li>
+<li>the production process is relatively similar across countries (ingredients are the same);</li>
+<li>many of the costs are local, such as labor, rent, and some inputs (it builds in similar costs across borders).</li>
+</ul>
+<p>That means the Big Mac price captures something meaningful about domestic price levels.</p>
+<p>At the same time, it is <strong>not a perfect PPP measure</strong>. Big Macs are not tradable across borders, and local taxes, rent, regulation, and wage structures differ from country to country. This is an informative illustration, not as a precise valuation tool, so don’t use it as a forecast.</p>
+<p><strong>Absolute PPP says the price of the same product should be the same in every country once we convert currencies, i.e., the exchange rate should equal the ratio of prices between countries.</strong></p>
+</section>
+</section>
+<section id="relative-purchasing-power-parity" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="relative-purchasing-power-parity"><span class="header-section-number">6.1.2</span> Relative Purchasing Power Parity</h3>
+<p><strong>Relative PPP:</strong> even if price levels do not line up perfectly today, differences in inflation should still push exchange rates over time.</p>
+<p><strong>Relative PPP</strong> relaxes the stronger assumptions of absolute PPP. Rather than claiming that the current spot exchange rate must equal the ratio of price levels, it argues that <strong>changes</strong> in inflation rates between countries should be offset by <strong>opposite changes</strong> in exchange rates over time.</p>
+<p>The statement of relative PPP is:</p>
+<blockquote class="blockquote">
+<p>If the spot exchange rate between two countries starts in equilibrium, any change in the differential rate of inflation between them tends to be offset over the long run by an equal but opposite change in the spot exchange rate.</p>
+</blockquote>
+<p>In approximate form:</p>
+<p><span class="math display">\[
+\%\Delta S \approx \pi_{foreign} - \pi_{domestic}\\
+\]</span></p>
+<p>The economic logic is straightforward. Suppose one country experiences higher inflation than its trading partners, but the exchange rate does not change. That country’s exports become relatively more expensive, and imports become relatively more attractive. Over time, trade pressures should push its currency downward.</p>
+<p>This should sound familiar…this is what is happening in the United States today. The USD is inflated, which makes our exports more expensive to other countries, while imports appear cheaper relative to the dollar. Also, the USD has been depreciating during the inflationary period.</p>
+<section id="example-of-relative-ppp" class="level4" data-number="6.1.2.1">
+<h4 data-number="6.1.2.1" class="anchored" data-anchor-id="example-of-relative-ppp"><span class="header-section-number">6.1.2.1</span> Example of Relative PPP</h4>
+<p>If inflation in the United States is 5% and inflation in Japan is 1%, then the inflation differential is 4 percentage points. Relative PPP suggests that the U.S. dollar should <strong>depreciate</strong> against the yen by roughly 4% over time, or equivalently the yen should <strong>appreciate</strong> against the dollar by roughly 4%.</p>
+<p>Please note: <strong>absolute PPP is about price levels; relative PPP is about inflation rates and exchange rate changes</strong>.</p>
+<p><strong>Relative PPP is looking at the changing of prices over time and says that exchange rates should move with inflation differences over the long run.</strong></p>
+<p><strong>If a country’s prices rise faster, its currency should fall.</strong></p>
+</section>
+</section>
+<section id="empirical-tests-of-purchasing-power" class="level3" data-number="6.1.3">
+<h3 data-number="6.1.3" class="anchored" data-anchor-id="empirical-tests-of-purchasing-power"><span class="header-section-number">6.1.3</span> Empirical Tests of Purchasing Power</h3>
+<p><strong>What does the evidence say?</strong> PPP is more useful as a long-run tendency than as a short-run forecasting rule.</p>
+<p>The empirical evidence on PPP is mixed:</p>
+<ol type="1">
+<li>PPP holds up <strong>better over the very long run</strong> than over short horizons.</li>
+<li>PPP works better in countries with <strong>relatively high inflation</strong> and <strong>underdeveloped capital markets</strong>.</li>
+</ol>
+<p>Why does PPP often fail in practice, especially in the short run?</p>
+<ul>
+<li>transportation costs are not zero;</li>
+<li>tariffs and trade barriers exist;</li>
+<li>many goods and most services are not perfectly tradable;</li>
+<li>product quality differs across countries;</li>
+<li>consumer tastes differ across countries;</li>
+<li>financial flows can dominate trade flows for long periods.</li>
+</ul>
+<p>A haircut provides a useful example. Even if haircuts are more expensive in one city than another, there is no practical arbitrage mechanism that quickly equalizes the two prices internationally.</p>
+</section>
+<section id="exchange-rate-indices-real-and-nominal" class="level3" data-number="6.1.4">
+<h3 data-number="6.1.4" class="anchored" data-anchor-id="exchange-rate-indices-real-and-nominal"><span class="header-section-number">6.1.4</span> Exchange Rate Indices: Real and Nominal</h3>
+<p>Most countries do not trade with just one partner, so a single bilateral exchange rate tells only part of the story. Managers and economists therefore rely on <strong>exchange rate indices</strong>.</p>
+<p><strong>Key distinction:</strong> nominal indices track currency movements; real indices adjust for inflation and say more about competitiveness.</p>
+<section id="nominal-effective-exchange-rate-index" class="level4" data-number="6.1.4.1">
+<h4 data-number="6.1.4.1" class="anchored" data-anchor-id="nominal-effective-exchange-rate-index"><span class="header-section-number">6.1.4.1</span> Nominal Effective Exchange Rate Index</h4>
+<p>The <strong>nominal effective exchange rate index</strong> is a trade-weighted average of a currency’s bilateral exchange rates relative to its major trading partners. It tells us how the currency has changed in nominal terms relative to a chosen base year.</p>
+</section>
+<section id="real-effective-exchange-rate-index" class="level4" data-number="6.1.4.2">
+<h4 data-number="6.1.4.2" class="anchored" data-anchor-id="real-effective-exchange-rate-index"><span class="header-section-number">6.1.4.2</span> Real Effective Exchange Rate Index</h4>
+<p>The <strong>real effective exchange rate index</strong> adjusts the nominal index for relative price levels or inflation. It therefore speaks more directly to international competitiveness.</p>
+<p>In the chapter, the real effective exchange rate index for the U.S. dollar is represented as the nominal effective exchange rate index multiplied by the ratio of U.S. costs to foreign costs.</p>
+<p>The core interpretation is this:</p>
+<ul>
+<li>if the real effective exchange rate index equals <strong>100</strong>, the currency is at the base-year level of purchasing power;</li>
+<li>if it rises <strong>above 100</strong>, the currency is relatively <strong>overvalued</strong> from a competitive perspective;</li>
+<li>if it falls <strong>below 100</strong>, the currency is relatively <strong>undervalued</strong> from a competitive perspective.</li>
+</ul>
+</section>
+<section id="why-managers-care" class="level4" data-number="6.1.4.3">
+<h4 data-number="6.1.4.3" class="anchored" data-anchor-id="why-managers-care"><span class="header-section-number">6.1.4.3</span> Why Managers Care</h4>
+<p>A high real effective exchange rate suggests that domestic producers may be losing international competitiveness. A low real effective exchange rate suggests stronger export competitiveness.</p>
+<p>That makes the real effective exchange rate useful for:</p>
+<ul>
+<li>export planning,</li>
+<li>sourcing decisions,</li>
+<li>location decisions,</li>
+<li>balance of payments analysis.</li>
+</ul>
+</section>
+</section>
+<section id="exchange-rate-pass-through" class="level3" data-number="6.1.5">
+<h3 data-number="6.1.5" class="anchored" data-anchor-id="exchange-rate-pass-through"><span class="header-section-number">6.1.5</span> Exchange Rate Pass-Through</h3>
+<p><strong>Exchange rate pass-through</strong> measures the extent to which changes in exchange rates show up in the prices of imported or exported goods.</p>
+<p><strong>Managerial question:</strong> when the currency moves, does the firm change the customer price, absorb the shock in margin, or split the difference?</p>
+<p>PPP suggests complete pass-through in the long run, but in practice pass-through is often partial.</p>
+<p>For a multinational firm, this question is critical: when the exchange rate changes, does the firm fully change the foreign-currency selling price, or does it absorb some of the change in its margin?</p>
+<section id="complete-versus-partial-pass-through" class="level4" data-number="6.1.5.1">
+<h4 data-number="6.1.5.1" class="anchored" data-anchor-id="complete-versus-partial-pass-through"><span class="header-section-number">6.1.5.1</span> Complete versus Partial Pass-Through</h4>
+<p>The textbook’s Volvo example:</p>
+<p>Suppose a Volvo is produced in Belgium at a euro price of:</p>
+<p><span class="math display">\[
+P_{\text{Volvo}}^{\euro} = 50{,}000
+\]</span></p>
+<p>If the spot exchange rate is initially:</p>
+<p><span class="math display">\[
+S_{\$ = \euro 1.00} = 1.00
+\]</span></p>
+<p>then the U.S. dollar price is:</p>
+<p><span class="math display">\[
+P_{\text{Volvo}}^{\$} = 50{,}000 \times 1.00 = 50{,}000
+\]</span></p>
+<p>If the euro appreciates by 20% so that the exchange rate becomes:</p>
+<p><span class="math display">\[
+S_{\$ = \euro 1.00} = 1.20
+\]</span></p>
+<p>then <strong>complete pass-through</strong> implies the U.S. dollar price rises fully to:</p>
+<p><span class="math display">\[
+P_{\text{Volvo}}^{\$} = 50{,}000 \times 1.20 = 60{,}000
+\]</span></p>
+<p>That is a 20% increase in the U.S. dollar price.</p>
+<p>If Volvo instead raises the U.S. price only to USD 58,000, the price rises by 16%, not 20%. That is <strong>partial pass-through</strong>.</p>
+<p>The firm is absorbing part of the exchange rate movement in its margin.</p>
+</section>
+<section id="why-partial-pass-through-occurs" class="level4" data-number="6.1.5.2">
+<h4 data-number="6.1.5.2" class="anchored" data-anchor-id="why-partial-pass-through-occurs"><span class="header-section-number">6.1.5.2</span> Why Partial Pass-Through Occurs</h4>
+<p>Partial pass-through can occur even in highly competitive markets because:</p>
+<ul>
+<li>firms want to protect sales volume;</li>
+<li>contracts may lock prices in temporarily;</li>
+<li>imported inputs may offset part of the cost change;</li>
+<li>firms may strategically compress margins in important markets.</li>
+</ul>
+</section>
+<section id="managerial-meaning" class="level4" data-number="6.1.5.3">
+<h4 data-number="6.1.5.3" class="anchored" data-anchor-id="managerial-meaning"><span class="header-section-number">6.1.5.3</span> Managerial Meaning</h4>
+<p>Pass-through is really a pricing strategy question under exchange rate uncertainty. The firm must decide how much exchange-rate risk will be passed on to customers and how much will be absorbed internally.</p>
+</section>
+<section id="price-elasticity-of-demand" class="level4" data-number="6.1.5.4">
+<h4 data-number="6.1.5.4" class="anchored" data-anchor-id="price-elasticity-of-demand"><span class="header-section-number">6.1.5.4</span> Price Elasticity of Demand</h4>
+<p>The desired degree of pass-through depends importantly on the <strong>price elasticity of demand</strong>.</p>
+<p>The chapter gives the standard formula:</p>
+<p><span class="math display">\[
+e_p = \frac{\%\Delta Q_d}{\%\Delta P}
+\]</span></p>
+<p>If demand is relatively <strong>inelastic</strong> in absolute value, then higher prices may have little effect on quantity demanded. In that case, a firm can often pass through more of the exchange rate change.</p>
+<p>If demand is relatively <strong>elastic</strong>, a price increase may reduce quantity demanded substantially. In that case, firms may prefer lower pass-through in order to preserve sales.</p>
+</section>
+<section id="pass-through-and-emerging-market-currencies" class="level4" data-number="6.1.5.5">
+<h4 data-number="6.1.5.5" class="anchored" data-anchor-id="pass-through-and-emerging-market-currencies"><span class="header-section-number">6.1.5.5</span> Pass-Through and Emerging Market Currencies</h4>
+<p>The chapter also connects pass-through to the <strong>impossible trinity</strong> from Chapter 2. Many emerging markets historically preferred a combination of:</p>
+<ul>
+<li>exchange rate stability,</li>
+<li>monetary independence,</li>
+<li>limited capital mobility.</li>
+</ul>
+<p>As countries moved toward greater capital mobility, many gave up more rigid exchange rate pegs. Once exchange rates became more flexible, exchange rate changes began feeding more directly into domestic prices.</p>
+<p>This matters because exchange rate pass-through can become a source of <strong>inflationary pressure</strong>, especially when imported goods become more expensive after currency depreciation.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="interest-rates-and-exchange-rates" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="interest-rates-and-exchange-rates"><span class="header-section-number">6.2</span> Interest Rates and Exchange Rates</h2>
+<p>The second major building block of parity conditions connects <strong>interest rates</strong> to <strong>inflation expectations</strong> and then to <strong>exchange rates</strong>.</p>
+<p><strong>Core idea:</strong> interest rates are not just market quotations. They embed expected inflation and are tied to exchange rates through investment choice and arbitrage.</p>
+<section id="the-fisher-effect" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="the-fisher-effect"><span class="header-section-number">6.2.1</span> The Fisher Effect</h3>
+<p><strong>Fisher effect:</strong> nominal rates contain both a real return and expected inflation.</p>
+<p>The <strong>Fisher effect</strong> states that nominal interest rates in each country equal the required real rate of return plus compensation for expected inflation.</p>
+<p>In exact form:</p>
+<p><span class="math display">\[
+i = r + \pi + r\pi
+\]</span></p>
+<p>In approximate form, which is used most often in practice:</p>
+<p><span class="math display">\[
+i \approx r + \pi
+\]</span></p>
+<p>where:</p>
+<ul>
+<li>i = nominal interest rate,</li>
+<li>r = real interest rate,</li>
+<li>= expected inflation.</li>
+</ul>
+<p>The cross-product term ris often dropped because it is small for ordinary rates of return and inflation.</p>
+<section id="why-this-matters" class="level4" data-number="6.2.1.1">
+<h4 data-number="6.2.1.1" class="anchored" data-anchor-id="why-this-matters"><span class="header-section-number">6.2.1.1</span> Why This Matters</h4>
+<p>Students often ask why high interest rates sometimes attract capital and sometimes do not. The Fisher effect gives the answer:</p>
+<ul>
+<li>if high nominal rates reflect <strong>high expected inflation</strong>, investors are not necessarily gaining anything in real terms;</li>
+<li>if high nominal rates reflect <strong>high real returns</strong>, then those rates can attract capital strongly.</li>
+</ul>
+</section>
+<section id="important-example" class="level4" data-number="6.2.1.2">
+<h4 data-number="6.2.1.2" class="anchored" data-anchor-id="important-example"><span class="header-section-number">6.2.1.2</span> Important Example</h4>
+<p>The chapter’s discussion of the United States under Paul Volcker is especially useful. High interest rates in the late 1970s could initially reflect high expected inflation. But once inflation was brought down, the remaining high rates represented high <strong>real rates</strong>, which attracted capital inflows and strengthened the dollar.</p>
+<p>This helps distinguish between:</p>
+<ul>
+<li>a high nominal rate caused by inflation, and</li>
+<li>a high nominal rate caused by high real return.</li>
+</ul>
+</section>
+<section id="empirical-evidence" class="level4" data-number="6.2.1.3">
+<h4 data-number="6.2.1.3" class="anchored" data-anchor-id="empirical-evidence"><span class="header-section-number">6.2.1.3</span> Empirical Evidence</h4>
+<p>The textbook notes that empirical support for the Fisher effect is strongest for <strong>short-maturity government securities</strong>, where default risk and term risk are lower.</p>
+</section>
+</section>
+<section id="the-international-fisher-effect" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="the-international-fisher-effect"><span class="header-section-number">6.2.2</span> The International Fisher Effect</h3>
+<p><strong>International Fisher:</strong> nominal interest differentials should be offset by expected exchange-rate changes.</p>
+<p>The <strong>international Fisher effect</strong> extends the Fisher logic across countries. It states that the spot exchange rate should change by an amount equal to, but opposite in sign to, the difference in nominal interest rates between two countries.</p>
+<p>In approximate form:</p>
+<p><span class="math display">\[
+\frac{S_1 - S_2}{S_2} \times 100 \approx i_{domestic} - i_{foreign}
+\]</span></p>
+<p>The intuition is that if one country has a lower interest rate, investors will accept that lower rate only if its currency is expected to appreciate enough to offset the yield disadvantage.</p>
+<section id="example" class="level4" data-number="6.2.2.1">
+<h4 data-number="6.2.2.1" class="anchored" data-anchor-id="example"><span class="header-section-number">6.2.2.1</span> Example</h4>
+<p>If a U.S. investor can buy a dollar bond yielding 6% or a yen bond yielding 4%, the yen must be expected to <strong>appreciate</strong> by roughly 2% over the relevant horizon for the investor to be indifferent.</p>
+<p>If that appreciation does not occur, the lower-yield foreign investment underperforms.</p>
+</section>
+<section id="caution" class="level4" data-number="6.2.2.2">
+<h4 data-number="6.2.2.2" class="anchored" data-anchor-id="caution"><span class="header-section-number">6.2.2.2</span> <strong>Caution</strong></h4>
+<p>People sometimes jump from “higher interest rate” to “stronger currency.” The international Fisher effect shows why that shortcut is dangerous. A higher nominal interest rate may signal a currency expected to <strong>depreciate</strong>, not appreciate.</p>
+</section>
+</section>
+<section id="the-forward-rate" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="the-forward-rate"><span class="header-section-number">6.2.3</span> The Forward Rate</h3>
+<p>A <strong>forward rate</strong> is an exchange rate quoted today for settlement on a future date. It is not today’s spot rate; it is the contractual rate at which a currency can be bought or sold forward.</p>
+<p><strong>Important point:</strong> the forward rate is first a market price for future delivery, not automatically a prediction.</p>
+<p>Forward rates are central to multinational finance because they allow firms and investors to lock in future exchange rates.</p>
+<section id="forward-rate-calculation" class="level4" data-number="6.2.3.1">
+<h4 data-number="6.2.3.1" class="anchored" data-anchor-id="forward-rate-calculation"><span class="header-section-number">6.2.3.1</span> Forward Rate Calculation</h4>
+<p>The forward rate for a given maturity is determined by the current spot rate and the two relevant money-market interest rates for that maturity.</p>
+<p>For the chapter’s Swiss franc example:</p>
+<ul>
+<li>spot rate = SF 1.4800 per USD 1.00,</li>
+<li>90-day Swiss franc rate = 4.00% per annum,</li>
+<li>90-day eurodollar rate = 8.00% per annum.</li>
+</ul>
+<p>The 90-day forward rate is:</p>
+<p><span class="math display">\[
+F_{90}^{SF/\$} = S^{SF/\$} \times \frac{1 + i_{SF}\left(\frac{90}{360}\right)}{1 + i_{\$}\left(\frac{90}{360}\right)}
+\]</span></p>
+<p>Substituting the values:</p>
+<p><span class="math display">\[
+F_{90}^{SF/\$} = 1.4800 \times \frac{1 + 0.04\left(\frac{90}{360}\right)}{1 + 0.08\left(\frac{90}{360}\right)} = 1.4655
+\]</span></p>
+<p>So the forward rate is <strong>SF 1.4655 per USD 1.00</strong>.</p>
+</section>
+<section id="interpretation" class="level4" data-number="6.2.3.2">
+<h4 data-number="6.2.3.2" class="anchored" data-anchor-id="interpretation"><span class="header-section-number">6.2.3.2</span> Interpretation</h4>
+<p>Because the dollar interest rate is higher than the Swiss franc interest rate, the dollar sells forward at a <strong>discount</strong>, and the Swiss franc sells forward at a <strong>premium</strong>.</p>
+<p>This is a recurring theme throughout the chapter: the forward market reflects interest differentials.</p>
+</section>
+</section>
+<section id="calculation-of-forward-premiums" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="calculation-of-forward-premiums"><span class="header-section-number">6.2.4</span> Calculation of Forward Premiums</h3>
+<p>The <strong>forward premium</strong> or <strong>discount</strong> is the percentage difference between the forward rate and the spot rate, annualized.</p>
+<p><strong>Interpretive rule:</strong> the low-interest-rate currency tends to sell forward at a premium, while the high-interest-rate currency tends to sell forward at a discount.</p>
+<p>Using foreign currency as the price of the home currency, the chapter uses:</p>
+<p><span class="math display">\[
+f = \frac{\text{Spot} - \text{Forward}}{\text{Forward}} \times \frac{360}{\text{days}} \times 100
+\]</span></p>
+<p>Using the Swiss franc example:</p>
+<p><span class="math display">\[
+f^{SF} = \frac{1.4800 - 1.4655}{1.4655} \times \frac{360}{90} \times 100 = 3.96\% \text{ per annum}
+\]</span></p>
+<p>Thus the Swiss franc is selling forward at a <strong>3.96% annual premium</strong> versus the dollar.</p>
+<section id="why-the-premium-exists" class="level4" data-number="6.2.4.1">
+<h4 data-number="6.2.4.1" class="anchored" data-anchor-id="why-the-premium-exists"><span class="header-section-number">6.2.4.1</span> Why the Premium Exists</h4>
+<p>The forward premium arises because the Swiss franc interest rate is below the dollar interest rate. A lower-yield currency tends to sell forward at a premium; a higher-yield currency tends to sell forward at a discount.</p>
+</section>
+<section id="foreign-currency-terms" class="level4" data-number="6.2.4.2">
+<h4 data-number="6.2.4.2" class="anchored" data-anchor-id="foreign-currency-terms"><span class="header-section-number">6.2.4.2</span> Foreign Currency Terms</h4>
+<p>The chapter also emphasizes that forward premium calculations depend on quote convention.</p>
+<p>For example, if the spot rate is:</p>
+<p><span class="math display">\[
+118.27 \text{ yen per dollar}
+\]</span></p>
+<p>and the 3-month forward rate is:</p>
+<p><span class="math display">\[
+116.84 \text{ yen per dollar}
+\]</span></p>
+<p>then the yen forward premium is:</p>
+<p><span class="math display">\[
+f^{JPY} = \frac{118.27 - 116.84}{116.84} \times \frac{360}{90} \times 100 = 4.90\%
+\]</span></p>
+<p>So the yen sells forward at a <strong>4.90% annual premium</strong> versus the U.S. dollar.</p>
+</section>
+</section>
+<section id="interest-rate-parity-irp" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="interest-rate-parity-irp"><span class="header-section-number">6.2.5</span> Interest Rate Parity (IRP)</h3>
+<p><strong>Interest rate parity (IRP)</strong> links the foreign exchange market and the money market. It states that the difference in national interest rates for securities of similar risk and maturity should equal, but be opposite in sign to, the forward premium or discount on the foreign currency, ignoring transaction costs.</p>
+<p><strong>In plain language:</strong> after hedging exchange risk with a forward contract, investors should not earn a free extra return simply by moving from one money market to another.</p>
+<p>This is one of the most important relationships in the chapter because it explains why covered international investing does not usually offer persistent free money.</p>
+<p>In general form, IRP requires equality between:</p>
+<ol type="1">
+<li>the return on a domestic money market investment, and</li>
+<li>the covered return from converting funds into a foreign currency, investing abroad, and hedging exchange risk with a forward contract.</li>
+</ol>
+<p>The chapter’s Swiss franc example compares investing in dollars directly with investing in Swiss francs and selling the future franc proceeds forward into dollars.</p>
+<p>If the covered returns are equal, the market is at parity.</p>
+<section id="core-interpretation" class="level4" data-number="6.2.5.1">
+<h4 data-number="6.2.5.1" class="anchored" data-anchor-id="core-interpretation"><span class="header-section-number">6.2.5.1</span> Core Interpretation</h4>
+<p>IRP does <strong>not</strong> say exchange rates forecast the future perfectly. Rather, it says that the spot rate, forward rate, and interest rates must line up so that covered arbitrage profits are eliminated.</p>
+</section>
+</section>
+<section id="covered-interest-arbitrage-cia" class="level3" data-number="6.2.6">
+<h3 data-number="6.2.6" class="anchored" data-anchor-id="covered-interest-arbitrage-cia"><span class="header-section-number">6.2.6</span> Covered Interest Arbitrage (CIA)</h3>
+<p>When IRP does <strong>not</strong> hold, investors can earn a nearly riskless arbitrage profit through <strong>covered interest arbitrage (CIA)</strong>.</p>
+<p><strong>Covered</strong> means the future exchange rate is locked in with a forward contract. The trade is therefore about exploiting a pricing inconsistency, not taking a view on the currency.</p>
+<p>CIA means:</p>
+<ol type="1">
+<li>convert into another currency at the spot rate,</li>
+<li>invest in that currency,</li>
+<li>simultaneously sell the future proceeds forward,</li>
+<li>compare the covered return with the domestic return.</li>
+</ol>
+<p>The position is called <strong>covered</strong> because the future exchange rate is locked in.</p>
+<section id="textbook-example-fye-hong" class="level4" data-number="6.2.6.1">
+<h4 data-number="6.2.6.1" class="anchored" data-anchor-id="textbook-example-fye-hong"><span class="header-section-number">6.2.6.1</span> Textbook Example: Fye Hong</h4>
+<p>The chapter’s example uses:</p>
+<ul>
+<li>spot rate = 106 yen per dollar,</li>
+<li>180-day forward rate = 103.50 yen per dollar,</li>
+<li>eurodollar rate = 8.00% per annum, or 4.00% for 180 days,</li>
+<li>euroyen rate = 4.00% per annum, or 2.00% for 180 days.</li>
+</ul>
+<p>A trader begins with USD 1,000,000.</p>
+<section id="domestic-alternative" class="level5" data-number="6.2.6.1.1">
+<h5 data-number="6.2.6.1.1" class="anchored" data-anchor-id="domestic-alternative"><span class="header-section-number">6.2.6.1.1</span> Domestic alternative</h5>
+<p>Invest in dollars for 180 days:</p>
+<p><span class="math display">\[
+1{,}000{,}000 \times 1.04 = 1{,}040{,}000
+\]</span></p>
+</section>
+<section id="covered-foreign-alternative" class="level5" data-number="6.2.6.1.2">
+<h5 data-number="6.2.6.1.2" class="anchored" data-anchor-id="covered-foreign-alternative"><span class="header-section-number">6.2.6.1.2</span> Covered foreign alternative</h5>
+<p>Convert to yen at the spot rate:</p>
+<p><span class="math display">\[
+1{,}000{,}000 \times 106 = 106{,}000{,}000 \text{ yen}
+\]</span></p>
+<p>Invest in yen for 180 days:</p>
+<p><span class="math display">\[
+106{,}000{,}000 \times 1.02 = 108{,}120{,}000 \text{ yen}
+\]</span></p>
+<p>Sell the future yen proceeds forward at 103.50 yen per dollar:</p>
+<p><span class="math display">\[
+\frac{108{,}120{,}000}{103.50} = 1{,}044{,}638
+\]</span></p>
+<p>So the covered foreign investment yields USD 1,044,638, compared with USD 1,040,000 domestically.</p>
+<p>That difference creates an arbitrage profit of:</p>
+<p><span class="math display">\[
+1{,}044{,}638 - 1{,}040{,}000 = 4{,}638
+\]</span></p>
+</section>
+</section>
+<section id="rule-of-thumb" class="level4" data-number="6.2.6.2">
+<h4 data-number="6.2.6.2" class="anchored" data-anchor-id="rule-of-thumb"><span class="header-section-number">6.2.6.2</span> Rule of Thumb</h4>
+<p>To decide which direction the arbitrage should go, compare:</p>
+<ul>
+<li>the <strong>interest differential</strong>, and</li>
+<li>the <strong>forward premium or cost of cover</strong>.</li>
+</ul>
+<section id="arbitrage-rule-of-thumb" class="level5" data-number="6.2.6.2.1">
+<h5 data-number="6.2.6.2.1" class="anchored" data-anchor-id="arbitrage-rule-of-thumb"><span class="header-section-number">6.2.6.2.1</span> Arbitrage Rule of Thumb</h5>
+<ul>
+<li>If the difference in interest rates is <strong>greater</strong> than the forward premium, invest in the <strong>higher-yielding currency</strong>.</li>
+<li>If the difference in interest rates is <strong>less</strong> than the forward premium, invest in the <strong>lower-yielding currency</strong>.</li>
+</ul>
+<p>This rule is very useful pedagogically because it gives students a quick conceptual shortcut before they work the full numbers.</p>
+</section>
+</section>
+<section id="how-cia-restores-equilibrium" class="level4" data-number="6.2.6.3">
+<h4 data-number="6.2.6.3" class="anchored" data-anchor-id="how-cia-restores-equilibrium"><span class="header-section-number">6.2.6.3</span> How CIA Restores Equilibrium</h4>
+<p>Covered interest arbitrage pushes markets back toward IRP because:</p>
+<ol type="1">
+<li>buying the foreign currency spot and selling it forward narrows the forward premium;</li>
+<li>capital flowing into the foreign money market pushes that foreign interest rate down;</li>
+<li>capital leaving the domestic money market pushes the domestic rate up.</li>
+</ol>
+<p>Arbitrage therefore destroys the arbitrage opportunity.</p>
+</section>
+</section>
+<section id="uncovered-interest-arbitrage-uia" class="level3" data-number="6.2.7">
+<h3 data-number="6.2.7" class="anchored" data-anchor-id="uncovered-interest-arbitrage-uia"><span class="header-section-number">6.2.7</span> Uncovered Interest Arbitrage (UIA)</h3>
+<p><strong>Uncovered interest arbitrage (UIA)</strong> is similar to CIA except the investor does <strong>not</strong> lock in the future exchange rate with a forward contract.</p>
+<p>That single difference changes the character of the trade completely: CIA is a pricing arbitrage; UIA is a speculative position on the future spot rate.</p>
+<p>The investor:</p>
+<ol type="1">
+<li>borrows in a low-interest-rate currency,</li>
+<li>converts into a higher-interest-rate currency,</li>
+<li>invests at the higher rate,</li>
+<li>hopes the exchange rate will not move unfavorably before conversion back.</li>
+</ol>
+<p>Because the future exchange rate is not locked in, the investor bears exchange rate risk.</p>
+<section id="the-yen-carry-trade" class="level4" data-number="6.2.7.1">
+<h4 data-number="6.2.7.1" class="anchored" data-anchor-id="the-yen-carry-trade"><span class="header-section-number">6.2.7.1</span> The Yen Carry Trade</h4>
+<p>The chapter uses the classic <strong>yen carry trade</strong>.</p>
+<p>Suppose an investor borrows yen at 0.40% per annum, converts into U.S. dollars, invests in dollars at 5.00% per annum, and later converts back into yen.</p>
+<p>If the yen does <strong>not</strong> appreciate materially, the investor can earn a profit from the interest differential.</p>
+<p>The reason investors undertake the trade is obvious: the borrowed currency is cheap, the investment currency yields more, and the exchange rate may remain stable long enough for a profitable round trip.</p>
+</section>
+<section id="the-key-risk" class="level4" data-number="6.2.7.2">
+<h4 data-number="6.2.7.2" class="anchored" data-anchor-id="the-key-risk"><span class="header-section-number">6.2.7.2</span> The Key Risk</h4>
+<p>The risk is not normally default risk on the underlying money-market investment. The key risk is <strong>currency movement</strong>.</p>
+<p>If the funding currency appreciates sharply, the investor may lose money when converting back to repay the original borrowing.</p>
+<p>That is why the chapter repeatedly emphasizes: <strong>higher return means higher risk</strong>.</p>
+</section>
+</section>
+<section id="equilibrium-between-interest-rates-and-exchange-rates" class="level3" data-number="6.2.8">
+<h3 data-number="6.2.8" class="anchored" data-anchor-id="equilibrium-between-interest-rates-and-exchange-rates"><span class="header-section-number">6.2.8</span> Equilibrium between Interest Rates and Exchange Rates</h3>
+<p>The chapter then brings interest differentials and forward premiums together graphically.</p>
+<p><strong>What the figure shows:</strong> the market does not drift to parity by accident. Profit-seeking traders push it there.</p>
+<p>The equilibrium line in the diagram shows the combinations of:</p>
+<ul>
+<li>interest rate differentials, and</li>
+<li>forward premiums or discounts</li>
+</ul>
+<p>that satisfy interest rate parity.</p>
+<p>Transaction costs create a <strong>band</strong> around the line rather than a knife-edge equilibrium.</p>
+<p>Point U in the chapter’s graph is a disequilibrium point because the forward premium is larger than what the interest differential alone would justify. That creates an incentive for CIA.</p>
+<p>As arbitragers enter, the market moves back toward the parity band.</p>
+<section id="why-this-section-matters" class="level4" data-number="6.2.8.1">
+<h4 data-number="6.2.8.1" class="anchored" data-anchor-id="why-this-section-matters"><span class="header-section-number">6.2.8.1</span> Why This Section Matters</h4>
+<p>This section is where students should see clearly that parity conditions are not just formulas. They are <strong>market-clearing relationships</strong> enforced by profit-seeking behavior.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="forward-rate-as-an-unbiased-predictor-of-the-future-spot-rate" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="forward-rate-as-an-unbiased-predictor-of-the-future-spot-rate"><span class="header-section-number">6.3</span> Forward Rate as an Unbiased Predictor of the Future Spot Rate</h2>
+<p>The next question is whether the forward rate is merely a no-arbitrage price or whether it can also be used as a <strong>forecast</strong> of the future spot rate.</p>
+<p>Some theorists argue that the forward rate is an <strong>unbiased predictor</strong> of the future spot rate.</p>
+<p>That means:</p>
+<p><span class="math display">\[
+E_1(S_2) = F_{1,2}
+\]</span></p>
+<p>The expected value of the future spot rate equals today’s forward rate for that future date.</p>
+<section id="what-unbiased-means" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="what-unbiased-means"><span class="header-section-number">6.3.1</span> What “Unbiased” Means</h3>
+<p>This does <strong>not</strong> mean the future spot rate will equal the forward rate in every case.</p>
+<p>It means that, on average, forecast errors are centered around zero. The forward rate will overpredict and underpredict the future spot rate in roughly offsetting ways.</p>
+<section id="conditions-required-for-this-view" class="level4" data-number="6.3.1.1">
+<h4 data-number="6.3.1.1" class="anchored" data-anchor-id="conditions-required-for-this-view"><span class="header-section-number">6.3.1.1</span> Conditions Required for This View</h4>
+<p>The efficiency argument depends on three assumptions:</p>
+<ol type="1">
+<li>all relevant information is quickly reflected in spot and forward rates;</li>
+<li>transaction costs are low;</li>
+<li>assets denominated in different currencies are close substitutes.</li>
+</ol>
+<p>Under those conditions, there is little room for systematic forecasting profit.</p>
+</section>
+</section>
+<section id="what-the-empirical-evidence-suggests" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="what-the-empirical-evidence-suggests"><span class="header-section-number">6.3.2</span> What the Empirical Evidence Suggests</h3>
+<p>The textbook is careful here: empirical studies have produced <strong>conflicting results</strong>, but the broad consensus has moved toward rejecting the strongest efficient-market version of the claim.</p>
+<p>That is, the forward rate does <strong>not</strong> appear to be a consistently unbiased predictor of the future spot rate.</p>
+<section id="managerial-interpretation" class="level4" data-number="6.3.2.1">
+<h4 data-number="6.3.2.1" class="anchored" data-anchor-id="managerial-interpretation"><span class="header-section-number">6.3.2.1</span> Managerial Interpretation</h4>
+<p>This is why firms often spend real resources on exchange rate forecasting. If the forward rate were a free and fully reliable forecast, paid forecasting services would have little value.</p>
+<p>Instead, managers often treat the forward rate as:</p>
+<ul>
+<li>a market-implied benchmark,</li>
+<li>a hedging price,</li>
+<li>a starting point for analysis,</li>
+</ul>
+<p>but not necessarily as the last word on the future spot rate.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="prices-interest-rates-and-exchange-rates-in-equilibrium" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="prices-interest-rates-and-exchange-rates-in-equilibrium"><span class="header-section-number">6.4</span> Prices, Interest Rates, and Exchange Rates in Equilibrium</h2>
+<p>The chapter culminates by integrating the major parity conditions into a single equilibrium framework.</p>
+<p>The example uses the U.S. dollar and Japanese yen and assumes:</p>
+<ul>
+<li>forecast inflation in Japan = 1%,</li>
+<li>forecast inflation in the United States = 5%,</li>
+<li>nominal interest rate in Japan = 4%,</li>
+<li>nominal interest rate in the United States = 8%,</li>
+<li>spot rate = 104 yen per dollar,</li>
+<li>one-year forward rate = 100 yen per dollar.</li>
+</ul>
+<section id="relation-a-purchasing-power-parity-ppp" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="relation-a-purchasing-power-parity-ppp"><span class="header-section-number">6.4.1</span> Relation A: Purchasing Power Parity (PPP)</h3>
+<p>Relative PPP says the forecast exchange rate change should offset the inflation differential.</p>
+<p>Using the chapter’s values:</p>
+<p><span class="math display">\[
+S_2 = S_1 \times \frac{1 + \pi_{\yen}}{1 + \pi_{\$}} = 104 \times \frac{1.01}{1.05} \approx 100
+\]</span></p>
+<p>So the spot rate is expected to move from 104 yen per dollar to 100 yen per dollar. That represents a <strong>4% strengthening of the yen</strong> against the dollar.</p>
+<p>This matches the inflation differential because inflation is 4 percentage points lower in Japan.</p>
+</section>
+<section id="relation-b-the-fisher-effect" class="level3" data-number="6.4.2">
+<h3 data-number="6.4.2" class="anchored" data-anchor-id="relation-b-the-fisher-effect"><span class="header-section-number">6.4.2</span> Relation B: The Fisher Effect</h3>
+<p>The Fisher effect says nominal interest rates differ because expected inflation differs, assuming comparable real returns.</p>
+<p>For the United States:</p>
+<p><span class="math display">\[
+r \approx i - \pi = 8\% - 5\% = 3\%
+\]</span></p>
+<p>For Japan:</p>
+<p><span class="math display">\[
+r \approx i - \pi = 4\% - 1\% = 3\%
+\]</span></p>
+<p>Thus both countries share the same approximate real rate of return, 3%, while the nominal interest differential of 4 percentage points reflects the inflation differential.</p>
+</section>
+<section id="relation-c-international-fisher-effect" class="level3" data-number="6.4.3">
+<h3 data-number="6.4.3" class="anchored" data-anchor-id="relation-c-international-fisher-effect"><span class="header-section-number">6.4.3</span> Relation C: International Fisher Effect</h3>
+<p>The international Fisher effect says the expected exchange rate change should equal, but be opposite in sign to, the nominal interest differential.</p>
+<p>Since Japan’s nominal interest rate is 4% and the U.S. nominal interest rate is 8%, the nominal interest differential is:</p>
+<p><span class="math display">\[
+i_{\yen} - i_{\$} = 4\% - 8\% = -4\%
+\]</span></p>
+<p>That corresponds to an expected <strong>4% appreciation of the yen</strong>.</p>
+</section>
+<section id="relation-d-interest-rate-parity-irp" class="level3" data-number="6.4.4">
+<h3 data-number="6.4.4" class="anchored" data-anchor-id="relation-d-interest-rate-parity-irp"><span class="header-section-number">6.4.4</span> Relation D: Interest Rate Parity (IRP)</h3>
+<p>IRP says the nominal interest differential should equal the forward premium or discount.</p>
+<p>Using the chapter’s numbers, the yen forward premium is:</p>
+<p><span class="math display">\[
+f_{\yen} = \frac{104 - 100}{100} \times 100 = 4\%
+\]</span></p>
+<p>That 4% forward premium matches the 4 percentage point nominal interest disadvantage on yen assets relative to dollar assets.</p>
+</section>
+<section id="relation-e-forward-rate-as-an-unbiased-predictor" class="level3" data-number="6.4.5">
+<h3 data-number="6.4.5" class="anchored" data-anchor-id="relation-e-forward-rate-as-an-unbiased-predictor"><span class="header-section-number">6.4.5</span> Relation E: Forward Rate as an Unbiased Predictor</h3>
+<p>If the forward rate is an unbiased predictor of the future spot rate, then the one-year forward rate itself forecasts the future spot rate:</p>
+<p><span class="math display">\[
+F = 100 \text{ yen per dollar}
+\]</span></p>
+<p>That is the same value predicted by the parity relationships above.</p>
+<section id="big-picture-synthesis" class="level4" data-number="6.4.5.1">
+<h4 data-number="6.4.5.1" class="anchored" data-anchor-id="big-picture-synthesis"><span class="header-section-number">6.4.5.1</span> Big Picture Synthesis</h4>
+<p>In approximate equilibrium, the chapter shows that the following five things line up:</p>
+<ol type="1">
+<li>the inflation differential,</li>
+<li>the nominal interest differential,</li>
+<li>the expected change in the spot exchange rate,</li>
+<li>the forward premium or discount,</li>
+<li>the forward-rate forecast of the future spot rate.</li>
+</ol>
+<p>This is the conceptual heart of the chapter. The different parity conditions are <strong>not separate islands</strong>. They are different windows into the same equilibrium structure.</p>
+<hr>
+</section>
+</section>
+<section id="chapter-takeaways" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="chapter-takeaways">Chapter Takeaways</h3>
+<p><strong>Bottom line:</strong> the chapter teaches that prices, inflation, interest rates, forward rates, and spot rates are not separate topics. They are pieces of one interconnected pricing system.</p>
+<ol type="1">
+<li>The <strong>law of one price</strong> is the basic competitive-market logic behind PPP.</li>
+<li><strong>Absolute PPP</strong> links the exchange rate to relative price levels; <strong>relative PPP</strong> links exchange rate changes to inflation differentials.</li>
+<li>PPP works better in the <strong>long run</strong> than the short run.</li>
+<li>The <strong>real effective exchange rate</strong> is a competitiveness measure, not just a currency quote.</li>
+<li><strong>Exchange rate pass-through</strong> is often partial because firms manage pricing strategically.</li>
+<li>The <strong>Fisher effect</strong> links nominal rates to real returns and expected inflation.</li>
+<li>The <strong>international Fisher effect</strong> links interest differentials to expected exchange rate changes.</li>
+<li><strong>Forward rates</strong> are determined by spot rates and interest differentials.</li>
+<li><strong>Interest rate parity</strong> explains why covered arbitrage profits should not persist.</li>
+<li><strong>CIA</strong> is covered and nearly riskless if correctly executed; <strong>UIA</strong> is uncovered and speculative.</li>
+<li>The forward rate is not necessarily a perfect forecast, even if it is a key market benchmark.</li>
+<li>In equilibrium, prices, inflation, interest rates, forward rates, and exchange rates fit together as one system.</li>
+</ol>
+</section>
+<section id="suggested-review-questions" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="suggested-review-questions">Suggested Review Questions</h3>
+<ol type="1">
+<li>Why does the law of one price rarely hold perfectly in practice?</li>
+<li>What is the difference between absolute PPP and relative PPP?</li>
+<li>Why can a currency remain away from PPP for long periods?</li>
+<li>What does a real effective exchange rate above 100 suggest?</li>
+<li>Why might a firm choose only partial exchange rate pass-through?</li>
+<li>Why do high nominal interest rates not always attract capital?</li>
+<li>Why is the forward rate a pricing relationship rather than automatically a forecast?</li>
+<li>What makes covered interest arbitrage different from uncovered interest arbitrage?</li>
+<li>Why does the yen carry trade offer profit opportunities but also substantial risk?</li>
+<li>How do the parity conditions connect in the final equilibrium framework?</li>
+</ol>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/clb18\.github\.io\/FIN-4350_International_Finance");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
