@@ -312,7 +312,8 @@ window.Quarto = {
   </ul></li>
   <li><a href="#relative-purchasing-power-parity" id="toc-relative-purchasing-power-parity" class="nav-link" data-scroll-target="#relative-purchasing-power-parity"><span class="header-section-number">6.1.2</span> Relative Purchasing Power Parity</a>
   <ul class="collapse">
-  <li><a href="#example-of-relative-ppp" id="toc-example-of-relative-ppp" class="nav-link" data-scroll-target="#example-of-relative-ppp"><span class="header-section-number">6.1.2.1</span> Example of Relative PPP</a></li>
+  <li><a href="#numerical-example-relative-purchasing-power-parity" id="toc-numerical-example-relative-purchasing-power-parity" class="nav-link" data-scroll-target="#numerical-example-relative-purchasing-power-parity"><span class="header-section-number">6.1.2.1</span> Numerical Example: Relative Purchasing Power Parity</a></li>
+  <li><a href="#economic-intuition" id="toc-economic-intuition" class="nav-link" data-scroll-target="#economic-intuition"><span class="header-section-number">6.1.2.2</span> Economic Intuition</a></li>
   </ul></li>
   <li><a href="#empirical-tests-of-purchasing-power" id="toc-empirical-tests-of-purchasing-power" class="nav-link" data-scroll-target="#empirical-tests-of-purchasing-power"><span class="header-section-number">6.1.3</span> Empirical Tests of Purchasing Power</a></li>
   <li><a href="#exchange-rate-indices-real-and-nominal" id="toc-exchange-rate-indices-real-and-nominal" class="nav-link" data-scroll-target="#exchange-rate-indices-real-and-nominal"><span class="header-section-number">6.1.4</span> Exchange Rate Indices: Real and Nominal</a>
@@ -447,7 +448,7 @@ window.Quarto = {
 <p>Random Quote: <strong>Markets dislike free lunches. If one appears, someone will eat it quickly.</strong></p>
 <p><strong>“If capital freely flowed towards those countries where it could be most profitably employed, there could be no difference in the rate of profit, and no other difference in the real or labour price of commodities, than the additional quantity of labour required to convey them to the various markets where they were to be sold.”</strong>— David Ricardo, <em>On the Principles of Political Economy and Taxation</em>, 1817, Chapter 7</p>
 <p>Chapter 6 asks two of the most important questions in international finance: <strong>What determines exchange rates, and can exchange rate changes be predicted?</strong> The chapter answers those questions through the logic of the <strong>international parity conditions</strong>, the set of relationships linking prices, inflation, interest rates, forward rates, and spot exchange rates.</p>
-<p>This is one of the most important theory chapters in the course. It gives students the framework needed for foreign exchange pricing, hedging, arbitrage, speculation, and currency valuation. These parity conditions do <strong>not</strong> line up perfectly with real-world data in every period, especially in the short run, but they remain the benchmark structure managers and analysts use when interpreting currency markets.</p>
+<p>This is one of the most important theory chapters in the course. It provides the framework needed for foreign exchange pricing, hedging, arbitrage, speculation, and currency valuation. These parity conditions do <strong>not</strong> line up perfectly with real-world data in every period, especially in the short run, but they remain the benchmark structure managers and analysts use when interpreting currency markets.</p>
 <section id="chapter-roadmap" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="chapter-roadmap">Chapter Roadmap</h3>
 <p>Major sections:</p>
@@ -461,7 +462,7 @@ window.Quarto = {
 </section>
 <section id="learning-objectives" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
-<p>By the end of this chapter, students should be able to:</p>
+<p>By the end of this chapter, we should be able to:</p>
 <ol type="1">
 <li>Examine how price levels and price level changes (inflation) in countries determine the exchange rates at which their currencies are traded</li>
 <li>Show how interest rates reflect inflationary forces within each country and drive currency exchange rates</li>
@@ -473,12 +474,12 @@ window.Quarto = {
 <h2 data-number="6.1" class="anchored" data-anchor-id="prices-and-exchange-rates"><span class="header-section-number">6.1</span> Prices and Exchange Rates</h2>
 <p><strong>The economic theories that link exchange rates, price levels, and interest rates are called international parity conditions.</strong></p>
 <p>The first major building block of international parity is the relationship between <strong>goods prices</strong> and <strong>currency values</strong>. If competitive markets function across countries, exchange rates should eventually reflect differences in the prices of comparable goods and services.</p>
-<p><strong>Core intuition:</strong> if the same good is materially cheaper in one country than another after adjusting for the exchange rate, arbitrage, substitution, or competitive pressure should push that gap toward closure. That is the basic logic of the law of one price and purchasing power parity.</p>
+<p><strong>Core intuition:</strong> if the same good is materially cheaper in one country than another after adjusting for the exchange rate, then arbitrage, substitution, or competitive pressure should push that gap toward closure. That is the basic logic of the law of one price and purchasing power parity.</p>
 <section id="purchasing-power-parity-and-the-law-of-one-price" class="level3" data-number="6.1.1">
 <h3 data-number="6.1.1" class="anchored" data-anchor-id="purchasing-power-parity-and-the-law-of-one-price"><span class="header-section-number">6.1.1</span> Purchasing Power Parity and the Law of One Price</h3>
 <p><strong>Basic idea:</strong> identical goods should have identical prices once those prices are translated into a common currency, provided markets are competitive and frictions are minimal.</p>
-<p>The <strong>law of one price</strong> states that if an identical product or service can be sold in two different markets, and there are no restrictions on sale or transport and no meaningful transaction costs, then the product should sell for the same price in both markets once prices are expressed in a common currency.</p>
-<p>In notation, if the price of a product in the United States is denoted by p-dollar and the price in Japan is denoted by p-yen, then the prices should satisfy:</p>
+<p>The <strong>law of one price (LOOP)</strong> states that if an identical product or service can be sold in two different markets, and there are no restrictions on sale or transport and no meaningful transaction costs, then the product should sell for the same price in both markets once prices are expressed in a common currency.</p>
+<p>In notation, if the price of a product in the United States is denoted by p-dollar times the Yen Spot rate, and the price in Japan is denoted by p-yen, then the prices should satisfy:</p>
 <p><span class="math display">\[
 p_{\$} \times S_{\yen = \$1.00} = p_{\yen}
 \]</span></p>
@@ -487,7 +488,7 @@ p_{\$} \times S_{\yen = \$1.00} = p_{\yen}
 S_{\yen = \$1.00} = \frac{p_{\yen}}{p_{\$}}
 \]</span></p>
 <p>This leads directly to <strong>purchasing power parity (PPP)</strong>. If the law of one price were true for all goods and services, the exchange rate implied by the prices of identical baskets of goods would be the equilibrium exchange rate.</p>
-<p><strong>Purchasing Power Parity says that the same good in different countries should cost the amount after converting currencies, or at least eventually.</strong></p>
+<p><strong>Purchasing Power Parity says that the same good in different countries should cost the same amount after converting currencies, or at least eventually.</strong></p>
 <section id="absolute-purchasing-power-parity" class="level4" data-number="6.1.1.1">
 <h4 data-number="6.1.1.1" class="anchored" data-anchor-id="absolute-purchasing-power-parity"><span class="header-section-number">6.1.1.1</span> Absolute Purchasing Power Parity</h4>
 <p><strong>Absolute PPP:</strong> the spot exchange rate should equal the ratio of price levels in two countries.</p>
@@ -499,7 +500,7 @@ S = \frac{PI_{foreign}}{PI_{domestic}}
 <p>Absolute PPP is easiest to understand with the <strong>Big Mac Index</strong>. (The international magazine “The Economist” created this index.) If a Big Mac is viewed as roughly the same product worldwide, then the price of a Big Mac in local currency compared with the U.S. price suggests a PPP-implied exchange rate.</p>
 <p>For example, the textbooks’s illustration uses China and the United States. In China, a Big Mac costs Yuan 22.4. In the United States, it costs USD 5.66. The PPP-implied exchange rate is therefore:</p>
 <p><span class="math display">\[
-S_{\text{PPP}} = \frac{22.4}{5.66} = 3.9576 \text{ yuan per dollar}
+S_{\text{PPP}} = \frac{CNY 22.4}{USD 5.66} = 3.9576 \text{ yuan per dollar}
 \]</span></p>
 <p>If the actual market exchange rate is Yuan 6.4751 per dollar, the yuan appears <strong>undervalued</strong> relative to the dollar because it takes more yuan to buy one dollar than PPP would imply.</p>
 <p>The percentage under- or overvaluation is calculated as:</p>
@@ -516,7 +517,7 @@ S_{\text{PPP}} = \frac{22.4}{5.66} = 3.9576 \text{ yuan per dollar}
 <h4 data-number="6.1.1.2" class="anchored" data-anchor-id="why-the-big-mac-index-is-a-strong-example"><span class="header-section-number">6.1.1.2</span> Why the Big Mac Index Is A Strong Example</h4>
 <p>The Big Mac is:</p>
 <ul>
-<li>highly standardized, a Big Mac is a Big Mac;</li>
+<li>highly standardized, a Big Mac is a Big Mac (Google the song);</li>
 <li>the production process is relatively similar across countries (ingredients are the same);</li>
 <li>many of the costs are local, such as labor, rent, and some inputs (it builds in similar costs across borders).</li>
 </ul>
@@ -539,9 +540,87 @@ S_{\text{PPP}} = \frac{22.4}{5.66} = 3.9576 \text{ yuan per dollar}
 \]</span></p>
 <p>The economic logic is straightforward. Suppose one country experiences higher inflation than its trading partners, but the exchange rate does not change. That country’s exports become relatively more expensive, and imports become relatively more attractive. Over time, trade pressures should push its currency downward.</p>
 <p>This should sound familiar…this is what is happening in the United States today. The USD is inflated, which makes our exports more expensive to other countries, while imports appear cheaper relative to the dollar. Also, the USD has been depreciating during the inflationary period.</p>
-<section id="example-of-relative-ppp" class="level4" data-number="6.1.2.1">
-<h4 data-number="6.1.2.1" class="anchored" data-anchor-id="example-of-relative-ppp"><span class="header-section-number">6.1.2.1</span> Example of Relative PPP</h4>
-<p>If inflation in the United States is 5% and inflation in Japan is 1%, then the inflation differential is 4 percentage points. Relative PPP suggests that the U.S. dollar should <strong>depreciate</strong> against the yen by roughly 4% over time, or equivalently the yen should <strong>appreciate</strong> against the dollar by roughly 4%.</p>
+<section id="numerical-example-relative-purchasing-power-parity" class="level4" data-number="6.1.2.1">
+<h4 data-number="6.1.2.1" class="anchored" data-anchor-id="numerical-example-relative-purchasing-power-parity"><span class="header-section-number">6.1.2.1</span> Numerical Example: Relative Purchasing Power Parity</h4>
+<p>Suppose we compare the United States and Japan.</p>
+<p>The current exchange rate is:</p>
+<p><span class="math display">\[
+S_0 = 110 \text{ yen per dollar}
+\]</span></p>
+<p>Assume the following inflation rates:</p>
+<ul>
+<li>U.S. inflation: 5%<br>
+</li>
+<li>Japan inflation: 2%<br>
+</li>
+</ul>
+<hr>
+<p><strong>Step 1: Apply the Relative PPP Formula</strong></p>
+<p>Relative PPP states that the expected percentage change in the exchange rate is approximately equal to the difference in inflation rates between the two countries:</p>
+<p><span class="math display">\[
+\% \Delta S \approx \pi_{foreign} - \pi_{domestic}
+\]</span></p>
+<p>For this example:</p>
+<ul>
+<li>Foreign country = Japan<br>
+</li>
+<li>Domestic country = United States</li>
+</ul>
+<p>Therefore,</p>
+<p><span class="math display">\[
+\% \Delta S \approx 2\% - 5\%
+\]</span></p>
+<p><span class="math display">\[
+\% \Delta S \approx -3\%
+\]</span></p>
+<hr>
+<p><strong>Step 2: Interpret the Result</strong></p>
+<p>A negative value means the exchange rate (S) will <strong>fall</strong>.</p>
+<p>Since (S) is expressed as <strong>yen per dollar</strong>, a decrease means the <strong>dollar depreciates relative to the yen</strong>.</p>
+<p>This occurs because <strong>U.S. inflation is higher</strong>, making U.S. goods relatively more expensive.</p>
+<hr>
+<p><strong>Step 3: Calculate the New Exchange Rate</strong></p>
+<p>Initial exchange rate:</p>
+<p><span class="math display">\[
+S_0 = 110
+\]</span></p>
+<p>Expected percentage change:</p>
+<p><span class="math display">\[
+-3\%
+\]</span></p>
+<p>Calculate the change in the exchange rate:</p>
+<p><span class="math display">\[
+110 \times 0.03 = 3.3
+\]</span></p>
+<p>New exchange rate:</p>
+<p><span class="math display">\[
+S_1 = 110 - 3.3
+\]</span></p>
+<p><span class="math display">\[
+S_1 \approx 106.7
+\]</span></p>
+<hr>
+<p><strong>Final Result</strong></p>
+<p>The exchange rate moves from:</p>
+<p><span class="math display">\[
+110 \rightarrow 106.7
+\]</span></p>
+<p>Meaning:</p>
+<p><span class="math display">\[
+1 \text{ dollar } = 106.7 \text{ yen}
+\]</span></p>
+<p>The <strong>dollar depreciates</strong> relative to the yen.</p>
+<hr>
+</section>
+<section id="economic-intuition" class="level4" data-number="6.1.2.2">
+<h4 data-number="6.1.2.2" class="anchored" data-anchor-id="economic-intuition"><span class="header-section-number">6.1.2.2</span> Economic Intuition</h4>
+<p>Because inflation in the United States is higher than in Japan:</p>
+<ul>
+<li>U.S. goods become <strong>more expensive</strong></li>
+<li>Japanese goods become <strong>relatively cheaper</strong></li>
+</ul>
+<p>Consumers shift toward Japanese goods, increasing demand for yen.<br>
+Higher demand for yen causes the <strong>yen to appreciate</strong> and the <strong>dollar to depreciate</strong>.</p>
 <p>Please note: <strong>absolute PPP is about price levels; relative PPP is about inflation rates and exchange rate changes</strong>.</p>
 <p><strong>Relative PPP is looking at the changing of prices over time and says that exchange rates should move with inflation differences over the long run.</strong></p>
 <p><strong>If a country’s prices rise faster, its currency should fall.</strong></p>
@@ -693,7 +772,7 @@ i \approx r + \pi
 <p>The cross-product term ris often dropped because it is small for ordinary rates of return and inflation.</p>
 <section id="why-this-matters" class="level4" data-number="6.2.1.1">
 <h4 data-number="6.2.1.1" class="anchored" data-anchor-id="why-this-matters"><span class="header-section-number">6.2.1.1</span> Why This Matters</h4>
-<p>Students often ask why high interest rates sometimes attract capital and sometimes do not. The Fisher effect gives the answer:</p>
+<p>Why do higher interest rates sometimes attract capital and sometimes not. The Fisher effect gives the answer:</p>
 <ul>
 <li>if high nominal rates reflect <strong>high expected inflation</strong>, investors are not necessarily gaining anything in real terms;</li>
 <li>if high nominal rates reflect <strong>high real returns</strong>, then those rates can attract capital strongly.</li>
@@ -877,7 +956,7 @@ f^{JPY} = \frac{118.27 - 116.84}{116.84} \times \frac{360}{90} \times 100 = 4.90
 <li>If the difference in interest rates is <strong>greater</strong> than the forward premium, invest in the <strong>higher-yielding currency</strong>.</li>
 <li>If the difference in interest rates is <strong>less</strong> than the forward premium, invest in the <strong>lower-yielding currency</strong>.</li>
 </ul>
-<p>This rule is very useful pedagogically because it gives students a quick conceptual shortcut before they work the full numbers.</p>
+<p>This rule is very useful because it provides a quick conceptual shortcut before working the full calculation.</p>
 </section>
 </section>
 <section id="how-cia-restores-equilibrium" class="level4" data-number="6.2.6.3">
@@ -932,7 +1011,7 @@ f^{JPY} = \frac{118.27 - 116.84}{116.84} \times \frac{360}{90} \times 100 = 4.90
 <p>As arbitragers enter, the market moves back toward the parity band.</p>
 <section id="why-this-section-matters" class="level4" data-number="6.2.8.1">
 <h4 data-number="6.2.8.1" class="anchored" data-anchor-id="why-this-section-matters"><span class="header-section-number">6.2.8.1</span> Why This Section Matters</h4>
-<p>This section is where students should see clearly that parity conditions are not just formulas. They are <strong>market-clearing relationships</strong> enforced by profit-seeking behavior.</p>
+<p>Parity conditions are not just formulas. They are <strong>market-clearing relationships</strong> enforced by profit-seeking behavior.</p>
 <hr>
 </section>
 </section>

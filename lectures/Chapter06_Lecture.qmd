@@ -36,7 +36,7 @@ Random Quote: **Markets dislike free lunches. If one appears, someone will eat i
 
 Chapter 6 asks two of the most important questions in international finance: **What determines exchange rates, and can exchange rate changes be predicted?** The chapter answers those questions through the logic of the **international parity conditions**, the set of relationships linking prices, inflation, interest rates, forward rates, and spot exchange rates.
 
-This is one of the most important theory chapters in the course. It gives students the framework needed for foreign exchange pricing, hedging, arbitrage, speculation, and currency valuation. These parity conditions do **not** line up perfectly with real-world data in every period, especially in the short run, but they remain the benchmark structure managers and analysts use when interpreting currency markets.
+This is one of the most important theory chapters in the course. It provides the framework needed for foreign exchange pricing, hedging, arbitrage, speculation, and currency valuation. These parity conditions do **not** line up perfectly with real-world data in every period, especially in the short run, but they remain the benchmark structure managers and analysts use when interpreting currency markets.
 
 ### Chapter Roadmap {.unnumbered}
 
@@ -51,7 +51,7 @@ Major sections:
 
 ### Learning Objectives {.unnumbered}
 
-By the end of this chapter, students should be able to:
+By the end of this chapter, we should be able to:
 
 1.  Examine how price levels and price level changes (inflation) in countries determine the exchange rates at which their currencies are traded
 2. Show how interest rates reflect inflationary forces within each country and drive currency exchange rates
@@ -65,15 +65,15 @@ By the end of this chapter, students should be able to:
 
 The first major building block of international parity is the relationship between **goods prices** and **currency values**. If competitive markets function across countries, exchange rates should eventually reflect differences in the prices of comparable goods and services.
 
-**Core intuition:** if the same good is materially cheaper in one country than another after adjusting for the exchange rate, arbitrage, substitution, or competitive pressure should push that gap toward closure. That is the basic logic of the law of one price and purchasing power parity.
+**Core intuition:** if the same good is materially cheaper in one country than another after adjusting for the exchange rate, then arbitrage, substitution, or competitive pressure should push that gap toward closure. That is the basic logic of the law of one price and purchasing power parity. 
 
 ### Purchasing Power Parity and the Law of One Price
 
 **Basic idea:** identical goods should have identical prices once those prices are translated into a common currency, provided markets are competitive and frictions are minimal.
 
-The **law of one price** states that if an identical product or service can be sold in two different markets, and there are no restrictions on sale or transport and no meaningful transaction costs, then the product should sell for the same price in both markets once prices are expressed in a common currency.
+The **law of one price (LOOP)** states that if an identical product or service can be sold in two different markets, and there are no restrictions on sale or transport and no meaningful transaction costs, then the product should sell for the same price in both markets once prices are expressed in a common currency.
 
-In notation, if the price of a product in the United States is denoted by p-dollar and the price in Japan is denoted by p-yen, then the prices should satisfy:
+In notation, if the price of a product in the United States is denoted by p-dollar times the Yen Spot rate, and the price in Japan is denoted by p-yen, then the prices should satisfy:
 
 $$
 p_{\$} \times S_{\yen = \$1.00} = p_{\yen}
@@ -87,7 +87,7 @@ $$
 
 This leads directly to **purchasing power parity (PPP)**. If the law of one price were true for all goods and services, the exchange rate implied by the prices of identical baskets of goods would be the equilibrium exchange rate.
 
-**Purchasing Power Parity says that the same good in different countries should cost the amount after converting currencies, or at least eventually.**
+**Purchasing Power Parity says that the same good in different countries should cost the same amount after converting currencies, or at least eventually.**
 
 #### Absolute Purchasing Power Parity
 
@@ -106,7 +106,7 @@ Absolute PPP is easiest to understand with the **Big Mac Index**. (The internati
 For example, the textbooks's illustration uses China and the United States. In China, a Big Mac costs Yuan 22.4. In the United States, it costs USD 5.66. The PPP-implied exchange rate is therefore:
 
 $$
-S_{\text{PPP}} = \frac{22.4}{5.66} = 3.9576 \text{ yuan per dollar}
+S_{\text{PPP}} = \frac{CNY 22.4}{USD 5.66} = 3.9576 \text{ yuan per dollar}
 $$
 
 If the actual market exchange rate is Yuan 6.4751 per dollar, the yuan appears **undervalued** relative to the dollar because it takes more yuan to buy one dollar than PPP would imply.
@@ -131,7 +131,7 @@ That negative value indicates the yuan is about **38.9% undervalued** versus the
 
 The Big Mac is:
 
--   highly standardized, a Big Mac is a Big Mac;
+-   highly standardized, a Big Mac is a Big Mac (Google the song);
 -   the production process is relatively similar across countries (ingredients are the same);
 -   many of the costs are local, such as labor, rent, and some inputs (it builds in similar costs across borders).
 
@@ -161,9 +161,119 @@ The economic logic is straightforward. Suppose one country experiences higher in
 
 This should sound familiar...this is what is happening in the United States today. The USD is inflated, which makes our exports more expensive to other countries, while imports appear cheaper relative to the dollar. Also, the USD has been depreciating during the inflationary period.
 
-#### Example of Relative PPP
+#### Numerical Example: Relative Purchasing Power Parity
 
-If inflation in the United States is 5% and inflation in Japan is 1%, then the inflation differential is 4 percentage points. Relative PPP suggests that the U.S. dollar should **depreciate** against the yen by roughly 4% over time, or equivalently the yen should **appreciate** against the dollar by roughly 4%.
+Suppose we compare the United States and Japan.
+
+The current exchange rate is:
+
+$$
+S_0 = 110 \text{ yen per dollar}
+$$
+
+Assume the following inflation rates:
+
+- U.S. inflation: 5\%\
+- Japan inflation: 2\%\
+
+---
+
+**Step 1: Apply the Relative PPP Formula**
+
+Relative PPP states that the expected percentage change in the exchange rate is approximately equal to the difference in inflation rates between the two countries:
+
+$$
+\% \Delta S \approx \pi_{foreign} - \pi_{domestic}
+$$
+
+For this example:
+
+- Foreign country = Japan  
+- Domestic country = United States
+
+Therefore,
+
+$$
+\% \Delta S \approx 2\% - 5\%
+$$
+
+$$
+\% \Delta S \approx -3\%
+$$
+
+---
+
+**Step 2: Interpret the Result**
+
+A negative value means the exchange rate \(S\) will **fall**.
+
+Since \(S\) is expressed as **yen per dollar**, a decrease means the **dollar depreciates relative to the yen**.
+
+This occurs because **U.S. inflation is higher**, making U.S. goods relatively more expensive.
+
+---
+
+**Step 3: Calculate the New Exchange Rate**
+
+Initial exchange rate:
+
+$$
+S_0 = 110
+$$
+
+Expected percentage change:
+
+$$
+-3\%
+$$
+
+Calculate the change in the exchange rate:
+
+$$
+110 \times 0.03 = 3.3
+$$
+
+New exchange rate:
+
+$$
+S_1 = 110 - 3.3
+$$
+
+$$
+S_1 \approx 106.7
+$$
+
+---
+
+**Final Result**
+
+The exchange rate moves from:
+
+$$
+110 \rightarrow 106.7
+$$
+
+Meaning:
+
+$$
+1 \text{ dollar } = 106.7 \text{ yen}
+$$
+
+The **dollar depreciates** relative to the yen.
+
+---
+
+#### Economic Intuition
+
+Because inflation in the United States is higher than in Japan:
+
+- U.S. goods become **more expensive**
+- Japanese goods become **relatively cheaper**
+
+Consumers shift toward Japanese goods, increasing demand for yen.  
+Higher demand for yen causes the **yen to appreciate** and the **dollar to depreciate**.
+
+
 
 Please note: **absolute PPP is about price levels; relative PPP is about inflation rates and exchange rate changes**.
 
@@ -353,7 +463,7 @@ The cross-product term r\pi is often dropped because it is small for ordinary ra
 
 #### Why This Matters
 
-Students often ask why high interest rates sometimes attract capital and sometimes do not. The Fisher effect gives the answer:
+Why do higher interest rates sometimes attract capital and sometimes not. The Fisher effect gives the answer:
 
 -   if high nominal rates reflect **high expected inflation**, investors are not necessarily gaining anything in real terms;
 -   if high nominal rates reflect **high real returns**, then those rates can attract capital strongly.
@@ -576,7 +686,7 @@ To decide which direction the arbitrage should go, compare:
 -   If the difference in interest rates is **greater** than the forward premium, invest in the **higher-yielding currency**.
 -   If the difference in interest rates is **less** than the forward premium, invest in the **lower-yielding currency**.
 
-This rule is very useful pedagogically because it gives students a quick conceptual shortcut before they work the full numbers.
+This rule is very useful because it provides a quick conceptual shortcut before working the full calculation.
 
 #### How CIA Restores Equilibrium
 
@@ -643,7 +753,7 @@ As arbitragers enter, the market moves back toward the parity band.
 
 #### Why This Section Matters
 
-This section is where students should see clearly that parity conditions are not just formulas. They are **market-clearing relationships** enforced by profit-seeking behavior.
+Parity conditions are not just formulas. They are **market-clearing relationships** enforced by profit-seeking behavior.
 
 ------------------------------------------------------------------------
 
