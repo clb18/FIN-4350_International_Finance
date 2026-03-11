@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Prof.&nbsp;Barker">
-<meta name="dcterms.date" content="2026-03-08">
+<meta name="dcterms.date" content="2026-03-10">
 
 <title>Chapter 6 - International Parity Conditions – International Finance</title>
 <style>
@@ -344,15 +344,10 @@ window.Quarto = {
   <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example"><span class="header-section-number">6.2.2.1</span> Example</a></li>
   <li><a href="#caution" id="toc-caution" class="nav-link" data-scroll-target="#caution"><span class="header-section-number">6.2.2.2</span> <strong>Caution</strong></a></li>
   </ul></li>
-  <li><a href="#the-forward-rate" id="toc-the-forward-rate" class="nav-link" data-scroll-target="#the-forward-rate"><span class="header-section-number">6.2.3</span> The Forward Rate</a>
-  <ul class="collapse">
-  <li><a href="#forward-rate-calculation" id="toc-forward-rate-calculation" class="nav-link" data-scroll-target="#forward-rate-calculation"><span class="header-section-number">6.2.3.1</span> Forward Rate Calculation</a></li>
-  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation"><span class="header-section-number">6.2.3.2</span> Interpretation</a></li>
-  </ul></li>
+  <li><a href="#the-forward-rate" id="toc-the-forward-rate" class="nav-link" data-scroll-target="#the-forward-rate"><span class="header-section-number">6.2.3</span> The Forward Rate</a></li>
   <li><a href="#calculation-of-forward-premiums" id="toc-calculation-of-forward-premiums" class="nav-link" data-scroll-target="#calculation-of-forward-premiums"><span class="header-section-number">6.2.4</span> Calculation of Forward Premiums</a>
   <ul class="collapse">
-  <li><a href="#why-the-premium-exists" id="toc-why-the-premium-exists" class="nav-link" data-scroll-target="#why-the-premium-exists"><span class="header-section-number">6.2.4.1</span> Why the Premium Exists</a></li>
-  <li><a href="#foreign-currency-terms" id="toc-foreign-currency-terms" class="nav-link" data-scroll-target="#foreign-currency-terms"><span class="header-section-number">6.2.4.2</span> Foreign Currency Terms</a></li>
+  <li><a href="#foreign-currency-terms" id="toc-foreign-currency-terms" class="nav-link" data-scroll-target="#foreign-currency-terms"><span class="header-section-number">6.2.4.1</span> Foreign Currency Terms</a></li>
   </ul></li>
   <li><a href="#interest-rate-parity-irp" id="toc-interest-rate-parity-irp" class="nav-link" data-scroll-target="#interest-rate-parity-irp"><span class="header-section-number">6.2.5</span> Interest Rate Parity (IRP)</a>
   <ul class="collapse">
@@ -361,8 +356,6 @@ window.Quarto = {
   <li><a href="#covered-interest-arbitrage-cia" id="toc-covered-interest-arbitrage-cia" class="nav-link" data-scroll-target="#covered-interest-arbitrage-cia"><span class="header-section-number">6.2.6</span> Covered Interest Arbitrage (CIA)</a>
   <ul class="collapse">
   <li><a href="#textbook-example-fye-hong" id="toc-textbook-example-fye-hong" class="nav-link" data-scroll-target="#textbook-example-fye-hong"><span class="header-section-number">6.2.6.1</span> Textbook Example: Fye Hong</a></li>
-  <li><a href="#rule-of-thumb" id="toc-rule-of-thumb" class="nav-link" data-scroll-target="#rule-of-thumb"><span class="header-section-number">6.2.6.2</span> Rule of Thumb</a></li>
-  <li><a href="#how-cia-restores-equilibrium" id="toc-how-cia-restores-equilibrium" class="nav-link" data-scroll-target="#how-cia-restores-equilibrium"><span class="header-section-number">6.2.6.3</span> How CIA Restores Equilibrium</a></li>
   </ul></li>
   <li><a href="#uncovered-interest-arbitrage-uia" id="toc-uncovered-interest-arbitrage-uia" class="nav-link" data-scroll-target="#uncovered-interest-arbitrage-uia"><span class="header-section-number">6.2.7</span> Uncovered Interest Arbitrage (UIA)</a>
   <ul class="collapse">
@@ -428,7 +421,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 8, 2026</p>
+      <p class="date">March 10, 2026</p>
     </div>
   </div>
   
@@ -767,9 +760,9 @@ i \approx r + \pi
 <ul>
 <li>i = nominal interest rate,</li>
 <li>r = real interest rate,</li>
-<li>= expected inflation.</li>
+<li><span class="math inline">\(\pi\)</span> = expected inflation.</li>
 </ul>
-<p>The cross-product term ris often dropped because it is small for ordinary rates of return and inflation.</p>
+<p>The cross-product term r<span class="math inline">\(\pi\)</span> is often dropped because it is small for ordinary rates of return and inflation.</p>
 <section id="why-this-matters" class="level4" data-number="6.2.1.1">
 <h4 data-number="6.2.1.1" class="anchored" data-anchor-id="why-this-matters"><span class="header-section-number">6.2.1.1</span> Why This Matters</h4>
 <p>Why do higher interest rates sometimes attract capital and sometimes not. The Fisher effect gives the answer:</p>
@@ -777,15 +770,11 @@ i \approx r + \pi
 <li>if high nominal rates reflect <strong>high expected inflation</strong>, investors are not necessarily gaining anything in real terms;</li>
 <li>if high nominal rates reflect <strong>high real returns</strong>, then those rates can attract capital strongly.</li>
 </ul>
+<p>In other words, it really depends on the estimated value of <span class="math inline">\(\pi\)</span>.</p>
 </section>
 <section id="important-example" class="level4" data-number="6.2.1.2">
 <h4 data-number="6.2.1.2" class="anchored" data-anchor-id="important-example"><span class="header-section-number">6.2.1.2</span> Important Example</h4>
 <p>The chapter’s discussion of the United States under Paul Volcker is especially useful. High interest rates in the late 1970s could initially reflect high expected inflation. But once inflation was brought down, the remaining high rates represented high <strong>real rates</strong>, which attracted capital inflows and strengthened the dollar.</p>
-<p>This helps distinguish between:</p>
-<ul>
-<li>a high nominal rate caused by inflation, and</li>
-<li>a high nominal rate caused by high real return.</li>
-</ul>
 </section>
 <section id="empirical-evidence" class="level4" data-number="6.2.1.3">
 <h4 data-number="6.2.1.3" class="anchored" data-anchor-id="empirical-evidence"><span class="header-section-number">6.2.1.3</span> Empirical Evidence</h4>
@@ -813,13 +802,147 @@ i \approx r + \pi
 </section>
 <section id="the-forward-rate" class="level3" data-number="6.2.3">
 <h3 data-number="6.2.3" class="anchored" data-anchor-id="the-forward-rate"><span class="header-section-number">6.2.3</span> The Forward Rate</h3>
-<p>A <strong>forward rate</strong> is an exchange rate quoted today for settlement on a future date. It is not today’s spot rate; it is the contractual rate at which a currency can be bought or sold forward.</p>
-<p><strong>Important point:</strong> the forward rate is first a market price for future delivery, not automatically a prediction.</p>
-<p>Forward rates are central to multinational finance because they allow firms and investors to lock in future exchange rates.</p>
-<section id="forward-rate-calculation" class="level4" data-number="6.2.3.1">
-<h4 data-number="6.2.3.1" class="anchored" data-anchor-id="forward-rate-calculation"><span class="header-section-number">6.2.3.1</span> Forward Rate Calculation</h4>
+<p>A <strong>forward rate</strong> is an exchange rate agreed upon today for currency transaction that will occur on a future date. <strong>Think of it like locking in a price today for something you will buy later.</strong> It is not today’s spot rate; it is the contractual rate at which a currency can be bought or sold forward.</p>
+<p>Forward rates are central to multinational finance because they allow firms and investors to lock in future exchange rates and <strong>help firms eliminate exchange rate risk.</strong></p>
+<p><strong>They are rates that make the financial markets balance given interest rates in each country.</strong></p>
+<p><strong>Forward Rate Calculation Example:</strong> Using a Forward Contract to Hedge Exchange Rate Risk</p>
+<p>Consider a U.S. firm that must pay a German supplier in euros one year from today.</p>
+<p><strong>Current Market Conditions:</strong></p>
+<p>Spot exchange rate:</p>
+<p><span class="math display">\[
+S_0 = 1.10 \; \text{USD/EUR}
+\]</span></p>
+<p>This means:</p>
+<p>1 EUR = $1.10 USD</p>
+<p>A bank quotes a <strong>1-year forward exchange rate</strong> of:</p>
+<p><span class="math display">\[
+F_1 = 1.15 \; \text{USD/EUR}
+\]</span></p>
+<p>This means that one year from today the firm can exchange dollars for euros at:</p>
+<p>1 EUR = $1.15 USD</p>
+<hr>
+<p><strong>Payment Obligation</strong></p>
+<p>The U.S. firm must pay:</p>
+<p>1,000,000 EUR</p>
+<p>to the German supplier in one year.</p>
+<hr>
+<p><strong>Case 1: No Forward Contract (Exchange Rate Risk)</strong></p>
+<p>If the firm does <strong>not hedge</strong>, it must purchase euros at the future spot rate, <strong>which is unknown today.</strong></p>
+<p>Suppose the euro appreciates and the future spot rate becomes:</p>
+<p><span class="math display">\[
+S_1 = 1.30 \; \text{USD/EUR}
+\]</span></p>
+<p>The dollar cost of the payment would be:</p>
+<p><span class="math display">\[
+1{,}000{,}000 \times 1.30 = \$1{,}300{,}000
+\]</span></p>
+<p><strong>Cash Flows</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Currency</th>
+<th>Cash Flow</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>USD</td>
+<td>-$1,300,000</td>
+</tr>
+<tr class="even">
+<td>EUR</td>
+<td>+€1,000,000</td>
+</tr>
+</tbody>
+</table>
+<p>The euros are then paid to the supplier.</p>
+<p>This outcome exposes the firm to <strong>exchange rate risk</strong>.</p>
+<hr>
+<p><strong>Case 2: Using a Forward Contract (Hedging)</strong></p>
+<p>Instead of waiting, the firm signs a <strong>forward contract today</strong> at the forward rate.</p>
+<p>Spot rate today is still:</p>
+<p>1 EUR = $1.10 USD</p>
+<p>And the forward exchange rate:</p>
+<p><span class="math display">\[
+F_1 = 1.15 \; \text{USD/EUR}
+\]</span></p>
+<hr>
+<p><strong>Cash Flows at Contract Maturity</strong></p>
+<p>The firm pays dollars to the bank:</p>
+<p><span class="math display">\[
+-\$1{,}150{,}000
+\]</span></p>
+<p>The bank delivers 1,000,000 EUR and the firm then pays the supplier the funds.</p>
+<p><strong>Net Cash Flows</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Currency</th>
+<th>Cash Flow</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>USD</td>
+<td>-$1,150,000</td>
+</tr>
+<tr class="even">
+<td>EUR</td>
+<td>+€1,000,000</td>
+</tr>
+<tr class="odd">
+<td>Supplier payment</td>
+<td>-€1,000,000</td>
+</tr>
+</tbody>
+</table>
+<p>Final net position of US Firm:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Currency</th>
+<th>Net Cash Flow</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>USD</td>
+<td>-$1,150,000</td>
+</tr>
+<tr class="even">
+<td>EUR</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Interpretation:</strong></p>
+<p>By using the forward contract, the firm converts an <strong>uncertain future exchange rate</strong> into a <strong>certain dollar payment</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Scenario</th>
+<th>Dollar Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No hedge</td>
+<td>$1,300,000</td>
+</tr>
+<tr class="even">
+<td>Forward hedge</td>
+<td>$1,150,000</td>
+</tr>
+</tbody>
+</table>
+<p>The forward contract eliminates exchange rate risk. In this case, using Forward Contracts saved the US firm $150,000 USD.</p>
+<hr>
+<p><strong>Key Insight:</strong></p>
+<p>A <strong>forward contract</strong> allows firms to lock in a future exchange rate today.</p>
+<p>This converts uncertain future currency costs into predictable cash flows, allowing firms to hedge exchange rate risk.</p>
 <p>The forward rate for a given maturity is determined by the current spot rate and the two relevant money-market interest rates for that maturity.</p>
-<p>For the chapter’s Swiss franc example:</p>
+<p>For the textbook’s Swiss franc example:</p>
 <ul>
 <li>spot rate = SF 1.4800 per USD 1.00,</li>
 <li>90-day Swiss franc rate = 4.00% per annum,</li>
@@ -834,12 +957,8 @@ F_{90}^{SF/\$} = S^{SF/\$} \times \frac{1 + i_{SF}\left(\frac{90}{360}\right)}{1
 F_{90}^{SF/\$} = 1.4800 \times \frac{1 + 0.04\left(\frac{90}{360}\right)}{1 + 0.08\left(\frac{90}{360}\right)} = 1.4655
 \]</span></p>
 <p>So the forward rate is <strong>SF 1.4655 per USD 1.00</strong>.</p>
-</section>
-<section id="interpretation" class="level4" data-number="6.2.3.2">
-<h4 data-number="6.2.3.2" class="anchored" data-anchor-id="interpretation"><span class="header-section-number">6.2.3.2</span> Interpretation</h4>
 <p>Because the dollar interest rate is higher than the Swiss franc interest rate, the dollar sells forward at a <strong>discount</strong>, and the Swiss franc sells forward at a <strong>premium</strong>.</p>
 <p>This is a recurring theme throughout the chapter: the forward market reflects interest differentials.</p>
-</section>
 </section>
 <section id="calculation-of-forward-premiums" class="level3" data-number="6.2.4">
 <h3 data-number="6.2.4" class="anchored" data-anchor-id="calculation-of-forward-premiums"><span class="header-section-number">6.2.4</span> Calculation of Forward Premiums</h3>
@@ -854,12 +973,10 @@ f = \frac{\text{Spot} - \text{Forward}}{\text{Forward}} \times \frac{360}{\text{
 f^{SF} = \frac{1.4800 - 1.4655}{1.4655} \times \frac{360}{90} \times 100 = 3.96\% \text{ per annum}
 \]</span></p>
 <p>Thus the Swiss franc is selling forward at a <strong>3.96% annual premium</strong> versus the dollar.</p>
-<section id="why-the-premium-exists" class="level4" data-number="6.2.4.1">
-<h4 data-number="6.2.4.1" class="anchored" data-anchor-id="why-the-premium-exists"><span class="header-section-number">6.2.4.1</span> Why the Premium Exists</h4>
+<p><strong>Why the Premium Exists:</strong></p>
 <p>The forward premium arises because the Swiss franc interest rate is below the dollar interest rate. A lower-yield currency tends to sell forward at a premium; a higher-yield currency tends to sell forward at a discount.</p>
-</section>
-<section id="foreign-currency-terms" class="level4" data-number="6.2.4.2">
-<h4 data-number="6.2.4.2" class="anchored" data-anchor-id="foreign-currency-terms"><span class="header-section-number">6.2.4.2</span> Foreign Currency Terms</h4>
+<section id="foreign-currency-terms" class="level4" data-number="6.2.4.1">
+<h4 data-number="6.2.4.1" class="anchored" data-anchor-id="foreign-currency-terms"><span class="header-section-number">6.2.4.1</span> Foreign Currency Terms</h4>
 <p>The chapter also emphasizes that forward premium calculations depend on quote convention.</p>
 <p>For example, if the spot rate is:</p>
 <p><span class="math display">\[
@@ -941,26 +1058,109 @@ f^{JPY} = \frac{118.27 - 116.84}{116.84} \times \frac{360}{90} \times 100 = 4.90
 <p><span class="math display">\[
 1{,}044{,}638 - 1{,}040{,}000 = 4{,}638
 \]</span></p>
-</section>
-</section>
-<section id="rule-of-thumb" class="level4" data-number="6.2.6.2">
-<h4 data-number="6.2.6.2" class="anchored" data-anchor-id="rule-of-thumb"><span class="header-section-number">6.2.6.2</span> Rule of Thumb</h4>
+<p><strong>Rule of Thumb</strong></p>
 <p>To decide which direction the arbitrage should go, compare:</p>
 <ul>
 <li>the <strong>interest differential</strong>, and</li>
 <li>the <strong>forward premium or cost of cover</strong>.</li>
 </ul>
-<section id="arbitrage-rule-of-thumb" class="level5" data-number="6.2.6.2.1">
-<h5 data-number="6.2.6.2.1" class="anchored" data-anchor-id="arbitrage-rule-of-thumb"><span class="header-section-number">6.2.6.2.1</span> Arbitrage Rule of Thumb</h5>
+<p><strong>Arbitrage Rule of Thumb</strong></p>
 <ul>
 <li>If the difference in interest rates is <strong>greater</strong> than the forward premium, invest in the <strong>higher-yielding currency</strong>.</li>
 <li>If the difference in interest rates is <strong>less</strong> than the forward premium, invest in the <strong>lower-yielding currency</strong>.</li>
 </ul>
 <p>This rule is very useful because it provides a quick conceptual shortcut before working the full calculation.</p>
-</section>
-</section>
-<section id="how-cia-restores-equilibrium" class="level4" data-number="6.2.6.3">
-<h4 data-number="6.2.6.3" class="anchored" data-anchor-id="how-cia-restores-equilibrium"><span class="header-section-number">6.2.6.3</span> How CIA Restores Equilibrium</h4>
+<p><strong>Numerical Example: CIA Rule of Thumb</strong></p>
+<p>Suppose the following market data:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>U.S. interest rate</td>
+<td>6%</td>
+</tr>
+<tr class="even">
+<td>Euro interest rate</td>
+<td>3%</td>
+</tr>
+<tr class="odd">
+<td>Spot exchange rate</td>
+<td>1.10 USD/EUR</td>
+</tr>
+<tr class="even">
+<td>1-year forward rate</td>
+<td>1.12 USD/EUR</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Step 1: Calculate the Interest Rate Differential</strong></p>
+<p><span class="math display">\[
+i_{US} - i_{EU}
+\]</span></p>
+<p><span class="math display">\[
+= 6\% - 3\%
+\]</span></p>
+<p><span class="math display">\[
+= 3\%
+\]</span></p>
+<p>The <strong>interest rate differential is 3%</strong>.</p>
+<hr>
+<p><strong>Step 2: Calculate the Forward Premium</strong></p>
+<p>The forward premium is calculated as:</p>
+<p><span class="math display">\[
+\frac{F - S}{S}
+\]</span></p>
+<p>Substituting the values:</p>
+<p><span class="math display">\[
+\frac{1.12 - 1.10}{1.10}
+\]</span></p>
+<p><span class="math display">\[
+= 0.0182
+\]</span></p>
+<p><span class="math display">\[
+= 1.82\%
+\]</span></p>
+<p>So the <strong>forward premium on the euro is approximately 1.82%</strong>.</p>
+<hr>
+<p><strong>Step 3: Apply the CIA Rule of Thumb</strong></p>
+<p>Compare the two values:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Interest rate difference</td>
+<td>3%</td>
+</tr>
+<tr class="even">
+<td>Forward premium</td>
+<td>1.82%</td>
+</tr>
+</tbody>
+</table>
+<p>Since</p>
+<p><span class="math display">\[
+3\% &gt; 1.82\%
+\]</span></p>
+<p>the rule of thumb suggests:</p>
+<p><strong>Invest in the higher-yielding currency (U.S. dollars).</strong></p>
+<hr>
+<p><strong>Interpretation:</strong></p>
+<p>The U.S. interest rate advantage (3%) is <strong>greater than</strong> the forward premium (1.82%).</p>
+<p>This means the forward market does <strong>not fully offset</strong> the higher U.S. interest rate, creating an incentive for investors to invest in dollar-denominated assets while covering exchange rate risk with a forward contract.</p>
+<hr>
+<p>If the <strong>interest rate differential exceeds the forward premium</strong>, investors will prefer the <strong>higher-yielding currency</strong> when engaging in covered interest arbitrage.</p>
+<p><strong>How CIA Restores Equilibrium</strong></p>
 <p>Covered interest arbitrage pushes markets back toward IRP because:</p>
 <ol type="1">
 <li>buying the foreign currency spot and selling it forward narrows the forward premium;</li>
@@ -968,6 +1168,7 @@ f^{JPY} = \frac{118.27 - 116.84}{116.84} \times \frac{360}{90} \times 100 = 4.90
 <li>capital leaving the domestic money market pushes the domestic rate up.</li>
 </ol>
 <p>Arbitrage therefore destroys the arbitrage opportunity.</p>
+</section>
 </section>
 </section>
 <section id="uncovered-interest-arbitrage-uia" class="level3" data-number="6.2.7">
@@ -999,6 +1200,12 @@ f^{JPY} = \frac{118.27 - 116.84}{116.84} \times \frac{360}{90} \times 100 = 4.90
 <section id="equilibrium-between-interest-rates-and-exchange-rates" class="level3" data-number="6.2.8">
 <h3 data-number="6.2.8" class="anchored" data-anchor-id="equilibrium-between-interest-rates-and-exchange-rates"><span class="header-section-number">6.2.8</span> Equilibrium between Interest Rates and Exchange Rates</h3>
 <p>The chapter then brings interest differentials and forward premiums together graphically.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/Ch06/Exhibit_6.8.png" class="img-fluid figure-img" style="width:105.0%"></p>
+<figcaption>Interest Rate Parity and Equilibrium</figcaption>
+</figure>
+</div>
 <p><strong>What the figure shows:</strong> the market does not drift to parity by accident. Profit-seeking traders push it there.</p>
 <p>The equilibrium line in the diagram shows the combinations of:</p>
 <ul>

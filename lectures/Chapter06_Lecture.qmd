@@ -457,9 +457,9 @@ where:
 
 -   i = nominal interest rate,
 -   r = real interest rate,
--   \pi = expected inflation.
+-   $\pi$ = expected inflation.
 
-The cross-product term r\pi is often dropped because it is small for ordinary rates of return and inflation.
+The cross-product term r$\pi$ is often dropped because it is small for ordinary rates of return and inflation.
 
 #### Why This Matters
 
@@ -468,14 +468,12 @@ Why do higher interest rates sometimes attract capital and sometimes not. The Fi
 -   if high nominal rates reflect **high expected inflation**, investors are not necessarily gaining anything in real terms;
 -   if high nominal rates reflect **high real returns**, then those rates can attract capital strongly.
 
+In other words, it really depends on the estimated value of $\pi$.
+
 #### Important Example
 
 The chapter's discussion of the United States under Paul Volcker is especially useful. High interest rates in the late 1970s could initially reflect high expected inflation. But once inflation was brought down, the remaining high rates represented high **real rates**, which attracted capital inflows and strengthened the dollar.
 
-This helps distinguish between:
-
--   a high nominal rate caused by inflation, and
--   a high nominal rate caused by high real return.
 
 #### Empirical Evidence
 
@@ -507,17 +505,147 @@ People sometimes jump from "higher interest rate" to "stronger currency." The in
 
 ### The Forward Rate
 
-A **forward rate** is an exchange rate quoted today for settlement on a future date. It is not today's spot rate; it is the contractual rate at which a currency can be bought or sold forward.
+A **forward rate** is an exchange rate agreed upon today for currency transaction that will occur on a future date. **Think of it like locking in a price today for something you will buy later.** It is not today's spot rate; it is the contractual rate at which a currency can be bought or sold forward.
 
-**Important point:** the forward rate is first a market price for future delivery, not automatically a prediction.
+Forward rates are central to multinational finance because they allow firms and investors to lock in future exchange rates and **help firms eliminate exchange rate risk.**
 
-Forward rates are central to multinational finance because they allow firms and investors to lock in future exchange rates.
+**They are rates that make the financial markets balance given interest rates in each country.**
 
-#### Forward Rate Calculation
+**Forward Rate Calculation Example:** Using a Forward Contract to Hedge Exchange Rate Risk
+
+Consider a U.S. firm that must pay a German supplier in euros one year from today.
+
+**Current Market Conditions:**
+
+Spot exchange rate:
+
+$$
+S_0 = 1.10 \; \text{USD/EUR}
+$$
+
+This means:
+
+
+1 EUR = \$1.10 USD
+
+
+A bank quotes a **1-year forward exchange rate** of:
+
+$$
+F_1 = 1.15 \; \text{USD/EUR}
+$$
+
+This means that one year from today the firm can exchange dollars for euros at:
+
+1 EUR = \$1.15 USD
+
+---
+
+**Payment Obligation**
+
+The U.S. firm must pay:
+
+1,000,000 EUR
+
+to the German supplier in one year.
+
+---
+
+**Case 1: No Forward Contract (Exchange Rate Risk)**
+
+If the firm does **not hedge**, it must purchase euros at the future spot rate, **which is unknown today.**
+
+Suppose the euro appreciates and the future spot rate becomes:
+
+$$
+S_1 = 1.30 \; \text{USD/EUR}
+$$
+
+The dollar cost of the payment would be:
+
+$$
+1{,}000{,}000 \times 1.30 = \$1{,}300{,}000
+$$
+
+**Cash Flows**
+
+| Currency | Cash Flow |
+|--------|--------|
+| USD | -\$1,300,000 |
+| EUR | +€1,000,000 |
+
+The euros are then paid to the supplier.
+
+This outcome exposes the firm to **exchange rate risk**.
+
+---
+
+**Case 2: Using a Forward Contract (Hedging)**
+
+Instead of waiting, the firm signs a **forward contract today** at the forward rate.
+
+Spot rate today is still:
+
+1 EUR = \$1.10 USD
+
+And the forward exchange rate:
+
+$$
+F_1 = 1.15 \; \text{USD/EUR}
+$$
+
+---
+
+**Cash Flows at Contract Maturity**
+
+The firm pays dollars to the bank:
+
+$$
+-\$1{,}150{,}000
+$$
+
+The bank delivers 1,000,000 EUR and the firm then pays the supplier the funds.
+
+**Net Cash Flows**
+
+| Currency | Cash Flow |
+|--------|--------|
+| USD | -\$1,150,000 |
+| EUR | +€1,000,000 |
+| Supplier payment | -€1,000,000 |
+
+Final net position of US Firm:
+
+| Currency | Net Cash Flow |
+|--------|--------|
+| USD | -\$1,150,000 |
+| EUR | 0 |
+
+---
+
+**Interpretation:**
+
+By using the forward contract, the firm converts an **uncertain future exchange rate** into a **certain dollar payment**.
+
+| Scenario | Dollar Cost |
+|------|------|
+No hedge | \$1,300,000 |
+Forward hedge | \$1,150,000 |
+
+The forward contract eliminates exchange rate risk. In this case, using Forward Contracts saved the US firm \$150,000 USD.
+
+---
+
+**Key Insight:**
+
+A **forward contract** allows firms to lock in a future exchange rate today.
+
+This converts uncertain future currency costs into predictable cash flows, allowing firms to hedge exchange rate risk.
+
 
 The forward rate for a given maturity is determined by the current spot rate and the two relevant money-market interest rates for that maturity.
 
-For the chapter's Swiss franc example:
+For the textbook's Swiss franc example:
 
 -   spot rate = SF 1.4800 per USD 1.00,
 -   90-day Swiss franc rate = 4.00% per annum,
@@ -537,7 +665,6 @@ $$
 
 So the forward rate is **SF 1.4655 per USD 1.00**.
 
-#### Interpretation
 
 Because the dollar interest rate is higher than the Swiss franc interest rate, the dollar sells forward at a **discount**, and the Swiss franc sells forward at a **premium**.
 
@@ -563,7 +690,7 @@ $$
 
 Thus the Swiss franc is selling forward at a **3.96% annual premium** versus the dollar.
 
-#### Why the Premium Exists
+**Why the Premium Exists:**
 
 The forward premium arises because the Swiss franc interest rate is below the dollar interest rate. A lower-yield currency tends to sell forward at a premium; a higher-yield currency tends to sell forward at a discount.
 
@@ -674,21 +801,109 @@ $$
 1{,}044{,}638 - 1{,}040{,}000 = 4{,}638
 $$
 
-#### Rule of Thumb
+**Rule of Thumb**
 
 To decide which direction the arbitrage should go, compare:
 
 -   the **interest differential**, and
 -   the **forward premium or cost of cover**.
 
-##### Arbitrage Rule of Thumb
+**Arbitrage Rule of Thumb**
 
 -   If the difference in interest rates is **greater** than the forward premium, invest in the **higher-yielding currency**.
 -   If the difference in interest rates is **less** than the forward premium, invest in the **lower-yielding currency**.
 
 This rule is very useful because it provides a quick conceptual shortcut before working the full calculation.
 
-#### How CIA Restores Equilibrium
+**Numerical Example: CIA Rule of Thumb**
+
+Suppose the following market data:
+
+| Variable | Value |
+|---|---|
+U.S. interest rate | 6% |
+Euro interest rate | 3% |
+Spot exchange rate | 1.10 USD/EUR |
+1-year forward rate | 1.12 USD/EUR |
+
+---
+
+**Step 1: Calculate the Interest Rate Differential**
+
+$$
+i_{US} - i_{EU}
+$$
+
+$$
+= 6\% - 3\%
+$$
+
+$$
+= 3\%
+$$
+
+The **interest rate differential is 3%**.
+
+---
+
+**Step 2: Calculate the Forward Premium**
+
+The forward premium is calculated as:
+
+$$
+\frac{F - S}{S}
+$$
+
+Substituting the values:
+
+$$
+\frac{1.12 - 1.10}{1.10}
+$$
+
+$$
+= 0.0182
+$$
+
+$$
+= 1.82\%
+$$
+
+So the **forward premium on the euro is approximately 1.82%**.
+
+---
+
+**Step 3: Apply the CIA Rule of Thumb**
+
+Compare the two values:
+
+| Measure | Value |
+|---|---|
+Interest rate difference | 3% |
+Forward premium | 1.82% |
+
+Since
+
+$$
+3\% > 1.82\%
+$$
+
+the rule of thumb suggests:
+
+**Invest in the higher-yielding currency (U.S. dollars).**
+
+---
+
+**Interpretation:**
+
+The U.S. interest rate advantage (3%) is **greater than** the forward premium (1.82%).  
+
+This means the forward market does **not fully offset** the higher U.S. interest rate, creating an incentive for investors to invest in dollar-denominated assets while covering exchange rate risk with a forward contract.
+
+---
+
+If the **interest rate differential exceeds the forward premium**, investors will prefer the **higher-yielding currency** when engaging in covered interest arbitrage.
+
+**How CIA Restores Equilibrium**
 
 Covered interest arbitrage pushes markets back toward IRP because:
 
@@ -734,6 +949,8 @@ That is why the chapter repeatedly emphasizes: **higher return means higher risk
 ### Equilibrium between Interest Rates and Exchange Rates
 
 The chapter then brings interest differentials and forward premiums together graphically.
+
+![Interest Rate Parity and Equilibrium](../assets/images/Ch06/Exhibit_6.8.png){width="105%"}
 
 **What the figure shows:** the market does not drift to parity by accident. Profit-seeking traders push it there.
 
