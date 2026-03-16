@@ -1,0 +1,39 @@
+---
+title: "Trade and Alliance Board"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## New Strategic Tools
+
+Beginning this week, countries may use two additional policy tools:
+
+- Trade Agreements
+- FX Intervention
+
+### Trade Agreement Options
+
+| Type | Description |
+|---|---|
+| Bilateral | Two countries expand trade or reduce barriers |
+| Multilateral / Open | Three or more countries cooperate in a trade framework |
+| Strategic Goods | Cooperation in critical goods such as energy or food |
+
+Countries may propose **one agreement per round**. Agreements must be accepted by all participating countries.
+
+### FX Intervention
+
+Countries may intervene in currency markets through their central bank.
+
+| Option | Description |
+|---|---|
+| Support Currency | Central bank buys domestic currency |
+| Weaken Currency | Central bank sells domestic currency |
+| No Intervention | Market determines exchange rate |
+
+::: {.callout-note}
+Intervention works best when combined with credible policy such as monetary tightening.
+:::

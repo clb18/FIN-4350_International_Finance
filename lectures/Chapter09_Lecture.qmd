@@ -1,0 +1,704 @@
+---
+title: "Chapter 9 - Foreign Exchange Rate Determination and Intervention"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 4
+    toc-expand: 1
+    number-sections: true
+    number-offset: 8
+    title-block-style: default
+  docx:
+    toc: true
+    number-sections: true
+    number-offset: 8
+  pdf:
+    toc: true
+    number-sections: true
+    number-offset: 8
+    geometry: margin=1in
+---
+
+# Introduction
+
+Random Quote: **"Going to church doesn't make you a Christian any more than standing in a garage makes you a car."**
+
+Bible Quote: **"How blessed is the man who does not walk in step with the wicked  
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or stand in the way that sinners take  
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or sit in the company of mockers"**  **-Psalms 1:1**
+ 
+
+
+Textbook Quote: **"The herd instinct among forecasters makes sheep look like independent thinkers."**
+
+**Quote from the first paragraph of the chapter:** "What determines the exchange rate between currencies? This question has proven to be very difficult to answer. Companies and agents need foreign currency for buying imports, and they may earn foreign currency by exporting. Investors need foreign currency to invest in interest-bearing instruments in foreign markets, such as fixed-income securities (bonds), shares in publicly traded companies, or other new types of hybrid instruments. Tourists, migrant workers, speculators on currency movements—all of these economic agents buy and sell foreign currencies every day."
+
+This chapter moves beyond the parity conditions of the previous chapter and asks a deeper and more practical question: **what actually drives exchange rates in real-world markets?** The answer is not a single model. Exchange rates are shaped by goods prices, money supplies, capital flows, expectations, policy choices, speculation, and government intervention. As a result, any serious analysis of exchange rates must be multi-causal.
+
+## Chapter Roadmap {.unnumbered}
+
+Major sections:
+
+1. **Exchange Rate Determination: The Theoretical Thread** - The major schools of thought on what drives currency values.
+2. **Currency Market Intervention** - Why governments try to influence exchange rates and how they do it.
+3. **Disequilibrium: Exchange Rates in Emerging Markets** - Why emerging market currencies are especially vulnerable to crises.
+4. **Currency Forecasting in Practice** - How practitioners combine theory, technical analysis, and judgment.
+
+------------------------------------------------------------------------
+
+## Exchange Rate Determination: The Theoretical
+
+Exchange rate determination is one of the most difficult topics in international finance because exchange rates are influenced simultaneously by macroeconomic conditions, asset market behavior, policy choices, and investor expectations. A useful way to organize the topic is to group the major explanations into three complementary approaches:
+
+ - **parity conditions** 
+ - **balance of payments** 
+ - **monetary/asset market approaches**
+
+Please remember that these are **not competing theories in the sense that only one can be true**. Instead, they are best understood as different lenses. One approach may explain long-run tendencies well, another may help explain medium-run currency pressure, and a third may better capture short-run capital market dynamics. In practice, exchange rates reflect all of them at different times and with different intensity.
+
+Two additional institutional conditions matter as well:
+
+-   The country must possess sufficiently developed and liquid money and capital markets (Financial Markets).
+-   The country must possess a sound banking system capable of supporting currency trading and financial intermediation (Banking System).
+
+Without these institutional foundations, theoretical equilibrium relationships may not hold, or may hold only weakly.
+
+**Here is an illustration of the framework:**
+
+<style>
+
+.fx-exhibit {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.fx-title {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #0b87a8;
+  margin-bottom: .5em;
+}
+
+.fx-main {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.fx-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  margin-bottom: 1.5em;
+}
+
+.fx-side {
+  width: 25%;
+  text-align: center;
+  font-size: .85em;
+}
+
+.fx-side strong {
+  display: block;
+  font-size: 1.1em;
+}
+
+.fx-red {
+  color: #b44a4a;
+}
+
+.fx-center {
+  width: 40%;
+  background: #dfe1f1;
+  padding: 1em;
+  border: 1px solid #bbb;
+  text-align: center;
+  box-shadow: 4px 4px 0 rgba(0,0,0,.1);
+}
+
+.fx-center strong {
+  color: #a02c2c;
+}
+
+.fx-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5em;
+}
+
+.fx-box {
+  width: 32%;
+  background: #d8ead8;
+  padding: 1em;
+  border: 1px solid #a8c1a8;
+  box-shadow: 4px 4px 0 rgba(0,0,0,.1);
+  font-size: .9em;
+}
+
+.fx-box strong {
+  display: block;
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+</style>
+
+
+<div class="fx-exhibit">
+
+<div class="fx-title">Exhibit 9.1 The Theoretical Determinants of Exchange Rates</div>
+
+<div class="fx-main">
+The Determinants of Foreign Exchange Rates
+</div>
+
+<div class="fx-top">
+
+<div class="fx-side">
+<strong>Financial Markets</strong>
+<div class="fx-red">
+Is there a well-developed and liquid money and capital market in that currency?
+</div>
+</div>
+
+<div class="fx-center">
+<strong>Exchange Rate Determination</strong><br>
+The three major schools of thought on the determination of the spot exchange rate
+</div>
+
+<div class="fx-side">
+<strong>Banking System</strong>
+<div class="fx-red">
+Is there a sound and secure banking system in place to support currency trading?
+</div>
+</div>
+
+</div>
+
+
+<div class="fx-bottom">
+
+<div class="fx-box">
+<strong>Parity Conditions Approach</strong>
+
+1. Law of one price  
+2. Absolute purchasing power parity  
+3. Relative purchasing power parity  
+4. Interest rate parity
+</div>
+
+
+<div class="fx-box">
+<strong>Balance of Payments Approach</strong>
+
+1. Current account balances  
+2. Portfolio investment  
+3. Foreign direct investment  
+4. Exchange rate regimes  
+5. Official monetary reserves
+</div>
+
+
+<div class="fx-box">
+<strong>Monetary Approach and Asset Market Approach</strong>
+
+1. **Monetary Approach:** Supply and demand for national monetary stocks (only)  
+2. **Asset Market Approach:** Supply and demand for financial assets including bonds
+</div>
+
+</div>
+
+</div>
+
+
+### Parity Conditions Approach
+
+The parity conditions approach treats exchange rates as being closely tied to prices and interest rates across countries. This approach includes four closely related ideas:
+
+1. **Law of One Price**
+2. **Absolute Purchasing Power Parity (PPP)**
+3. **Relative Purchasing Power Parity**
+4. **Interest Rate Parity**
+
+Of these, **purchasing power parity**, especially **relative PPP**, is the most widely cited in exchange rate determination. The intuition is straightforward: **if inflation differs across countries, then exchange rates should eventually adjust to offset those inflation differences.**
+
+Relative PPP is especially important because it focuses on **changes** in prices rather than absolute price levels. In practical terms, it says that currencies of countries with higher inflation should depreciate over time relative to currencies of countries with lower inflation.
+
+For example, suppose the current spot exchange rate is:
+
+$$
+¥90.00 = \$1.00
+$$
+
+and over the next period Japanese prices rise by 2% while U.S. prices rise by 1%. Relative PPP implies:
+
+$$
+S_{t+1} = S_t \times \frac{1 + \pi_{Japan}}{1 + \pi_{US}}
+$$
+
+so that:
+
+$$
+S_{t+1} = ¥90.00 \times \frac{1.02}{1.01} = ¥90.89/\$1.00
+$$
+
+The logic is that higher Japanese inflation weakens the yen slightly relative to the dollar.
+
+The strength of the parity conditions approach is that it provides a clean and disciplined long-run benchmark. But its weakness is equally important: **PPP performs poorly as a short-run forecasting model**. Exchange rates often move far more rapidly and erratically than goods prices. Capital flows, shifts in expectations, monetary policy changes, and political shocks can overwhelm relative inflation for long periods.
+
+We should therefore think of PPP as a **long-run anchor**, not a precise short-run forecasting tool.
+
+### Balance of Payments Approach
+
+The balance of payments approach explains exchange rates through the **supply and demand for foreign exchange arising from international transactions**. Here, exchange rates adjust so that currency inflows and outflows generated by a country's current account and financial account come into equilibrium.
+
+The core idea is simple:
+
+-   Imports create demand for foreign currency.
+-   Exports create supply of foreign currency.
+-   Capital inflows create demand for the domestic currency.
+-   Capital outflows create supply of the domestic currency.
+
+Under this approach, the equilibrium exchange rate is found when the net foreign exchange generated by current account transactions is offset by the net foreign exchange generated by financial account transactions.
+
+This framework remains highly appealing in business practice because balance-of-payments data are widely available and regularly reported. Trade deficits, current account imbalances, foreign direct investment, and portfolio flows all seem intuitively relevant to exchange rate movement.
+
+However, the major criticism is that the balance of payments approach emphasizes **flows** rather than **stocks**. It focuses on movements of currency and capital during a period, but it underplays the role of existing stocks of money, bonds, and other financial assets already held globally. In modern currency markets, those stocks can matter enormously because investors are constantly rebalancing large portfolios.
+
+This is why the balance of payments approach remains useful, but incomplete. It captures an important part of exchange rate pressure, especially for countries where trade balances and capital flow conditions dominate, but it does not by itself explain the full dynamics of modern exchange rates.
+
+### Monetary Approach and Asset Market Approach
+
+The monetary and asset market approaches shift the emphasis away from trade flows and toward financial market equilibrium. They ask a different question: **instead of focusing primarily on imports and exports, they ask how investors allocate wealth across currencies and financial claims.**
+
+This is especially important in a world where international capital markets are huge relative to trade flows. In many cases, exchange rates move more because investors change their portfolios than because firms ship more goods abroad.
+
+#### Monetary Approach
+
+The monetary approach argues that exchange rates are determined by the supply and demand for national money stocks and by expectations about the future path of money growth. In its simplest form, it assumes that domestic and foreign bonds are perfect substitutes, so the critical variable is money itself.
+
+**Remember, historically, the global bond market has been the largest capital market in the world, exceeding the size of global equity markets.**
+
+The chain of logic works like this:
+
+1. Changes in money supply alter inflationary pressure.
+2. Changes in relative inflation alter purchasing power.
+3. Purchasing power changes lead to exchange rate changes.
+
+So even though the monetary approach seems distinct from PPP, it actually contains PPP inside it. Monetary expansion eventually produces inflation, and inflation eventually produces currency depreciation.
+
+The monetary approach has the virtue of analytical clarity. It links exchange rates to monetary discipline and inflation behavior. But it faces several important criticisms:
+
+-   It assumes prices are flexible enough to adjust quickly.
+-   It treats money demand as sufficiently stable.
+-   It underplays the role of bonds and broader asset choice.
+-   It often assumes away institutional frictions and short-run rigidities.
+
+As a result, the monetary approach is more persuasive in the long run than in the short run.
+
+#### Asset Market Approach
+
+The asset market approach broadens the analysis dramatically. Instead of focusing only on money, it argues that exchange rates are determined by the supply and demand for a **wide variety of financial assets**, including bonds and other securities.
+
+Under this approach, exchange rates respond to expected return and risk. Investors compare domestic and foreign assets and then shift funds toward those that appear more attractive. These shifts in portfolios change the demand for currencies and therefore the exchange rate.
+
+This approach is especially powerful for understanding modern financial markets because exchange rates often move with:
+
+-   real interest rate differentials,
+-   expected economic growth,
+-   expected profitability,
+-   market liquidity,
+-   political stability,
+-   institutional quality,
+-   corporate governance,
+-   contagion risk, and
+-   speculation.
+
+For example, the U.S. dollar was strong for much of the 1990s despite current account deterioration because global investors were attracted by strong growth prospects, buoyant equity markets, relatively low inflation, and high real returns. In other words, asset market attractiveness outweighed current account weakness.
+
+This is consistent with the pricing of securities more generally. The value of an asset depends less on the past and more on expectations of future cash flows, returns, and risks. The same is true of currencies. Investors are pricing not just a country's present condition, but also its expected future path.
+
+#### The Asset Market Approach to Forecasting
+
+The asset market approach is particularly useful in forecasting because it directs attention toward the kinds of factors global investors actually watch.
+
+In developed markets, foreign investors are often willing to hold a currency when they expect:
+
+-   relatively high real interest rates,
+-   better growth opportunities,
+-   stronger profits,
+-   deeper and more liquid capital markets, and
+-   greater institutional stability.
+
+In emerging markets, the list becomes even broader because investors must also evaluate:
+
+-   fragile banking systems,
+-   weak infrastructure,
+-   political instability,
+-   weak corporate governance,
+-   susceptibility to contagion,
+-   liquidity risk, and
+-   speculative vulnerability.
+
+This means exchange rates can be driven by changing beliefs about the future rather than by current trade data alone. A currency may strengthen because investors foresee better growth, even if current fundamentals look weak. Conversely, a currency may weaken suddenly when market participants revise their beliefs about political risk or financial stability.
+
+This also helps explain why technical analysis became so popular. Because none of the major fundamental theories consistently forecast short- to medium-term exchange rate movements well, practitioners often combine fundamentals with trend analysis, chart patterns, and market sentiment.
+
+In short, the asset market approach is not a rejection of fundamentals. It is an attempt to explain exchange rates through the way markets capitalize expectations about future fundamentals.
+
+------------------------------------------------------------------------
+
+## Currency Market Intervention
+
+Governments and central banks do not always accept market-determined exchange rates passively. Even under floating exchange rate regimes, authorities frequently have a view about where their currency should trade and whether its current value is helping or harming national objectives.
+
+**Foreign currency intervention** is the active management, manipulation, or intervention in the market's valuation of a country's currency. This intervention can be overt or subtle, direct or indirect, unilateral or coordinated.
+
+The reason this topic matters is that exchange rates affect inflation, trade competitiveness, capital flows, financial stability, and political legitimacy. For that reason, governments often see currency values as too important to be left entirely to market forces.
+
+### Motivations for Currency Market Intervention
+
+The motives for intervention usually reflect a tension between **price stability** and **economic growth**.
+
+A strong currency can help restrain inflation because imports become cheaper. This matters especially for countries that rely heavily on imported food, fuel, machinery, or intermediate inputs. A strong currency can therefore support the central bank's anti-inflation objective.
+
+A weak currency, by contrast, can support domestic growth by making exports more price competitive and imports relatively more expensive. This can stimulate domestic production and employment, at least in the short run.
+
+That is why governments often face a trade-off:
+
+-   **Fight inflation:** favor currency strength.
+-   **Fight unemployment or weak growth:** favor currency weakness.
+
+Historically, countries have often tried to push their currencies downward in order to support exports. This is the classic **beggar-thy-neighbor** policy. The term reflects the idea that one country improves its own trade position partly at the expense of others.
+
+But depreciation is not always beneficial. When a country depends heavily on imports with few substitutes, a weaker currency can sharply reduce real purchasing power and generate inflationary pressure. In extreme cases, depreciation can impoverish the domestic population by making essentials prohibitively expensive.
+
+There is also a geopolitical dimension. Countries may accuse one another of keeping currencies artificially weak to gain an unfair trade advantage. This has been central to debates between the United States and China over the renminbi.
+
+The IMF's Article IV discourages member countries from manipulating currencies for competitive advantage. In practice, however, proving manipulation is difficult, and many governments continue to pursue exchange-rate objectives informally or indirectly.
+
+### Intervention Methods
+
+The main methods of intervention are **direct intervention**, **indirect intervention**, and **capital controls**. Which tools a country can use effectively depends on the size of its economy, the scale of trading in its currency, and the depth of its financial markets.
+
+#### Direct Intervention
+
+Direct intervention occurs when the central bank **actively buys or sells its own currency against foreign currencies**.
+
+-   If the objective is to **increase the value** of the domestic currency, the central bank buys its own currency using foreign exchange reserves.
+-   If the objective is to **decrease the value** of the domestic currency, the central bank sells its own currency in exchange for foreign currency.
+
+The mechanism is classic supply and demand. Buying domestic currency reduces its market supply and raises its value. Selling domestic currency increases its market supply and lowers its value.
+
+The main limitation is scale. Modern foreign exchange markets are enormous. In many cases, even large central banks cannot move the market significantly by acting alone for very long. That is why direct intervention is often most effective when:
+
+-   the market is relatively quiet,
+-   the intervention is large and credible,
+-   it is coordinated with other central banks,
+-   it aligns with underlying fundamentals, and
+-   it is not fighting a powerful market trend.
+
+A classic example of coordinated intervention is the **Plaza Accord of 1985**, when major countries jointly acted to push the U.S. dollar down. This intervention is often treated as one of the most famous successful cases of coordinated foreign exchange action.
+
+Direct intervention can also raise questions about sterilization. If a central bank uses foreign reserves to buy domestic currency, it may shrink the domestic money supply unless it offsets that effect by conducting domestic open-market operations. Whether sterilized intervention is consistently effective remains debated.
+
+#### Indirect Intervention
+
+Indirect intervention occurs when authorities alter economic and financial fundamentals that influence capital flows. Rather than entering the market directly to buy or sell currency, the government or central bank changes the incentives facing investors.
+
+The most important tool here is usually **interest rates**.
+
+-   If authorities want to **strengthen** the domestic currency, they may raise real interest rates, increasing returns to investors and attracting capital inflows.
+-   If authorities want to **weaken** the domestic currency, they may lower real interest rates, reducing returns and discouraging capital inflows.
+
+This tool can be extremely powerful because it acts through portfolio incentives rather than reserve sales. But it also comes with substantial domestic consequences. Higher interest rates may stabilize the currency while damaging growth, increasing unemployment, or straining highly leveraged firms. Lower interest rates may weaken the currency while worsening inflation or fueling asset bubbles.
+
+This is why indirect intervention is never only about exchange rates. It also affects the broader domestic economy. Policymakers may therefore face a painful choice between external stability and internal macroeconomic goals.
+
+#### Capital Controls
+
+Capital controls are restrictions on access to foreign currency or on the ability of residents and nonresidents to convert domestic currency into foreign currency for certain purposes.
+
+These controls may include:
+
+-   limiting foreign exchange access to approved transactions,
+-   requiring government approval for foreign currency purchases,
+-   restricting short-term portfolio flows,
+-   limiting outward investment,
+-   segmenting official and unofficial exchange markets.
+
+Capital controls are therefore both a form of intervention and, in some sense, a **denial of normal market activity**. Instead of persuading market participants through price, the state restricts the transaction itself.
+
+This links directly to the **impossible trinity**. A country cannot simultaneously maintain a fixed exchange rate, free capital movement, and independent monetary policy. Capital controls are one way to preserve exchange rate goals and monetary autonomy by giving up full capital mobility.
+
+China has long been a prominent example. The government historically controlled daily exchange rate movement and also limited the ability to move capital freely across the border.
+
+### When Foreign Currency Intervention Fails
+
+Intervention often fails. This is one of the most important lessons in international finance.
+
+Why? Because exchange rates are shaped by many forces at once. If intervention is inconsistent with underlying fundamentals, if the market trend is too powerful, or if credibility is weak, official action may do little more than temporarily slow the movement.
+
+Two examples illustrate this clearly.
+
+#### Turkey 2014
+
+Turkey's 2014 currency crisis is a classic case of attempted indirect intervention under severe macroeconomic strain. Turkey was already vulnerable because of a widening current account deficit, rising inflation, and anxiety among global investors about tighter U.S. monetary policy.
+
+As capital began leaving emerging markets, the Turkish lira came under intense downward pressure. In principle, defending the currency required higher interest rates. But this collided with domestic political pressure for lower rates to support borrowing and growth.
+
+Eventually, the Turkish central bank sharply raised its repo rate from 4.5% to 10.0% in an attempt to stop capital flight. The move provided only brief relief. The lira soon weakened again.
+
+This case shows that intervention can fail when:
+
+-   the market doubts the country's broader macroeconomic position,
+-   policy credibility is weak,
+-   the authorities appear politically conflicted, and
+-   the intervention addresses symptoms more than causes.
+
+It also shows that the attempted cure can impose heavy domestic costs without restoring lasting currency stability.
+
+#### Japan 2010
+
+In September 2010, the Bank of Japan intervened in the foreign exchange market by buying U.S. dollars in exchange for yen in an attempt to slow the yen's appreciation. Japanese officials had become increasingly uncomfortable with the yen's strength because it threatened export competitiveness.
+
+The logic of the intervention was clear. By increasing demand for dollars and supplying more yen to the market, Japan hoped to drive the dollar up and the yen down.
+
+For a few days, the intervention appeared to work. But the effect was temporary. The yen soon resumed its appreciating trend.
+
+This failure illustrates a rule often cited by practitioners: **do not lean into the wind**. If the market is moving strongly in one direction for fundamental reasons, trying to reverse that movement through isolated intervention can be very expensive and short-lived.
+
+Practitioners often argue that effective intervention follows a few rough principles:
+
+-   avoid fighting strong market momentum,
+-   coordinate with other authorities where possible,
+-   time intervention carefully,
+-   use supportive economic news when available,
+-   intervene at a scale large enough to matter.
+
+Even then, success is never guaranteed.
+
+------------------------------------------------------------------------
+
+## Disequilibrium: Exchange Rates in Emerging Markets
+
+The major theories of exchange rate determination work best when markets are deep, institutions are credible, and the financial system is stable. Emerging markets often fail to satisfy those conditions. As a result, their exchange rates can become highly unstable, and periods of disequilibrium can be abrupt and severe.
+
+The core insight is that the problem often lies **not in the theory itself**, but in the failure of the assumptions required for the theory to hold cleanly. Weak banking systems, shallow markets, poor governance, capital flight, contagion, and speculation can all push an emerging-market currency far away from anything resembling orderly equilibrium.
+
+### The Asian Crisis of 1997
+
+The Asian crisis is one of the defining emerging-market crises of modern international finance. It showed how fixed or semi-fixed exchange rates could collapse under the weight of capital flow reversals, weak financial systems, and investor panic.
+
+The roots of the crisis lay in a structural shift: many Asian economies moved from being net exporters to net importers and therefore became increasingly dependent on continuing capital inflows to support their currencies and investment booms.
+
+Thailand became the focal point because it had experienced heavy capital inflows, abundant foreign borrowing, and a widening investment bubble. As doubts rose about the country's ability to sustain debt repayment, the baht came under attack.
+
+#### Crisis
+
+In May and June 1997, Thai authorities tried to defend the baht through both direct and indirect intervention. They used foreign exchange reserves and raised interest rates. But the pressure continued.
+
+On July 2, 1997, Thailand allowed the baht to float. The currency fell sharply. That initial collapse triggered broader regional anxiety and speculative attacks on neighboring currencies.
+
+Soon the crisis spread to:
+
+-   the Philippine peso,
+-   the Malaysian ringgit,
+-   the Indonesian rupiah,
+-   and later the Korean won.
+
+This regional spread is often described as **contagion** or, colloquially, the **tequila effect**. Once confidence evaporated, investors reassessed other countries with similar characteristics and withdrew funds broadly.
+
+A crucial lesson is that markets had ignored serious vulnerabilities for years. When confidence finally shifted, the adjustment was sudden and brutal.
+
+#### Causal Complexities
+
+The Asian crisis was not just a simple balance-of-payments problem. It was a broader institutional and financial crisis. The text emphasizes three common contributors across affected countries:
+
+1. **Corporate socialism** - a belief that governments would not allow major firms, banks, or employers to fail.
+2. **Corporate governance cronyism** - close ties among firms, families, banks, and political elites that weakened transparency and discipline.
+3. **Banking instability** - underdeveloped regulation and fragile financial systems unable to absorb shocks.
+
+These conditions encouraged excessive risk-taking. Firms borrowed too much. Banks misallocated credit. Governments lacked the credibility or resources to stabilize the system once capital reversed.
+
+The result was a classic emerging-market dynamic: capital inflows fueled a boom, weak institutions magnified vulnerability, and then a sudden stop of inflows triggered collapse.
+
+#### The Role of Soros
+
+George Soros was widely blamed in the aftermath for having speculated against Asian currencies. This accusation raises an important conceptual question for observers: **do speculators cause crises, or do they merely recognize weaknesses earlier than others?**
+
+The more convincing interpretation is that speculators generally **amplify and accelerate** crises but rarely create the underlying vulnerabilities by themselves. In Thailand and elsewhere, the economic imbalances, credit excesses, and institutional weaknesses already existed.
+
+Speculators may have made the fall faster or more visible, but they were not the root cause. As one famous line suggested, blaming Soros was like blaming an undertaker for burying a suicide. That is harsh, but analytically it captures the idea that speculation is often a response to weakness rather than its origin.
+
+### The Argentine Crisis of 2002
+
+Argentina provides a very different but equally important case. Instead of a crisis driven mainly by regional contagion and excess capital inflow, Argentina illustrates the dangers of an overly rigid exchange rate regime combined with weak fiscal control.
+
+In 1991, Argentina adopted a **currency board** and pegged the peso one-for-one to the U.S. dollar. Under a currency board, the monetary authority can expand the money supply only when it has the foreign reserve backing to do so. The goal was to eliminate the hyperinflationary tendencies that had plagued Argentina for years.
+
+This arrangement offered several immediate advantages:
+
+-   strong anti-inflation credibility,
+-   automatic monetary discipline,
+-   a clear nominal anchor,
+-   a visible commitment against political abuse of money creation.
+
+But these strengths were also its weaknesses. The system was rigid. It left little room for discretionary monetary policy.
+
+#### Economic Crisis
+
+By 2001, Argentina faced three central problems:
+
+1. **The peso was overvalued.** As other South American currencies weakened against the dollar, Argentina's exports became increasingly uncompetitive because the peso remained tied to the strong U.S. dollar.
+2. **The currency board eliminated monetary flexibility.** Argentina could not ease monetary policy to support growth.
+3. **The government budget deficit was out of control.** Fiscal imbalance kept worsening while the economy remained weak.
+
+Meanwhile, recession persisted. Unemployment stayed high. Foreign debt rose. Confidence weakened.
+
+A particularly damaging feature was that Argentine banks allowed deposits in both pesos and dollars. This was meant to signal credibility and discipline. Instead, it made bank runs even more destabilizing. As confidence in the peso weakened, depositors tried to withdraw dollars, placing enormous strain on the banking system.
+
+Eventually the government shut the banks and restricted withdrawals. This deepened social unrest and destroyed confidence further.
+
+#### Devaluation
+
+In January 2002, Argentina devalued the peso from 1.00 per U.S. dollar to 1.40. Soon after, the government abandoned the peg entirely and allowed the peso to float.
+
+The peso then collapsed.
+
+The Argentine case teaches several lessons:
+
+-   hard pegs can suppress inflation, but they do not solve fiscal irresponsibility;
+-   credibility regimes are powerful only so long as the market believes they are politically and economically sustainable;
+-   surrendering monetary flexibility can be extremely costly during recession;
+-   once confidence breaks, even a rigid rule-based regime can unravel very quickly.
+
+In short, the currency board was designed to eliminate inflationary discretion, but in doing so it also eliminated valuable policy flexibility. When recession and fiscal strain intensified, the regime became unsustainable.
+
+------------------------------------------------------------------------
+
+## Currency Forecasting in Practice
+
+In practice, exchange rate forecasting is not a matter of selecting one perfect theory. It is a matter of combining multiple approaches, each of which is useful over different horizons.
+
+Forecasts are produced by banks, consultants, multinational firms, and internal treasury teams. They may rely on:
+
+-   fundamental macroeconomic analysis,
+-   parity conditions,
+-   technical analysis,
+-   market sentiment,
+-   judgment and experience.
+
+The forecasting problem differs sharply by horizon.
+
+-   **Short-run forecasts** are often tactical. Firms need them to hedge receivables, payables, and near-term exposures.
+-   **Long-run forecasts** are often strategic. Firms need them for direct investment, financing choices, and long-term planning.
+
+The longer the forecast horizon, the less precise the forecast is likely to be. But paradoxically, long-run decisions often do not require point precision so much as general directional and structural understanding.
+
+### Technical Analysis
+
+Technical analysis focuses on the study of past price behavior and trading patterns in order to infer future movements. Analysts of this type are traditionally called **chartists**.
+
+The central assumption is that exchange rates, like other market prices, display trends and recurring patterns. These patterns may be temporary, but they are thought to contain useful information for short- to medium-term forecasting.
+
+Technical analysts usually distinguish among three time horizons:
+
+1. **day-to-day movement**, which often looks random,
+2. **short-term movement**, which may persist for days or months,
+3. **long-term movement**, which may exhibit broader waves or cycles.
+
+Why does technical analysis remain popular despite criticism? Because short-run exchange rate movements are often driven by news, positioning, momentum, and market psychology rather than by slow-moving macro fundamentals alone. In such an environment, trend-following tools can sometimes outperform purely theoretical models.
+
+At the same time, technical analysis has clear limitations. It often lacks a causal economic foundation. It may work only until too many people exploit the same pattern. And if markets are highly efficient, exchange rate changes may resemble a random walk, reducing the predictive value of past movements.
+
+Still, many professionals use technical analysis because in forecasting, being approximately right can be more valuable than having a theoretically elegant but practically unhelpful model.
+
+### Cross-Rate Consistency in Forecasting
+
+Multinational firms often need forecasts for many currencies at once. This introduces the issue of **cross-rate consistency**.
+
+Suppose a firm forecasts:
+
+-   a future dollar/euro rate, and
+-   a future dollar/pound rate.
+
+Those two forecasts imply a future euro/pound cross rate. If the implied cross rate is implausible or inconsistent with the firm's own separate euro/pound forecast, then something is wrong with the forecast set.
+
+Cross-rate consistency is therefore a practical internal check. It helps firms ensure that separately generated forecasts form a coherent system.
+
+This matters for several reasons:
+
+-   hedging decisions across multiple subsidiaries,
+-   home-currency budgeting,
+-   capital allocation,
+-   performance evaluation of foreign managers,
+-   treasury planning.
+
+In practice, firms use cross-rate checks not because they believe forecasting is exact, but because they want to avoid obvious internal contradictions.
+
+### Forecasting: What do you think?
+
+A balanced view of exchange rate forecasting should include several judgments.
+
+First, decades of research suggest that **fundamentals do matter in the long run**. Inflation, monetary growth, current account positions, interest differentials, and broader macroeconomic performance all shape the long-run path of currencies.
+
+Second, the short run is messy. Exchange rates may deviate from that long-run path because of:
+
+-   random shocks,
+-   institutional frictions,
+-   speculative behavior,
+-   market noise,
+-   political surprises,
+-   temporary policy announcements.
+
+This leads to the idea of a **fundamental equilibrium path**. A currency may have a long-run value path consistent with macro fundamentals, yet market prices may wander above or below that path for extended periods.
+
+The term **noise** refers to those short-run deviations that are not easily explained by long-run fundamentals. Noise does not mean the movement is meaningless; rather, it means the movement is not well captured by slow-moving equilibrium relationships.
+
+A useful distinction is between **stabilizing expectations** and **destabilizing expectations**:
+
+-   With stabilizing expectations, investors treat deviations from long-run equilibrium as temporary and trade in ways that pull the currency back toward its fundamental path.
+-   With destabilizing expectations, investors may extrapolate recent movements and push the currency even farther away from its long-run path.
+
+This distinction is extremely important in crises. When markets become destabilizing, currencies can overshoot and remain far from equilibrium longer than theory alone would predict.
+
+### Exchange Rate Dynamics: Making Sense of Market Movements
+
+One of the most useful concepts for understanding short-run exchange rate behavior is **overshooting**.
+
+Suppose the central bank announces an expansionary monetary policy that lowers domestic interest rates. In the very short run, financial markets respond immediately. Capital moves. The currency weakens sharply. That initial change may be larger than the eventual long-run depreciation implied by prices and monetary conditions.
+
+Why? Because asset markets adjust quickly, but goods prices adjust more slowly.
+
+The sequence is:
+
+1. **Informational shock occurs.**
+2. **Asset markets react immediately**, often through interest-rate channels.
+3. **The spot exchange rate jumps sharply**, possibly beyond its new long-run level.
+4. **As goods prices and expectations adjust over time**, the exchange rate moves back toward its new longer-run equilibrium.
+
+That initial excessive jump is the overshoot.
+
+Overshooting matters because it explains why exchange rate reactions to news can look exaggerated in the short run without being irrational. Financial markets are forward-looking and fast. Goods markets are slower. The mismatch in adjustment speed can generate exchange rate volatility that is entirely consistent with rational behavior.
+
+This also explains why market movements can look disconnected from textbook fundamentals on a daily basis while still eventually returning to them over time.
+
+------------------------------------------------------------------------
+
+## Concluding Summary {.unnumbered}
+
+Chapter 9 makes four big arguments.
+
+First, exchange rate determination requires multiple theoretical lenses. PPP (price changes & inflation), balance of payments (supply and demand for currencies due to trade flows), and asset market logic (supply and demand for money stocks based on expectations) all matter, but over different horizons and with different force.
+
+Second, governments intervene because exchange rates affect inflation, growth, competitiveness, and political stability. Yet intervention is often difficult, costly, and temporary.
+
+Third, emerging market currencies are especially vulnerable when weak institutions, fragile banking systems, capital-flow reversals, and speculative attacks interact.
+
+Fourth, forecasting in practice is a blend of theory, technical analysis, judgment, and humility. Long-run fundamentals matter, but short-run exchange rates are noisy, volatile, and often prone to overshooting.
+
+The practical takeaway is this: **exchange rates are neither random chaos nor simple mechanical outputs. They are market prices that reflect both economic structure and human expectations.**

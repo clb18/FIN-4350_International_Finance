@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Prof.&nbsp;Barker">
+<meta name="dcterms.date" content="2026-03-15">
+
+<title>Chapter 9 - Foreign Exchange Rate Determination and Intervention – International Finance</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2e98a8173336b0a3fc6fb521ab0b9ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">International Finance</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lecture Notes</li><li class="breadcrumb-item"><a href="../lectures/Chapter01_Lecture.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/Chapter09_Lecture.html">Chapter 9 - Foreign Exchange Rate Determination and Intervention</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Lecture Notes</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Lectures</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter01_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 1 - Multinational Financial Management: Opportunities and Challenges</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter02_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 2 - International Monetary System</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter02.1_2026_Currency_example.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 2.1 - 2026 Example</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter03_LectureA.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 3 - The Balance of Payments</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter04_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 4 - Financial Goals, Corporate Governance, and the Market for Corporate Control</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter05_Lecture_FIXED.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 5 - The Foreign Exchange Market</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter06_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 6 - International Parity Conditions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter09_Lecture.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Chapter 9 - Foreign Exchange Rate Determination and Intervention</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">IF Simulation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview - START HERE</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/roles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Roles and Responsibilities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/countries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Countries</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/decisions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Decisions and Rules</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/deliverables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deliverables</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/fx_dashboard_week_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FX Market Dashboard</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/trade_fx_options.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Trade and Alliance Board</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/Weekly_Brief_sample.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Weekly Brief – EXAMPLE ONLY</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/markets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Market Reactions &amp; FAQs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/grading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Evaluation and Rubric</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">9</span> Introduction</a>
+  <ul>
+  <li><a href="#chapter-roadmap" id="toc-chapter-roadmap" class="nav-link" data-scroll-target="#chapter-roadmap">Chapter Roadmap</a></li>
+  <li><a href="#exchange-rate-determination-the-theoretical" id="toc-exchange-rate-determination-the-theoretical" class="nav-link" data-scroll-target="#exchange-rate-determination-the-theoretical"><span class="header-section-number">9.1</span> Exchange Rate Determination: The Theoretical</a>
+  <ul class="collapse">
+  <li><a href="#parity-conditions-approach" id="toc-parity-conditions-approach" class="nav-link" data-scroll-target="#parity-conditions-approach"><span class="header-section-number">9.1.1</span> Parity Conditions Approach</a></li>
+  <li><a href="#balance-of-payments-approach" id="toc-balance-of-payments-approach" class="nav-link" data-scroll-target="#balance-of-payments-approach"><span class="header-section-number">9.1.2</span> Balance of Payments Approach</a></li>
+  <li><a href="#monetary-approach-and-asset-market-approach" id="toc-monetary-approach-and-asset-market-approach" class="nav-link" data-scroll-target="#monetary-approach-and-asset-market-approach"><span class="header-section-number">9.1.3</span> Monetary Approach and Asset Market Approach</a>
+  <ul class="collapse">
+  <li><a href="#monetary-approach" id="toc-monetary-approach" class="nav-link" data-scroll-target="#monetary-approach"><span class="header-section-number">9.1.3.1</span> Monetary Approach</a></li>
+  <li><a href="#asset-market-approach" id="toc-asset-market-approach" class="nav-link" data-scroll-target="#asset-market-approach"><span class="header-section-number">9.1.3.2</span> Asset Market Approach</a></li>
+  <li><a href="#the-asset-market-approach-to-forecasting" id="toc-the-asset-market-approach-to-forecasting" class="nav-link" data-scroll-target="#the-asset-market-approach-to-forecasting"><span class="header-section-number">9.1.3.3</span> The Asset Market Approach to Forecasting</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#currency-market-intervention" id="toc-currency-market-intervention" class="nav-link" data-scroll-target="#currency-market-intervention"><span class="header-section-number">9.2</span> Currency Market Intervention</a>
+  <ul class="collapse">
+  <li><a href="#motivations-for-currency-market-intervention" id="toc-motivations-for-currency-market-intervention" class="nav-link" data-scroll-target="#motivations-for-currency-market-intervention"><span class="header-section-number">9.2.1</span> Motivations for Currency Market Intervention</a></li>
+  <li><a href="#intervention-methods" id="toc-intervention-methods" class="nav-link" data-scroll-target="#intervention-methods"><span class="header-section-number">9.2.2</span> Intervention Methods</a>
+  <ul class="collapse">
+  <li><a href="#direct-intervention" id="toc-direct-intervention" class="nav-link" data-scroll-target="#direct-intervention"><span class="header-section-number">9.2.2.1</span> Direct Intervention</a></li>
+  <li><a href="#indirect-intervention" id="toc-indirect-intervention" class="nav-link" data-scroll-target="#indirect-intervention"><span class="header-section-number">9.2.2.2</span> Indirect Intervention</a></li>
+  <li><a href="#capital-controls" id="toc-capital-controls" class="nav-link" data-scroll-target="#capital-controls"><span class="header-section-number">9.2.2.3</span> Capital Controls</a></li>
+  </ul></li>
+  <li><a href="#when-foreign-currency-intervention-fails" id="toc-when-foreign-currency-intervention-fails" class="nav-link" data-scroll-target="#when-foreign-currency-intervention-fails"><span class="header-section-number">9.2.3</span> When Foreign Currency Intervention Fails</a>
+  <ul class="collapse">
+  <li><a href="#turkey-2014" id="toc-turkey-2014" class="nav-link" data-scroll-target="#turkey-2014"><span class="header-section-number">9.2.3.1</span> Turkey 2014</a></li>
+  <li><a href="#japan-2010" id="toc-japan-2010" class="nav-link" data-scroll-target="#japan-2010"><span class="header-section-number">9.2.3.2</span> Japan 2010</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#disequilibrium-exchange-rates-in-emerging-markets" id="toc-disequilibrium-exchange-rates-in-emerging-markets" class="nav-link" data-scroll-target="#disequilibrium-exchange-rates-in-emerging-markets"><span class="header-section-number">9.3</span> Disequilibrium: Exchange Rates in Emerging Markets</a>
+  <ul class="collapse">
+  <li><a href="#the-asian-crisis-of-1997" id="toc-the-asian-crisis-of-1997" class="nav-link" data-scroll-target="#the-asian-crisis-of-1997"><span class="header-section-number">9.3.1</span> The Asian Crisis of 1997</a>
+  <ul class="collapse">
+  <li><a href="#crisis" id="toc-crisis" class="nav-link" data-scroll-target="#crisis"><span class="header-section-number">9.3.1.1</span> Crisis</a></li>
+  <li><a href="#causal-complexities" id="toc-causal-complexities" class="nav-link" data-scroll-target="#causal-complexities"><span class="header-section-number">9.3.1.2</span> Causal Complexities</a></li>
+  <li><a href="#the-role-of-soros" id="toc-the-role-of-soros" class="nav-link" data-scroll-target="#the-role-of-soros"><span class="header-section-number">9.3.1.3</span> The Role of Soros</a></li>
+  </ul></li>
+  <li><a href="#the-argentine-crisis-of-2002" id="toc-the-argentine-crisis-of-2002" class="nav-link" data-scroll-target="#the-argentine-crisis-of-2002"><span class="header-section-number">9.3.2</span> The Argentine Crisis of 2002</a>
+  <ul class="collapse">
+  <li><a href="#economic-crisis" id="toc-economic-crisis" class="nav-link" data-scroll-target="#economic-crisis"><span class="header-section-number">9.3.2.1</span> Economic Crisis</a></li>
+  <li><a href="#devaluation" id="toc-devaluation" class="nav-link" data-scroll-target="#devaluation"><span class="header-section-number">9.3.2.2</span> Devaluation</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#currency-forecasting-in-practice" id="toc-currency-forecasting-in-practice" class="nav-link" data-scroll-target="#currency-forecasting-in-practice"><span class="header-section-number">9.4</span> Currency Forecasting in Practice</a>
+  <ul class="collapse">
+  <li><a href="#technical-analysis" id="toc-technical-analysis" class="nav-link" data-scroll-target="#technical-analysis"><span class="header-section-number">9.4.1</span> Technical Analysis</a></li>
+  <li><a href="#cross-rate-consistency-in-forecasting" id="toc-cross-rate-consistency-in-forecasting" class="nav-link" data-scroll-target="#cross-rate-consistency-in-forecasting"><span class="header-section-number">9.4.2</span> Cross-Rate Consistency in Forecasting</a></li>
+  <li><a href="#forecasting-what-do-you-think" id="toc-forecasting-what-do-you-think" class="nav-link" data-scroll-target="#forecasting-what-do-you-think"><span class="header-section-number">9.4.3</span> Forecasting: What do you think?</a></li>
+  <li><a href="#exchange-rate-dynamics-making-sense-of-market-movements" id="toc-exchange-rate-dynamics-making-sense-of-market-movements" class="nav-link" data-scroll-target="#exchange-rate-dynamics-making-sense-of-market-movements"><span class="header-section-number">9.4.4</span> Exchange Rate Dynamics: Making Sense of Market Movements</a></li>
+  </ul></li>
+  <li><a href="#concluding-summary" id="toc-concluding-summary" class="nav-link" data-scroll-target="#concluding-summary">Concluding Summary</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Chapter09_Lecture.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="Chapter09_Lecture.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lecture Notes</li><li class="breadcrumb-item"><a href="../lectures/Chapter01_Lecture.html">Lectures</a></li><li class="breadcrumb-item"><a href="../lectures/Chapter09_Lecture.html">Chapter 9 - Foreign Exchange Rate Determination and Intervention</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Chapter 9 - Foreign Exchange Rate Determination and Intervention</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prof.&nbsp;Barker </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 15, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Introduction</h1>
+<p>Random Quote: <strong>“Going to church doesn’t make you a Christian any more than standing in a garage makes you a car.”</strong></p>
+<p>Bible Quote: <strong>“How blessed is the man who does not walk in step with the wicked<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or stand in the way that sinners take<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or sit in the company of mockers”</strong> <strong>-Psalms 1:1</strong></p>
+<p>Textbook Quote: <strong>“The herd instinct among forecasters makes sheep look like independent thinkers.”</strong></p>
+<p><strong>Quote from the first paragraph of the chapter:</strong> “What determines the exchange rate between currencies? This question has proven to be very difficult to answer. Companies and agents need foreign currency for buying imports, and they may earn foreign currency by exporting. Investors need foreign currency to invest in interest-bearing instruments in foreign markets, such as fixed-income securities (bonds), shares in publicly traded companies, or other new types of hybrid instruments. Tourists, migrant workers, speculators on currency movements—all of these economic agents buy and sell foreign currencies every day.”</p>
+<p>This chapter moves beyond the parity conditions of the previous chapter and asks a deeper and more practical question: <strong>what actually drives exchange rates in real-world markets?</strong> The answer is not a single model. Exchange rates are shaped by goods prices, money supplies, capital flows, expectations, policy choices, speculation, and government intervention. As a result, any serious analysis of exchange rates must be multi-causal.</p>
+<section id="chapter-roadmap" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="chapter-roadmap">Chapter Roadmap</h2>
+<p>Major sections:</p>
+<ol type="1">
+<li><strong>Exchange Rate Determination: The Theoretical Thread</strong> - The major schools of thought on what drives currency values.</li>
+<li><strong>Currency Market Intervention</strong> - Why governments try to influence exchange rates and how they do it.</li>
+<li><strong>Disequilibrium: Exchange Rates in Emerging Markets</strong> - Why emerging market currencies are especially vulnerable to crises.</li>
+<li><strong>Currency Forecasting in Practice</strong> - How practitioners combine theory, technical analysis, and judgment.</li>
+</ol>
+<hr>
+</section>
+<section id="exchange-rate-determination-the-theoretical" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="exchange-rate-determination-the-theoretical"><span class="header-section-number">9.1</span> Exchange Rate Determination: The Theoretical</h2>
+<p>Exchange rate determination is one of the most difficult topics in international finance because exchange rates are influenced simultaneously by macroeconomic conditions, asset market behavior, policy choices, and investor expectations. A useful way to organize the topic is to group the major explanations into three complementary approaches:</p>
+<ul>
+<li><strong>parity conditions</strong></li>
+<li><strong>balance of payments</strong></li>
+<li><strong>monetary/asset market approaches</strong></li>
+</ul>
+<p>Please remember that these are <strong>not competing theories in the sense that only one can be true</strong>. Instead, they are best understood as different lenses. One approach may explain long-run tendencies well, another may help explain medium-run currency pressure, and a third may better capture short-run capital market dynamics. In practice, exchange rates reflect all of them at different times and with different intensity.</p>
+<p>Two additional institutional conditions matter as well:</p>
+<ul>
+<li>The country must possess sufficiently developed and liquid money and capital markets (Financial Markets).</li>
+<li>The country must possess a sound banking system capable of supporting currency trading and financial intermediation (Banking System).</li>
+</ul>
+<p>Without these institutional foundations, theoretical equilibrium relationships may not hold, or may hold only weakly.</p>
+<p><strong>Here is an illustration of the framework:</strong></p>
+<style>
+
+.fx-exhibit {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.fx-title {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #0b87a8;
+  margin-bottom: .5em;
+}
+
+.fx-main {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.fx-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  margin-bottom: 1.5em;
+}
+
+.fx-side {
+  width: 25%;
+  text-align: center;
+  font-size: .85em;
+}
+
+.fx-side strong {
+  display: block;
+  font-size: 1.1em;
+}
+
+.fx-red {
+  color: #b44a4a;
+}
+
+.fx-center {
+  width: 40%;
+  background: #dfe1f1;
+  padding: 1em;
+  border: 1px solid #bbb;
+  text-align: center;
+  box-shadow: 4px 4px 0 rgba(0,0,0,.1);
+}
+
+.fx-center strong {
+  color: #a02c2c;
+}
+
+.fx-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5em;
+}
+
+.fx-box {
+  width: 32%;
+  background: #d8ead8;
+  padding: 1em;
+  border: 1px solid #a8c1a8;
+  box-shadow: 4px 4px 0 rgba(0,0,0,.1);
+  font-size: .9em;
+}
+
+.fx-box strong {
+  display: block;
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+</style>
+<div class="fx-exhibit">
+<div class="fx-title">
+Exhibit 9.1 The Theoretical Determinants of Exchange Rates
+</div>
+<div class="fx-main">
+<p>The Determinants of Foreign Exchange Rates</p>
+</div>
+<div class="fx-top">
+<div class="fx-side">
+<strong>Financial Markets</strong>
+<div class="fx-red">
+<p>Is there a well-developed and liquid money and capital market in that currency?</p>
+</div>
+</div>
+<div class="fx-center">
+<p><strong>Exchange Rate Determination</strong><br> The three major schools of thought on the determination of the spot exchange rate</p>
+</div>
+<div class="fx-side">
+<strong>Banking System</strong>
+<div class="fx-red">
+<p>Is there a sound and secure banking system in place to support currency trading?</p>
+</div>
+</div>
+</div>
+<div class="fx-bottom">
+<div class="fx-box">
+<p><strong>Parity Conditions Approach</strong></p>
+<ol type="1">
+<li>Law of one price<br>
+</li>
+<li>Absolute purchasing power parity<br>
+</li>
+<li>Relative purchasing power parity<br>
+</li>
+<li>Interest rate parity</li>
+</ol>
+</div>
+<div class="fx-box">
+<p><strong>Balance of Payments Approach</strong></p>
+<ol type="1">
+<li>Current account balances<br>
+</li>
+<li>Portfolio investment<br>
+</li>
+<li>Foreign direct investment<br>
+</li>
+<li>Exchange rate regimes<br>
+</li>
+<li>Official monetary reserves</li>
+</ol>
+</div>
+<div class="fx-box">
+<p><strong>Monetary Approach and Asset Market Approach</strong></p>
+<ol type="1">
+<li><strong>Monetary Approach:</strong> Supply and demand for national monetary stocks (only)<br>
+</li>
+<li><strong>Asset Market Approach:</strong> Supply and demand for financial assets including bonds</li>
+</ol>
+</div>
+</div>
+</div>
+<section id="parity-conditions-approach" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="parity-conditions-approach"><span class="header-section-number">9.1.1</span> Parity Conditions Approach</h3>
+<p>The parity conditions approach treats exchange rates as being closely tied to prices and interest rates across countries. This approach includes four closely related ideas:</p>
+<ol type="1">
+<li><strong>Law of One Price</strong></li>
+<li><strong>Absolute Purchasing Power Parity (PPP)</strong></li>
+<li><strong>Relative Purchasing Power Parity</strong></li>
+<li><strong>Interest Rate Parity</strong></li>
+</ol>
+<p>Of these, <strong>purchasing power parity</strong>, especially <strong>relative PPP</strong>, is the most widely cited in exchange rate determination. The intuition is straightforward: <strong>if inflation differs across countries, then exchange rates should eventually adjust to offset those inflation differences.</strong></p>
+<p>Relative PPP is especially important because it focuses on <strong>changes</strong> in prices rather than absolute price levels. In practical terms, it says that currencies of countries with higher inflation should depreciate over time relative to currencies of countries with lower inflation.</p>
+<p>For example, suppose the current spot exchange rate is:</p>
+<p><span class="math display">\[
+¥90.00 = \$1.00
+\]</span></p>
+<p>and over the next period Japanese prices rise by 2% while U.S. prices rise by 1%. Relative PPP implies:</p>
+<p><span class="math display">\[
+S_{t+1} = S_t \times \frac{1 + \pi_{Japan}}{1 + \pi_{US}}
+\]</span></p>
+<p>so that:</p>
+<p><span class="math display">\[
+S_{t+1} = ¥90.00 \times \frac{1.02}{1.01} = ¥90.89/\$1.00
+\]</span></p>
+<p>The logic is that higher Japanese inflation weakens the yen slightly relative to the dollar.</p>
+<p>The strength of the parity conditions approach is that it provides a clean and disciplined long-run benchmark. But its weakness is equally important: <strong>PPP performs poorly as a short-run forecasting model</strong>. Exchange rates often move far more rapidly and erratically than goods prices. Capital flows, shifts in expectations, monetary policy changes, and political shocks can overwhelm relative inflation for long periods.</p>
+<p>We should therefore think of PPP as a <strong>long-run anchor</strong>, not a precise short-run forecasting tool.</p>
+</section>
+<section id="balance-of-payments-approach" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="balance-of-payments-approach"><span class="header-section-number">9.1.2</span> Balance of Payments Approach</h3>
+<p>The balance of payments approach explains exchange rates through the <strong>supply and demand for foreign exchange arising from international transactions</strong>. Here, exchange rates adjust so that currency inflows and outflows generated by a country’s current account and financial account come into equilibrium.</p>
+<p>The core idea is simple:</p>
+<ul>
+<li>Imports create demand for foreign currency.</li>
+<li>Exports create supply of foreign currency.</li>
+<li>Capital inflows create demand for the domestic currency.</li>
+<li>Capital outflows create supply of the domestic currency.</li>
+</ul>
+<p>Under this approach, the equilibrium exchange rate is found when the net foreign exchange generated by current account transactions is offset by the net foreign exchange generated by financial account transactions.</p>
+<p>This framework remains highly appealing in business practice because balance-of-payments data are widely available and regularly reported. Trade deficits, current account imbalances, foreign direct investment, and portfolio flows all seem intuitively relevant to exchange rate movement.</p>
+<p>However, the major criticism is that the balance of payments approach emphasizes <strong>flows</strong> rather than <strong>stocks</strong>. It focuses on movements of currency and capital during a period, but it underplays the role of existing stocks of money, bonds, and other financial assets already held globally. In modern currency markets, those stocks can matter enormously because investors are constantly rebalancing large portfolios.</p>
+<p>This is why the balance of payments approach remains useful, but incomplete. It captures an important part of exchange rate pressure, especially for countries where trade balances and capital flow conditions dominate, but it does not by itself explain the full dynamics of modern exchange rates.</p>
+</section>
+<section id="monetary-approach-and-asset-market-approach" class="level3" data-number="9.1.3">
+<h3 data-number="9.1.3" class="anchored" data-anchor-id="monetary-approach-and-asset-market-approach"><span class="header-section-number">9.1.3</span> Monetary Approach and Asset Market Approach</h3>
+<p>The monetary and asset market approaches shift the emphasis away from trade flows and toward financial market equilibrium. They ask a different question: <strong>instead of focusing primarily on imports and exports, they ask how investors allocate wealth across currencies and financial claims.</strong></p>
+<p>This is especially important in a world where international capital markets are huge relative to trade flows. In many cases, exchange rates move more because investors change their portfolios than because firms ship more goods abroad.</p>
+<section id="monetary-approach" class="level4" data-number="9.1.3.1">
+<h4 data-number="9.1.3.1" class="anchored" data-anchor-id="monetary-approach"><span class="header-section-number">9.1.3.1</span> Monetary Approach</h4>
+<p>The monetary approach argues that exchange rates are determined by the supply and demand for national money stocks and by expectations about the future path of money growth. In its simplest form, it assumes that domestic and foreign bonds are perfect substitutes, so the critical variable is money itself.</p>
+<p><strong>Remember, historically, the global bond market has been the largest capital market in the world, exceeding the size of global equity markets.</strong></p>
+<p>The chain of logic works like this:</p>
+<ol type="1">
+<li>Changes in money supply alter inflationary pressure.</li>
+<li>Changes in relative inflation alter purchasing power.</li>
+<li>Purchasing power changes lead to exchange rate changes.</li>
+</ol>
+<p>So even though the monetary approach seems distinct from PPP, it actually contains PPP inside it. Monetary expansion eventually produces inflation, and inflation eventually produces currency depreciation.</p>
+<p>The monetary approach has the virtue of analytical clarity. It links exchange rates to monetary discipline and inflation behavior. But it faces several important criticisms:</p>
+<ul>
+<li>It assumes prices are flexible enough to adjust quickly.</li>
+<li>It treats money demand as sufficiently stable.</li>
+<li>It underplays the role of bonds and broader asset choice.</li>
+<li>It often assumes away institutional frictions and short-run rigidities.</li>
+</ul>
+<p>As a result, the monetary approach is more persuasive in the long run than in the short run.</p>
+</section>
+<section id="asset-market-approach" class="level4" data-number="9.1.3.2">
+<h4 data-number="9.1.3.2" class="anchored" data-anchor-id="asset-market-approach"><span class="header-section-number">9.1.3.2</span> Asset Market Approach</h4>
+<p>The asset market approach broadens the analysis dramatically. Instead of focusing only on money, it argues that exchange rates are determined by the supply and demand for a <strong>wide variety of financial assets</strong>, including bonds and other securities.</p>
+<p>Under this approach, exchange rates respond to expected return and risk. Investors compare domestic and foreign assets and then shift funds toward those that appear more attractive. These shifts in portfolios change the demand for currencies and therefore the exchange rate.</p>
+<p>This approach is especially powerful for understanding modern financial markets because exchange rates often move with:</p>
+<ul>
+<li>real interest rate differentials,</li>
+<li>expected economic growth,</li>
+<li>expected profitability,</li>
+<li>market liquidity,</li>
+<li>political stability,</li>
+<li>institutional quality,</li>
+<li>corporate governance,</li>
+<li>contagion risk, and</li>
+<li>speculation.</li>
+</ul>
+<p>For example, the U.S. dollar was strong for much of the 1990s despite current account deterioration because global investors were attracted by strong growth prospects, buoyant equity markets, relatively low inflation, and high real returns. In other words, asset market attractiveness outweighed current account weakness.</p>
+<p>This is consistent with the pricing of securities more generally. The value of an asset depends less on the past and more on expectations of future cash flows, returns, and risks. The same is true of currencies. Investors are pricing not just a country’s present condition, but also its expected future path.</p>
+</section>
+<section id="the-asset-market-approach-to-forecasting" class="level4" data-number="9.1.3.3">
+<h4 data-number="9.1.3.3" class="anchored" data-anchor-id="the-asset-market-approach-to-forecasting"><span class="header-section-number">9.1.3.3</span> The Asset Market Approach to Forecasting</h4>
+<p>The asset market approach is particularly useful in forecasting because it directs attention toward the kinds of factors global investors actually watch.</p>
+<p>In developed markets, foreign investors are often willing to hold a currency when they expect:</p>
+<ul>
+<li>relatively high real interest rates,</li>
+<li>better growth opportunities,</li>
+<li>stronger profits,</li>
+<li>deeper and more liquid capital markets, and</li>
+<li>greater institutional stability.</li>
+</ul>
+<p>In emerging markets, the list becomes even broader because investors must also evaluate:</p>
+<ul>
+<li>fragile banking systems,</li>
+<li>weak infrastructure,</li>
+<li>political instability,</li>
+<li>weak corporate governance,</li>
+<li>susceptibility to contagion,</li>
+<li>liquidity risk, and</li>
+<li>speculative vulnerability.</li>
+</ul>
+<p>This means exchange rates can be driven by changing beliefs about the future rather than by current trade data alone. A currency may strengthen because investors foresee better growth, even if current fundamentals look weak. Conversely, a currency may weaken suddenly when market participants revise their beliefs about political risk or financial stability.</p>
+<p>This also helps explain why technical analysis became so popular. Because none of the major fundamental theories consistently forecast short- to medium-term exchange rate movements well, practitioners often combine fundamentals with trend analysis, chart patterns, and market sentiment.</p>
+<p>In short, the asset market approach is not a rejection of fundamentals. It is an attempt to explain exchange rates through the way markets capitalize expectations about future fundamentals.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="currency-market-intervention" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="currency-market-intervention"><span class="header-section-number">9.2</span> Currency Market Intervention</h2>
+<p>Governments and central banks do not always accept market-determined exchange rates passively. Even under floating exchange rate regimes, authorities frequently have a view about where their currency should trade and whether its current value is helping or harming national objectives.</p>
+<p><strong>Foreign currency intervention</strong> is the active management, manipulation, or intervention in the market’s valuation of a country’s currency. This intervention can be overt or subtle, direct or indirect, unilateral or coordinated.</p>
+<p>The reason this topic matters is that exchange rates affect inflation, trade competitiveness, capital flows, financial stability, and political legitimacy. For that reason, governments often see currency values as too important to be left entirely to market forces.</p>
+<section id="motivations-for-currency-market-intervention" class="level3" data-number="9.2.1">
+<h3 data-number="9.2.1" class="anchored" data-anchor-id="motivations-for-currency-market-intervention"><span class="header-section-number">9.2.1</span> Motivations for Currency Market Intervention</h3>
+<p>The motives for intervention usually reflect a tension between <strong>price stability</strong> and <strong>economic growth</strong>.</p>
+<p>A strong currency can help restrain inflation because imports become cheaper. This matters especially for countries that rely heavily on imported food, fuel, machinery, or intermediate inputs. A strong currency can therefore support the central bank’s anti-inflation objective.</p>
+<p>A weak currency, by contrast, can support domestic growth by making exports more price competitive and imports relatively more expensive. This can stimulate domestic production and employment, at least in the short run.</p>
+<p>That is why governments often face a trade-off:</p>
+<ul>
+<li><strong>Fight inflation:</strong> favor currency strength.</li>
+<li><strong>Fight unemployment or weak growth:</strong> favor currency weakness.</li>
+</ul>
+<p>Historically, countries have often tried to push their currencies downward in order to support exports. This is the classic <strong>beggar-thy-neighbor</strong> policy. The term reflects the idea that one country improves its own trade position partly at the expense of others.</p>
+<p>But depreciation is not always beneficial. When a country depends heavily on imports with few substitutes, a weaker currency can sharply reduce real purchasing power and generate inflationary pressure. In extreme cases, depreciation can impoverish the domestic population by making essentials prohibitively expensive.</p>
+<p>There is also a geopolitical dimension. Countries may accuse one another of keeping currencies artificially weak to gain an unfair trade advantage. This has been central to debates between the United States and China over the renminbi.</p>
+<p>The IMF’s Article IV discourages member countries from manipulating currencies for competitive advantage. In practice, however, proving manipulation is difficult, and many governments continue to pursue exchange-rate objectives informally or indirectly.</p>
+</section>
+<section id="intervention-methods" class="level3" data-number="9.2.2">
+<h3 data-number="9.2.2" class="anchored" data-anchor-id="intervention-methods"><span class="header-section-number">9.2.2</span> Intervention Methods</h3>
+<p>The main methods of intervention are <strong>direct intervention</strong>, <strong>indirect intervention</strong>, and <strong>capital controls</strong>. Which tools a country can use effectively depends on the size of its economy, the scale of trading in its currency, and the depth of its financial markets.</p>
+<section id="direct-intervention" class="level4" data-number="9.2.2.1">
+<h4 data-number="9.2.2.1" class="anchored" data-anchor-id="direct-intervention"><span class="header-section-number">9.2.2.1</span> Direct Intervention</h4>
+<p>Direct intervention occurs when the central bank <strong>actively buys or sells its own currency against foreign currencies</strong>.</p>
+<ul>
+<li>If the objective is to <strong>increase the value</strong> of the domestic currency, the central bank buys its own currency using foreign exchange reserves.</li>
+<li>If the objective is to <strong>decrease the value</strong> of the domestic currency, the central bank sells its own currency in exchange for foreign currency.</li>
+</ul>
+<p>The mechanism is classic supply and demand. Buying domestic currency reduces its market supply and raises its value. Selling domestic currency increases its market supply and lowers its value.</p>
+<p>The main limitation is scale. Modern foreign exchange markets are enormous. In many cases, even large central banks cannot move the market significantly by acting alone for very long. That is why direct intervention is often most effective when:</p>
+<ul>
+<li>the market is relatively quiet,</li>
+<li>the intervention is large and credible,</li>
+<li>it is coordinated with other central banks,</li>
+<li>it aligns with underlying fundamentals, and</li>
+<li>it is not fighting a powerful market trend.</li>
+</ul>
+<p>A classic example of coordinated intervention is the <strong>Plaza Accord of 1985</strong>, when major countries jointly acted to push the U.S. dollar down. This intervention is often treated as one of the most famous successful cases of coordinated foreign exchange action.</p>
+<p>Direct intervention can also raise questions about sterilization. If a central bank uses foreign reserves to buy domestic currency, it may shrink the domestic money supply unless it offsets that effect by conducting domestic open-market operations. Whether sterilized intervention is consistently effective remains debated.</p>
+</section>
+<section id="indirect-intervention" class="level4" data-number="9.2.2.2">
+<h4 data-number="9.2.2.2" class="anchored" data-anchor-id="indirect-intervention"><span class="header-section-number">9.2.2.2</span> Indirect Intervention</h4>
+<p>Indirect intervention occurs when authorities alter economic and financial fundamentals that influence capital flows. Rather than entering the market directly to buy or sell currency, the government or central bank changes the incentives facing investors.</p>
+<p>The most important tool here is usually <strong>interest rates</strong>.</p>
+<ul>
+<li>If authorities want to <strong>strengthen</strong> the domestic currency, they may raise real interest rates, increasing returns to investors and attracting capital inflows.</li>
+<li>If authorities want to <strong>weaken</strong> the domestic currency, they may lower real interest rates, reducing returns and discouraging capital inflows.</li>
+</ul>
+<p>This tool can be extremely powerful because it acts through portfolio incentives rather than reserve sales. But it also comes with substantial domestic consequences. Higher interest rates may stabilize the currency while damaging growth, increasing unemployment, or straining highly leveraged firms. Lower interest rates may weaken the currency while worsening inflation or fueling asset bubbles.</p>
+<p>This is why indirect intervention is never only about exchange rates. It also affects the broader domestic economy. Policymakers may therefore face a painful choice between external stability and internal macroeconomic goals.</p>
+</section>
+<section id="capital-controls" class="level4" data-number="9.2.2.3">
+<h4 data-number="9.2.2.3" class="anchored" data-anchor-id="capital-controls"><span class="header-section-number">9.2.2.3</span> Capital Controls</h4>
+<p>Capital controls are restrictions on access to foreign currency or on the ability of residents and nonresidents to convert domestic currency into foreign currency for certain purposes.</p>
+<p>These controls may include:</p>
+<ul>
+<li>limiting foreign exchange access to approved transactions,</li>
+<li>requiring government approval for foreign currency purchases,</li>
+<li>restricting short-term portfolio flows,</li>
+<li>limiting outward investment,</li>
+<li>segmenting official and unofficial exchange markets.</li>
+</ul>
+<p>Capital controls are therefore both a form of intervention and, in some sense, a <strong>denial of normal market activity</strong>. Instead of persuading market participants through price, the state restricts the transaction itself.</p>
+<p>This links directly to the <strong>impossible trinity</strong>. A country cannot simultaneously maintain a fixed exchange rate, free capital movement, and independent monetary policy. Capital controls are one way to preserve exchange rate goals and monetary autonomy by giving up full capital mobility.</p>
+<p>China has long been a prominent example. The government historically controlled daily exchange rate movement and also limited the ability to move capital freely across the border.</p>
+</section>
+</section>
+<section id="when-foreign-currency-intervention-fails" class="level3" data-number="9.2.3">
+<h3 data-number="9.2.3" class="anchored" data-anchor-id="when-foreign-currency-intervention-fails"><span class="header-section-number">9.2.3</span> When Foreign Currency Intervention Fails</h3>
+<p>Intervention often fails. This is one of the most important lessons in international finance.</p>
+<p>Why? Because exchange rates are shaped by many forces at once. If intervention is inconsistent with underlying fundamentals, if the market trend is too powerful, or if credibility is weak, official action may do little more than temporarily slow the movement.</p>
+<p>Two examples illustrate this clearly.</p>
+<section id="turkey-2014" class="level4" data-number="9.2.3.1">
+<h4 data-number="9.2.3.1" class="anchored" data-anchor-id="turkey-2014"><span class="header-section-number">9.2.3.1</span> Turkey 2014</h4>
+<p>Turkey’s 2014 currency crisis is a classic case of attempted indirect intervention under severe macroeconomic strain. Turkey was already vulnerable because of a widening current account deficit, rising inflation, and anxiety among global investors about tighter U.S. monetary policy.</p>
+<p>As capital began leaving emerging markets, the Turkish lira came under intense downward pressure. In principle, defending the currency required higher interest rates. But this collided with domestic political pressure for lower rates to support borrowing and growth.</p>
+<p>Eventually, the Turkish central bank sharply raised its repo rate from 4.5% to 10.0% in an attempt to stop capital flight. The move provided only brief relief. The lira soon weakened again.</p>
+<p>This case shows that intervention can fail when:</p>
+<ul>
+<li>the market doubts the country’s broader macroeconomic position,</li>
+<li>policy credibility is weak,</li>
+<li>the authorities appear politically conflicted, and</li>
+<li>the intervention addresses symptoms more than causes.</li>
+</ul>
+<p>It also shows that the attempted cure can impose heavy domestic costs without restoring lasting currency stability.</p>
+</section>
+<section id="japan-2010" class="level4" data-number="9.2.3.2">
+<h4 data-number="9.2.3.2" class="anchored" data-anchor-id="japan-2010"><span class="header-section-number">9.2.3.2</span> Japan 2010</h4>
+<p>In September 2010, the Bank of Japan intervened in the foreign exchange market by buying U.S. dollars in exchange for yen in an attempt to slow the yen’s appreciation. Japanese officials had become increasingly uncomfortable with the yen’s strength because it threatened export competitiveness.</p>
+<p>The logic of the intervention was clear. By increasing demand for dollars and supplying more yen to the market, Japan hoped to drive the dollar up and the yen down.</p>
+<p>For a few days, the intervention appeared to work. But the effect was temporary. The yen soon resumed its appreciating trend.</p>
+<p>This failure illustrates a rule often cited by practitioners: <strong>do not lean into the wind</strong>. If the market is moving strongly in one direction for fundamental reasons, trying to reverse that movement through isolated intervention can be very expensive and short-lived.</p>
+<p>Practitioners often argue that effective intervention follows a few rough principles:</p>
+<ul>
+<li>avoid fighting strong market momentum,</li>
+<li>coordinate with other authorities where possible,</li>
+<li>time intervention carefully,</li>
+<li>use supportive economic news when available,</li>
+<li>intervene at a scale large enough to matter.</li>
+</ul>
+<p>Even then, success is never guaranteed.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="disequilibrium-exchange-rates-in-emerging-markets" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="disequilibrium-exchange-rates-in-emerging-markets"><span class="header-section-number">9.3</span> Disequilibrium: Exchange Rates in Emerging Markets</h2>
+<p>The major theories of exchange rate determination work best when markets are deep, institutions are credible, and the financial system is stable. Emerging markets often fail to satisfy those conditions. As a result, their exchange rates can become highly unstable, and periods of disequilibrium can be abrupt and severe.</p>
+<p>The core insight is that the problem often lies <strong>not in the theory itself</strong>, but in the failure of the assumptions required for the theory to hold cleanly. Weak banking systems, shallow markets, poor governance, capital flight, contagion, and speculation can all push an emerging-market currency far away from anything resembling orderly equilibrium.</p>
+<section id="the-asian-crisis-of-1997" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="the-asian-crisis-of-1997"><span class="header-section-number">9.3.1</span> The Asian Crisis of 1997</h3>
+<p>The Asian crisis is one of the defining emerging-market crises of modern international finance. It showed how fixed or semi-fixed exchange rates could collapse under the weight of capital flow reversals, weak financial systems, and investor panic.</p>
+<p>The roots of the crisis lay in a structural shift: many Asian economies moved from being net exporters to net importers and therefore became increasingly dependent on continuing capital inflows to support their currencies and investment booms.</p>
+<p>Thailand became the focal point because it had experienced heavy capital inflows, abundant foreign borrowing, and a widening investment bubble. As doubts rose about the country’s ability to sustain debt repayment, the baht came under attack.</p>
+<section id="crisis" class="level4" data-number="9.3.1.1">
+<h4 data-number="9.3.1.1" class="anchored" data-anchor-id="crisis"><span class="header-section-number">9.3.1.1</span> Crisis</h4>
+<p>In May and June 1997, Thai authorities tried to defend the baht through both direct and indirect intervention. They used foreign exchange reserves and raised interest rates. But the pressure continued.</p>
+<p>On July 2, 1997, Thailand allowed the baht to float. The currency fell sharply. That initial collapse triggered broader regional anxiety and speculative attacks on neighboring currencies.</p>
+<p>Soon the crisis spread to:</p>
+<ul>
+<li>the Philippine peso,</li>
+<li>the Malaysian ringgit,</li>
+<li>the Indonesian rupiah,</li>
+<li>and later the Korean won.</li>
+</ul>
+<p>This regional spread is often described as <strong>contagion</strong> or, colloquially, the <strong>tequila effect</strong>. Once confidence evaporated, investors reassessed other countries with similar characteristics and withdrew funds broadly.</p>
+<p>A crucial lesson is that markets had ignored serious vulnerabilities for years. When confidence finally shifted, the adjustment was sudden and brutal.</p>
+</section>
+<section id="causal-complexities" class="level4" data-number="9.3.1.2">
+<h4 data-number="9.3.1.2" class="anchored" data-anchor-id="causal-complexities"><span class="header-section-number">9.3.1.2</span> Causal Complexities</h4>
+<p>The Asian crisis was not just a simple balance-of-payments problem. It was a broader institutional and financial crisis. The text emphasizes three common contributors across affected countries:</p>
+<ol type="1">
+<li><strong>Corporate socialism</strong> - a belief that governments would not allow major firms, banks, or employers to fail.</li>
+<li><strong>Corporate governance cronyism</strong> - close ties among firms, families, banks, and political elites that weakened transparency and discipline.</li>
+<li><strong>Banking instability</strong> - underdeveloped regulation and fragile financial systems unable to absorb shocks.</li>
+</ol>
+<p>These conditions encouraged excessive risk-taking. Firms borrowed too much. Banks misallocated credit. Governments lacked the credibility or resources to stabilize the system once capital reversed.</p>
+<p>The result was a classic emerging-market dynamic: capital inflows fueled a boom, weak institutions magnified vulnerability, and then a sudden stop of inflows triggered collapse.</p>
+</section>
+<section id="the-role-of-soros" class="level4" data-number="9.3.1.3">
+<h4 data-number="9.3.1.3" class="anchored" data-anchor-id="the-role-of-soros"><span class="header-section-number">9.3.1.3</span> The Role of Soros</h4>
+<p>George Soros was widely blamed in the aftermath for having speculated against Asian currencies. This accusation raises an important conceptual question for observers: <strong>do speculators cause crises, or do they merely recognize weaknesses earlier than others?</strong></p>
+<p>The more convincing interpretation is that speculators generally <strong>amplify and accelerate</strong> crises but rarely create the underlying vulnerabilities by themselves. In Thailand and elsewhere, the economic imbalances, credit excesses, and institutional weaknesses already existed.</p>
+<p>Speculators may have made the fall faster or more visible, but they were not the root cause. As one famous line suggested, blaming Soros was like blaming an undertaker for burying a suicide. That is harsh, but analytically it captures the idea that speculation is often a response to weakness rather than its origin.</p>
+</section>
+</section>
+<section id="the-argentine-crisis-of-2002" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="the-argentine-crisis-of-2002"><span class="header-section-number">9.3.2</span> The Argentine Crisis of 2002</h3>
+<p>Argentina provides a very different but equally important case. Instead of a crisis driven mainly by regional contagion and excess capital inflow, Argentina illustrates the dangers of an overly rigid exchange rate regime combined with weak fiscal control.</p>
+<p>In 1991, Argentina adopted a <strong>currency board</strong> and pegged the peso one-for-one to the U.S. dollar. Under a currency board, the monetary authority can expand the money supply only when it has the foreign reserve backing to do so. The goal was to eliminate the hyperinflationary tendencies that had plagued Argentina for years.</p>
+<p>This arrangement offered several immediate advantages:</p>
+<ul>
+<li>strong anti-inflation credibility,</li>
+<li>automatic monetary discipline,</li>
+<li>a clear nominal anchor,</li>
+<li>a visible commitment against political abuse of money creation.</li>
+</ul>
+<p>But these strengths were also its weaknesses. The system was rigid. It left little room for discretionary monetary policy.</p>
+<section id="economic-crisis" class="level4" data-number="9.3.2.1">
+<h4 data-number="9.3.2.1" class="anchored" data-anchor-id="economic-crisis"><span class="header-section-number">9.3.2.1</span> Economic Crisis</h4>
+<p>By 2001, Argentina faced three central problems:</p>
+<ol type="1">
+<li><strong>The peso was overvalued.</strong> As other South American currencies weakened against the dollar, Argentina’s exports became increasingly uncompetitive because the peso remained tied to the strong U.S. dollar.</li>
+<li><strong>The currency board eliminated monetary flexibility.</strong> Argentina could not ease monetary policy to support growth.</li>
+<li><strong>The government budget deficit was out of control.</strong> Fiscal imbalance kept worsening while the economy remained weak.</li>
+</ol>
+<p>Meanwhile, recession persisted. Unemployment stayed high. Foreign debt rose. Confidence weakened.</p>
+<p>A particularly damaging feature was that Argentine banks allowed deposits in both pesos and dollars. This was meant to signal credibility and discipline. Instead, it made bank runs even more destabilizing. As confidence in the peso weakened, depositors tried to withdraw dollars, placing enormous strain on the banking system.</p>
+<p>Eventually the government shut the banks and restricted withdrawals. This deepened social unrest and destroyed confidence further.</p>
+</section>
+<section id="devaluation" class="level4" data-number="9.3.2.2">
+<h4 data-number="9.3.2.2" class="anchored" data-anchor-id="devaluation"><span class="header-section-number">9.3.2.2</span> Devaluation</h4>
+<p>In January 2002, Argentina devalued the peso from 1.00 per U.S. dollar to 1.40. Soon after, the government abandoned the peg entirely and allowed the peso to float.</p>
+<p>The peso then collapsed.</p>
+<p>The Argentine case teaches several lessons:</p>
+<ul>
+<li>hard pegs can suppress inflation, but they do not solve fiscal irresponsibility;</li>
+<li>credibility regimes are powerful only so long as the market believes they are politically and economically sustainable;</li>
+<li>surrendering monetary flexibility can be extremely costly during recession;</li>
+<li>once confidence breaks, even a rigid rule-based regime can unravel very quickly.</li>
+</ul>
+<p>In short, the currency board was designed to eliminate inflationary discretion, but in doing so it also eliminated valuable policy flexibility. When recession and fiscal strain intensified, the regime became unsustainable.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="currency-forecasting-in-practice" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="currency-forecasting-in-practice"><span class="header-section-number">9.4</span> Currency Forecasting in Practice</h2>
+<p>In practice, exchange rate forecasting is not a matter of selecting one perfect theory. It is a matter of combining multiple approaches, each of which is useful over different horizons.</p>
+<p>Forecasts are produced by banks, consultants, multinational firms, and internal treasury teams. They may rely on:</p>
+<ul>
+<li>fundamental macroeconomic analysis,</li>
+<li>parity conditions,</li>
+<li>technical analysis,</li>
+<li>market sentiment,</li>
+<li>judgment and experience.</li>
+</ul>
+<p>The forecasting problem differs sharply by horizon.</p>
+<ul>
+<li><strong>Short-run forecasts</strong> are often tactical. Firms need them to hedge receivables, payables, and near-term exposures.</li>
+<li><strong>Long-run forecasts</strong> are often strategic. Firms need them for direct investment, financing choices, and long-term planning.</li>
+</ul>
+<p>The longer the forecast horizon, the less precise the forecast is likely to be. But paradoxically, long-run decisions often do not require point precision so much as general directional and structural understanding.</p>
+<section id="technical-analysis" class="level3" data-number="9.4.1">
+<h3 data-number="9.4.1" class="anchored" data-anchor-id="technical-analysis"><span class="header-section-number">9.4.1</span> Technical Analysis</h3>
+<p>Technical analysis focuses on the study of past price behavior and trading patterns in order to infer future movements. Analysts of this type are traditionally called <strong>chartists</strong>.</p>
+<p>The central assumption is that exchange rates, like other market prices, display trends and recurring patterns. These patterns may be temporary, but they are thought to contain useful information for short- to medium-term forecasting.</p>
+<p>Technical analysts usually distinguish among three time horizons:</p>
+<ol type="1">
+<li><strong>day-to-day movement</strong>, which often looks random,</li>
+<li><strong>short-term movement</strong>, which may persist for days or months,</li>
+<li><strong>long-term movement</strong>, which may exhibit broader waves or cycles.</li>
+</ol>
+<p>Why does technical analysis remain popular despite criticism? Because short-run exchange rate movements are often driven by news, positioning, momentum, and market psychology rather than by slow-moving macro fundamentals alone. In such an environment, trend-following tools can sometimes outperform purely theoretical models.</p>
+<p>At the same time, technical analysis has clear limitations. It often lacks a causal economic foundation. It may work only until too many people exploit the same pattern. And if markets are highly efficient, exchange rate changes may resemble a random walk, reducing the predictive value of past movements.</p>
+<p>Still, many professionals use technical analysis because in forecasting, being approximately right can be more valuable than having a theoretically elegant but practically unhelpful model.</p>
+</section>
+<section id="cross-rate-consistency-in-forecasting" class="level3" data-number="9.4.2">
+<h3 data-number="9.4.2" class="anchored" data-anchor-id="cross-rate-consistency-in-forecasting"><span class="header-section-number">9.4.2</span> Cross-Rate Consistency in Forecasting</h3>
+<p>Multinational firms often need forecasts for many currencies at once. This introduces the issue of <strong>cross-rate consistency</strong>.</p>
+<p>Suppose a firm forecasts:</p>
+<ul>
+<li>a future dollar/euro rate, and</li>
+<li>a future dollar/pound rate.</li>
+</ul>
+<p>Those two forecasts imply a future euro/pound cross rate. If the implied cross rate is implausible or inconsistent with the firm’s own separate euro/pound forecast, then something is wrong with the forecast set.</p>
+<p>Cross-rate consistency is therefore a practical internal check. It helps firms ensure that separately generated forecasts form a coherent system.</p>
+<p>This matters for several reasons:</p>
+<ul>
+<li>hedging decisions across multiple subsidiaries,</li>
+<li>home-currency budgeting,</li>
+<li>capital allocation,</li>
+<li>performance evaluation of foreign managers,</li>
+<li>treasury planning.</li>
+</ul>
+<p>In practice, firms use cross-rate checks not because they believe forecasting is exact, but because they want to avoid obvious internal contradictions.</p>
+</section>
+<section id="forecasting-what-do-you-think" class="level3" data-number="9.4.3">
+<h3 data-number="9.4.3" class="anchored" data-anchor-id="forecasting-what-do-you-think"><span class="header-section-number">9.4.3</span> Forecasting: What do you think?</h3>
+<p>A balanced view of exchange rate forecasting should include several judgments.</p>
+<p>First, decades of research suggest that <strong>fundamentals do matter in the long run</strong>. Inflation, monetary growth, current account positions, interest differentials, and broader macroeconomic performance all shape the long-run path of currencies.</p>
+<p>Second, the short run is messy. Exchange rates may deviate from that long-run path because of:</p>
+<ul>
+<li>random shocks,</li>
+<li>institutional frictions,</li>
+<li>speculative behavior,</li>
+<li>market noise,</li>
+<li>political surprises,</li>
+<li>temporary policy announcements.</li>
+</ul>
+<p>This leads to the idea of a <strong>fundamental equilibrium path</strong>. A currency may have a long-run value path consistent with macro fundamentals, yet market prices may wander above or below that path for extended periods.</p>
+<p>The term <strong>noise</strong> refers to those short-run deviations that are not easily explained by long-run fundamentals. Noise does not mean the movement is meaningless; rather, it means the movement is not well captured by slow-moving equilibrium relationships.</p>
+<p>A useful distinction is between <strong>stabilizing expectations</strong> and <strong>destabilizing expectations</strong>:</p>
+<ul>
+<li>With stabilizing expectations, investors treat deviations from long-run equilibrium as temporary and trade in ways that pull the currency back toward its fundamental path.</li>
+<li>With destabilizing expectations, investors may extrapolate recent movements and push the currency even farther away from its long-run path.</li>
+</ul>
+<p>This distinction is extremely important in crises. When markets become destabilizing, currencies can overshoot and remain far from equilibrium longer than theory alone would predict.</p>
+</section>
+<section id="exchange-rate-dynamics-making-sense-of-market-movements" class="level3" data-number="9.4.4">
+<h3 data-number="9.4.4" class="anchored" data-anchor-id="exchange-rate-dynamics-making-sense-of-market-movements"><span class="header-section-number">9.4.4</span> Exchange Rate Dynamics: Making Sense of Market Movements</h3>
+<p>One of the most useful concepts for understanding short-run exchange rate behavior is <strong>overshooting</strong>.</p>
+<p>Suppose the central bank announces an expansionary monetary policy that lowers domestic interest rates. In the very short run, financial markets respond immediately. Capital moves. The currency weakens sharply. That initial change may be larger than the eventual long-run depreciation implied by prices and monetary conditions.</p>
+<p>Why? Because asset markets adjust quickly, but goods prices adjust more slowly.</p>
+<p>The sequence is:</p>
+<ol type="1">
+<li><strong>Informational shock occurs.</strong></li>
+<li><strong>Asset markets react immediately</strong>, often through interest-rate channels.</li>
+<li><strong>The spot exchange rate jumps sharply</strong>, possibly beyond its new long-run level.</li>
+<li><strong>As goods prices and expectations adjust over time</strong>, the exchange rate moves back toward its new longer-run equilibrium.</li>
+</ol>
+<p>That initial excessive jump is the overshoot.</p>
+<p>Overshooting matters because it explains why exchange rate reactions to news can look exaggerated in the short run without being irrational. Financial markets are forward-looking and fast. Goods markets are slower. The mismatch in adjustment speed can generate exchange rate volatility that is entirely consistent with rational behavior.</p>
+<p>This also explains why market movements can look disconnected from textbook fundamentals on a daily basis while still eventually returning to them over time.</p>
+<hr>
+</section>
+</section>
+<section id="concluding-summary" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="concluding-summary">Concluding Summary</h2>
+<p>Chapter 9 makes four big arguments.</p>
+<p>First, exchange rate determination requires multiple theoretical lenses. PPP (price changes &amp; inflation), balance of payments (supply and demand for currencies due to trade flows), and asset market logic (supply and demand for money stocks based on expectations) all matter, but over different horizons and with different force.</p>
+<p>Second, governments intervene because exchange rates affect inflation, growth, competitiveness, and political stability. Yet intervention is often difficult, costly, and temporary.</p>
+<p>Third, emerging market currencies are especially vulnerable when weak institutions, fragile banking systems, capital-flow reversals, and speculative attacks interact.</p>
+<p>Fourth, forecasting in practice is a blend of theory, technical analysis, judgment, and humility. Long-run fundamentals matter, but short-run exchange rates are noisy, volatile, and often prone to overshooting.</p>
+<p>The practical takeaway is this: <strong>exchange rates are neither random chaos nor simple mechanical outputs. They are market prices that reflect both economic structure and human expectations.</strong></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/clb18\.github\.io\/FIN-4350_International_Finance");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -63,7 +63,8 @@ website:
           - simulation/countries.qmd
           - simulation/decisions.qmd
           - simulation/deliverables.qmd
-          - simulation/fx_dashboard_week_1.qmd
+          - simulation/fx_dashboard_week_2.qmd
+          - simulation/trade_fx_options.qmd
           - simulation/Weekly_Brief_sample.qmd
           - simulation/markets.qmd
           - simulation/grading.qmd

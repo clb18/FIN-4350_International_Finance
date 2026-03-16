@@ -1,0 +1,64 @@
+---
+title: "FX Market Dashboard"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## FX Index Dashboard – End of Round 2
+
+The FX Index tracks how each currency is performing in the market.
+
+::: {.callout-note}
+**How to read this table:** Higher scores indicate strengthening / inflows. Lower scores indicate depreciation pressure / outflows.
+:::
+
+| Country | FX Index | Status | Notes |
+|---|---:|---|---|
+| Agrona | 99.8 | Stable | Recovered slightly after tightening monetary policy, but markets remain cautious due to external exposure. |
+| Atlantica | 101.3 | Stable / slightly strengthening | Atlantica remains a credible financial anchor with stable policy and deep markets. |
+| Frontieria | 100.8 | Stable / slightly strengthening | Tight monetary policy and continued austerity reinforced confidence. |
+| Industralia | 101.3 | Stable / slightly strengthening | Markets responded positively to tighter monetary policy and continued discipline. |
+| Mercatoria | 100.3 | Stable | Tightening improved stability, though export dependence still tempers enthusiasm. |
+| Noravia | 101.3 | Stable / slightly strengthening | Tight monetary policy supports the currency, but markets are watching fiscal expansion. |
+| Pacifica | 100.8 | Stable / slightly strengthening | Stable conditions continue, though open capital markets keep Pacifica exposed to flow volatility. |
+| Petrovia | 100.8 | Stable / slightly strengthening | Tightening supported the currency modestly; markets remain attentive to commodity-linked risks. |
+
+::: {.callout-important}
+**Reminder:** The FX Index is a summary indicator. Your job is to submit a coherent policy package that restores confidence or adjusts the regime when conditions change.
+:::
+
+## What is the FX Index Score?
+
+Each currency is tracked using an **FX Index Score** so you can see how your currency is performing in the market.
+
+The FX Index is a market-style indicator that summarizes:
+
+- Demand for your currency
+- Capital inflows/outflows
+- Exchange-rate pressure (appreciation or depreciation pressure)
+
+::: {.callout-note}
+**Key idea:** A higher FX Index generally means the market wants to hold your currency. A lower FX Index generally means the market is trying to move into other currencies.
+:::
+
+## Starting Point
+
+- **Round 0:** All currencies began at parity with an **FX Index of 100**.
+
+## How to Interpret the FX Index
+
+| FX Index Range | Market Label | Meaning |
+|---:|---|---|
+| 115–105 | Strengthening | Capital inflows and appreciation pressure |
+| 104–97 | Stable | Normal market conditions |
+| 96–90 | Softening | Mild depreciation pressure |
+| 89–80 | Under Pressure | Visible stress and market testing |
+| 79–70 | Severe Pressure | Strong outflows or reserve loss |
+| < 70 | Crisis | Devaluation or regime change likely |
+
+::: {.callout-important}
+Your goal is not to “maximize” the FX Index every week. Your goal is to choose a **coherent** policy mix that supports your country’s objectives while maintaining credibility.
+:::

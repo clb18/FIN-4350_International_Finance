@@ -1,0 +1,42 @@
+---
+title: "Chapter 6 - International Parity Conditions"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 4
+    toc-expand: 1
+    number-sections: true
+    number-offset: 5
+    title-block-style: default
+  docx:
+    toc: true
+    number-sections: true
+    number-offset: 5
+  pdf:
+    toc: true
+    number-sections: true
+    number-offset: 5
+    geometry: margin=1in
+---
+
+
+# Introduction
+
+## Prices and Exchange Rates
+
+### Law of One Price
+
+### Purchasing Power Parity
+
+## Interest Rates and Exchange Rates
+
+### Fisher Effect
+
+### International Fisher Effect
+
+## Forward Rate as an Unbiased Predictor
+
+## Prices, Interest Rates, and Exchange Rates in Equilibrium
