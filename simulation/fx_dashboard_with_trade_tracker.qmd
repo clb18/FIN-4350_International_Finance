@@ -1,0 +1,92 @@
+---
+title: "FX Market Dashboard"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+
+---
+
+## FX Index Dashboard – End of Round 3
+
+The FX Index tracks how each currency is performing in the market (in alphabetical order).
+
+::: {.callout-note}
+**How to read this table:** Higher scores indicate strengthening / inflows. Lower scores indicate depreciation pressure / outflows.
+:::
+
+| Country | FX Index | Status | Notes |
+|---|---:|---|---|
+| Agrona | 100.9 | Stable / improving | Tightening, austerity, and strategic-goods negotiations reduced earlier market concerns. |
+| Atlantica | 102.0 | Stable / strengthening | Indirect intervention aimed at stabilization, combined with open trade and credibility, reinforced Atlantica’s anchor role. |
+| Frontieria | 101.1 | Stable | Restricted capital and indirect stabilization measures preserved the gains made in earlier rounds. |
+| Industralia | 101.7 | Stable / strengthening | Markets responded positively to its cooperative stance and wider trade framework. |
+| Mercatoria | 101.2 | Stable / strengthening | Trade diplomacy and indirect intervention improved sentiment while its managed capital system limited volatility. |
+| Noravia | 101.9 | Stable / strengthening | Tight monetary policy and strategic-goods diplomacy supported the currency despite fiscal stimulus. |
+| Pacifica | 101.6 | Stable / strengthening | Direct support for the currency and multilateral trade outreach produced one of the strongest gains this round. |
+| Petrovia | 101.1 | Stable | Bilateral outreach with Agrona modestly improved sentiment in a still resource-sensitive economy. | |
+
+::: {.callout-important}
+**Reminder:** The FX Index is a summary indicator. Your job is to submit a coherent policy package that restores confidence or adjusts the regime when conditions change.
+:::
+
+
+## Trade & Alliance Tracker – Current Round
+
+This section tracks formal trade agreements, strategic-goods agreements, and emerging alliances formed during the simulation.
+
+::: {.callout-note}
+**How to use this section:** Review which countries have entered agreements, which countries remain outside major blocs, and how alliances may affect trade flows, credibility, and exchange-rate stability.
+:::
+
+### Active Agreements
+
+| Agreement Name | Type | Participating Countries | Economic Purpose | Expected Currency / Market Effect | Status |
+|---|---|---|---|---|---|
+| Atlantica–Pacifica Trade Link | Bilateral | Atlantica, Pacifica | Deepen bilateral trade ties | Mild support for both currencies through stronger trade expectations | Proposed |
+| Noravia Strategic Goods Network | Strategic Goods | Noravia, Pacifica, Industralia | Improve access to critical imported goods | Supports stability and trade expectations for participating countries | Proposed |
+| Industralia–Mercatoria–Noravia Trade Framework | Multilateral / Open | Industralia, Mercatoria, Noravia | Broader commercial integration | Improves sentiment through expected trade expansion | Proposed |
+| Petrovia–Agrona Strategic Goods Link | Strategic Goods | Petrovia, Agrona | Resource and goods coordination | Modest support for both currencies through supply security | Proposed |
+
+### Bilateral Relationships
+
+| Country A | Country B | Agreement Type | Strategic Importance | Notes |
+|---|---|---|---|---|
+| Atlantica | Pacifica | Bilateral | Builds direct trade linkage with a financially open economy | Positive for credibility and trade depth |
+| Petrovia | Agrona | Strategic Goods | Resource cooperation between commodity-linked economies | Helps reduce isolation risk |
+
+### Multilateral / Open Agreements
+
+| Bloc / Agreement Name | Members | Focus | Expected Market Effect | Notes |
+|---|---|---|---|---|
+| Industralia–Mercatoria–Noravia Trade Framework | Industralia, Mercatoria, Noravia | Broader trade integration | Improves market sentiment for participating members | Stronger if formalized next round |
+| Pacifica–Atlantica–Noravia Open Link | Pacifica, Atlantica, Noravia | Expanded market access | Supports future trade and capital flows | Still in early stage |
+
+### Strategic Goods Agreements
+
+| Exporting / Lead Country | Importing Country / Countries | Good / Sector | Importance | Notes |
+|---|---|---|---|---|
+| Noravia | Pacifica, Industralia | Strategic goods | Supports supply stability | Markets view this as a plausible stabilizing arrangement |
+| Petrovia | Agrona | Resource / commodity coordination | Helps both economies reduce vulnerability | Positive but still limited in scope |
+
+## Countries Without Major Agreements
+
+| Country | Current Position | Risk / Opportunity | Notes |
+|---|---|---|---|
+| Frontieria | No major agreement yet | Risk of relative isolation | Could benefit from entering a future trade framework |
+
+## How to Interpret the FX Index
+
+| FX Index Range | Market Label | Meaning |
+|---:|---|---|
+| 115–105 | Strengthening | Capital inflows and appreciation pressure |
+| 104–97 | Stable | Normal market conditions |
+| 96–90 | Softening | Mild depreciation pressure |
+| 89–80 | Under Pressure | Visible stress and market testing |
+| 79–70 | Severe Pressure | Strong outflows or reserve loss |
+| < 70 | Crisis | Devaluation or regime change likely |
+
+::: {.callout-important}
+Your goal is not to “maximize” the FX Index every week. Your goal is to choose a **coherent** policy mix that supports your country’s objectives while maintaining credibility.
+:::
