@@ -24,18 +24,16 @@ format:
 
 # Introduction
 
-
+Random Quote (One of the most comforting things I have heard): **"When God put a calling on my life, He already factored in my stupidity."**
 
 Bible Quote: **"The plans of the diligent lead surely to abundance,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;but everyone who is hasty comes only to poverty."** **-Proverbs 21:5**
-
-Textbook Quote: **"In theory there is no difference between theory and practice. In practice there is."** - Yogi Berra
 
 Textbook Quote: **"There are two times in a man's life when he should not speculate: when he can't afford it and when he can."** 
 
 - "Following the Equator, Pudd'nhead Wilson's New Calendar," Mark Twain
 
-**Quote from the first paragraph of the chapter:** "Foreign exchange exposure is a measure of the potential for a firm's profitability, net cash flow, and market value to change because of a change in exchange rates. An important task of the financial manager is to measure foreign exchange exposure and to manage it so as to maximize the profitability, net cash flow, and market value of the firm."
+**From the first paragraph of the chapter:** "Foreign exchange exposure is a measure of the potential for a firm's profitability, net cash flow, and market value to change because of a change in exchange rates. An important task of the financial manager is to measure foreign exchange exposure and to manage it so as to maximize the profitability, net cash flow, and market value of the firm."
 
 **Central Problem of the chapter:** once exchange rates move, how does that movement affect the firm's actual contracts, cash flows, reported income, and treasury decisions? 
 
