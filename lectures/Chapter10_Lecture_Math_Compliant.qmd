@@ -667,7 +667,7 @@ So in this specific example, the money market hedge is more expensive than the f
 
 #### Option Hedge
 
-For a payable, the correct option is a **call option on GBP**. As a reminder, a **call* is the right, but not the obligation, to buy and asset, at a set price, sometime in the future. 
+For a payable, the correct option is a **call option on GBP**. As a reminder, a **call** is the right, but not the obligation, to buy and asset, at a set price, sometime in the future. 
 
 Ganado can buy a call on **GBP 1,000,000** with strike price:
 
