@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Prof.&nbsp;Barker">
-<meta name="dcterms.date" content="2026-03-29">
+<meta name="dcterms.date" content="2026-03-31">
 
 <title>Chapter 10 - Transaction Exposure – International Finance</title>
 <style>
@@ -408,7 +408,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 29, 2026</p>
+      <p class="date">March 31, 2026</p>
     </div>
   </div>
   
@@ -878,7 +878,7 @@ Foreign exchange losses show up visibly in financial statements. Hedging costs m
 <p>Under the assumptions in the chapter, the money market hedge is superior.</p>
 <section id="break-even-reinvestment-rate" class="level4" data-number="10.4.5.1">
 <h4 data-number="10.4.5.1" class="anchored" data-anchor-id="break-even-reinvestment-rate"><span class="header-section-number">10.4.5.1</span> Break-even reinvestment rate</h4>
-<p>The text also calculates the break-even investment rate that would make the two methods equivalent.</p>
+<p>We can also calculate the break-even investment rate that would make the two methods equivalent.</p>
 <p>Set:</p>
 <p><span class="math display">\[
 \text{Loan proceeds} \times (1+r) = \text{Forward proceeds}
@@ -906,7 +906,7 @@ r = 0.0192
 <section id="options-market-hedge" class="level3" data-number="10.4.6">
 <h3 data-number="10.4.6" class="anchored" data-anchor-id="options-market-hedge"><span class="header-section-number">10.4.6</span> Options Market Hedge</h3>
 <p>An <strong>options hedge</strong> gives the firm protection against unfavorable exchange-rate movements while still allowing participation in favorable movements.</p>
-<p>Because Ganado has a GBP receivable, it wants a <strong>put option on GBP</strong>. It can buy a 90-day put on <strong>GBP 1,000,000</strong> with strike price:</p>
+<p>Because Ganado has a GBP receivable, it wants a <strong>put option on GBP</strong>. Remember, a <strong>put</strong> is the right (but not the obligation) to sell an asset at a particular price at some point in the future. It can buy a 90-day put on <strong>GBP 1,000,000</strong> with strike price:</p>
 <p><span class="math display">\[
 \text{USD }1.75 = \text{GBP }1.00
 \]</span></p>
@@ -933,7 +933,8 @@ r = 0.0192
 <p>Net of option cost:</p>
 <p><span class="math display">\[
 \text{USD }1,760,000 - \text{USD }27,254 = \text{USD }1,732,746
-\]</span></p>
+\]</span> <strong>Why do we let the put expire if the price is above the strike price at maturity?</strong></p>
+<p>Remember that if the USD goes higher relative to the pound, that means that the dollar is weakening and it takes more dollars to buy 1 GB pound. That is profit for US firms, or at least more USD per GBP.</p>
 </section>
 <section id="if-the-pound-falls-below-the-strike" class="level4" data-number="10.4.6.2">
 <h4 data-number="10.4.6.2" class="anchored" data-anchor-id="if-the-pound-falls-below-the-strike"><span class="header-section-number">10.4.6.2</span> If the pound falls below the strike</h4>
@@ -949,7 +950,7 @@ r = 0.0192
 <p><span class="math display">\[
 \text{USD }1,722,746
 \]</span></p>
-<p>That floor is lower than the certainty offered by the forward or money market hedge in this example, but the option preserves upside beyond the strike.</p>
+<p><strong>That floor is lower than the certainty offered by the forward or money market hedge in this example, but the option preserves upside beyond the strike.</strong></p>
 </section>
 </section>
 <section id="hedging-alternatives-compared" class="level3" data-number="10.4.7">
@@ -990,7 +991,7 @@ r = 0.0192
 <li>If management expects the exchange rate to move <strong>against</strong> the firm, the money market hedge is strongest in this example.</li>
 <li>If management expects the exchange rate to move <strong>in favor</strong> of the firm, the option may be attractive because it protects the downside while preserving upside.</li>
 </ol>
-<p>The choice is therefore not mechanical. It depends on two decision criteria that appear repeatedly in this chapter and in the test bank:</p>
+<p>The choice is therefore not mechanical. It depends on two decision criteria that the firm has to make:</p>
 <ol type="1">
 <li><strong>The firm’s risk tolerance</strong>, and</li>
 <li><strong>Management’s exchange-rate expectation and confidence in that view.</strong></li>
@@ -1031,7 +1032,7 @@ r = 0.0192
 <p><span class="math display">\[
 \text{GBP }1,000,000 \times \text{USD }1.7540 = \text{USD }1,754,000
 \]</span></p>
-<p>This is certain and, in the chapter’s example, lower than the expected unhedged cost based on the forecast spot rate.</p>
+<p>This is certain and, in this example, lower than the expected unhedged cost based on the forecast spot rate.</p>
 </section>
 <section id="money-market-hedge" class="level4" data-number="10.4.8.3">
 <h4 data-number="10.4.8.3" class="anchored" data-anchor-id="money-market-hedge"><span class="header-section-number">10.4.8.3</span> Money Market Hedge</h4>
@@ -1057,7 +1058,7 @@ r = 0.0192
 </section>
 <section id="option-hedge" class="level4" data-number="10.4.8.4">
 <h4 data-number="10.4.8.4" class="anchored" data-anchor-id="option-hedge"><span class="header-section-number">10.4.8.4</span> Option Hedge</h4>
-<p>For a payable, the correct option is a <strong>call option on GBP</strong>.</p>
+<p>For a payable, the correct option is a <strong>call option on GBP</strong>. As a reminder, a **call* is the right, but not the obligation, to buy and asset, at a set price, sometime in the future.</p>
 <p>Ganado can buy a call on <strong>GBP 1,000,000</strong> with strike price:</p>
 <p><span class="math display">\[
 \text{USD }1.75 = \text{GBP }1.00
@@ -1112,15 +1113,15 @@ r = 0.0192
 <p>Given an expected spot of USD 1.76 per pound, the <strong>forward hedge</strong> appears to be the preferred choice in the textbook example.</p>
 <p>Again, the general logic is:</p>
 <ul>
-<li>For a <strong>receivable</strong>, a firm fears depreciation of the foreign currency and may use a <strong>put</strong> or <strong>sell forward</strong>.</li>
-<li>For a <strong>payable</strong>, a firm fears appreciation of the foreign currency and may use a <strong>call</strong> or <strong>buy forward</strong>.</li>
+<li>For a <strong>receivable</strong>, a firm fears depreciation of the foreign currency/appreciation of the home currency and may use a <strong>put</strong> or <strong>sell forward</strong>.</li>
+<li>For a <strong>payable</strong>, a firm fears appreciation of the foreign currency/depreciation of the home currency and may use a <strong>call</strong> or <strong>buy forward</strong>.</li>
 </ul>
 </section>
 </section>
 </section>
 <section id="transaction-exposure-management-in-practice" class="level2" data-number="10.5">
 <h2 data-number="10.5" class="anchored" data-anchor-id="transaction-exposure-management-in-practice"><span class="header-section-number">10.5</span> Transaction Exposure Management in Practice</h2>
-<p>The theory of hedging is tidy. Practice is not. Firms differ widely in what they hedge, how far out they hedge, how much they hedge, and which instruments they are willing to use.</p>
+<p>The theory of hedging is clean. Practice is not. Firms differ widely in what they hedge, how far out they hedge, how much they hedge, and which instruments they are willing to use.</p>
 <p>A key line from the chapter is worth emphasizing: <strong>there are as many different approaches to transaction exposure management as there are firms.</strong></p>
 <section id="which-goals" class="level3" data-number="10.5.1">
 <h3 data-number="10.5.1" class="anchored" data-anchor-id="which-goals"><span class="header-section-number">10.5.1</span> Which Goals</h3>
@@ -1185,7 +1186,7 @@ r = 0.0192
 <li>short-dated exposures are more certain and more easily measured, so firms hedge more of them;</li>
 <li>long-dated exposures are less certain, more likely to change, and more costly to hedge rigidly.</li>
 </ul>
-<p>The chapter notes that as maturity lengthens, the required percentage of forward cover often <strong>decreases</strong>, not increases. This is a practical test-bank point.</p>
+<p>The chapter notes that as maturity lengthens, the required percentage of forward cover often <strong>decreases</strong>, not increases.</p>
 <p>A further implication is worth stating clearly: once firms hedge only part of an exposure and then decide selectively what to hedge beyond that, they are implicitly expressing a market view. That is one reason proportional hedging can shade into selective hedging and, at times, into speculation.</p>
 </section>
 <section id="which-hedging-instruments-and-structures" class="level3" data-number="10.5.4">
@@ -1262,13 +1263,13 @@ r = 0.0192
 <li>They provide certainty.</li>
 <li>They fit well with clearly identified receivables and payables.</li>
 </ul>
-<p><strong>Options are used much less frequently.</strong> The chapter gives three standard reasons:</p>
+<p><strong>Options are used much less frequently.</strong> Here are three standard reasons:</p>
 <ol type="1">
 <li><strong>Cost</strong> - premiums can be significant.</li>
 <li><strong>Complexity</strong> - many managers prefer simpler instruments.</li>
 <li><strong>Bounded protection only</strong> - options protect against one side of the distribution, but not always at the cheapest total cost.</li>
 </ol>
-<p>This is especially important in classroom discussion. Students often assume options are always superior because they preserve upside. In reality, many firms view the premium as too expensive relative to the margin on the underlying sale.</p>
+<p>On face value, we may assume options are always superior because they preserve upside. In reality, many firms view the premium as too expensive relative to the margin on the underlying sale.</p>
 <p>The chapter also notes two practical forward-contract rules seen in many firms:</p>
 <ol type="1">
 <li>If a forward locks in a favorable accounting or settlement outcome, <strong>100% cover</strong> is often required.</li>

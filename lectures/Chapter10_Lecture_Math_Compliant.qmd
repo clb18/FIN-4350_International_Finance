@@ -462,7 +462,7 @@ Under the assumptions in the chapter, the money market hedge is superior.
 
 #### Break-even reinvestment rate
 
-The text also calculates the break-even investment rate that would make the two methods equivalent.
+We can also calculate the break-even investment rate that would make the two methods equivalent.
 
 Set:
 
@@ -499,7 +499,7 @@ This is an excellent finance insight because it shows that the relative attracti
 
 An **options hedge** gives the firm protection against unfavorable exchange-rate movements while still allowing participation in favorable movements.
 
-Because Ganado has a GBP receivable, it wants a **put option on GBP**. It can buy a 90-day put on **GBP 1,000,000** with strike price:
+Because Ganado has a GBP receivable, it wants a **put option on GBP**. Remember, a **put** is the right (but not the obligation) to sell an asset at a particular price at some point in the future. It can buy a 90-day put on **GBP 1,000,000** with strike price:
 
 $$
 \text{USD }1.75 = \text{GBP }1.00
@@ -521,6 +521,7 @@ $$
 
 So the future value cost of the option is USD 27,254.
 
+
 #### If the pound is above the strike at maturity
 
 Suppose the expected spot occurs:
@@ -540,6 +541,9 @@ Net of option cost:
 $$
 \text{USD }1,760,000 - \text{USD }27,254 = \text{USD }1,732,746
 $$
+**Why do we let the put expire if the price is above the strike price at maturity?**
+
+Remember that if the USD goes higher relative to the pound, that means that the dollar is weakening and it takes more dollars to buy 1 GB pound. That is profit for US firms, or at least more USD per GBP.
 
 #### If the pound falls below the strike
 
@@ -561,7 +565,7 @@ $$
 \text{USD }1,722,746
 $$
 
-That floor is lower than the certainty offered by the forward or money market hedge in this example, but the option preserves upside beyond the strike.
+**That floor is lower than the certainty offered by the forward or money market hedge in this example, but the option preserves upside beyond the strike.**
 
 ### Hedging Alternatives Compared
 
@@ -579,7 +583,7 @@ The chapter's graphical comparison makes two ideas especially clear:
 1. If management expects the exchange rate to move **against** the firm, the money market hedge is strongest in this example.
 2. If management expects the exchange rate to move **in favor** of the firm, the option may be attractive because it protects the downside while preserving upside.
 
-The choice is therefore not mechanical. It depends on two decision criteria that appear repeatedly in this chapter and in the test bank:
+The choice is therefore not mechanical. It depends on two decision criteria that the firm has to make:
 
 1. **The firm's risk tolerance**, and
 2. **Management's exchange-rate expectation and confidence in that view.**
@@ -631,7 +635,7 @@ $$
 \text{GBP }1,000,000 \times \text{USD }1.7540 = \text{USD }1,754,000
 $$
 
-This is certain and, in the chapter's example, lower than the expected unhedged cost based on the forecast spot rate.
+This is certain and, in this example, lower than the expected unhedged cost based on the forecast spot rate.
 
 #### Money Market Hedge
 
@@ -663,7 +667,7 @@ So in this specific example, the money market hedge is more expensive than the f
 
 #### Option Hedge
 
-For a payable, the correct option is a **call option on GBP**.
+For a payable, the correct option is a **call option on GBP**. As a reminder, a **call* is the right, but not the obligation, to buy and asset, at a set price, sometime in the future. 
 
 Ganado can buy a call on **GBP 1,000,000** with strike price:
 
@@ -712,12 +716,12 @@ Given an expected spot of USD 1.76 per pound, the **forward hedge** appears to b
 
 Again, the general logic is:
 
-- For a **receivable**, a firm fears depreciation of the foreign currency and may use a **put** or **sell forward**.
-- For a **payable**, a firm fears appreciation of the foreign currency and may use a **call** or **buy forward**.
+- For a **receivable**, a firm fears depreciation of the foreign currency/appreciation of the home currency and may use a **put** or **sell forward**.
+- For a **payable**, a firm fears appreciation of the foreign currency/depreciation of the home currency and may use a **call** or **buy forward**.
 
 ## Transaction Exposure Management in Practice
 
-The theory of hedging is tidy. Practice is not. Firms differ widely in what they hedge, how far out they hedge, how much they hedge, and which instruments they are willing to use.
+The theory of hedging is clean. Practice is not. Firms differ widely in what they hedge, how far out they hedge, how much they hedge, and which instruments they are willing to use.
 
 A key line from the chapter is worth emphasizing: **there are as many different approaches to transaction exposure management as there are firms.**
 
@@ -774,7 +778,7 @@ The logic is sensible:
 - short-dated exposures are more certain and more easily measured, so firms hedge more of them;
 - long-dated exposures are less certain, more likely to change, and more costly to hedge rigidly.
 
-The chapter notes that as maturity lengthens, the required percentage of forward cover often **decreases**, not increases. This is a practical test-bank point.
+The chapter notes that as maturity lengthens, the required percentage of forward cover often **decreases**, not increases. 
 
 A further implication is worth stating clearly: once firms hedge only part of an exposure and then decide selectively what to hedge beyond that, they are implicitly expressing a market view. That is one reason proportional hedging can shade into selective hedging and, at times, into speculation.
 
@@ -813,13 +817,13 @@ These numbers are revealing.
 - They provide certainty.
 - They fit well with clearly identified receivables and payables.
 
-**Options are used much less frequently.** The chapter gives three standard reasons:
+**Options are used much less frequently.** Here are three standard reasons:
 
 1. **Cost** - premiums can be significant.
 2. **Complexity** - many managers prefer simpler instruments.
 3. **Bounded protection only** - options protect against one side of the distribution, but not always at the cheapest total cost.
 
-This is especially important in classroom discussion. Students often assume options are always superior because they preserve upside. In reality, many firms view the premium as too expensive relative to the margin on the underlying sale.
+On face value, we may assume options are always superior because they preserve upside. In reality, many firms view the premium as too expensive relative to the margin on the underlying sale.
 
 The chapter also notes two practical forward-contract rules seen in many firms:
 
