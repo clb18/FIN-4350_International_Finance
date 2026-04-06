@@ -24,9 +24,20 @@ format:
 
 # Introduction
 
-Random Quote: **"Coyote is always waiting. And Coyote is always hungry."** **- Navajo folk saying**
+Think about this: 
 
-Textbook Quote: **"Operating exposure, also referred to as competitive exposure or strategic exposure, measures changes in present value of a firm resulting from changes in future operating cash flows caused by unexpected changes in exchange rates."**
+$$
+1.01^{365} = 37.783
+$$
+$$
+0.99^{365} = 0.0255
+$$
+Random Quote: **"The first principle is that you must not fool yourself and you are the easiest person to fool."** - Richard P. Feynman
+
+Bible Quote: "Suppose one of you wants to build a tower. Won't you first sit down and estimate the cost to see if you have enough money to complete it?" **- Luke 14:28**
+
+
+Textbook Quote: **"Coyote is always waiting. And Coyote is always hungry."** **- Navajo folk saying**
 
 **Quote from the opening of the chapter:** "Operating exposure analysis assesses the impact of changing exchange rates on a firm's operations over months and years and on its competitive position in relation to other firms."
 
