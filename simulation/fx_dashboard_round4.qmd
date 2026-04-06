@@ -1,0 +1,14 @@
+
+## FX Index Dashboard – End of Round 4
+
+| Country | FX Index | Status |
+|---|---|---|
+| Atlantica | 101.5 | Stable |
+| Noravia | 101.2 | Stable |
+| Pacifica | 101.0 | Stable |
+| Industralia | 100.9 | Stable / softening |
+| Mercatoria | 100.5 | Softening |
+| Petrovia | 100.2 | Softening |
+| Agrona | 99.8 | Softening |
+| Frontieria | 100.4 | Stable |
+

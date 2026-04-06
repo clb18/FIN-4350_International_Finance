@@ -1,0 +1,923 @@
+---
+title: "Chapter 12 - Operating Exposure"
+author: "Prof. Barker"
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 4
+    toc-expand: 1
+    number-sections: true
+    number-offset: 11
+    title-block-style: default
+  docx:
+    toc: true
+    number-sections: true
+    number-offset: 11
+  pdf:
+    toc: true
+    number-sections: true
+    number-offset: 11
+    geometry: margin=1in
+---
+
+# Introduction
+
+Random Quote: **"Coyote is always waiting. And Coyote is always hungry."** **- Navajo folk saying**
+
+Textbook Quote: **"Operating exposure, also referred to as competitive exposure or strategic exposure, measures changes in present value of a firm resulting from changes in future operating cash flows caused by unexpected changes in exchange rates."**
+
+**Quote from the opening of the chapter:** "Operating exposure analysis assesses the impact of changing exchange rates on a firm's operations over months and years and on its competitive position in relation to other firms."
+
+This chapter moves from the narrower concept of **transaction exposure** to the much broader question of how exchange rate changes reshape a firm's **future operating cash flows**, its **competitive position**, and therefore its **value**. The central issue is not simply whether a receivable or payable changes in home-currency value over the next few weeks. The deeper issue is whether a firm's prices, sales volumes, input costs, sourcing choices, financing patterns, and strategic flexibility change when exchange rates move unexpectedly.
+
+Operating exposure is therefore a **value problem**, a **cash flow problem**, and a **strategy problem**. It is often called **economic exposure**, **competitive exposure**, or **strategic exposure** because it captures the broader economic consequences of exchange rate changes rather than only the accounting consequences. A firm with no direct foreign-currency invoice exposure may still face major operating exposure if foreign competitors suddenly become cheaper in its home market. Likewise, a multinational with production, sourcing, and financing distributed across many countries may be able to absorb exchange rate shocks much better than a purely domestic firm.
+
+## Chapter Roadmap {.unnumbered}
+
+Major sections:
+
+1. **A Multinational's Operating Exposure** - how exposure arises from the structure of the multinational enterprise and from the currency composition of cash inflows and outflows.
+2. **Measuring Operating Exposure** - how economists and managers think about the short run, medium run, and long run when exchange rates move unexpectedly.
+3. **Strategic Management of Operating Exposure** - how diversification of operations and financing can position the firm to respond to market disequilibrium.
+4. **Proactive Management of Operating Exposure** - practical tools such as matching, risk-sharing, parallel loans, and swaps.
+
+------------------------------------------------------------------------
+
+## A Multinational's Operating Exposure
+
+Operating exposure begins with a simple but powerful observation: **firms are not exposed merely because currencies change; firms are exposed because exchange rate changes alter future operating cash flows**. That means we must understand the structure of the business before we can understand the exposure.
+
+A multinational enterprise does not experience operating exposure uniformly across all units. Different subsidiaries may have different **functional currencies, different pricing practices, different sourcing structures, and different competitive environments**. A German subsidiary selling primarily in EUR and buying primarily in EUR does not face the same operating exposure as a Chinese subsidiary that incurs most costs in CNY but earns revenues in a mixture of CNY, USD, and EUR.
+
+In the chapter's running example, **Ganado Corporation** has operations in the United States, Germany, and China. The parent ultimately reports consolidated results in USD, but each subsidiary operates in its own commercial environment. That commercial structure is what gives rise to operating exposure.
+
+### Core Idea
+
+Operating exposure is best thought of as the effect of an unexpected exchange rate change on the firm's future:
+
+- sales revenues;
+- input costs;
+- operating margins;
+- market share;
+- long-run strategic position.
+
+A useful way to frame the issue is this:
+
+> **Transaction exposure asks:** What happens to already-contracted foreign-currency cash flows?
+>
+> **Operating exposure asks:** What happens to future business itself?
+
+**That distinction is why operating exposure is so important. It is not just about the translation of known cash flows. It is about whether the business model becomes stronger or weaker.**
+
+### Same thing, many names
+
+You may hear several of these:
+
+- **Operating exposure** emphasizes the effect on operating cash flows.
+- **Economic exposure** emphasizes the effect on firm value.
+- **Competitive exposure** emphasizes the effect on competitive position.
+- **Strategic exposure** emphasizes management's need to respond structurally and strategically.
+
+These are not four completely separate exposures. They are best understood as different ways of looking at the same broad phenomenon or problem.
+
+### Static vs. Dynamic Operating Exposure
+
+A very important distinction in this chapter is between **static** and **dynamic** exposure.
+
+**Static exposure** focuses on current or near-term contractual cash flows. This overlaps with transaction exposure. It asks what happens to expected cash flows over the near horizon when prices and costs are relatively sticky.
+
+**Dynamic exposure** focuses on longer-run business adjustments. It asks how the firm, its customers, and its competitors respond over time. Prices may change, suppliers may change, production may shift, and customers may substitute toward or away from the firm's products.
+
+**Example:** What is the likelihood that a stock would increase or decrease 20% in one day, or even one week? Not that likely. But what is the likelihood that the same stock price could change significantly in one year? Much greater. This is the way to think about static and dynamic. It does not mean that static never changes, but rather that in the short run, the changes are much less significant. While in the long run, they are significantly greater. 
+
+So the analysis moves from:
+
+- fixed contracts and limited flexibility in the short run, (Static)
+
+to:
+
+- strategic adaptation and competitive response in the medium and long run (Dynamic).
+
+The Ganado example makes this distinction concrete. Suppose the USD depreciates against the EUR while the Chinese renminbi continues to strengthen gradually. The immediate effects and the later competitive effects are not the same.
+
+**A firm can have little or no short-run transaction exposure and still have meaningful operating exposure over time.**
+
+### Ganado China
+
+Ganado China is the most complicated unit in the example, and it is therefore the best place to begin.
+
+Its **costs** are largely domestic and denominated in CNY. But its **sales** are earned in multiple currencies:
+
+- domestic sales in CNY,
+- exports to Germany in EUR,
+- exports to the United States in USD.
+
+That means Ganado China is not protected by a single-currency matching structure. When the USD weakens, exports invoiced in USD generate fewer CNY proceeds in the short run. If the EUR does not move in the same way against CNY, EUR-denominated revenues may behave differently. The result is that profitability can fall immediately even before management has time to adjust strategy.
+
+In the short run:
+
+- USD sales translate into fewer CNY,
+- margins may shrink,
+- profitability falls.
+
+In the longer run:
+
+- Ganado China may try to raise export prices,
+- renegotiate internal transfer prices,
+- or change the markets to which it sells.
+
+This is a classic example of operating exposure arising from a **currency mismatch between revenues and costs**.
+
+### Ganado Germany
+
+Ganado Germany is a much cleaner case.
+
+Its cash inflows are primarily in EUR, and its major operating costs are also in EUR. Even components purchased from China are invoiced in EUR. That means Ganado Germany is largely **EUR-functional**.
+
+In the short run, if the USD falls against the EUR:
+
+- Ganado Germany may have little or no immediate transaction effect,
+- current local-currency operating margins may not change much,
+- reported profitability in EUR may initially remain stable.
+
+But that does **not** mean Ganado Germany is free of operating exposure.
+
+Over time, if Ganado China raises component prices or if relative European competitiveness changes, Ganado Germany can still be affected. It may experience higher input costs or altered competitive pressure. In other words, the immediate exposure is small, but the dynamic exposure may not be.
+
+### Ganado U.S.
+
+Ganado U.S. resembles Ganado Germany in one important way: its revenues and most costs are denominated in its own operating currency, USD.
+
+That means a fall in the USD may create little immediate transaction effect for the U.S. unit if its invoices and major costs are all in dollars. However, it may still face operating exposure over time if imported inputs rise in cost or if foreign competitors become more or less price competitive.
+
+For Ganado U.S., the medium-run issue is not immediate remeasurement of contractual cash flows. The medium-run issue is whether:
+
+- inputs from China become more expensive,
+- pricing behavior changes,
+- profit margins narrow,
+- market share shifts.
+
+So the U.S. unit reminds us that **home-currency invoicing does not eliminate operating exposure**.
+
+### Static versus dynamic
+
+A helpful summary is:
+
+| Unit | Short-run effect | Longer-run effect |
+|---|---:|---:|
+| Ganado China | clear margin pressure | may raise prices or restructure |
+| Ganado Germany | limited immediate effect | may face higher input costs and competitive shifts |
+| Ganado U.S. | limited immediate effect | may face higher input costs and margin pressure |
+
+The lesson is that operating exposure must be analyzed over time. A static snapshot is not enough.
+
+### Operating and Financing Cash Flows
+
+Next we look at the differences between **operating cash flows** and **financing cash flows**.
+
+This distinction matters because operating exposure concerns the business's underlying operations, but firms may also use financing policies to offset or match those operational risks.
+
+#### Operating cash flows
+
+Operating cash flows arise from normal business activities, such as:
+
+- receivables from customers,
+- payables to suppliers,
+- rents and lease payments,
+- royalty and license fees,
+- management fees,
+- intra-firm operating transfers.
+
+These are the flows tied directly to production, sourcing, selling, and ongoing operations.
+
+#### Financing cash flows
+
+Financing cash flows arise from capital structure choices, such as:
+
+- principal and interest on loans,
+- parent equity injections,
+- intercompany debt service,
+- dividends.
+
+Remember: **payment for goods and services is operating, not financing**. 
+
+
+From a valuation perspective, **operating cash flows are the primary driver of firm value**. Financing cash flows matter, but the underlying operating cash flow stream is what determines the economic strength of the business. That is why operating exposure is generally more important than translation exposure for the long-run health of the firm.
+
+At the same time, financing choices can be used strategically to create offsets. For example, if a firm has a steady inflow of CAD from export sales, it may choose CAD-denominated debt so that operating inflows service financing outflows in the same currency.
+
+That is one of the central ideas of the chapter: **use financing structure to support operating risk management**.
+
+### Expected versus Unexpected Changes in Cash Flow
+
+A crucial principle in this chapter is that **only unexpected exchange rate changes are part of operating exposure**.
+
+Why? Because expected changes should already be built into:
+
+- budgets,
+- forecast financial statements,
+- debt service planning,
+- investor valuations,
+- market prices.
+
+If management already expects a currency to depreciate, then the forecasted cash flows should already reflect that expectation. Similarly, if the market is reasonably efficient, investors should have already capitalized expected exchange rate changes into the firm's value.
+
+**Operating exposure is about surprise** not what is expected.
+
+#### Macroeconomic uncertainty
+
+The chapter broadens the discussion by noting that firms are not only exposed to foreign exchange surprises. They may also be exposed to broader **macroeconomic uncertainty**, such as changes in:
+
+- inflation,
+- interest rates,
+- national policy,
+- growth,
+- trade conditions,
+- capital flows.
+
+This is especially important conceptually because foreign exchange changes often arrive as part of a broader macroeconomic event. In practice, managers rarely separate exchange rate movements from the wider economic environment as neatly as textbook categories do.
+
+
+> Expected changes should already be reflected in planned operating results and valuation. Unexpected changes alter realized cash flows relative to those plans and therefore create exposure.
+
+------------------------------------------------------------------------
+
+## Measuring Operating Exposure
+
+Measuring operating exposure is difficult because it requires far more than simply listing foreign-currency receivables and payables. Management must estimate how exchange rate changes affect:
+
+- sales volume,
+- output prices,
+- input costs,
+- competitor responses,
+- sourcing decisions,
+- long-run strategic position.
+
+The chapter organizes this by **time horizon** and by the degree of market adjustment.
+
+### Framework of adjustment
+
+A useful summary is:
+
+| Phase | Time | Prices | Volumes | Market structure |
+|---|---|---|---|---|
+| Short run | less than 1 year | sticky or contract-bound | largely contracted | little structural change |
+| Medium run: equilibrium | 2 to 5 years | stronger pass-through | partial volume response | existing competitors adjust |
+| Medium run: disequilibrium | 2 to 5 years | partial or uneven pass-through | partial response | competitors adjust unevenly |
+| Long run | beyond 5 years | flexible | flexible | entry, exit, relocation, restructuring |
+
+**This table is central to the chapter because it tells us that operating exposure is not one number. It is a sequence of adjustments.**
+
+### Short Run
+
+In the short run, firms are constrained by existing budgets, contracts, and habits of operation.
+
+The short-run effect depends heavily on the **currency denomination of expected cash flows**. In this interval:
+
+- existing receivables and payables are largely fixed,
+- purchase commitments may already exist,
+- sales prices often cannot be changed quickly,
+- labor and supplier costs are often sticky,
+- volumes may already be committed.
+
+That means realized cash flows can differ from the budget if exchange rates move unexpectedly.
+
+The short run is the world of:
+
+- fixed contracts,
+- limited flexibility,
+- immediate margin pressure.
+
+A depreciation or appreciation can therefore help or hurt even if management would eventually like to adjust prices.
+
+#### Example: the misunderstood pricing equation
+
+The chapter's discussion of the export pricing equation is extremely useful pedagogically. Suppose a U.S. exporter prices for Japan. One can think of the foreign-currency price as:
+
+$$
+\text{Price}_{JPY} = \text{Price}_{USD} \times S_{JPY/USD}
+$$
+
+If the USD appreciates, then the JPY price rises when the exporter keeps the USD price fixed. That makes the product less competitive in Japan.
+
+This is the never-ending debate for so many exporters, which price should be "set" first? The price to the foreign customer in foreign currency or the price the manufacturer sells at home?
+
+That choice is at the heart of short-run operating exposure.
+
+### Medium Run: Equilibrium
+
+In the medium run under **equilibrium conditions**, parity relationships among exchange rates, prices, and interest rates are assumed to hold reasonably well. Over time, prices and costs adjust.
+
+In this case, the firm may be able to restore its expected competitive position by adjusting:
+
+- output prices,
+- wages,
+- supplier contracts,
+- sourcing patterns.
+
+If equilibrium holds continuously and the firm can adjust freely, operating exposure may be very small or even close to zero. Why? Because the exchange rate change is eventually offset by broader price and cost adjustments.
+
+**Important qualification** - This does **not** mean the exchange rate never matters. It means that under equilibrium, firms can eventually adapt enough that realized cash flows may converge toward what had been expected in real economic terms.
+
+**However,** in medium-run equilibrium, the country in which cash flows originate becomes more important than the nominal currency of denomination alone. National inflation, interest rates, and policy conditions affect whether the firm can restore real margins.
+
+### Medium Run: Disequilibrium
+
+This is the most practically important case.
+
+Under disequilibrium, exchange rates move but prices and costs do **not** adjust fully or smoothly. Competitors respond unevenly. Markets may be slow, sticky, or institutionally constrained.
+
+In this environment:
+
+- pass-through may be incomplete,
+- some firms may absorb margin losses,
+- some firms may cut or raise prices aggressively,
+- customers may switch suppliers,
+- realized cash flows diverge from expectations,
+- firm value may change materially.
+
+This is why operating exposure is fundamentally a **competitive** concept.
+
+A firm cannot analyze its own prices and costs in **isolation**. It must ask:
+
+- How will rivals respond?
+- Are they domestic or foreign?
+- Are their costs in the same currency or different currencies?
+- Can they reprice faster?
+- Do they have alternative plants or sourcing options?
+
+#### Why disequilibrium matters so much
+
+If parity conditions do not hold and adjustment is incomplete, then exchange rate changes alter relative prices and relative costs in meaningful ways. That is when winners and losers emerge.
+
+### Long Run
+
+In the long run, operating exposure becomes fully strategic.
+
+Over horizons beyond five years, firms can:
+
+- enter new markets,
+- exit weak markets,
+- relocate production,
+- redesign products,
+- change financing structures,
+- build new supplier networks.
+
+Competitors can do the same. New firms can enter. Old firms can exit.
+
+Thus long-run exposure is not just about margin changes on current products. It is about the evolution of the industry's structure.
+
+
+**NOTE:** Even a purely domestic firm can have long-run operating exposure. If foreign firms operating with undervalued currencies can export cheaply into the domestic market, the domestic firm faces competitive pressure whether or not it ever invoices a foreign customer.
+
+This is one of the most important conceptual insights in the chapter:
+
+> A firm does not need foreign-currency cash flows to have foreign exchange operating exposure.
+
+
+::: {.callout-important}
+## Simulation Connection
+
+In our simulation, exchange rate stability does **not** necessarily mean the economy is healthy.  
+Rounds 4–5 illustrate **operating exposure**: earlier monetary tightening supported currencies, but it is now contributing to slower trade, weaker demand, and softer growth.
+
+**Key takeaway:** A stable currency can coexist with a weakening economy.
+:::
+
+## Operating Exposure in the Simulation Environment {.unnumbered}
+
+In our simulation, exchange rate movements are only part of the story. Chapter 12 emphasizes that operating exposure is broader than transaction exposure—it reflects how entire economic systems respond to changes in exchange rates and macroeconomic conditions.
+
+**Note:** A stable currency does not imply a stable economy.
+
+In Rounds 4–5, many countries have achieved relative exchange rate stability. However, global economic conditions are deteriorating. This reflects operating exposure at the macro level—where growth, trade, and demand respond to earlier policy decisions.
+
+## Short Run vs. Medium Run: Policy Timing and Real Effects {.unnumbered}
+
+Chapter 12 distinguishes between short-run rigidity and medium-run adjustment.
+
+Short Run (Rigid System)
+	•	Prices are sticky
+	•	Contracts are fixed
+	•	Costs are difficult to adjust
+
+$$\text{Result: Real economic effects emerge quickly}$$
+
+**Simulation Connection**
+
+In earlier rounds:
+	•	Countries tightened monetary policy
+	•	Attempted to stabilize currencies
+
+In Rounds 4–5:
+	•	Those policies are now impacting output and growth
+
+**You made the policy decision earlier.
+Now you are experiencing its real economic consequences.**
+
+## Disequilibrium: Why Stability Can Still Feel Like a Crisis {.unnumbered}
+
+Chapter 12 highlights an important distinction:
+	•	Equilibrium: Full adjustment of prices, costs, and behavior
+	•	Disequilibrium: Partial adjustment → real distortions remain
+
+**Simulation Connection**
+
+The global system is currently in disequilibrium:
+	•	Policies have changed (tightening)
+	•	But economies have not fully adjusted
+
+This produces:
+	•	Slower growth
+	•	Weakening trade
+	•	Uneven country performance
+
+**Markets may appear stable (FX), while the underlying economy is not.**
+
+## The Price vs. Volume Effect (The Hidden Channel) {.unnumbered}
+
+Operating exposure works through three channels:
+	•	Prices
+	•	Costs
+	•	Volumes (most important in this phase)
+
+**Simulation Connection**
+
+In Rounds 4–5:
+	•	Exchange rates are relatively stable
+	•	But global demand is weakening
+
+This leads to:
+$$\text{Lower trade volumes} \rightarrow \text{Lower growth}$$
+
+Even if:
+	•	Prices are stable
+	•	Currencies are stable
+
+**The current slowdown is not primarily a price problem—it is a volume problem.**
+
+## Operating Exposure as Macroeconomic Exposure {.unnumbered}
+
+A critical extension from Chapter 12:
+
+Operating exposure includes sensitivity to broader macroeconomic conditions, not just exchange rates.
+
+**Simulation Connection**
+
+Countries are now exposed to:
+	•	Global demand conditions
+	•	Trade linkages
+	•	Policy spillovers
+
+This explains why:
+	•	Some economies weaken despite stable FX
+	•	Commodity economies respond differently than industrial economies
+	•	Policy coordination (or lack thereof) matters
+	
+## Questions to think about: {.unnumbered}
+
+	•	Did your country stabilize its currency at the cost of growth?
+	•	Are you experiencing the lagged effects of earlier policy tightening?
+	•	Is your vulnerability coming from price effects or volume effects?
+
+
+
+------------------------------------------------------------------------
+
+## Strategic Management of Operating Exposure
+
+The objective of strategic management is **not** merely to react after an exchange rate shock. It is to build a structure that allows the firm to respond effectively when disequilibrium occurs.
+
+The text emphasizes a critical point:
+
+> Management does not need to predict disequilibrium perfectly. It needs to recognize it quickly and be positioned to respond.
+
+That is why strategic management focuses on **diversification of operations** and **diversification of financing**.
+
+### Two broad strategic alternatives
+
+Management can respond by:
+
+1. changing operating and financing policies; and
+2. diversifying the firm's operating and financing structure in advance.
+
+The second is especially important because it gives the firm flexibility.
+
+### Diversifying Operations
+
+Diversifying operations means diversifying:
+
+- markets served,
+- production locations,
+- sourcing locations,
+- currency composition of sales,
+- currency composition of costs.
+
+A firm with geographically diversified production and sourcing can respond to exchange rate shocks more effectively than a concentrated firm.
+
+#### How operational diversification helps
+
+When disequilibrium appears, management may be able to:
+
+- shift sourcing to relatively cheaper countries;
+- lengthen production runs in a lower-cost plant;
+- reduce output in a now-uncompetitive location;
+- push marketing in markets where the product has become more price competitive;
+- exploit relative changes in import and export competitiveness.
+
+This is why multinational firms often have an advantage over purely domestic firms. They possess internal information and internal flexibility.
+
+#### Portfolio effect
+
+Even if management does not actively make dramatic shifts, diversification can still reduce cash-flow variability. Some units may be hurt by an exchange rate change while others are helped. The net effect may partially offset.
+
+That is a **portfolio effect**.
+
+#### Why domestic firms are disadvantaged
+
+Purely domestic firms often:
+
+- do not see the comparative signals as quickly,
+- lack foreign production or sourcing options,
+- cannot easily shift sales into foreign markets,
+- do not possess internal foreign operating data.
+
+As a result, they may bear the full force of competitive pressure without having the flexibility to respond.
+
+#### Important limitation
+
+Diversification is not free. Some industries require large-scale production, specialized clusters, skilled labor, or proximity to research facilities. High-technology firms, for example, may not be able to scatter production globally without sacrificing efficiency.
+
+So diversification is powerful, but it is constrained by technology, scale economies, and industry structure.
+
+#### Example: United Kingdom and Europe
+
+The text's trans-channel example is useful here. Long swings in the GBP/EUR relationship changed the relative competitiveness of British and Continental European firms over long periods. A firm with operations and markets on both sides of the Channel could respond more effectively than a firm anchored in only one location.
+
+### Diversifying Financing
+
+Diversifying financing means raising funds:
+
+- in more than one market,
+- in more than one country,
+- and often in more than one currency.
+
+This allows the firm to take advantage of temporary deviations from equilibrium conditions such as the international Fisher effect.
+
+#### Why it matters
+
+If a firm can borrow where it is best known and then rearrange cash flow exposure through financing choices, it may be able to lower:
+
+- cost of capital,
+- financing rigidity,
+- vulnerability to local capital market segmentation.
+
+This is especially important for firms in emerging markets, where access to global capital can materially improve funding flexibility.
+
+#### Pre-positioning
+
+The chapter stresses that firms cannot instantly decide to diversify financing after a shock unless they already have market access and reputation. A firm must already be known in the relevant capital markets and banking networks.
+
+So financing diversification is also a **pre-positioning** strategy.
+
+#### Classroom takeaway
+
+A strong answer to the test-bank question on strategic response would note:
+
+- diversify operations;
+- diversify financing;
+- recognize disequilibrium quickly;
+- use structural flexibility rather than trying to forecast every shock precisely.
+
+------------------------------------------------------------------------
+
+## Proactive Management of Operating Exposure
+
+The chapter then turns to more specific tools. These are **proactive** because they are deliberate policies put in place to offset or smooth anticipated exposure.
+
+The five major approaches are:
+
+1. matching currency cash flows;
+2. risk-sharing agreements;
+3. back-to-back or parallel loans;
+4. cross-currency swaps;
+5. contractual approaches such as options or forwards.
+
+These are not perfect substitutes. Each works best under certain conditions.
+
+### Matching Currency Cash Flows
+
+**Matching** means creating an offsetting cash outflow in the same currency as an expected long-term cash inflow, or vice versa.
+
+This is one of the most intuitive tools in the chapter.
+
+#### Basic logic
+
+Suppose a U.S. firm has a continuing stream of CAD receivables from export sales to Canada. Instead of hedging each receivable separately with forwards, the firm could borrow CAD and use the CAD export receipts to service the CAD debt.
+
+That creates:
+
+- an operating inflow in CAD,
+- a financing outflow in CAD.
+
+The two offset one another.
+
+#### Why it works
+
+When the exposure is relatively stable and predictable, matching is often more practical than repeatedly entering individual hedge contracts.
+
+#### Natural hedge
+
+A similar idea arises if the firm can create a **natural hedge** by matching operating inflows with operating outflows. For example, a U.S. exporter with CAD receipts might source materials from Canada and pay those suppliers in CAD.
+
+Then the firm has:
+
+- CAD receivables,
+- CAD payables.
+
+If the timing and magnitude are similar, operating exposure is reduced naturally through the business structure.
+
+#### Currency switching
+
+A related technique is **currency switching**. A firm may choose to pay a third-country supplier in the currency it is receiving elsewhere. For example, a U.S. firm with steady CAD inflows may pay another foreign supplier in CAD if that supplier is willing to accept it.
+
+#### Simple classroom interpretation
+
+A predictable long-run inflow in a foreign currency is best offset by creating a predictable outflow in that same currency.
+
+### Risk-Sharing Agreements
+
+A **risk-sharing agreement** is a contractual arrangement between buyer and seller in which they agree to split the effects of exchange rate movements outside a specified range.
+
+This is especially useful when the relationship is long term and both sides value stability.
+
+#### Why firms use it
+
+A continuing buyer-supplier relationship can be damaged if one party bears all of the currency shock. Risk-sharing reduces the likelihood that exchange rate volatility destroys a commercially valuable relationship.
+
+#### General structure
+
+The parties choose:
+
+- a central or base exchange rate,
+- an acceptable band or range,
+- a rule for splitting deviations outside the band.
+
+Inside the band, the normal pricing rule applies. Outside the band, gains or losses are shared.
+
+#### Ford-Mazda style illustration
+
+The chapter presents a structure in which payments are made in JPY, but if the exchange rate moves outside the agreed range, the excess movement is shared equally.
+
+The formula is conceptually simple:
+
+1. determine whether the spot rate is outside the contractual band;
+2. measure the amount outside the band;
+3. split that amount according to the agreed rule;
+4. use the adjusted rate to settle the invoice.
+
+#### Why this is attractive
+
+Risk-sharing:
+
+- smooths large currency shocks,
+- preserves supplier relationships,
+- reduces the incentive for one side to walk away,
+- spreads pain and gain more symmetrically.
+
+The Harley-Davidson example shows how this can be implemented using neutral, sharing, and renegotiation zones.
+
+#### Important point
+
+Risk-sharing does **not** eliminate risk. It reallocates and smooths it.
+
+### Back-to-Back or Parallel Loans
+
+A **back-to-back loan** or **parallel loan** occurs when firms in different countries lend each other's currencies to each other's subsidiaries for a specified period.
+
+This is an older but still conceptually important technique.
+
+#### Basic structure
+
+Imagine:
+
+- a British parent wants to finance its Dutch subsidiary,
+- a Dutch parent wants to finance its British subsidiary.
+
+Instead of using the foreign exchange market directly:
+
+- the British parent lends GBP to the Dutch firm's British subsidiary,
+- the Dutch parent lends EUR to the British firm's Dutch subsidiary.
+
+At maturity, the loans are repaid.
+
+#### Why it hedges
+
+Each firm effectively borrows the currency it needs while repaying in the same currency it borrowed. That reduces direct exchange risk.
+
+#### Advantages
+
+- can avoid direct exposure in the foreign exchange market;
+- may help when capital transfer rules are restrictive;
+- offsets exposure structurally.
+
+#### Major impediments
+
+The chapter highlights two main problems:
+
+1. finding the right counterparty;
+2. counterparty default risk.
+
+Even though each side effectively holds collateral in another currency, finding a matching partner with the right amount, maturity, and timing is difficult.
+
+So parallel loans are elegant in theory, but often cumbersome in practice.
+
+### Cross-Currency Swaps
+
+A **cross-currency swap** resembles a back-to-back loan, but it is typically arranged through a swap dealer or bank and is treated as an off-balance-sheet transaction rather than as conventional debt.
+
+This is one of the most important practical tools in modern international finance.
+
+#### Basic idea
+
+Two firms with opposite currency needs agree, through a dealer, to exchange streams of cash flows in different currencies.
+
+For example:
+
+- a Japanese firm earning USD from U.S. sales may want USD debt service instead of JPY debt service,
+- a U.S. firm earning JPY from Japanese sales may want JPY debt service instead of USD debt service.
+
+A swap dealer intermediates so that:
+
+- the Japanese firm pays USD and receives JPY,
+- the U.S. firm pays JPY and receives USD.
+
+Each firm can then use the foreign-currency operating inflow to service what is effectively debt in that same currency.
+
+#### Why firms prefer swaps to parallel loans
+
+Swaps are often easier because:
+
+- dealers can find counterparties more efficiently;
+- the original counterparties often remain anonymous;
+- the terms can be customized more readily;
+- the transaction avoids some of the practical friction of direct paired loans.
+
+#### Accounting advantage
+
+The chapter notes an important accounting feature:
+
+- the swap is generally treated as a foreign exchange transaction rather than conventional debt,
+- the obligation to reverse the swap is treated like a forward contract,
+- it therefore does not appear as long-term debt in the same way as a back-to-back loan.
+
+This is why a strong test-bank answer should mention that currency swaps can help hedge operating exposure **without placing the equivalent loan directly on the balance sheet**.
+
+### Contractual Approaches: Hedging the Unhedgeable
+
+The final section addresses an important debate: can firms hedge long-run operating exposure with contractual derivatives such as forwards and options?
+
+Traditional theory is skeptical because operating exposure is broad, long run, and dependent on competitor response. Yet some firms do attempt it.
+
+#### Why this is controversial
+
+To hedge operating exposure contractually, a firm must believe it can forecast:
+
+1. its own future foreign-currency cash flows; and
+2. the likely behavior of competitors and markets.
+
+The second requirement is the difficult one. A firm may forecast its own revenue stream reasonably well, but forecasting competitor reaction is much harder.
+
+#### Merck example
+
+The chapter cites Merck as an example of a company willing to use long-term OTC currency options to protect against adverse exchange rate changes. Merck's management presumably believes that its product markets, regulatory conditions, and revenue streams are stable enough to justify such long-term hedging.
+
+#### Why the hedge may still disappoint
+
+Even if the derivative pays off when the currency moves adversely, the firm may still be strategically weaker than before. A derivative can protect accounting earnings or cash flow to some extent, but it does not create:
+
+- new plants,
+- new suppliers,
+- better market access,
+- stronger competitive position.
+
+So the chapter is cautious: contractual hedges may help, but they may also be expensive and may be less effective than structural adaptation.
+
+#### Fixed exchange rates and moral hazard
+
+The chapter also raises the issue that firms operating under pegged or managed exchange rates may underestimate currency risk and behave as though exchange rates will not change. This can create **moral hazard**: firms take on more currency risk because they believe someone else, often the central bank, will absorb the adjustment.
+
+That is particularly relevant in emerging markets.
+
+------------------------------------------------------------------------
+
+## Concluding Summary
+
+Operating exposure is the broadest and arguably the most important foreign exchange exposure because it connects exchange rate changes to the firm's future operating cash flows and therefore to firm value.
+
+The major lessons of the chapter are:
+
+- operating exposure is also called economic, competitive, or strategic exposure;
+- it arises from unexpected, not expected, exchange rate changes;
+- it must be analyzed over time: short run, medium run, and long run;
+- it depends on prices, costs, volumes, and competitor responses;
+- multinational diversification in operations and financing can reduce vulnerability;
+- proactive tools include matching, risk-sharing, back-to-back loans, swaps, and sometimes contractual hedges;
+- structural flexibility is usually more powerful than hoping to forecast exchange rates perfectly.
+
+------------------------------------------------------------------------
+
+## Mini-Case Application: Brexit and Rolls-Royce {.unnumbered}
+
+The Brexit mini-case is an excellent capstone because it shows the difference between **transaction hedging** and **true operating exposure management**.
+
+Rolls-Royce had a structural mismatch:
+
+- a large share of sales linked to USD,
+- a large share of costs linked to GBP,
+- and additional EUR-linked costs from continental sourcing.
+
+That means Rolls-Royce was effectively:
+
+- **long USD**, and
+- **short GBP**.
+
+When GBP fell sharply after the Brexit vote, the firm's export competitiveness improved. In principle, that should have helped Rolls-Royce. But because the firm had already locked in large forward hedge positions, it did not enjoy the full short-run benefit of the weaker pound.
+
+### What the case teaches
+
+1. **Contractual hedges can stabilize short-run cash flows, but they cannot fully replace structural alignment.**
+2. **A favorable currency movement can still look disappointing if the firm has already locked in rates through hedging.**
+3. **Long-run operating exposure after Brexit involved far more than the GBP exchange rate.** It also involved trade access, regulation, documentation, investment location, and supply-chain configuration.
+
+### A good discussion question
+
+If you were on the leadership team, would you respond mainly with:
+
+- more hedging,
+- more continental production,
+- more supplier diversification,
+- more financing diversification,
+- or a combination?
+
+The best answer is almost certainly **a combination**, with emphasis on structural flexibility rather than contractual hedging alone.
+
+------------------------------------------------------------------------
+
+## Key Terms {.unnumbered}
+
+- Operating exposure
+- Economic exposure
+- Competitive exposure
+- Strategic exposure
+- Static exposure
+- Dynamic exposure
+- Operating cash flows
+- Financing cash flows
+- Disequilibrium
+- Matching
+- Natural hedge
+- Currency switching
+- Risk-sharing agreement
+- Back-to-back loan
+- Parallel loan
+- Cross-currency swap
+- Contractual hedge
+- Macroeconomic uncertainty
+
+------------------------------------------------------------------------
+
+## Review Questions for Class Discussion {.unnumbered}
+
+1. Why are operating exposure, economic exposure, competitive exposure, and strategic exposure closely related terms?
+2. Why is operating exposure usually more important for long-run firm health than translation exposure?
+3. Why do expected exchange rate changes not count as operating exposure in the strict sense?
+4. How does the time horizon change the analysis of exposure?
+5. What is the difference between static and dynamic exposure?
+6. Why can a purely domestic firm still face operating exposure?
+7. How does diversification of operations reduce exposure?
+8. How does diversification of financing reduce exposure?
+9. Why are matching and natural hedges often attractive?
+10. Why might a firm prefer a cross-currency swap to a parallel loan?
+11. Why is contractual hedging of operating exposure controversial?
+12. What does the Rolls-Royce case teach us about the limits of derivative hedging?
+
+------------------------------------------------------------------------
+
+## Instructor Notes {.unnumbered}
+
+
+- Operating exposure measures the change in firm value resulting from unexpected exchange-rate-induced changes in future operating cash flows.
+- Operating exposure is far more important for long-run business health than transaction or translation exposure.
+- Operating cash flows arise from goods, services, royalties, rents, and management fees; financing cash flows arise from debt service, equity injections, and dividends.
+- Payment for goods and services is an operating cash flow, not a financing cash flow.
+- In the short run, prices and costs are relatively sticky; in the long run, both prices and volumes are much more flexible.
+- A depreciation of the home currency generally tends to improve export competitiveness and reduce import competitiveness, other things equal.
+- Management does not need to predict disequilibrium perfectly; it needs to recognize it and be positioned to respond.
+- Diversifying operations and diversifying financing are the two major strategic approaches.
+- Matching, risk-sharing, parallel loans, and cross-currency swaps are among the most common proactive policies.
+- Currency swaps typically offer an accounting advantage because they are treated more like foreign exchange transactions than conventional on-balance-sheet debt.
+- Contractual hedges can support exposure management, but the evidence does not suggest that they fully eliminate long-run operating exposure.
+

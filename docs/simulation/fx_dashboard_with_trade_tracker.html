@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FX Market Dashboard – International Finance</title>
+<title>Global Dashboard – International Finance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../simulation/index.html">IF Simulation</a></li><li class="breadcrumb-item"><a href="../simulation/fx_dashboard_with_trade_tracker.html">FX Market Dashboard</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../simulation/index.html">IF Simulation</a></li><li class="breadcrumb-item"><a href="../simulation/fx_dashboard_with_trade_tracker.html">Global Dashboard</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -205,6 +205,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Chapter 10 - Transaction Exposure</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/Chapter12_Lecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chapter 12 - Operating Exposure</span></a>
+  </div>
+</li>
       </ul>
   </li>
       </ul>
@@ -222,6 +228,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../simulation/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview - START HERE</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../simulation/fx_dashboard_with_trade_tracker.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Global Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -246,12 +258,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../simulation/deliverables.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Deliverables</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../simulation/fx_dashboard_with_trade_tracker.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">FX Market Dashboard</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -286,16 +292,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fx-index-dashboard-end-of-round-3" id="toc-fx-index-dashboard-end-of-round-3" class="nav-link active" data-scroll-target="#fx-index-dashboard-end-of-round-3"><span class="header-section-number">1</span> FX Index Dashboard – End of Round 3</a></li>
-  <li><a href="#trade-alliance-tracker-current-round" id="toc-trade-alliance-tracker-current-round" class="nav-link" data-scroll-target="#trade-alliance-tracker-current-round"><span class="header-section-number">2</span> Trade &amp; Alliance Tracker – Current Round</a>
-  <ul class="collapse">
-  <li><a href="#active-agreements" id="toc-active-agreements" class="nav-link" data-scroll-target="#active-agreements"><span class="header-section-number">2.1</span> Active Agreements</a></li>
-  <li><a href="#bilateral-relationships" id="toc-bilateral-relationships" class="nav-link" data-scroll-target="#bilateral-relationships"><span class="header-section-number">2.2</span> Bilateral Relationships</a></li>
-  <li><a href="#multilateral-open-agreements" id="toc-multilateral-open-agreements" class="nav-link" data-scroll-target="#multilateral-open-agreements"><span class="header-section-number">2.3</span> Multilateral / Open Agreements</a></li>
-  <li><a href="#strategic-goods-agreements" id="toc-strategic-goods-agreements" class="nav-link" data-scroll-target="#strategic-goods-agreements"><span class="header-section-number">2.4</span> Strategic Goods Agreements</a></li>
-  </ul></li>
-  <li><a href="#countries-without-major-agreements" id="toc-countries-without-major-agreements" class="nav-link" data-scroll-target="#countries-without-major-agreements"><span class="header-section-number">3</span> Countries Without Major Agreements</a></li>
-  <li><a href="#how-to-interpret-the-fx-index" id="toc-how-to-interpret-the-fx-index" class="nav-link" data-scroll-target="#how-to-interpret-the-fx-index"><span class="header-section-number">4</span> How to Interpret the FX Index</a></li>
+  <li><a href="#fx-index-dashboard-end-of-round-4" id="toc-fx-index-dashboard-end-of-round-4" class="nav-link active" data-scroll-target="#fx-index-dashboard-end-of-round-4"><span class="header-section-number">1</span> FX Index Dashboard – End of Round 4</a></li>
+  <li><a href="#trade-alliance-tracker-end-of-round-4" id="toc-trade-alliance-tracker-end-of-round-4" class="nav-link" data-scroll-target="#trade-alliance-tracker-end-of-round-4"><span class="header-section-number">2</span> Trade &amp; Alliance Tracker – End of Round 4</a></li>
+  <li><a href="#active-trade-relationships" id="toc-active-trade-relationships" class="nav-link" data-scroll-target="#active-trade-relationships"><span class="header-section-number">3</span> Active Trade Relationships</a></li>
+  <li><a href="#market-interpretation" id="toc-market-interpretation" class="nav-link" data-scroll-target="#market-interpretation"><span class="header-section-number">4</span> Market Interpretation</a></li>
+  <li><a href="#countries-most-likely-to-benefit-from-deeper-trade-integration" id="toc-countries-most-likely-to-benefit-from-deeper-trade-integration" class="nav-link" data-scroll-target="#countries-most-likely-to-benefit-from-deeper-trade-integration"><span class="header-section-number">5</span> Countries Most Likely to Benefit from Deeper Trade Integration</a></li>
+  <li><a href="#economic-conditions-index-end-of-round-4" id="toc-economic-conditions-index-end-of-round-4" class="nav-link" data-scroll-target="#economic-conditions-index-end-of-round-4"><span class="header-section-number">6</span> Economic Conditions Index – End of Round 4</a></li>
   </ul>
 </nav>
 </nav>
@@ -306,9 +308,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../simulation/index.html">IF Simulation</a></li><li class="breadcrumb-item"><a href="../simulation/fx_dashboard_with_trade_tracker.html">FX Market Dashboard</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../simulation/index.html">IF Simulation</a></li><li class="breadcrumb-item"><a href="../simulation/fx_dashboard_with_trade_tracker.html">Global Dashboard</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">FX Market Dashboard</h1>
+<h1 class="title">Global Dashboard</h1>
 </div>
 
 
@@ -325,9 +327,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="fx-index-dashboard-end-of-round-3" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="fx-index-dashboard-end-of-round-3"><span class="header-section-number">1</span> FX Index Dashboard – End of Round 3</h2>
-<p>The FX Index tracks how each currency is performing in the market (in alphabetical order).</p>
+<section id="fx-index-dashboard-end-of-round-4" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="fx-index-dashboard-end-of-round-4"><span class="header-section-number">1</span> FX Index Dashboard – End of Round 4</h2>
+<p>The FX Index tracks how each currency is performing in the market <strong>without requiring students to do any calculations</strong>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -358,52 +360,52 @@ Note
 </thead>
 <tbody>
 <tr class="odd">
-<td>Agrona</td>
-<td style="text-align: right;">100.9</td>
-<td>Stable / improving</td>
-<td>Tightening, austerity, and strategic-goods negotiations reduced earlier market concerns.</td>
-</tr>
-<tr class="even">
 <td>Atlantica</td>
-<td style="text-align: right;">102.0</td>
-<td>Stable / strengthening</td>
-<td>Indirect intervention aimed at stabilization, combined with open trade and credibility, reinforced Atlantica’s anchor role.</td>
-</tr>
-<tr class="odd">
-<td>Frontieria</td>
-<td style="text-align: right;">101.1</td>
+<td style="text-align: right;">101.4</td>
 <td>Stable</td>
-<td>Restricted capital and indirect stabilization measures preserved the gains made in earlier rounds.</td>
-</tr>
-<tr class="even">
-<td>Industralia</td>
-<td style="text-align: right;">101.7</td>
-<td>Stable / strengthening</td>
-<td>Markets responded positively to its cooperative stance and wider trade framework.</td>
-</tr>
-<tr class="odd">
-<td>Mercatoria</td>
-<td style="text-align: right;">101.2</td>
-<td>Stable / strengthening</td>
-<td>Trade diplomacy and indirect intervention improved sentiment while its managed capital system limited volatility.</td>
+<td>Credibility remains strong, though markets now read policy partly through a growth lens.</td>
 </tr>
 <tr class="even">
 <td>Noravia</td>
-<td style="text-align: right;">101.9</td>
-<td>Stable / strengthening</td>
-<td>Tight monetary policy and strategic-goods diplomacy supported the currency despite fiscal stimulus.</td>
+<td style="text-align: right;">101.0</td>
+<td>Stable</td>
+<td>Tight policy still supports the currency, but slower growth is becoming a concern.</td>
 </tr>
 <tr class="odd">
 <td>Pacifica</td>
-<td style="text-align: right;">101.6</td>
-<td>Stable / strengthening</td>
-<td>Direct support for the currency and multilateral trade outreach produced one of the strongest gains this round.</td>
+<td style="text-align: right;">101.2</td>
+<td>Stable</td>
+<td>Trade links and earlier support continue to support stability.</td>
+</tr>
+<tr class="even">
+<td>Industralia</td>
+<td style="text-align: right;">100.8</td>
+<td>Stable / softening</td>
+<td>Industrial and trade exposure leave it more vulnerable to slower external demand.</td>
+</tr>
+<tr class="odd">
+<td>Mercatoria</td>
+<td style="text-align: right;">100.7</td>
+<td>Stable / softening</td>
+<td>Trade diplomacy helps, but export dependence matters more in a weaker global environment.</td>
 </tr>
 <tr class="even">
 <td>Petrovia</td>
-<td style="text-align: right;">101.1</td>
+<td style="text-align: right;">100.4</td>
+<td>Softening</td>
+<td>Commodity-linked economies are beginning to feel the effects of weaker demand.</td>
+</tr>
+<tr class="odd">
+<td>Agrona</td>
+<td style="text-align: right;">99.7</td>
+<td>Softening</td>
+<td>Fiscal discipline remains credible, but commodity sensitivity is creating renewed market pressure.</td>
+</tr>
+<tr class="even">
+<td>Frontieria</td>
+<td style="text-align: right;">100.2</td>
 <td>Stable</td>
-<td>Bilateral outreach with Agrona modestly improved sentiment in a still resource-sensitive economy.</td>
+<td>Restricted capital and cautious policy continue to limit volatility.</td>
 </tr>
 </tbody>
 </table>
@@ -417,13 +419,13 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Reminder:</strong> The FX Index is a summary indicator. Your job is to submit a coherent policy package that restores confidence or adjusts the regime when conditions change.</p>
+<p><strong>Reminder:</strong> The FX Index is a summary indicator. A stable currency does not necessarily mean a strong economy.</p>
 </div>
 </div>
 </section>
-<section id="trade-alliance-tracker-current-round" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="trade-alliance-tracker-current-round"><span class="header-section-number">2</span> Trade &amp; Alliance Tracker – Current Round</h2>
-<p>This section tracks formal trade agreements, strategic-goods agreements, and emerging alliances formed during the simulation.</p>
+<section id="trade-alliance-tracker-end-of-round-4" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="trade-alliance-tracker-end-of-round-4"><span class="header-section-number">2</span> Trade &amp; Alliance Tracker – End of Round 4</h2>
+<p>Trade diplomacy remains active, but the market is now evaluating agreements through the lens of the <strong>developing global slowdown</strong>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -434,245 +436,174 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>How to use this section:</strong> Review which countries have entered agreements, which countries remain outside major blocs, and how alliances may affect trade flows, credibility, and exchange-rate stability.</p>
+<p><strong>Interpretation:</strong> Agreements now matter not only for currency stability, but also for whether countries can preserve trade flows and soften the impact of weaker global demand.</p>
 </div>
 </div>
-<section id="active-agreements" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="active-agreements"><span class="header-section-number">2.1</span> Active Agreements</h3>
+</section>
+<section id="active-trade-relationships" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="active-trade-relationships"><span class="header-section-number">3</span> Active Trade Relationships</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Agreement Name</th>
+<th>Agreement / Relationship</th>
 <th>Type</th>
-<th>Participating Countries</th>
-<th>Economic Purpose</th>
-<th>Expected Currency / Market Effect</th>
-<th>Status</th>
+<th>Countries</th>
+<th>Current Market View</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Atlantica–Pacifica Trade Link</td>
-<td>Bilateral</td>
-<td>Atlantica, Pacifica</td>
-<td>Deepen bilateral trade ties</td>
-<td>Mild support for both currencies through stronger trade expectations</td>
-<td>Proposed</td>
+<td>Atlantica–Pacifica–Noravia Link</td>
+<td>Bilateral / overlapping outreach</td>
+<td>Atlantica, Pacifica, Noravia</td>
+<td>Helpful for market access and credibility, but still developing</td>
 </tr>
 <tr class="even">
-<td>Noravia Strategic Goods Network</td>
-<td>Strategic Goods</td>
-<td>Noravia, Pacifica, Industralia</td>
-<td>Improve access to critical imported goods</td>
-<td>Supports stability and trade expectations for participating countries</td>
-<td>Proposed</td>
-</tr>
-<tr class="odd">
-<td>Industralia–Mercatoria–Noravia Trade Framework</td>
+<td>Industralia–Mercatoria–Noravia Framework</td>
 <td>Multilateral / Open</td>
 <td>Industralia, Mercatoria, Noravia</td>
-<td>Broader commercial integration</td>
-<td>Improves sentiment through expected trade expansion</td>
-<td>Proposed</td>
+<td>Potentially important if global demand weakens further</td>
 </tr>
-<tr class="even">
-<td>Petrovia–Agrona Strategic Goods Link</td>
+<tr class="odd">
+<td>Petrovia–Agrona Strategic Link</td>
 <td>Strategic Goods</td>
 <td>Petrovia, Agrona</td>
-<td>Resource and goods coordination</td>
-<td>Modest support for both currencies through supply security</td>
-<td>Proposed</td>
+<td>More valuable now because commodity earnings are under pressure</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="bilateral-relationships" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="bilateral-relationships"><span class="header-section-number">2.2</span> Bilateral Relationships</h3>
+<section id="market-interpretation" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="market-interpretation"><span class="header-section-number">4</span> Market Interpretation</h2>
+<ul>
+<li>Broader, more credible trade frameworks are becoming more valuable as global growth slows.</li>
+<li>Strategic-goods agreements may help protect export earnings and supply access.</li>
+<li>Countries without meaningful trade ties risk relative isolation if demand weakens further.</li>
+</ul>
+</section>
+<section id="countries-most-likely-to-benefit-from-deeper-trade-integration" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="countries-most-likely-to-benefit-from-deeper-trade-integration"><span class="header-section-number">5</span> Countries Most Likely to Benefit from Deeper Trade Integration</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Country A</th>
-<th>Country B</th>
-<th>Agreement Type</th>
-<th>Strategic Importance</th>
+<th>Country</th>
+<th>Why Trade Matters More Now</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Industralia</td>
+<td>Industrial exporters need demand support if external growth softens</td>
+</tr>
+<tr class="even">
+<td>Mercatoria</td>
+<td>Trade-oriented economies benefit from preserving market access</td>
+</tr>
+<tr class="odd">
+<td>Agrona</td>
+<td>Commodity-sensitive economies need stronger external demand anchors</td>
+</tr>
+<tr class="even">
+<td>Petrovia</td>
+<td>Strategic resource ties can soften the effects of weaker commodity demand</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="economic-conditions-index-end-of-round-4" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="economic-conditions-index-end-of-round-4"><span class="header-section-number">6</span> Economic Conditions Index – End of Round 4</h2>
+<p>The <strong>Economic Conditions Index</strong> is a simple indicator of each country’s current growth environment.</p>
+<ul>
+<li><strong>100</strong> = baseline / normal conditions</li>
+<li><strong>Above 100</strong> = stronger-than-baseline growth conditions</li>
+<li><strong>Below 100</strong> = slowing growth or weaker demand conditions</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This index is separate from the FX Index. A country can have a stable currency while its economy is slowing.</p>
+</div>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 30%">
+<col style="width: 23%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Country</th>
+<th style="text-align: right;">Economic Conditions Index</th>
+<th>Current Economic Status</th>
 <th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Atlantica</td>
-<td>Pacifica</td>
-<td>Bilateral</td>
-<td>Builds direct trade linkage with a financially open economy</td>
-<td>Positive for credibility and trade depth</td>
+<td style="text-align: right;">98.8</td>
+<td>Slowing modestly</td>
+<td>Still resilient, but tighter global conditions are weighing on growth.</td>
 </tr>
 <tr class="even">
-<td>Petrovia</td>
-<td>Agrona</td>
-<td>Strategic Goods</td>
-<td>Resource cooperation between commodity-linked economies</td>
-<td>Helps reduce isolation risk</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="multilateral-open-agreements" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="multilateral-open-agreements"><span class="header-section-number">2.3</span> Multilateral / Open Agreements</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Bloc / Agreement Name</th>
-<th>Members</th>
-<th>Focus</th>
-<th>Expected Market Effect</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Industralia–Mercatoria–Noravia Trade Framework</td>
-<td>Industralia, Mercatoria, Noravia</td>
-<td>Broader trade integration</td>
-<td>Improves market sentiment for participating members</td>
-<td>Stronger if formalized next round</td>
-</tr>
-<tr class="even">
-<td>Pacifica–Atlantica–Noravia Open Link</td>
-<td>Pacifica, Atlantica, Noravia</td>
-<td>Expanded market access</td>
-<td>Supports future trade and capital flows</td>
-<td>Still in early stage</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="strategic-goods-agreements" class="level3" data-number="2.4">
-<h3 data-number="2.4" class="anchored" data-anchor-id="strategic-goods-agreements"><span class="header-section-number">2.4</span> Strategic Goods Agreements</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exporting / Lead Country</th>
-<th>Importing Country / Countries</th>
-<th>Good / Sector</th>
-<th>Importance</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
 <td>Noravia</td>
-<td>Pacifica, Industralia</td>
-<td>Strategic goods</td>
-<td>Supports supply stability</td>
-<td>Markets view this as a plausible stabilizing arrangement</td>
+<td style="text-align: right;">97.9</td>
+<td>Slowing</td>
+<td>Tight policy and weaker external demand are beginning to constrain activity.</td>
+</tr>
+<tr class="odd">
+<td>Pacifica</td>
+<td style="text-align: right;">98.6</td>
+<td>Slowing modestly</td>
+<td>Stable externally, but trade sensitivity remains important.</td>
+</tr>
+<tr class="even">
+<td>Industralia</td>
+<td style="text-align: right;">98.4</td>
+<td>Slowing</td>
+<td>Industrial and trade dependence are beginning to matter more.</td>
+</tr>
+<tr class="odd">
+<td>Mercatoria</td>
+<td style="text-align: right;">98.5</td>
+<td>Slowing</td>
+<td>Export-oriented structure leaves it exposed to softer demand.</td>
 </tr>
 <tr class="even">
 <td>Petrovia</td>
+<td style="text-align: right;">97.8</td>
+<td>Slowing</td>
+<td>Weaker global demand is softening the outlook for resource-linked economies.</td>
+</tr>
+<tr class="odd">
 <td>Agrona</td>
-<td>Resource / commodity coordination</td>
-<td>Helps both economies reduce vulnerability</td>
-<td>Positive but still limited in scope</td>
+<td style="text-align: right;">97.4</td>
+<td>Slowing more sharply</td>
+<td>Commodity sensitivity makes Agrona especially vulnerable to a slowdown.</td>
 </tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="countries-without-major-agreements" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="countries-without-major-agreements"><span class="header-section-number">3</span> Countries Without Major Agreements</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Country</th>
-<th>Current Position</th>
-<th>Risk / Opportunity</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
+<tr class="even">
 <td>Frontieria</td>
-<td>No major agreement yet</td>
-<td>Risk of relative isolation</td>
-<td>Could benefit from entering a future trade framework</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="how-to-interpret-the-fx-index" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="how-to-interpret-the-fx-index"><span class="header-section-number">4</span> How to Interpret the FX Index</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: right;">FX Index Range</th>
-<th>Market Label</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">115–105</td>
-<td>Strengthening</td>
-<td>Capital inflows and appreciation pressure</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">104–97</td>
-<td>Stable</td>
-<td>Normal market conditions</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">96–90</td>
-<td>Softening</td>
-<td>Mild depreciation pressure</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">89–80</td>
-<td>Under Pressure</td>
-<td>Visible stress and market testing</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">79–70</td>
-<td>Severe Pressure</td>
-<td>Strong outflows or reserve loss</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">&lt; 70</td>
-<td>Crisis</td>
-<td>Devaluation or regime change likely</td>
+<td style="text-align: right;">98.9</td>
+<td>Near flat / weak growth</td>
+<td>Policy caution supports stability, but growth remains subdued.</td>
 </tr>
 </tbody>
 </table>
@@ -686,7 +617,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Your goal is not to “maximize” the FX Index every week. Your goal is to choose a <strong>coherent</strong> policy mix that supports your country’s objectives while maintaining credibility.</p>
+<p>The system is now showing a <strong>developing global slowdown</strong>: currencies remain relatively stable, but economic activity is beginning to soften.</p>
 </div>
 </div>
 

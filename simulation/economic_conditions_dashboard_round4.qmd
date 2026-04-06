@@ -1,0 +1,35 @@
+---
+title: "Economic Conditions Dashboard"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Economic Conditions Index – End of Round 4
+
+The **Economic Conditions Index** is a simple indicator of each country's current growth environment.
+
+- **100** = baseline / normal conditions
+- **Above 100** = stronger-than-baseline growth conditions
+- **Below 100** = slowing growth or weaker demand conditions
+
+::: {.callout-note}
+This index is separate from the FX Index. A country can have a stable currency while its economy is slowing.
+:::
+
+| Country | Economic Conditions Index | Current Economic Status | Notes |
+|---|---:|---|---|
+| Atlantica | 98.8 | Slowing modestly | Still resilient, but tighter global conditions are weighing on growth. |
+| Noravia | 97.9 | Slowing | Tight policy and weaker external demand are beginning to constrain activity. |
+| Pacifica | 98.6 | Slowing modestly | Stable externally, but trade sensitivity remains important. |
+| Industralia | 98.4 | Slowing | Industrial and trade dependence are beginning to matter more. |
+| Mercatoria | 98.5 | Slowing | Export-oriented structure leaves it exposed to softer demand. |
+| Petrovia | 97.8 | Slowing | Weaker global demand is softening the outlook for resource-linked economies. |
+| Agrona | 97.4 | Slowing more sharply | Commodity sensitivity makes Agrona especially vulnerable to a slowdown. |
+| Frontieria | 98.9 | Near flat / weak growth | Policy caution supports stability, but growth remains subdued. |
+
+::: {.callout-important}
+The system is now showing a **developing global slowdown**: currencies remain relatively stable, but economic activity is beginning to soften.
+:::

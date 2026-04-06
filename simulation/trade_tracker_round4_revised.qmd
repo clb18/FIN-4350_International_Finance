@@ -1,0 +1,39 @@
+---
+title: "Trade & Alliance Tracker"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Trade & Alliance Tracker – End of Round 4
+
+Trade diplomacy remains active, but the market is now evaluating agreements through the lens of the **developing global slowdown**.
+
+::: {.callout-note}
+**Interpretation:** Agreements now matter not only for currency stability, but also for whether countries can preserve trade flows and soften the impact of weaker global demand.
+:::
+
+## Active Trade Relationships
+
+| Agreement / Relationship | Type | Countries | Current Market View |
+|---|---|---|---|
+| Atlantica–Pacifica–Noravia Link | Bilateral / overlapping outreach | Atlantica, Pacifica, Noravia | Helpful for market access and credibility, but still developing |
+| Industralia–Mercatoria–Noravia Framework | Multilateral / Open | Industralia, Mercatoria, Noravia | Potentially important if global demand weakens further |
+| Petrovia–Agrona Strategic Link | Strategic Goods | Petrovia, Agrona | More valuable now because commodity earnings are under pressure |
+
+## Market Interpretation
+
+- Broader, more credible trade frameworks are becoming more valuable as global growth slows.
+- Strategic-goods agreements may help protect export earnings and supply access.
+- Countries without meaningful trade ties risk relative isolation if demand weakens further.
+
+## Countries Most Likely to Benefit from Deeper Trade Integration
+
+| Country | Why Trade Matters More Now |
+|---|---|
+| Industralia | Industrial exporters need demand support if external growth softens |
+| Mercatoria | Trade-oriented economies benefit from preserving market access |
+| Agrona | Commodity-sensitive economies need stronger external demand anchors |
+| Petrovia | Strategic resource ties can soften the effects of weaker commodity demand |
