@@ -593,14 +593,6 @@ The chapter stresses that firms cannot instantly decide to diversify financing a
 
 So financing diversification is also a **pre-positioning** strategy.
 
-#### Classroom takeaway
-
-A strong answer to the test-bank question on strategic response would note:
-
-- diversify operations;
-- diversify financing;
-- recognize disequilibrium quickly;
-- use structural flexibility rather than trying to forecast every shock precisely.
 
 ------------------------------------------------------------------------
 
@@ -654,9 +646,6 @@ If the timing and magnitude are similar, operating exposure is reduced naturally
 
 A related technique is **currency switching**. A firm may choose to pay a third-country supplier in the currency it is receiving elsewhere. For example, a U.S. firm with steady CAD inflows may pay another foreign supplier in CAD if that supplier is willing to accept it.
 
-#### Simple classroom interpretation
-
-A predictable long-run inflow in a foreign currency is best offset by creating a predictable outflow in that same currency.
 
 ### Risk-Sharing Agreements
 
@@ -784,7 +773,7 @@ The chapter notes an important accounting feature:
 - the obligation to reverse the swap is treated like a forward contract,
 - it therefore does not appear as long-term debt in the same way as a back-to-back loan.
 
-This is why a strong test-bank answer should mention that currency swaps can help hedge operating exposure **without placing the equivalent loan directly on the balance sheet**.
+
 
 ### Contractual Approaches: Hedging the Unhedgeable
 
@@ -916,19 +905,4 @@ The best answer is almost certainly **a combination**, with emphasis on structur
 12. What does the Rolls-Royce case teach us about the limits of derivative hedging?
 
 ------------------------------------------------------------------------
-
-## Instructor Notes {.unnumbered}
-
-
-- Operating exposure measures the change in firm value resulting from unexpected exchange-rate-induced changes in future operating cash flows.
-- Operating exposure is far more important for long-run business health than transaction or translation exposure.
-- Operating cash flows arise from goods, services, royalties, rents, and management fees; financing cash flows arise from debt service, equity injections, and dividends.
-- Payment for goods and services is an operating cash flow, not a financing cash flow.
-- In the short run, prices and costs are relatively sticky; in the long run, both prices and volumes are much more flexible.
-- A depreciation of the home currency generally tends to improve export competitiveness and reduce import competitiveness, other things equal.
-- Management does not need to predict disequilibrium perfectly; it needs to recognize it and be positioned to respond.
-- Diversifying operations and diversifying financing are the two major strategic approaches.
-- Matching, risk-sharing, parallel loans, and cross-currency swaps are among the most common proactive policies.
-- Currency swaps typically offer an accounting advantage because they are treated more like foreign exchange transactions than conventional on-balance-sheet debt.
-- Contractual hedges can support exposure management, but the evidence does not suggest that they fully eliminate long-run operating exposure.
 
