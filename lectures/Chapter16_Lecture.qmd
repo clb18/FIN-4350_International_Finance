@@ -240,6 +240,9 @@ The relationships can be summarized as follows:
 
 This triangular structure is central to understanding how trade finance substitutes the bank's credit for the importer's credit.
 
+![Parties to a Letter of Credit](../assets/images/Ch16/Parties_LC.jpg){width="100%"}
+
+
 #### Irrevocable versus Revocable L/C
 
 An **irrevocable L/C** obligates the issuing bank to honor drafts drawn in compliance with the credit and cannot be canceled or modified without the consent of all relevant parties, especially the beneficiary.
@@ -353,7 +356,7 @@ This produces an important benefit for the exporter:
 - the exporter does **not** need to wait until maturity to receive cash;
 - the exporter can discount the bankers' acceptance and obtain immediate funds.
 
-A simple illustration from the chapter makes the mechanics concrete.
+Here is a simple illustration from the chapter to elaborate.
 
 Suppose a bankers' acceptance has a face value of USD100,000 and matures in three months. If the accepting bank charges a commission of 1.5% per annum, then the commission over three months is:
 
@@ -379,7 +382,7 @@ $$
 \frac{375 + 285}{99{,}340} \times \frac{360}{90} = 0.0266 \approx 2.66\%
 $$
 
-This example is worth emphasizing because it shows that the cost of a bankers' acceptance is not just the market discount rate. It also includes the bank's acceptance commission.
+This example is worth emphasizing because it shows that the cost of a bankers' acceptance is not just the market discount rate. It also includes the bank's acceptance commission. The costs to hedge this transaction are comparable, but the difference is that in this example, the exporter gets the funds now instead of three months later.
 
 ### Bill of Lading (B/L)
 
@@ -401,7 +404,7 @@ That third function is the most important for trade finance. Because title is ti
 
 In a typical international transaction, the bill of lading is often made payable to the order of the exporter. The exporter then endorses it when payment is obtained or when a bank advances funds against the shipment.
 
-This is why the bill of lading is so powerful: it links the physical shipment to the financial process.
+**This is why the bill of lading is so powerful: it links the physical shipment to the financial process.**
 
 ### Documentation in a Typical Trade Transaction
 
@@ -427,6 +430,8 @@ The broad sequence is as follows:
 12. the importer's bank releases the shipment documents to the importer;
 13. importer pays its bank;
 14. the holder of the acceptance presents it at maturity and is paid.
+
+![Steps in a typical trade transaction](../assets/images/Ch16/Steps_in_Typical_Trade.jpg){width="90%"}
 
 This sequence shows how the documentary system does four things simultaneously:
 
