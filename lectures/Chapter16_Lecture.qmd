@@ -730,3 +730,214 @@ At maturity, the investor holding the notes presents them for payment to the imp
 The value of the instrument rests on confidence that the guaranteeing bank's aval will be honored.
 
 That is why the chapter stresses that the success of forfaiting depends heavily on the credibility of the guarantor bank.
+
+## Chapter 16 Summary: International Trade Finance
+
+### Learning Objectives Review
+
+After completing this chapter, you should be able to:
+
+- Explain the structure of the **trade relationship** between importer and exporter  
+- Describe how the **documentary system** facilitates trade and reduces risk  
+- Identify and explain the roles of the **letter of credit, draft, and bill of lading**  
+- Evaluate the major **government programs supporting exports**  
+- Compare the primary **trade financing alternatives**  
+- Understand the structure and purpose of **forfaiting**  
+
+---
+
+### The Trade Relationship
+
+- Trade occurs between:
+  - **Affiliated parties**
+  - **Unaffiliated known parties**
+  - **Unaffiliated unknown parties**
+
+- The central problem:
+  - Exporter → wants payment before shipment  
+  - Importer → wants goods before payment  
+
+- This creates the **fundamental dilemma of international trade**
+
+---
+
+### Key Risks in International Trade
+
+- **Risk of noncompletion**
+  - One party fails to perform (nonpayment or non-delivery)
+
+- **Foreign exchange (currency) risk**
+  - Value of payment currency fluctuates
+
+- These risks are greatest during the:
+  - **Financing period (shipment → payment)**
+
+---
+
+### The Documentary System
+
+Three key documents structure trade:
+
+1. **Letter of Credit (L/C)**
+   - Bank promise to pay
+   - Substitutes bank credit for importer credit
+
+2. **Draft (Bill of Exchange)**
+   - Order to pay
+   - Can be:
+     - Sight draft (immediate)
+     - Time draft (delayed)
+
+3. **Bill of Lading (B/L)**
+   - Receipt
+   - Contract
+   - Document of title
+
+**Key Insight:**
+- Payment is made based on **documents, not physical goods**
+
+---
+
+### Letter of Credit (L/C)
+
+- Issued by importer’s bank  
+- Guarantees payment upon proper documentation  
+
+**Types:**
+- Irrevocable vs. Revocable  
+- Confirmed vs. Unconfirmed  
+
+**Advantages:**
+- Reduces risk for exporter  
+- Facilitates financing  
+
+**Disadvantages:**
+- Costly  
+- Can restrict importer’s credit  
+
+---
+
+### Drafts and Acceptances
+
+- **Draft** = formal demand for payment  
+
+**Types:**
+- Sight draft → immediate payment  
+- Time draft → delayed payment  
+
+- **Banker’s acceptance**
+  - Draft accepted by a bank  
+  - Becomes a marketable instrument  
+
+- Provides:
+  - Liquidity  
+  - Financing flexibility  
+
+---
+
+### Bill of Lading (B/L)
+
+Functions:
+
+- **Receipt** of goods shipped  
+- **Contract** of carriage  
+- **Document of title**
+
+Key role:
+- Controls **ownership of goods in transit**
+
+---
+
+### Government Programs
+
+Governments support exports via:
+
+- **Export Credit Insurance**
+  - Protects against default (commercial + political risk)
+
+- **Export-Import Bank (Eximbank)**
+  - Provides loans, guarantees, and financing support  
+
+Purpose:
+- Increase exports  
+- Enhance national competitiveness  
+
+---
+
+### Trade Financing Alternatives
+
+Short-term financing instruments:
+
+- Bankers’ acceptances  
+- Trade acceptances  
+- Factoring  
+- Securitization  
+- Bank credit lines  
+- Commercial paper  
+
+**Trade-offs:**
+- Cost vs. risk reduction  
+- Liquidity vs. control  
+- Balance sheet impact  
+
+---
+
+### Forfaiting
+
+- Medium- to long-term financing technique  
+
+**Key features:**
+- Exporter sells receivables **without recourse**  
+- Receivables are **bank-guaranteed**  
+- Exporter receives immediate cash  
+
+**Benefits:**
+- Eliminates credit and political risk  
+- Improves cash flow  
+
+**Costs:**
+- Higher financing cost  
+
+---
+
+### Integrated View of Trade Finance
+
+International trade finance:
+
+- Bridges the gap between **shipment and payment**  
+- Transfers risk to **financial institutions**  
+- Converts receivables into **liquid assets**  
+
+**Core Principle:**
+- Trade finance transforms **uncertain global transactions** into **structured financial flows**
+
+---
+
+### Key Terms
+
+- Letter of Credit (L/C)  
+- Draft (Bill of Exchange)  
+- Sight Draft  
+- Time Draft  
+- Banker’s Acceptance  
+- Bill of Lading (B/L)  
+- Export Credit Insurance  
+- Export-Import Bank (Eximbank)  
+- Factoring  
+- Securitization  
+- Forfaiting  
+- Aval  
+
+---
+
+### Final Takeaway
+
+- International trade finance is fundamentally about:
+  - **Managing risk**
+  - **Ensuring payment**
+  - **Financing time gaps in trade**
+
+- The system works because:
+  - Banks provide **credibility**
+  - Documents provide **control**
+  - Markets provide **liquidity**
