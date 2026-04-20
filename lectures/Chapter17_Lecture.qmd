@@ -26,6 +26,13 @@ format:
 
 ## Introduction {.unnumbered}
 
+Random Quote: **"In Omnia Paratus"** - Latin for "Ready for Anything"
+
+Another Random Quote: **" Never confuse education with intelligence, you can have a PhD and still be an idiot."** - Richard Feynman
+
+Scripture: **"For what does it profit a man if he should gain the whole world and lose his own soul? Or what will a man give in exchange for his soul?"** - Matthew 16:26
+
+
 Textbook Quote: **"In this world, shipmates, Sin that pays its way can travel freely, and without passport; whereas Virtue, if a pauper, is stopped at all frontiers."** **- Herman Melville, *Moby Dick*, Chapter 9, "The Sermon," 1851**
 
 **Quote from the first paragraph of the chapter:** "A multinational firm investing in other countries is executing its corporate strategy with foreign direct investment (FDI)."
