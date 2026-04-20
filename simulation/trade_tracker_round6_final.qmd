@@ -1,0 +1,58 @@
+---
+title: "Trade & Alliance Tracker"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Trade & Alliance Tracker – End of Round 6 (Final)
+
+Trade relationships became more important during the recession phase and into stabilization.  
+By the final round, countries that expanded or maintained trade linkages were better able to **limit the depth of the downturn**.
+
+::: {.callout-note}
+**Interpretation:** In a recession, trade agreements are less about expansion and more about **preserving demand and preventing isolation**.
+:::
+
+## Active Trade Relationships
+
+| Agreement / Relationship | Type | Countries | Final Market Interpretation |
+|---|---|---|---|
+| Atlantica–Pacifica Link | Multilateral / Open | Atlantica, Pacifica | Helped stabilize demand and support early recovery |
+| Noravia Strategic Goods Network | Strategic Goods | Noravia, Industralia, Mercatoria | Supported supply chains, but tight policy limited growth benefits |
+| Industralia–Mercatoria–Noravia Network | Multilateral | Industralia, Mercatoria, Noravia | One of the stronger trade frameworks for supporting recovery |
+| Petrovia–Agrona Strategic Link | Strategic Goods | Petrovia, Agrona | Critical for stabilizing commodity demand, though not enough for full recovery |
+| Pacifica–Atlantica–Noravia Link | Multilateral / Open | Pacifica, Atlantica, Noravia | Improved external stability and helped limit recession pressure |
+
+## Key Insights from the Final Round
+
+- Trade agreements were **more valuable in recession than in expansion**
+- Countries with broader trade networks showed:
+  - less severe economic decline
+  - earlier stabilization
+- Strategic goods agreements helped:
+  - commodity exporters (Petrovia, Agrona)
+  - but did not fully offset global demand weakness
+
+## Countries That Benefited Most from Trade
+
+| Country | Why Trade Helped |
+|---|---|
+| Industralia | Export structure benefited from broader multilateral links |
+| Mercatoria | Trade helped offset demand weakness |
+| Pacifica | Open system amplified benefits from multiple agreements |
+| Atlantica | Strong external linkages reinforced stability |
+
+## Countries Still Vulnerable
+
+| Country | Reason |
+|---|---|
+| Agrona | Commodity dependence + limited demand recovery |
+| Petrovia | External demand still weak despite strategic agreements |
+| Frontieria | Limited integration reduced recovery speed |
+
+::: {.callout-important}
+**Final Lesson:** Trade cannot fully prevent a global recession—but it can significantly **reduce its severity and speed recovery**.
+:::

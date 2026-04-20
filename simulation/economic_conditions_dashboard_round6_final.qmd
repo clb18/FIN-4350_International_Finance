@@ -1,0 +1,35 @@
+---
+title: "Economic Conditions Dashboard"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Economic Conditions Index – End of Round 6
+
+The Economic Conditions Index tracks each country's real economic environment.
+
+- **100** = baseline / normal conditions
+- **Above 100** = stronger-than-baseline activity
+- **Below 100** = slowing growth / recessionary pressure
+
+::: {.callout-note}
+This index is separate from the FX Index. A country may have a stable currency while its economy remains weak.
+:::
+
+| Country | Economic Conditions Index | Status | Notes |
+|---|---:|---|---|
+| Atlantica | 98.4 | Stabilizing | Not strong yet, but recession is no longer deepening rapidly. |
+| Noravia | 96.7 | Weak growth | Strong currency policy came with a larger growth cost. |
+| Pacifica | 98.3 | Stabilizing | One of the clearer signs of improvement from the recession phase. |
+| Industralia | 98.0 | Early recovery | Trade ties and looser policy helped soften the downturn. |
+| Mercatoria | 97.8 | Early recovery | Demand is still weak, but policy is moving in a more supportive direction. |
+| Petrovia | 97.2 | Weak but stabilizing | Commodity conditions still limit growth, though recession pressure eased. |
+| Agrona | 97.0 | Weak but improving | Still one of the weakest economies, but conditions improved modestly. |
+| Frontieria | 97.6 | Weak but stable | Stabilized, though without a strong rebound. |
+
+::: {.callout-important}
+The final outcome is best described as **early stabilization**, not full recovery.
+:::

@@ -1,0 +1,108 @@
+---
+title: "Global Dashboard"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## FX Index Dashboard – Final
+
+The FX Index tracks how each currency is performing in the market.
+
+::: {.callout-note}
+Higher scores indicate relative strength and stability. Lower scores indicate pressure.
+:::
+
+| Country | FX Index | Status | Notes |
+|---|---:|---|---|
+| Atlantica | 100.9 | Stable | Held steady and preserved credibility while supporting stabilization. |
+| Noravia | 100.7 | Stable / firm | Tight policy kept the currency firm, but growth trade-offs remain visible. |
+| Pacifica | 100.8 | Stable | Looser policy and direct support helped it stabilize without a major loss of confidence. |
+| Industralia | 100.3 | Stable / recovering | Trade integration and looser policy supported an early recovery path. |
+| Mercatoria | 100.1 | Stable / fragile | Recovery is beginning, but external demand remains a constraint. |
+| Petrovia | 99.9 | Soft but stabilizing | Commodity exposure still matters, though recession pressures eased slightly. |
+| Agrona | 99.6 | Under pressure but improving | Recovery is fragile, but weaker recession pressure improved conditions. |
+| Frontieria | 100.0 | Stable / fragile | Stability held, but growth remains subdued. |
+
+::: {.callout-important}
+By the final round, the economy shifted from recession escalation to cautious stabilization.
+:::
+
+## Economic Conditions Index – Final
+
+The Economic Conditions Index tracks each country's real economic environment.
+
+- **100** = baseline / normal conditions
+- **Above 100** = stronger-than-baseline activity
+- **Below 100** = slowing growth / recessionary pressure
+
+::: {.callout-note}
+This index is separate from the FX Index. A country may have a stable currency while its economy remains weak.
+:::
+
+| Country | Economic Conditions Index | Status | Notes |
+|---|---:|---|---|
+| Atlantica | 98.4 | Stabilizing | Not strong yet, but recession is no longer deepening rapidly. |
+| Noravia | 96.7 | Weak growth | Strong currency policy came with a larger growth cost. |
+| Pacifica | 98.3 | Stabilizing | One of the clearer signs of improvement from the recession phase. |
+| Industralia | 98.0 | Early recovery | Trade ties and looser policy helped soften the downturn. |
+| Mercatoria | 97.8 | Early recovery | Demand is still weak, but policy is moving in a more supportive direction. |
+| Petrovia | 97.2 | Weak but stabilizing | Commodity conditions still limit growth, though recession pressure eased. |
+| Agrona | 97.0 | Weak but improving | Still one of the weakest economies, but conditions improved modestly. |
+| Frontieria | 97.6 | Weak but stable | Stabilized, though without a strong rebound. |
+
+::: {.callout-important}
+The final outcome is best described as **early stabilization**, not full recovery.
+:::
+
+## Trade & Alliance Tracker – Final
+
+Trade relationships became more important during the recession phase and into stabilization.  
+By the final round, countries that expanded or maintained trade linkages were better able to **limit the depth of the downturn**.
+
+::: {.callout-note}
+**Interpretation:** In a recession, trade agreements are less about expansion and more about **preserving demand and preventing isolation**.
+:::
+
+## Active Trade Relationships
+
+| Agreement / Relationship | Type | Countries | Final Market Interpretation |
+|---|---|---|---|
+| Atlantica–Pacifica Link | Multilateral / Open | Atlantica, Pacifica | Helped stabilize demand and support early recovery |
+| Noravia Strategic Goods Network | Strategic Goods | Noravia, Industralia, Mercatoria | Supported supply chains, but tight policy limited growth benefits |
+| Industralia–Mercatoria–Noravia Network | Multilateral | Industralia, Mercatoria, Noravia | One of the stronger trade frameworks for supporting recovery |
+| Petrovia–Agrona Strategic Link | Strategic Goods | Petrovia, Agrona | Critical for stabilizing commodity demand, though not enough for full recovery |
+| Pacifica–Atlantica–Noravia Link | Multilateral / Open | Pacifica, Atlantica, Noravia | Improved external stability and helped limit recession pressure |
+
+## Key Insights from the Final Round
+
+- Trade agreements were **more valuable in recession than in expansion**
+- Countries with broader trade networks showed:
+  - less severe economic decline
+  - earlier stabilization
+- Strategic goods agreements helped:
+  - commodity exporters (Petrovia, Agrona)
+  - but did not fully offset global demand weakness
+
+## Countries That Benefited Most from Trade
+
+| Country | Why Trade Helped |
+|---|---|
+| Industralia | Export structure benefited from broader multilateral links |
+| Mercatoria | Trade helped offset demand weakness |
+| Pacifica | Open system amplified benefits from multiple agreements |
+| Atlantica | Strong external linkages reinforced stability |
+
+## Countries Still Vulnerable
+
+| Country | Reason |
+|---|---|
+| Agrona | Commodity dependence + limited demand recovery |
+| Petrovia | External demand still weak despite strategic agreements |
+| Frontieria | Limited integration reduced recovery speed |
+
+::: {.callout-important}
+**Final Lesson:** Trade cannot fully prevent a global recession—but it can significantly **reduce its severity and speed recovery**.
+:::

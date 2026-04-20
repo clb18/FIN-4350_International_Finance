@@ -59,7 +59,7 @@ website:
         contents: 
           - text: "Overview - START HERE"
             href: simulation/index.qmd
-          - simulation/fx_dashboard_with_trade_tracker.qmd
+          - simulation/fx_dashboard_round6_final.qmd
           - simulation/roles.qmd
           - simulation/countries.qmd
           - simulation/decisions.qmd
