@@ -204,7 +204,7 @@ These choices are tightly connected. Market choice influences risk, and entry st
 
 ### Selecting Target Markets
 
-In theory, an MNE could search globally until it finds the country in which it expects the highest acceptable risk-adjusted return. In practice, firms rarely behave as if they are carrying out a perfectly rational global optimization exercise. Instead, they often proceed **sequentially**, learning from early investments and adjusting over time.
+**In theory, an MNE could search globally until it finds the country in which it expects the highest acceptable risk-adjusted return. In practice, firms rarely behave as if they are carrying out a perfectly rational global optimization exercise. Instead, they often proceed sequentially, learning from early investments and adjusting over time.**
 
 The chapter explains this using two behavioral perspectives.
 
@@ -245,7 +245,7 @@ The text even notes that the parent itself may evolve into a more transnational 
 
 ### Choosing Entry Structures
 
-Entry structure determines who owns, who controls, who finances, and who bears risk. The chapter presents foreign expansion as a sequence of increasing commitment:
+Entry structure determines who owns, who controls, who finances, and who bears risk. The chapter presents foreign expansion as a sequence of increasing commitment (and risk):
 
 1. exporting,
 2. licensed manufacturing or management contracts,
@@ -253,15 +253,7 @@ Entry structure determines who owns, who controls, who finances, and who bears r
 4. wholly owned subsidiaries,
 5. greenfield investments or acquisitions.
 
-### Exhibit 17.2 The Foreign Direct Investment Sequence {.unnumbered}
-
-| Stage | Lower Commitment Choice | Higher Commitment Choice |
-|---|---|---|
-| Competitive position | Change competitive advantage | Exploit existing advantage abroad |
-| Production choice | Produce at home and export | Produce abroad |
-| Asset control | Licensed manufacturing | Control and own assets abroad |
-| Ownership structure | Joint venture | Wholly owned subsidiary |
-| Final establishment mode | Greenfield development | Acquisition of a foreign enterprise |
+![The Foreign Direct Investment Sequence](../assets/images/Ch17/FDI_Sequence.jpg){width="100%"}
 
 The sequence highlights a simple pattern: **greater foreign presence requires more capital at risk and more managerial intensity.**
 
@@ -349,7 +341,7 @@ A local partner may rationally choose what is best for the local venture, while 
 
 #### Greenfield Investments and Foreign Acquisitions
 
-A **greenfield investment** is a new operation built from the ground up. An **acquisition** is the purchase of an existing local enterprise.
+A **greenfield investment** is a new operation built from the ground up ("starting out from a green field and building a business"). An **acquisition** is the purchase of an existing local enterprise.
 
 A wholly owned investment, whether greenfield or acquired, gives the parent the greatest control and the greatest share of returns. But it also places the largest amount of capital and exposure directly on the multinational parent.
 
