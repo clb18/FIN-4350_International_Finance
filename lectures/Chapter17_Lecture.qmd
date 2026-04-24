@@ -559,7 +559,7 @@ The chapter notes several deal-specific issues that often feed contract risk:
 2. what payment structure was used;
 3. whether the contract has become stale under the **obsolescing bargain** principle.
 
-The obsolescing bargain principle is extremely important. At the beginning of a project, the foreign investor may have strong bargaining power because the host country wants capital, expertise, and technology. But once the investor has sunk capital into the project - once the bricks, mortar, equipment, and networks are in place - bargaining power often shifts toward the host country.
+**The obsolescing bargain principle is extremely important. At the beginning of a project, the foreign investor may have strong bargaining power because the host country wants capital, expertise, and technology. But once the investor has sunk capital into the project - once the bricks, mortar, equipment, and networks are in place - bargaining power often shifts toward the host country. (think Tesla in China)**
 
 That is why contract risk often **increases with time and business maturity** rather than disappearing.
 
